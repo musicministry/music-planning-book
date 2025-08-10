@@ -1,0 +1,145 @@
+# About this Book {#sec-about-book}
+
+This booklet contains music selections for all weekend Masses as well as floating Solemnities, Holy Days of Obligations, and other Feasts for which music may be requested.
+It includes a full three-year cycle (Years A, B, and C) of processional, offertory, communion, meditation, and recessional hymn selections, plus responsorial psalm refrains.
+Gregorian years are provided for each liturgical year for convenience.
+Since the liturgical calendar begins on the First Sunday of Advent, usually around the first Sunday in December, each liturgical cycle actually begins about four weeks prior to the Gregorian year listed.
+For example, liturgical Year A in 2023 begins on the First Sunday of Advent in December 2022.
+
+Each liturgical season has its own section.
+The section [Feasts and Solemnities](#sec-feasts) contains Sunday solemnities that do not fall on a specific calendar date, solemnities that do fall on specific dates but occur at different points in the liturgical calendar from year to year, and other special feasts for which music either has previously been requested or may be requested in the future.
+Feasts or solemnities that fall on a Sunday supersede the usual Sunday liturgy, so the music selection for the feast or solemnity should be used on these occasions.
+Note that when this happens, the Sunday liturgy that was superseded is skipped altogether, not postponed until the next week.
+It is the responsibility of the music minister to keep abreast of these irregularities in the liturgical calendar and plan ahead accordingly.
+
+## Hymn Selection: A Heuristic {#sec-hymnSelections}
+
+Music planning for Catholic liturgies is a deliberate process.
+First and foremost, hymns and songs (hereafter, "songs") must be suitable for the part of the Mass for which they are being selected.
+This is one of the most important considerations when planning music, but it is also neglected far too often.
+For example, processional and recessional hymns, since they accompany processions, can and should be more jubilant or upbeat.
+This is not only true of the music choice, but how these songs are performed as well.
+In contrast, communion and meditation hymns are more solemn and reverent. Songs that speak of gathering ("Gather Us In," for example) only make sense as processional songs and should not be used elsewhere in the Mass, while songs about the Eucharist are well-suited for communion, meditation, and possibly offertory hymns.
+Using Eucharistic songs as processional or recessional hymns, however popular the song might be (such as "I Am the Bread of Life" or "On Eagle's Wings"), is rarely appropriate and is strongly discouraged.
+
+Songs should seldom be selected "at random" and never to accommodate personal preferences.
+Rather, every hymn should be carefully chosen to suit the particular liturgy.
+The music schedules herein have been assembled according to the following hierarchical heuristic method:
+
+1. **Readings:** Songs whose texts encapsulate, are based on, or are derived from any of the readings for a particular Mass are given first priority. This includes the first reading, second reading, Gospel, and Gospel acclamation verse. In some cases, the responsorial psalm texts are also echoed in a song selection.
+
+2. **Liturgical Season:** The special Liturgical Seasons---Advent, Christmas, Lent, and Easter---are considered next. All of these seasons have their own songs that are best suited for that season as well as some that are appropriate *only* during that season. These songs are given precedence over common songs that can be used throughout the rest of the year during Ordinary Time.
+
+3. **Themes:** Every set of Mass readings contains one or more themes that link them together in an intentional way. These themes are often more specific than the broader seasonal themes. These themes are provided in this booklet for every weekend and Solemnity for reference and to provide the music minister with a deeper understanding of that particular celebration and appreciation for its music selection. The vast majority of these theme lists have been taken from \href{http://www.canticanova.com}{\underline{CanticaNOVA Publications}.}\footnote{CanticaNOVA Publications is an online company providing "quality liturgical music for today's Catholic Church." Liturgical planning resources, music planning guides, and other useful information can be found at http://www.canticanova.com.} Those missing from CanticaNOVA were compiled by M. Grossi.
+
+3. **Antiphons:** Every Mass has a designated entrance and communion antiphon. These were traditionally chanted where hymns have become the norm. Nevertheless, these ancient texts are neither to be forgotten nor ignored, and songs based on or derived from these proper antiphons have been scheduled in the appropriate places. For example, the many songs referencing the Bread of Life can be used when the communion antiphons are taken from the Bread of Life discourses of John 6. Entrance and communion antiphons have been included in this booklet for reference and to reveal the context for many song selections that may otherwise not be obvious.
+	
+4. **Miscellaneous themes:** Other events or occasions sometimes warrant being captured in song, even if not directly connected to any of the above criteria. Examples include Marian devotions throughout the months of May and October; special days like the World Day of Peace (January 1); or Mothers' and Fathers' Day, which provide opportunities to honor our spiritual Mother and Father in a special way. Relevant music is substituted in as appropriate, but some adjustments may be necessary from year to year since most of these occasions tend to fall on different liturgical weekends each year.
+
+**Add color code explanation**
+
+## Hymnals {#sec-hymnals}
+
+The hymnal(s) from which each musical selection is taken are indicated as follows:
+
+1. **BB** = "Breaking Bread"
+2. **G** = "Gather"
+3. **W** = "Worship"
+4. **H** = "We Pray in Song" Hymnal
+5. **RA** = "Respond & Acclaim"
+
+Multiple abbreviations indicate the song is found in both books and can be taken from either one.
+In these cases, the music minister is encouraged to consider using only one book per Mass, if possible, to minimize confusion.
+Some songs are found in both hymnals but are prefaced herein with only one abbreviation.
+This indicates that either the melodies are different and the chosen melody was more appropriate for the particular part of the Mass, or that the lyrics or translations were different across the two books *and there are compelling theological reasons to prefer the one indicated in this booklet.*
+Music ministers are requested to honor these decisions.
+No prefaced abbreviation means the piece is not in either book.
+Most of these are included in appendices here, while the rest are sufficiently common and within the public domain so as to be easily found online (*e.g.*, "O Holy Night.")
+Hymn tunes (indicated by ALL CAPS) or composer names (Title Case) are provided where necessary to distinguish between multiple songs with the same name or one song put to multiple melodies.
+
+The *Gather* hard-bound hymnals by GIA Publications, Inc. were generously donated to the parish with the intention of being used long-term.
+Out of appreciation for the families that contributed and those for whom the books were donated, they should be used as amply as possible.
+Several choral editions are available for the choir.
+These should be kept track of and used only by designated music ministers.
+All books should be treated with care to ensure their longevity.
+Be careful turning pages; avoid stuffing bulletins or paper into the book, as this destroys the binding; do not bend books backwards; do not write on or mark any page in any way.
+Treat them as property of the parish.
+
+Despite its continued popularity in Catholic parishes across the United States, the *Gather* hymnal contains lots of songs whose theology is questionable at best from a Catholic perspective. People pray what they sing and believe what they pray. Thus, hymn lyrics should be carefully scrutinized and pastoral discernment exercised when choosing songs to use at Mass. Unfortunately, a sizeable percentage of the *Gather* repertoire falls short of this standard. (Is it surprising, then, that so many Catholics have such a shallow understanding of the rich Catholic faith?) Collectively, the music schedules in this book seek to utilize all of the theologically-appropriate music in *Gather* over the three-year cycle. Because of the limited options, most songs are used many times over.
+While some favorites may not appear one year, they are likely to be found in another year.
+This approach helps keep the music fresh, accommodates a wide variety of musical tastes and preferences, and exposes the parish to the wide spectrum of traditional and contemporary music collections of the Catholic Church.
+
+
+## Mass Settings | Parts of the Mass {#sec-massSettings}
+
+Liturgical Seasons have been punctuated musically by different Mass settings, which consist of the *Kyrie Eleison* ("Lord, have mercy"); Gloria; Holy, Holy, Holy (or *Sanctus*); Memorial Acclamation; Great Amen; and Lamb of God (*Agnus Dei*).
+The preamble to each season section contains the Mass setting(s) to be used throughout that season, unless otherwise noted.
+
+The liturgical year starts with Advent. The selected Mass setting for this season is "Missa Emmanual", based on the popular Advent hymn "O Come, O Come, Emmanual". Since the tune is so familiar to all Catholics in the United States, it is an easy Mass setting to pick up; one needs only master putting the Mass texts to the familiar tune. Similarly, the Mass setting used during the short Christmas season is "A Christmas Carol Mass."" Each Mass part is derived from a different Christmas carol, all of which are very familiar to the Catholic faithful. In addition to being easy to learn, the idea here is that people will hear and sing familiar Christmas carol tunes several times each year throughout an otherwise short Christmas season, during which there is hardly opportunity to sing each Christmas carol once.
+
+The "Mass of Charity and Love" is sung during Lent.
+This somber setting in E minor is based upon the chant "Where Charity and Love Prevail" and is well-suited for this penitential season in the Church year.
+The Gloria to this setting has not been introduced to the congregation, since it is omitted during Lent, so other Mass settings are used on solemnities falling within Lent that require the Gloria.
+For Ordinary Time and the Easter seasons, three different Mass settings have been selected, one for each liturgical year.
+This is to prevent any particular setting from becoming old and "tired" from overuse while maintaining consistency throughout a given year.
+Their selections are deliberate:
+
+<!--
+- "A Community Mass" has been sung for years at the Cathedral of Saint Mary, which, as the seat of the archbishop of the Archdiocese of Miami, sets the liturgical precedence for the entire archdiocese.
+It is therefore fitting that St.\ Kieran's parish be connected musically with the seat of its archdiocese.
+Accordingly, ``A Community Mass'' has been scheduled for use during Year A.\footnote{As of the release of this booklet, this setting has not yet been introduced to the congregation. This will need to be done prior to its first scheduled use at Christmas 2022.}
+Because the Gloria for this setting is not provided in the hymnal (and, though musically nice, is difficult for congregational singing), the simpler ``Congregational Mass'' Gloria is matched with this setting instead.
+The chanted \textit{Kyrie} in Mode III, already well-known to the parish, is paired with this chant-like Gloria, since the \textit{Kyrie} for this setting is not provided in the hymnal either.
+	\item The ``Mass of Creation'' has been sung for years at St.\ Kieran's, so it is retained for Year B.
+	\item The ``Heritage Mass,'' based loosely on the hymn tune NICAEA (most commonly associated with the hymn ``Holy, Holy, Holy, Lord God Almighty'') was recently introduced to the parish and has been assigned to Year C.
+\end{itemize}
+During Christmastime, the Gloria for each of these Mass settings is substituted with Paul Gibson's ``Christmas Gloria'' in F major containing the familiar refrain from the beloved carol ``Angels We Have Heard on High.''
+Since the \textit{Kyrie} from the ``Mass of Creation'' is in G minor, which does not easily resolve to F major, this is substituted with Chant Mode III throughout Christmas Year C.
+(No substitution is needed for the ``Heritage Mass,'' since this \textit{Kyrie} is already in F major.)
+
+[^1]:Saint Egbert's purchased this setting and "A Christmas Carol Mass" for public liturgical use in 2023.
+ -->
+
+## Notes, Instructions, and Best Practices {#sec-introNotes}
+
+Each liturgy is supplemented with relevant notes and instructions wherever appropriate.
+Some of these are generic pointers that the music minister should be mindful of.
+Others articulate requests from pastors and, as such, are subject to change.
+Still others are liturgical instructions taken from the [General Instruction of the Roman Missal](https://www.usccb.org/prayer-and-worship/the-mass/general-instruction-of-the-roman-missal) (GERM, [@germ]) and are included here to provide guidance on particularities of certain liturgies.
+These are especially important during Holy Week, and it is hoped that the provided information is found to be useful.
+All instructions should be carefully noted and followed to ensure that the musicians are liturgically harmonized with the presider.
+Still, the instructions herein should never replace direct consultation with the presider: if there are any questions or doubt, it is the musician's responsibility to confirm with the presider well before the start of Mass.[^1]
+
+[^1]: It is also good professional practice to consult any guest presider before the Mass to ensure common expectations, such as which Penitential Rite will be used. Be respectful of the fact that the priest will be prayerfully preparing himself for the Mass in the minutes before the service starts, so make every effort to consult him at least ten or fifteen minutes beforehand.
+
+A couple overarching musical notes should be made before concluding this discussion.
+First, separate communion and meditation hymns are provided for every Mass.
+This helps accommodates longer communion lines when needed.
+The scheduled meditation hymns should always be sung during Advent, Christmas, Lent, and Easter seasons in order to emphasize the spirituality of these seasons, even if communion is finished, and unless the presider or pastor instructs otherwise.
+As for Ordinary Time, many of the scheduled meditation hymns connect to either the readings, Mass themes, or communion antiphons.
+These can be considered true meditation hymns and should be sung if possible.
+Some are merely second communion songs and may be omitted at the discretion of the music minister.
+Please look ahead to determine which of these categories the meditation hymn falls into (it will rarely, if ever, be ambiguous.)
+When in doubt, and unless instructed otherwise by the pastor, musicians are encouraged to sing at least part of the meditation hymn since, as the name implies, they provide an opportunity to lead the congregation into deeper reflection into the sacrament and liturgy as a whole.
+
+Many parishes nowadays celebrate a number of bilingual liturgies throughout the year that afford the parish opportunities to come together as a single community.
+In some of these cases the English and Spanish music ministries ought to also join together and share musical responsibilities, while in other cases one particular group may be asked to provide all the music but in both languages.
+This booklet provides English selections for these occasions and indicates space holders where Spanish pieces should be inserted.
+If multiple music groups come together, collaboration is necessarily and flexibility is warranted.
+If, for example, this booklet suggests an English processional song and Spanish offertory song but there is interest in reversing these at a certain Mass, the music minister should not merely move the English selection to offertory (for the reasons stated above) but rather should select a new appropriate song using the heuristic provided in the section [Hymn Selection: A Heuristic](#hymn-selection-a-heuristic) above.
+
+Special consideration should be given to the Church's preference for organ music, particulary for processional and recessional hymns when planning music for bilingual liturgies, as much of the commonly-used Spanish music is generally not be well-suited for organ.
+As a matter of practice, the responsorial psalm is generally sung in the same language as the First Reading, and Gospel acclamation sung in the same language as the Second Reading.
+The same applies to the parts of the Mass: each Mass part (Holy, Holy, Holy; Memorial Acclamation; Great Amen; and Lamb of God) should be sung in the language that immediately precedes it, regardless of what is specified in this booklet.
+Music ministers are strongly encouraged to consult the presider ahead of time to minimize surprises in this regard, but both English and Spanish music ministries should be prepared with their own psalm, Gospel acclamation, and full Mass setting.
+It is always better to be over-prepared and flexible than caught off-guard and surprised.
+Additional notes on bilingual liturgies are provided in the "Notes" section of the music schedule as needed.
+
+Finally, it should be pointed out that nearly every hymn, song, and Mass setting are linked to YouTube recordings to assist with learning or becoming familiar with the pieces.
+The recordings were selected according to their musical quality in terms of how the song was performed, the instrument(s) used, the quality of singing, *etc.*
+*The lyrics in the videos do not necessarily mirror those found in the parish hymnals.*
+Cantors and choir members should always sing from the hymnals, not the lyrics found online.
+As of the release of this booklet, all but three songs---equating to 99.2%---have working video links.
+Simply click the name of any song in the PDF booklet.
+Of course, there is no guarantee these links will all work indefinitely.
+Searching the song title, composer name, and/or hymn tune should return plenty of alternative videos in the event a broken link is discovered in the future.

@@ -1,0 +1,205 @@
+---
+title: Fourth Sunday of Advent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "O Come, Divine Messiah"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "Let the Lord enter; he is king of glory."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "O Come, O Come, Emmanuel"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "Song of Mary"
+          verses: 1-2
+          book: "Breaking Bread"
+          priority: optional
+        - name: "Christ, Circle Round Us"
+          book: "Breaking Bread"
+          priority: optional
+    meditation:
+      list:
+        - name: "See How the Virgin Waits"
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "The King of Glory"
+          book: "Breaking Bread"
+          priority: required
+    anthems:
+      list:
+        - name: Dixit Maria
+  b:
+    processional:
+      list:
+        - name: "O Come, Divine Messiah"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "For ever I will sing the goodness of the Lord."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "O Come, O Come, Emmanuel"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "The King Shall Come When Morning Dawns"
+          tune: "Morning Song"
+          book: "Breaking Bread"
+          priority: required
+    meditation:
+      list:
+        - name: "The Angel Gabriel from Heaven Came "
+          verses: 1-3
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "People, Look East"
+          book: "Breaking Bread"
+          priority: required
+    anthems:
+      list:
+        - name: "Long Ago, Prophets Knew"
+  c:
+    processional:
+      list:
+        - name: "O Come, Divine Messiah"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, make us turn to you; let us see your face and we shall be saved."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "O Come, O Come, Emmanuel"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "The King Shall Come When Morning Dawns"
+          tune: "Morning Song"
+          book: "Breaking Bread"
+          priority: required
+    meditation:
+      list:
+        - name: "Hail Mary, Gentle Woman"
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "People, Look East"
+          book: "Breaking Bread"
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+Mary, promise, love, God-with-us, Savior, hospitality, service
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Drop down dew from above, you heavens,  
+> and let the clouds rain down the Just One;  
+> let the earth be opened and bring forth a Savior.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Behold, a Virgin shall conceive and bear a son;  
+> and his name will be called Emmanuel.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos, index='anthems')
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Advent.
+* "O Antiphons" are traditionally sung this week.

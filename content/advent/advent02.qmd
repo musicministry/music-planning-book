@@ -1,0 +1,208 @@
+---
+title: Second Sunday of Advent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "On Jordan’s Bank"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "Justice shall flourish in his time, and fullness of peace for ever."
+          book: "Respond and Acclaim"
+          priority: preferred
+        - name: "Psalm 72: Justice Shall Flourish"
+          composer: Cooney
+          book: "Breaking Bread"
+          priority: optional
+    offertory:
+      list:
+        - name: "There Is a Longing"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "A Voice Cries Out"
+          book: "Breaking Bread"
+          priority: required
+    meditation:
+      list:
+        - name: "Lo, How a Rose E’er Blooming"
+          book: "Breaking Bread"
+          priority: optional
+        - name: "Proclaim the Joyful Message"
+          book: "Breaking Bread"
+          priority: optional
+    recessional:
+      list:
+        - name: "People, Look East"
+          book: "Breaking Bread"
+          priority: preferred
+    anthems:
+      list:
+        - name: "And the River Will Rise"
+  b:
+    processional:
+      list:
+        - name: "On Jordan’s Bank"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, let us see your kindness, and grant us your salvation."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "Comfort, Comfort, O My People"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "A Voice Cries Out"
+          book: "Breaking Bread"
+          priority: required
+    meditation:
+      list:
+        - name: "Like a Shepherd"
+          composer: Dufford
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "Every Valley"
+          book: "Breaking Bread"
+          priority: required
+    anthems:
+      list:
+        - name: "He Shall Feed His Flock (Handel’s Messiah)"
+  c:
+    processional:
+      list:
+        - name: "People, Look East"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord has done great things for us; we are filled with joy."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "All Hail the Power of Jesus’ Name"
+          tune: Coronation
+          book: "Breaking Bread"
+          priority: preferred
+    communion:
+      list:
+        - name: "A Voice Cries Out"
+          book: "Breaking Bread"
+          priority: required
+    meditation:
+      list:
+        - name: "Creator of the Stars of Night"
+          book: "Breaking Bread"
+          priority: preferred
+    recessional:
+      list:
+        - name: "Every Valley"
+          book: "Breaking Bread"
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+majesty, power, mercy, glory, promise, reform, splendor, royal lineage of
+Christ, preparation
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> O people of Sion, behold,  
+> the Lord will come to save the nations,  
+> and the Lord will make the glory of his voice heard  
+> in the joy of your heart.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Jerusalem, arise and stand upon the heights,  
+> and behold the joy which comes to you from God.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos, index='anthems')
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Advent.

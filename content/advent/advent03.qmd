@@ -1,0 +1,201 @@
+---
+title: Third Sunday of Advent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "The King of Glory"
+          book: "Breaking Bread"
+          priority: preferred
+    psalm:
+      list:
+        - name: "Lord, come and save us."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "O Come, O Come, Emmanuel"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "Savior of the Nations, Come"
+          book: "Breaking Bread"
+          priority: preferred
+    meditation:
+      list:
+        - name: "Lo, How a Rose E’er Blooming"
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "Let Heaven Rejoice"
+          book: "Breaking Bread"
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: "O Come, O Come, Emmanuel"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "My soul rejoices in my God."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "Luke 1: My Soul Rejoices"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "Savior of the Nations, Come"
+          book: "Breaking Bread"
+          priority: preferred
+    meditation:
+      list:
+        - name: "Come, Lord Jesus"
+          composer: Ridge
+          book: "Breaking Bread"
+          priority: preferred
+    recessional:
+      list:
+        - name: "Rejoice, the Lord is King"
+          book: "Breaking Bread"
+          priority: required
+    anthems:
+      list:
+        - name: "Luke 1:46-55: Magnificat (Chepponis)"
+        - name: "Holy is His Name"
+  c:
+    processional:
+      list:
+        - name: "Rejoice, the Lord is King"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "Cry out with joy and gladness: for among you is the great and Holy One of Israel."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "On Jordan’s Bank"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "There Is a Longing"
+          book: "Breaking Bread"
+          priority: preferred
+    meditation:
+      list:
+        - name: "Song of Mary"
+          verses: 1-2
+          book: "Breaking Bread"
+          priority: preferred
+    recessional:
+      list:
+        - name: "Let Heaven Rejoice"
+          book: "Breaking Bread"
+          priority: required
+    anthems:
+      list:
+        - name: "With Joyful Expectancy"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+rejoice, joy, preparation, coming, glory, splendor, John the Baptist
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Rejoice in the Lord always; again I say, rejoice.  
+> Indeed, the Lord is near.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Say to the faint of heart: Be strong and do not fear.  
+> Behold, our God will come, and he will save us.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos, index='anthems')
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Advent.
+* This Sunday is ***Gaudete* (Rejoice) Sunday**. The rose Advent candle is
+lit this week.

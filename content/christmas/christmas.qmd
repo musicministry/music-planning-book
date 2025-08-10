@@ -1,0 +1,113 @@
+---
+title: CHRISTMAS
+---
+::: {.red}
+## (NATIVITY OF THE LORD)
+:::
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    kyrie:
+      list:
+        - name: "Christmas Carol Mass (Tune: God Rest Ye Merry Gentlemen)"
+          composer: "Kevin Weed"
+          book: ""
+          priority: optional
+        - name: "Christmas Carol Mass (Tune: Angels We Have Heard on High)"
+          composer: "Kevin Weed"
+          book: ""
+          priority: optional
+    gloria:
+      list:
+        - name: "Christmas Carol Mass (Several tunes)"
+          composer: "Kevin Weed"
+          book: ""
+          priority: optional
+        - name: "Christmas Gloria"
+          composer: "Paul Gibson"
+          book: "BB"
+          priority: preferred
+    holy-holy-holy:
+      list:
+        - name: "Christmas Carol Mass (Tune: Once In Royal David's City)"
+          composer: "Kevin Weed"
+          book: ""
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Christmas Carol Mass, A (Tune: Angels We Have Heard on High)"
+          composer: "Kevin Weed"
+          tune: "Year A"
+          book: ""
+          priority: required
+        - name: "Christmas Carol Mass, B (Tune: O Little Town of Bethlehem)"
+          composer: "Kevin Weed"
+          tune: "Year B"
+          book: ""
+          priority: required
+        - name: "Christmas Carol Mass, C (Tune: Good Christian Men, Rejoice)"
+          composer: "Kevin Weed"
+          tune: "Year C"
+          book: ""
+          priority: required
+    amen:
+      list:
+        - name: "Christmas Carol Mass (Tune: O Come, All Ye Faithful)"
+          composer: "Kevin Weed"
+          book: ""
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Christmas Carol Mass (Tune: Silent Night)"
+          composer: "Kevin Weed"
+          book: ""
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+::: {.red}
+The [Christmas Carol Mass](https://kevinweed.com/christmas-carol-mass/) puts the texts of the Mass to the tunes of familiar Christmas carols, making it easy to learn and sing. It oﬀers an opportunity to increase the use of popular melodies during the short Christmas season. The Mass setting includes options for the [Memorial Acclamation]{.black} and the [Great Amen]{.black}; the preferred version for each is provided here:
+:::
+
+::: {.titlered}
+### &nbsp; Year A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+::: {.red}
+(This setting is not currently available through any of the three major publishers. It will need to be purchased for public liturgical use [here](https://kevinweed.com/christmas-carol-mass/).)
+
+Alternatively, the Mass parts during the season of Christmas can be taken from the appropriate [Liturgical Cycle](../ordinary-time/ot.qmd), using the [Christmas Gloria]{.black} instead of the Gloria from the Mass setting.
+:::
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

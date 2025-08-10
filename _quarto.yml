@@ -1,0 +1,158 @@
+project:
+  type: book
+
+book:
+  title: "Music Selections for the Liturgical Year"
+  author: "Matthew D. Grossi"
+  date: "June 2025"
+  cover-image: "images/st-cecilia-round.jpg"
+  chapters:
+    - index.qmd
+    - content/copyright.qmd
+    - content/intro.qmd
+    - content/about-author.qmd
+    - content/about-book.qmd
+    - content/versions.qmd
+    - part: content/advent/advent.qmd
+      chapters:
+        - content/advent/advent01.qmd
+        - content/advent/advent02.qmd
+        - content/advent/advent03.qmd
+        - content/advent/advent04.qmd
+    - part: content/christmas/christmas.qmd
+      chapters:
+        - content/christmas/christmas-day.qmd
+  #       - content/christmas/holy-family.qmd
+  #       - content/christmas/mary-mother-of-god.qmd
+  #       - content/christmas/epiphany.qmd
+  #       - content/christmas/baptism.qmd
+  #   - part: ot-winter.qmd
+  #     chapters:
+  #       - ot02.qmd
+  #       - ot03.qmd
+  #       - ot04.qmd
+  #       - ot05.qmd
+  #       - ot06.qmd
+  #       - ot07.qmd
+  #       - ot08.qmd
+  #       - ot09.qmd
+  #   - part: lent.qmd
+  #     chapters:
+  #       - ash-wed.qmd
+  #       - lent01.qmd
+  #       - lent02.qmd
+  #       - lent03.qmd
+  #       - lent04.qmd
+  #       - lent05.qmd
+  #   - part: holy-week.qmd
+  #     chapters:
+  #       - palm-sun.qmd
+  #       - holy-thurs.qmd
+  #       - good-fri.qmd
+  #       - easter-vigil.qmd
+  #   - part: easter.qmd
+  #     chapters:
+  #       - easter-sun.qmd
+  #       - easter02.qmd
+  #       - easter03.qmd
+  #       - easter04.qmd
+  #       - easter05.qmd
+  #       - easter06.qmd
+  #       - ascension.qmd
+  #       - easter07.qmd
+  #       - pentecost.qmd
+  #   - part: ot-summer.qmd
+  #     chapters:
+  #       - ot10.qmd
+  #       - ot11.qmd
+  #       - ot12.qmd
+  #       - ot13.qmd
+  #       - ot14.qmd
+  #       - ot15.qmd
+  #       - ot16.qmd
+  #       - ot17.qmd
+  #       - ot18.qmd
+  #       - ot19.qmd
+  #       - ot20.qmd
+  #       - ot21.qmd
+  #       - ot22.qmd
+  #       - ot23.qmd
+  #       - ot24.qmd
+  #       - ot25.qmd
+  #       - ot26.qmd
+  #       - ot27.qmd
+  #       - ot28.qmd
+  #       - ot29.qmd
+  #       - ot30.qmd
+  #       - ot31.qmd
+  #       - ot32.qmd
+  #       - ot33.qmd
+  #       - christ-the-king.qmd
+  #       - thanksgiving.qmd
+  #   - part: feasts.qmd
+  #     chapters:
+  #       - dec08-immaculate-conception.qmd
+  #       - feb02-presentation.qmd
+  #       - mar19-stjoseph.qmd
+  #       - mar25-annunciation.qmd
+  #       - jun23-nativity-john-baptist.qmd
+  #       - jun28-peter-paul.qmd
+  #       - holy-trinity.qmd
+  #       - corpus-christi.qmd
+  #       - sacred-heart.qmd
+  #       - aug06-transfiguration.qmd
+  #       - aug15-assumption.qmd
+  #       - sep14-holy-cross.qmd
+  #       - nov01-all-saints.qmd
+  #       - nov02-all-souls.qmd
+  #       - nov09-john-lateran.qmd
+    - content/references.qmd
+  # appendices:
+  #   - A-o-holy-night.qmd
+  #   - B-festival-alleluia.qmd
+  #   - C-mar19-psalm.qmd
+  #   - D-mar25-psalm.qmd
+  #   - E-easter-proclamation.qmd
+  #   - F-easter-dismissal.qmd
+  #   - G-pentecost-sequence.qmd
+  #   - H-trinity-sequence.qmd
+  #   - I-lauda-jerusalem.qmd
+  #   - J-adoration.qmd
+  page-navigation: true
+  page-footer: 
+    background: light
+    left: "Copyright 2025, Matthew D. Grossi" 
+    right:
+      - icon: github
+        href: https://github.com/
+  output-file: "music-schedules"
+
+crossref:
+  appendix-delim: ":"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: style.css
+    number-sections: false
+    # filters:
+    #   - fonts-and-alignment.lua
+  pdf:
+    documentclass: scrreprt
+    include-in-header: 
+      text: |
+        \usepackage{imakeidx}
+        \makeindex[intoc=true, columns=2, columnseprule=false, options=-s latex/indexstyles.ist]
+    include-after-body: 
+      text: |
+        \printindex
+    css: style.css
+    filters:
+      - fonts-and-alignment.lua
+
+number-depth: 1
+toc-depth: 3

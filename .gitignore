@@ -1,0 +1,10 @@
+.DS_Store
+.devcontainer/
+Dockerfile
+requirements.txt
+
+.quarto/
+_book/
+
+__pycache__/
+sandbox.ipynb

@@ -1,0 +1,108 @@
+---
+title: ADVENT
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    kyrie:
+      list:
+        - name: "Missa Emmanuel"
+          book: GIA
+          priority: optional
+        - name: "Mass of Angels and Saints: Advent Kyrie"
+          book: GIA
+          priority: optional
+    gloria:
+      list:
+        - name: "*Omitted during Advent*"
+          book: ""
+          priority: none
+    holy-holy-holy:
+      list:
+        - name: "Missa Emmanual"
+          book: GIA
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Missa Emmanuel, A"
+          composer: "We proclaim your death..."
+          tune: "Year A"
+          book: GIA
+          priority: required
+        - name: "Missa Emmanuel, B"
+          composer: "When we eat this bread..."
+          tune: "Year B"
+          book: GIA
+          priority: required
+        - name: "Missa Emmanuel, C"
+          composer: "Save us, Savior..."
+          tune: "Year C"
+          book: GIA
+          priority: required
+    amen:
+      list:
+        - name: "Missa Emmanuel"
+          book: GIA
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Missa Emmanuel"
+          book: GIA
+          priority: optional
+        - name: "Mass of Angels and Saints"
+          book: GIA
+          priority: optional
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+::: {.red}
+The [Missa Emmanuel (Richard Proulx)]{.black} puts the texts of the Mass to the fifteenth-century chant tune “*Bone Jesu dulcis cunctis*,” more commonly known as “*Veni, Veni, Emmanuel*” (“O Come, O Come, Emmanuel.”) The tune’s familiarity makes this Mass setting easy to learn and sing. It is preferred for all Masses during Advent for all years (A, B, C) unless otherwise noted in the **Notes** for a specific liturgy or occasion. Alternatively, the [Mass of Angels and Saints]{.black}, which includes an Advent Penitential Rite, can be used instead, particularly for the [Kyrie]{.black} and [Lamb of God]{.black}:
+:::
+
+::: {.titlered}
+### &nbsp; Year A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+::: {.red}
+Ideally, the presider should sing the Kyrie invocations, if capable. Memorial
+Acclamation A (“We proclaim your death...”) should be sung unless otherwise
+instructed. The Lamb of God litany should always begin with [“Lamb of God,
+you take away the sins of the world.”]{.black} No other texts are approved for the
+Catholic liturgy.
+
+(These Mass settings, both published by GIA, will need to be purchased
+for public liturgical use if not contained in the parish hymnal.)
+:::
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

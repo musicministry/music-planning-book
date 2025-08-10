@@ -1,0 +1,215 @@
+from great_tables import GT, loc, style, from_column
+from IPython.display import display, Markdown
+from titlecase import titlecase
+import pandas as pd
+import yaml
+import re
+
+def get_url(hymn, urls):
+    """Get video URL for 'hymn' from `urls`. Returns 'No URL found' if the hymn is not found in the URL list."""
+    # Append composer name, if available, to hymn name
+    hymn_key = hymn['name'] + f' ({hymn["composer"]}' if 'composer' in hymn.keys() else hymn['name']
+    # Append hymn tune, if available
+    hymn_key = hymn_key + f' ({hymn["tune"]})' if 'tune' in hymn.keys() else hymn_key
+    # Remove punctuation and special characters
+    hymn_key = re.sub('[^A-Za-z0-9 ]+', '', hymn_key.strip())
+    # Replace spaces and make lowercase
+    hymn_key = hymn_key.replace(' ', '-').lower()
+    
+    # Add hyperlink
+    if hymn_key in urls.keys():
+        return urls[hymn_key]
+    else:
+        return 'No URL found'
+
+def make_name(hymn, urls, index=None):
+    """Append hymn tune, composer, and/or verses to title and add hyperlink to video."""
+    new_text = titlecase(hymn['name']) + f' (<span style="font-variant:small-caps;">{hymn["tune"]}</span>)' if 'tune' in hymn.keys() else titlecase(hymn['name'])
+    # Add composer name, if available
+    new_text = new_text + f' ({hymn["composer"].title()})' if 'composer' in hymn.keys() else new_text
+    # Add verses, if available
+    new_text = new_text + f' (<i>verses {hymn["verses"]}</i>)' if 'verses' in hymn.keys() else new_text
+    # Add URL, if available
+    hymn_url = get_url(hymn=hymn, urls=urls)
+    if hymn_url == 'No URL found':
+        return new_text
+    else:
+        if index is not None:
+            return f'[{new_text}]({hymn_url})\index[{index}]{{new_text}}'
+        else:
+            return f'[{new_text}]({hymn_url})'
+
+def make_psalm(psalm, urls, index=None):
+    """Append tune, composer, and/or verses to title and add hyperlink to video."""
+    new_text = psalm['name'] + f' (<span style="font-variant:small-caps;">{psalm["tune"]}</span>)' if 'tune' in psalm.keys() else psalm['name']
+    # Add composer name, if available
+    new_text = new_text + f' ({psalm["composer"].title()})' if 'composer' in psalm.keys() else new_text
+    # Add verses, if available
+    new_text = new_text + f' (<i>verses {psalm["verses"]}</i>)' if 'verses' in psalm.keys() else new_text
+    # Add URL, if available
+    psalm_url = get_url(hymn=psalm, urls=urls)
+    if psalm_url == 'No URL found':
+        return new_text
+    else:
+        if index is not None:
+            return f'[{new_text}]({psalm_url})\index[{index}]{{new_text}}'
+        else:
+            return f'[{new_text}]({psalm_url})'
+
+def hymnlist(hymns, urls, index=None):
+    """Create a hymn list table from contents of `hymns` and URLs from 'urls'"""
+        
+    def remove_dupes(l, char=''):
+        """Replace duplicated items in list `l` with `char`"""
+        tmp = list()
+        for i in l:
+            if i in tmp:
+                tmp.append(char)
+            else:
+                tmp.append(i)
+        return tmp
+    
+    # Remove unused keys
+    hymnsnew = hymns.copy()
+    hymnsnew.pop('anthems', None)
+
+    # Create a dataframe
+    df = pd.DataFrame({
+        'hymn': remove_dupes([titlecase(hymn.replace('-', ' ')) for hymn in hymnsnew for i in hymns[hymn]['list']]),
+        'hymnal': [''.join(l for l in i['book'] if l.isupper()) for hymn in hymnsnew for i in hymns[hymn]['list']],
+        'options': [f'<i>{make_psalm(i, urls=urls, index=index)}</i>' if 'psalm' in hymn else make_name(i, urls=urls, index=index) for hymn in hymnsnew for i in hymns[hymn]['list']],
+        'priority': [i['priority'] for hymn in hymnsnew for i in hymns[hymn]['list']]
+    })
+    df['options'] = df['options'].str.replace('Verses', 'verses')
+
+    # Preference coloring
+    red = '#bd3732;'
+    color_map = {
+        'none': '#FFFFFF',      # White
+        'required': '#f5b7b1',  # Semi-transparent red
+        'preferred': '#fad7a0', # Semi-transparent orange
+        'optional': '#f9e79f',  # Semi-transparent yellow
+        'flexible': '#a9dfbf'   # Semi-transparent green
+    }
+    df = df.assign(
+        background=(df['priority'].replace(color_map))
+    )
+
+    # Create and format HTML table
+    gtbl = GT(df, rowname_col='hymn')
+    gtbl = (gtbl
+            .tab_style(locations=loc.stub(),
+                       style=style.text(align='right', v_align='top', weight='bold'))
+            .tab_style(locations=loc.body(columns='hymnal'),
+                       style=[style.fill(color=from_column(column='background')), style.text(v_align='top')])
+            .cols_hide(columns=['priority', 'background'])
+            .cols_align(columns='hymnal', align='center')
+            .cols_width(cases={'hymnal': '5%', 'options': '85%'})
+            .tab_options(table_width='100%', column_labels_hidden=True,
+                         table_body_hlines_width='0pt',
+                         row_striping_background_color=None)
+            .fmt_markdown(columns='options')
+            )
+    gtbl.show()
+
+def check_parts(yml):
+    """Check Mass parts in `yml` for expected values. Accepted options are:
+      'processional', 'opening', 'offertory', 'preparation',
+      'preparation-of-gifts', 'psalm', 'responsorial-psalm',
+      'gospel-acclamation', 'communion', 'meditation', 'second-communion',
+      'recessional', 'closing', 'anthems',
+      'ashes', 'distribution-of-ashes',
+      'washing-of-feet', 'transfer-of-the-blessed-sacrament',
+      'veneration-of-the-cross', 'psalm-after-first-reading',
+      'psalm-after-second-reading', 'psalm-after-third-reading',
+      'psalm-after-fourth-reading', 'psalm-after-fifth-reading',
+      'psalm-after-sixth-reading', 'psalm-after-seventh-reading',
+      'psalm-after-epistle', 'litany-of-the-saints', 'after-each-baptism',
+      'sprinking-rite', 'sprinkling', 'marian-antiphon', 'sequence',
+      'kyrie', 'gloria', 'holy-holy-holy', 'memorial-acclamation', 'amen', 'lamb-of-god
+    
+    Arguments
+    ---------
+        yml (str): YAML block from front matter to inspect
+    
+    Raises
+    ------
+        NameError if a Mass part in `yml` is not an expected entry.
+    """
+
+    options = set([
+      'processional', 'opening', 'offertory', 'preparation', 'preparation-of-gifts', 'psalm', 'responsorial-psalm', 'gospel-acclamation', 'communion', 'meditation', 'second-communion', 'recessional', 'closing', 'anthems',
+      'ashes', 'distribution-of-ashes', 'washing-of-feet', 'transfer-of-the-blessed-sacrament', 'veneration-of-the-cross',
+      'psalm-after-first-reading', 'psalm-after-second-reading', 'psalm-after-third-reading', 'psalm-after-fourth-reading', 'psalm-after-fifth-reading', 'psalm-after-sixth-reading', 'psalm-after-seventh-reading', 'psalm-after-epistle', 'litany-of-the-saints', 'after-each-baptism', 'sprinking-rite', 'marian-antiphon', 'sprinkling', 'sequence',
+      'kyrie', 'gloria', 'holy-holy-holy', 'memorial-acclamation', 'amen', 'lamb-of-god'])
+
+    def flatten(xss):
+        return [x for xs in xss for x in xs]
+
+    hymn_name_errors = set(flatten([list(yml['hymns'][i].keys()) for i in yml['hymns'].keys()])).difference(options)
+        
+    if len(hymn_name_errors) > 0:
+        raise NameError(f'`{", ".join(hymn_name_errors)}` is/are not recognized. See `?check_parts` for accepted Mass parts. Please check spelling and try again.')    
+    
+def check_priorities(yml):
+    """Check priorities for expected values. Accepted options are:
+      'required', 'preferred', 'optional', 'flexible'
+    
+    Arguments
+    ---------
+        yml (str): YAML block from front matter to inspect
+    
+    Raises
+    ------
+        NameError if a Mass part in `yaml` is not an expected entry.
+    """
+    
+    priorities = set(['none', 'required', 'preferred', 'optional', 'flexible'])
+    
+    passed = [yml['hymns'][y][hymn]['list'][l]['priority'] for y in yml['hymns'].keys() for hymn in yml['hymns'][y].keys() for l in range(len(yml['hymns'][y][hymn]['list'])) if hymn not in ['anthems']]
+    priority_errors = set(passed).difference(priorities)
+    
+    if len(priority_errors) > 0:
+        raise NameError(f'`{", ".join(priority_errors)}` is/are not recognized. See `?check_priorities` for accepted entries. Please check spelling and try again.')
+
+def get_params(yml):
+    """Load front matter YAML as passed to `yml` and check for errors.
+    
+    Arguments
+    ---------
+        yml (str): YAML block from front matter to load and inspect
+
+    Returns
+    -------
+        dict: YAML from `yml` parsed as dictionary
+    """
+    params = yaml.safe_load(yml)
+    check_parts(params)
+    check_priorities(params)
+    return params
+
+def check_for_anthems(params):
+    for ls in params.values():
+        if 'anthems' in ls.keys():
+            return True
+        else:
+            pass
+    return False
+
+def anthemlist(hymns, urls, index=None):
+    """Create a table of choral anthem suggestions as listed in `hymns` with video URLs from `urls`"""
+    
+    if check_for_anthems(hymns):
+    
+        display(Markdown('::: {.red}\n'))
+        display(Markdown('### Choral Anthems\n'))
+        display(Markdown(':::'))
+        
+        display(Markdown('|          |                                  |'))
+        display(Markdown('|:--------:|:---------------------------------|'))
+        for yr, ls in hymns.items():
+            if 'anthems' in ls.keys():
+                display(Markdown('| [**Year %s**]{.red} | %s |' % (yr.upper(), "\n | |".join([make_name(i, urls=urls, index=index) for i in ls["anthems"]["list"] if "anthems"]))))
+            else:
+                display(Markdown('| [**Year %s**]{.red} | |' % yr.upper()))
+        display(Markdown(': Choral anthems could be sung before Mass, in place of an offertory hymn, in place of a Communion hymn (if appropriate), or after Communion for meditation. {tbl-colwidths="[10,90]"}'))

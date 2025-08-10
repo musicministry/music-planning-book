@@ -1,0 +1,214 @@
+---
+title: First Sunday of Advent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Come, Thou Long-Expected Jesus"
+          tune: stuttgart
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "Let us go rejoicing to the house of the Lord."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "The Advent of Our King"
+          book: "Breaking Bread"
+          priority: preferred
+        - name: "Lord of All Hopefulness"
+          book: "Breaking Bread"
+          priority: optional
+    communion:
+      list:
+        - name: "Wake, O Wake, and Sleep No Longer"
+          book: "Breaking Bread"
+          priority: required
+    meditation:
+      list:
+        - name: "Maranatha"
+          composer: Westphal
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "City of God"
+          book: "Breaking Bread"
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Come Now, Almighty King"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, make us turn to you; let us see your face and we shall be saved."
+          book: "Respond and Acclaim"
+          priority: required
+    offertory:
+      list:
+        - name: "The Advent of Our King"
+          book: "Breaking Bread"
+          priority: required
+    communion:
+      list:
+        - name: "Eye Has Not Seen"
+          book: "Breaking Bread"
+          priority: required
+    meditation:
+      list:
+        - name: "Abba! Father"
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "O Come, Divine Messiah"
+          book: "Breaking Bread"
+          priority: preferred
+    anthems:
+      list:
+        - name: "When Will He Come?"
+  c:
+    processional:
+      list:
+        - name: "The King of Glory"
+          book: "Breaking Bread"
+          priority: required
+    psalm:
+      list:
+        - name: "To You, O Lord, I lift my soul."
+          book: "Breaking Bread"
+          priority: required
+    offertory:
+      list:
+        - name: "The Advent of Our King"
+          book: "Breaking Bread"
+          priority: preferred
+        - name: "Lord of All Hopefulness"
+          book: "Breaking Bread"
+          priority: optional
+    communion:
+      list:
+        - name: "Bread of Life"
+          composer: Farrell
+          tune: "Advent/Christmas"
+          book: "Breaking Bread"
+          verses: 1-2
+          priority: optional
+        - name: "Savior of the Nations, Come"
+          book: "Breaking Bread"
+          priority: optional
+    meditation:
+      list:
+        - name: "Beyond the Moon and Stars"
+          book: "Breaking Bread"
+          priority: required
+    recessional:
+      list:
+        - name: "Lift Up Your Heads, Ye Mighty Gates"
+          book: "Breaking Bread"
+          priority: preferred
+        - name: "In the Day of the Lord"
+          book: "Breaking Bread"
+          priority: optional
+    anthems:
+      list:
+        - name: "Lo! He Comes With Clouds Descending"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+waiting, trust, charity, hope, promise, light/dark, Second Coming, vigilance, urgency
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> To you, I lift up my soul, O my God.  
+> In you, I have trusted; let me not be put to shame.  
+> Nor let my enemies exult over me; and let none who hope in you be put to
+shame.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The Lord will bestow his bounty, and our earth shall yield its increase.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos, index='anthems')
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Advent.
