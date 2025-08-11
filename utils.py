@@ -156,8 +156,9 @@ def masssetting(mass, urls, index=None):
         'priority': [i['priority'] for part in mass for i in mass[part]['list']]
     })
     df['options'] = df['options'].str.replace('Verses', 'verses')
-    df['hymn'] = df['hymn'].apply(lambda x: x.replace("Holy Holy Holy", "Holy, Holy, Holy"))
-
+    df['hymn'] = df['hymn'].str.replace("Holy Holy Holy", "Holy, Holy, Holy")
+    df['options'] = df['options'].str.replace('During', 'during')
+    
     # Preference coloring
     red = '#bd3732;'
     color_map = {
