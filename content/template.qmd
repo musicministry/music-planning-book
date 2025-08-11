@@ -11,8 +11,10 @@ hymns:
   a:
     processional:
       list:
-        - name: "Come, Thou Long-Expected Jesus"
-          tune: stuttgart
+        - name: 
+          tune: 
+          verses: 
+          composer: 
           priority: required
     psalm:
       list:
@@ -20,88 +22,88 @@ hymns:
           priority: required
     offertory:
       list:
-        - name: "The Advent of Our King"
+        - name: 
           priority: preferred
-        - name: "Lord of All Hopefulness"
+        - name: 
           priority: optional
     communion:
       list:
-        - name: "Wake, O Wake, and Sleep No Longer"
+        - name: 
           priority: required
     meditation:
       list:
-        - name: "Maranatha"
-          composer: Westphal
+        - name: 
+          composer: 
           priority: required
     recessional:
       list:
-        - name: "City of God"
+        - name: 
           priority: required
   b:
     processional:
       list:
-        - name: "Come Now, Almighty King"
+        - name: 
           priority: required
     psalm:
       list:
-        - name: "Lord, make us turn to you; let us see your face and we shall be saved."
+        - name: 
           priority: required
     offertory:
       list:
-        - name: "The Advent of Our King"
+        - name: 
           priority: required
     communion:
       list:
-        - name: "Eye Has Not Seen"
+        - name: 
           priority: required
     meditation:
       list:
-        - name: "Abba! Father"
+        - name: 
           priority: required
     recessional:
       list:
-        - name: "O Come, Divine Messiah"
+        - name: 
           priority: preferred
     anthems:
       list:
-        - name: "When Will He Come?"
+        - name: 
   c:
     processional:
       list:
-        - name: "The King of Glory"
+        - name: 
           priority: required
     psalm:
       list:
-        - name: "To You, O Lord, I lift my soul."
+        - name: 
           priority: required
     offertory:
       list:
-        - name: "The Advent of Our King"
+        - name: 
           priority: preferred
-        - name: "Lord of All Hopefulness"
+        - name: 
           priority: optional
     communion:
       list:
-        - name: "Bread of Life"
-          composer: Farrell
-          tune: "Advent/Christmas"
+        - name: 
+          composer: 
+          tune: 
+          verses: 
           priority: optional
-          verses: 1-2
-        - name: "Savior of the Nations, Come"
+        - name: 
           priority: optional
     meditation:
       list:
-        - name: "Beyond the Moon and Stars"
+        - name: 
           priority: required
     recessional:
       list:
-        - name: "Lift Up Your Heads, Ye Mighty Gates"
+        - name: 
           priority: preferred
-        - name: "In the Day of the Lord"
+        - name: 
           priority: optional
     anthems:
       list:
-        - name: "Lo! He Comes With Clouds Descending"
+        - name: 
 """
 ```
 
