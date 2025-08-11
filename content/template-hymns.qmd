@@ -116,7 +116,7 @@ sys.path.append('/workspaces/planning-book')
 import utils
 
 # Front matter YAML and check for errors
-params = utils.getparams(frontmatter)
+params = utils.get_params(frontmatter)
 
 # Video links
 with open('../../_hymns.yml', 'r') as vf:
