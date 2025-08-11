@@ -21,7 +21,8 @@ book:
         - content/advent/advent04.qmd
     - part: content/christmas/christmas.qmd
       chapters:
-        - content/christmas/christmas-day.qmd
+        - text: "Christmas Day"
+          href: content/christmas/christmas-day.qmd
   #       - content/christmas/holy-family.qmd
   #       - content/christmas/mary-mother-of-god.qmd
   #       - content/christmas/epiphany.qmd
