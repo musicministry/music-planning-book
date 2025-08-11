@@ -7,7 +7,7 @@ title: ADVENT
 #| echo: false
 
 frontmatter = """
-hymns:
+mass:
   abc:
     kyrie:
       list:
@@ -20,7 +20,6 @@ hymns:
     gloria:
       list:
         - name: "*Omitted during Advent*"
-          book: ""
           priority: none
     holy-holy-holy:
       list:
@@ -29,19 +28,19 @@ hymns:
           priority: required
     memorial-acclamation:
       list:
-        - name: "Missa Emmanuel, A"
-          composer: "We proclaim your death..."
-          tune: "Year A"
+        - name: "Missa Emmanuel"
+          option: 'A ("*When we eat...*")'
+          year: "A"
           book: GIA
           priority: required
-        - name: "Missa Emmanuel, B"
-          composer: "When we eat this bread..."
-          tune: "Year B"
+        - name: "Missa Emmanuel"
+          option: 'B ("*We proclaim your death...*")'
+          year: "B"
           book: GIA
           priority: required
-        - name: "Missa Emmanuel, C"
-          composer: "Save us, Savior..."
-          tune: "Year C"
+        - name: "Missa Emmanuel"
+          option: 'C ("*Save us, Savior...*")'
+          year: "C"
           book: GIA
           priority: required
     amen:
@@ -89,7 +88,7 @@ The [Missa Emmanuel (Richard Proulx)]{.black} puts the texts of the Mass to the 
 #| title: Year ABC
 #| echo: false
 #| output: asis
-utils.hymnlist(params['hymns']['abc'], urls=videos)
+utils.masssetting(params['mass']['abc'], urls=videos)
 ```
 
 ::: {.red}
