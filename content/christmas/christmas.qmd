@@ -16,17 +16,14 @@ mass:
       list:
         - name: "Christmas Carol Mass" 
           tune: "God Rest Ye Merry Gentlemen"
-          composer: "Kevin Weed"
           priority: optional
         - name: "Christmas Carol Mass"
           tune: "Angels We Have Heard on High"
-          composer: "Kevin Weed"
           priority: optional
     gloria:
       list:
         - name: "Christmas Carol Mass"
           tune: "Several tunes"
-          composer: "Kevin Weed"
           priority: optional
         - name: "Christmas Gloria"
           composer: "Paul Gibson"
@@ -36,39 +33,33 @@ mass:
       list:
         - name: "Christmas Carol Mass"
           tune: "Once In Royal David's City"
-          composer: "Kevin Weed"
           priority: required
     memorial-acclamation:
       list:
         - name: "Christmas Carol Mass"
           option: 'A ("*When we eat...*")'
           tune: "Angels We Have Heard on High"
-          composer: "Kevin Weed"
           year: "A"
           priority: required
         - name: "Christmas Carol Mass"
-          option: 'B ("*We proclaim...*")'
+          option: 'B ("*We proclaim your death...*")'
           tune: "O Little Town of Bethlehem"
-          composer: "Kevin Weed"
           year: "B"
           priority: required
         - name: "Christmas Carol Mass"
-          option: 'C ("*Save us...*")'
+          option: 'C ("*Save us, Savior...*")'
           tune: "Good Christian Men, Rejoice"
-          composer: "Kevin Weed"
           year: "C"
           priority: required
     amen:
       list:
         - name: "Christmas Carol Mass"
           tune: "O Come, All Ye Faithful"
-          composer: "Kevin Weed"
           priority: required
     lamb-of-god:
       list:
         - name: "Christmas Carol Mass"
           tune: "Silent Night"
-          composer: "Kevin Weed"
           priority: required
 """
 ```
@@ -90,7 +81,7 @@ with open('../../_hymns.yml', 'r') as vf:
 ```
 
 ::: {.red}
-The [Christmas Carol Mass](https://kevinweed.com/christmas-carol-mass/) puts the texts of the Mass to the tunes of familiar Christmas carols, making it easy to learn and sing. It oﬀers an opportunity to increase the use of popular melodies during the short Christmas season. The Mass setting includes options for the [Memorial Acclamation]{.black} and the [Great Amen]{.black}; the preferred version for each is provided here:
+The [Christmas Carol Mass](https://kevinweed.com/christmas-carol-mass/) by Kevin Weed puts the texts of the Mass to the tunes of familiar Christmas carols, making it easy to learn and sing. It oﬀers an opportunity to increase the use of popular melodies during the short Christmas season. The Mass setting includes options for the [Memorial Acclamation]{.black} and the [Great Amen]{.black}; the preferred version for each is provided here:
 :::
 
 ::: {.titlered}
