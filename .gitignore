@@ -8,3 +8,5 @@ _book/
 
 __pycache__/
 sandbox.ipynb
+
+/.quarto/
