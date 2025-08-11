@@ -10,23 +10,23 @@ title: CHRISTMAS
 #| echo: false
 
 frontmatter = """
-hymns:
+mass:
   abc:
     kyrie:
       list:
-        - name: "Christmas Carol Mass (Tune: God Rest Ye Merry Gentlemen)"
+        - name: "Christmas Carol Mass" 
+          tune: "God Rest Ye Merry Gentlemen"
           composer: "Kevin Weed"
-          book: ""
           priority: optional
-        - name: "Christmas Carol Mass (Tune: Angels We Have Heard on High)"
+        - name: "Christmas Carol Mass"
+          tune: "Angels We Have Heard on High"
           composer: "Kevin Weed"
-          book: ""
           priority: optional
     gloria:
       list:
-        - name: "Christmas Carol Mass (Several tunes)"
+        - name: "Christmas Carol Mass"
+          tune: "Several tunes"
           composer: "Kevin Weed"
-          book: ""
           priority: optional
         - name: "Christmas Gloria"
           composer: "Paul Gibson"
@@ -34,38 +34,41 @@ hymns:
           priority: preferred
     holy-holy-holy:
       list:
-        - name: "Christmas Carol Mass (Tune: Once In Royal David's City)"
+        - name: "Christmas Carol Mass"
+          tune: "Once In Royal David's City"
           composer: "Kevin Weed"
-          book: ""
           priority: required
     memorial-acclamation:
       list:
-        - name: "Christmas Carol Mass, A (Tune: Angels We Have Heard on High)"
+        - name: "Christmas Carol Mass"
+          option: 'A ("*When we eat...*")'
+          tune: "Angels We Have Heard on High"
           composer: "Kevin Weed"
-          tune: "Year A"
-          book: ""
+          year: "A"
           priority: required
-        - name: "Christmas Carol Mass, B (Tune: O Little Town of Bethlehem)"
+        - name: "Christmas Carol Mass"
+          option: 'B ("*We proclaim...*")'
+          tune: "O Little Town of Bethlehem"
           composer: "Kevin Weed"
-          tune: "Year B"
-          book: ""
+          year: "B"
           priority: required
-        - name: "Christmas Carol Mass, C (Tune: Good Christian Men, Rejoice)"
+        - name: "Christmas Carol Mass"
+          option: 'C ("*Save us...*")'
+          tune: "Good Christian Men, Rejoice"
           composer: "Kevin Weed"
-          tune: "Year C"
-          book: ""
+          year: "C"
           priority: required
     amen:
       list:
-        - name: "Christmas Carol Mass (Tune: O Come, All Ye Faithful)"
+        - name: "Christmas Carol Mass"
+          tune: "O Come, All Ye Faithful"
           composer: "Kevin Weed"
-          book: ""
           priority: required
     lamb-of-god:
       list:
-        - name: "Christmas Carol Mass (Tune: Silent Night)"
+        - name: "Christmas Carol Mass"
+          tune: "Silent Night"
           composer: "Kevin Weed"
-          book: ""
           priority: required
 """
 ```
@@ -99,7 +102,7 @@ The [Christmas Carol Mass](https://kevinweed.com/christmas-carol-mass/) puts the
 #| title: Year ABC
 #| echo: false
 #| output: asis
-utils.hymnlist(params['hymns']['abc'], urls=videos)
+utils.masssetting(params['mass']['abc'], urls=videos)
 ```
 
 ::: {.red}
