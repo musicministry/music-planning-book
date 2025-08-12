@@ -14,7 +14,7 @@ def get_url(hymn, urls):
     # Remove punctuation and special characters
     hymn_key = re.sub('[^A-Za-z0-9 ]+', '', hymn_key.strip())
     # Replace spaces and make lowercase
-    hymn_key = hymn_key.replace(' ', '-').lower()
+    hymn_key = hymn_key.replace('  ', ' ').replace(' ', '-').lower()
     
     # Add hyperlink
     if hymn_key in urls.keys():
@@ -27,7 +27,7 @@ def make_name(hymn, urls, index=None):
     new_text = titlecase(hymn['name']) + f' (<span style="font-variant:small-caps;">{hymn["tune"]}</span>)' if 'tune' in hymn.keys() else titlecase(hymn['name'])
     # Add year, if available
     new_text = f'<b>Year {hymn["year"]}:</b> ' + new_text if 'year' in hymn.keys() else new_text
-# Add composer name, if available
+    # Add composer name, if available
     new_text = new_text + f' ({hymn["composer"].title()})' if 'composer' in hymn.keys() else new_text
     # Add verses, if available
     new_text = new_text + f' (<i>verses {hymn["verses"]}</i>)' if 'verses' in hymn.keys() else new_text
