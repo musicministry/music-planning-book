@@ -1,0 +1,113 @@
+---
+title: "Christmas: Vigil Mass"
+subtitle: December 24
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "O Come, O Come, Emmanuel"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "For ever I will sing the goodness of the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Lo, How a Rose E'er Blooming"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Silent Night"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Of the Father’s Love Begotten"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Joy to the World"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: Child of Mary Newly Born
+        - name: Gesú Bambino (When Blossoms Flowered)
+        - name: In the Bleak Midwinter (Holst)
+        - name: In the Bleak Midwinter (Darke)
+        - name: See Amid the Winter's Snow (HUMILITY)
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+expectation, fulfillment, hope, joy, salvation history, ancestors
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Today you will know that the Lord will come, and he will save us,  
+> and in the morning you will see his glory.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The glory of the Lord will be revealed,  
+> and all flesh will see the salvation of our God.
+
+::: {.titlered}
+### &nbsp; Years A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The Christmas Vigil Mass takes place in the early evening on Christmas Eve.
+* The Gospel Acclamation is taken from *Respond & Acclaim* (RA) for the Vigil Mass.
+* "O Holy Night" can be be found in Appendix A.

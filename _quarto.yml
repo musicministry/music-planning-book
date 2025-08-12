@@ -21,6 +21,12 @@ book:
         - content/advent/advent04.qmd
     - part: content/christmas/christmas.qmd
       chapters:
+        - text: "Christmas Vigil"
+          href: content/christmas/christmas-vigil.qmd
+        - text: "Christmas Midnight"
+          href: content/christmas/christmas-midnight.qmd
+        - text: "Christmas Dawn"
+          href: content/christmas/christmas-dawn.qmd
         - text: "Christmas Day"
           href: content/christmas/christmas-day.qmd
   #       - content/christmas/holy-family.qmd
