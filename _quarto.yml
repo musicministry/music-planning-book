@@ -8,31 +8,35 @@ book:
   cover-image: "images/st-cecilia-round.jpg"
   chapters:
     - index.qmd
-    - content/copyright.qmd
-    - content/intro.qmd
-    - content/about-author.qmd
-    - content/about-book.qmd
-    - content/versions.qmd
-    - part: content/advent/advent.qmd
-      chapters:
-        - content/advent/advent01.qmd
-        - content/advent/advent02.qmd
-        - content/advent/advent03.qmd
-        - content/advent/advent04.qmd
-    - part: content/christmas/christmas.qmd
-      chapters:
-        - text: "Christmas Vigil"
-          href: content/christmas/christmas-vigil.qmd
-        - text: "Christmas Midnight"
-          href: content/christmas/christmas-midnight.qmd
-        - text: "Christmas Dawn"
-          href: content/christmas/christmas-dawn.qmd
-        - text: "Christmas Day"
-          href: content/christmas/christmas-day.qmd
-  #       - content/christmas/holy-family.qmd
-  #       - content/christmas/mary-mother-of-god.qmd
-  #       - content/christmas/epiphany.qmd
-  #       - content/christmas/baptism.qmd
+    # - content/copyright.qmd
+    # - content/intro.qmd
+    # - content/about-author.qmd
+    # - content/about-book.qmd
+    # - content/versions.qmd
+    # - part: content/advent/advent.qmd
+    #   chapters:
+    #     - content/advent/advent01.qmd
+    #     - content/advent/advent02.qmd
+    #     - content/advent/advent03.qmd
+    #     - content/advent/advent04.qmd
+    # - part: content/christmas/christmas.qmd
+    #   chapters:
+    #     - text: "Christmas Vigil"
+    #       href: content/christmas/christmas-vigil.qmd
+        # - text: "Christmas Midnight"
+        #   href: content/christmas/christmas-midnight.qmd
+        # - text: "Christmas Dawn"
+        #   href: content/christmas/christmas-dawn.qmd
+        # - text: "Christmas Day"
+        #   href: content/christmas/christmas-day.qmd
+        # - text: "Holy Family"
+        #   href: content/christmas/holy-family.qmd
+        # - text: "Mary, Mother of God"
+        #   href: content/christmas/mary-mother-of-god.qmd
+        # - text: Epiphany
+        #   href: content/christmas/epiphany.qmd
+        # - text: Baptism of the Lord
+        #   href: content/christmas/baptism.qmd
   #   - part: ot-winter.qmd
   #     chapters:
   #       - ot02.qmd
@@ -43,20 +47,20 @@ book:
   #       - ot07.qmd
   #       - ot08.qmd
   #       - ot09.qmd
-  #   - part: lent.qmd
+    - part: content/lent/lent.qmd
+      chapters:
+        - content/lent/ash-wed.qmd
+        - content/lent/lent01.qmd
+        - content/lent/lent02.qmd
+        - content/lent/lent03.qmd
+        - content/lent/lent04.qmd
+        - content/lent/lent05.qmd
+  #   - part: content/holy-week/holy-week.qmd
   #     chapters:
-  #       - ash-wed.qmd
-  #       - lent01.qmd
-  #       - lent02.qmd
-  #       - lent03.qmd
-  #       - lent04.qmd
-  #       - lent05.qmd
-  #   - part: holy-week.qmd
-  #     chapters:
-  #       - palm-sun.qmd
-  #       - holy-thurs.qmd
-  #       - good-fri.qmd
-  #       - easter-vigil.qmd
+  #       - content/holy-week/palm-sun.qmd
+  #       - content/holy-week/holy-thurs.qmd
+  #       - content/holy-week/good-fri.qmd
+  #       - content/holy-week/easter-vigil.qmd
   #   - part: easter.qmd
   #     chapters:
   #       - easter-sun.qmd
