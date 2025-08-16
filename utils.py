@@ -15,48 +15,58 @@ def get_url(hymn, urls):
     hymn_key = re.sub('[^A-Za-z0-9 ]+', '', hymn_key.strip())
     # Replace spaces and make lowercase
     hymn_key = hymn_key.replace('  ', ' ').replace(' ', '-').lower()
-    
     # Add hyperlink
     if hymn_key in urls.keys():
         return urls[hymn_key]
     else:
-        return 'No URL found'
+        return None
 
 def make_name(hymn, urls, index=None):
     """Append hymn tune, composer, and/or verses to title and add hyperlink to video."""
     new_text = titlecase(hymn['name']) + f' (<span style="font-variant:small-caps;">{hymn["tune"]}</span>)' if 'tune' in hymn.keys() else titlecase(hymn['name'])
+    # Add URL, if available
+    hymn_url = get_url(hymn=hymn, urls=urls)
+    if hymn_url is not None:
+        if index is not None:
+            new_text = f'[{new_text}]({hymn_url})\index[{index}]{{new_text}}'
+        else:
+            new_text = f'[{new_text}]({hymn_url})'
     # Add year, if available
     new_text = f'<b>Year {hymn["year"]}:</b> ' + new_text if 'year' in hymn.keys() else new_text
     # Add composer name, if available
     new_text = new_text + f' ({hymn["composer"].title()})' if 'composer' in hymn.keys() else new_text
     # Add verses, if available
     new_text = new_text + f' (<i>verses {hymn["verses"]}</i>)' if 'verses' in hymn.keys() else new_text
-    # Add URL, if available
-    hymn_url = get_url(hymn=hymn, urls=urls)
-    if hymn_url == 'No URL found':
-        return new_text
-    else:
-        if index is not None:
-            return f'[{new_text}]({hymn_url})\index[{index}]{{new_text}}'
-        else:
-            return f'[{new_text}]({hymn_url})'
+    # Add note, if available
+    new_text = new_text + f' ({hymn["note"]})' if 'note' in hymn.keys() else new_text
+    return new_text
 
 def make_psalm(psalm, urls, index=None):
     """Append tune, composer, and/or verses to title and add hyperlink to video."""
     new_text = psalm['name'] + f' (<span style="font-variant:small-caps;">{psalm["tune"]}</span>)' if 'tune' in psalm.keys() else psalm['name']
+    # Add URL, if available
+    psalm_url = get_url(hymn=psalm, urls=urls)
+    if psalm_url is not None:
+        if index is not None:
+            new_text = f'[{new_text}]({psalm_url})\index[{index}]{{new_text}}'
+        else:
+            new_text = f'[{new_text}]({psalm_url})'
     # Add composer name, if available
     new_text = new_text + f' ({psalm["composer"].title()})' if 'composer' in psalm.keys() else new_text
     # Add verses, if available
     new_text = new_text + f' (<i>verses {psalm["verses"]}</i>)' if 'verses' in psalm.keys() else new_text
-    # Add URL, if available
-    psalm_url = get_url(hymn=psalm, urls=urls)
-    if psalm_url == 'No URL found':
-        return new_text
-    else:
-        if index is not None:
-            return f'[{new_text}]({psalm_url})\index[{index}]{{new_text}}'
-        else:
-            return f'[{new_text}]({psalm_url})'
+    # Add note, if available
+    new_text = new_text + f' ({psalm["note"]})' if 'note' in psalm.keys() else new_text
+    # # Add URL, if available
+    # psalm_url = get_url(hymn=psalm, urls=urls)
+    # if psalm_url == 'No URL found':
+    #     return new_text
+    # else:
+    #     if index is not None:
+    #         return f'[{new_text}]({psalm_url})\index[{index}]{{new_text}}'
+    #     else:
+    #         return f'[{new_text}]({psalm_url})'
+    return new_text
 
 def hymnlist(hymns, urls, index=None):
     """Create a hymn list table from contents of `hymns` and URLs from 'urls'"""
@@ -130,6 +140,13 @@ def masssetting(mass, urls, index=None):
     def make_part(hymn, urls, index=None):
         """Append hymn tune, composer, and/or verses to title and add hyperlink to video."""
         new_text = titlecase(hymn['name'])
+        # Add URL, if available
+        hymn_url = get_url(hymn=hymn, urls=urls)
+        if hymn_url is not None:
+            if index is not None:
+                new_text = f'[{new_text}]({hymn_url})\index[{index}]{{new_text}}'
+            else:
+                new_text = f'[{new_text}]({hymn_url})'
         # Add year, if available
         new_text = f'<b>Year {hymn["year"]}:</b> ' + new_text if 'year' in hymn.keys() else new_text
         # Add option, if available
@@ -138,15 +155,18 @@ def masssetting(mass, urls, index=None):
         new_text = new_text + f' (Tune: {hymn["tune"]})' if 'tune' in hymn.keys() else new_text
         # Add composer name, if available
         new_text = new_text + f' ({hymn["composer"].title()})' if 'composer' in hymn.keys() else new_text
-        # Add URL, if available
-        hymn_url = get_url(hymn=hymn, urls=urls)
-        if hymn_url == 'No URL found':
-            return new_text
-        else:
-            if index is not None:
-                return f'[{new_text}]({hymn_url})\index[{index}]{{new_text}}'
-            else:
-                return f'[{new_text}]({hymn_url})'
+        # Add note, if available
+        new_text = new_text + f' ({hymn["note"]})' if 'note' in hymn.keys() else new_text
+        # # Add URL, if available
+        # hymn_url = get_url(hymn=hymn, urls=urls)
+        # if hymn_url == 'No URL found':
+        #     return new_text
+        # else:
+        #     if index is not None:
+        #         return f'[{new_text}]({hymn_url})\index[{index}]{{new_text}}'
+        #     else:
+        #         return f'[{new_text}]({hymn_url})'
+        return new_text
     
     # Create a dataframe
     df = pd.DataFrame({
