@@ -1,0 +1,202 @@
+---
+title: Fifth Sunday of Lent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Lord, Who Throughout These Forty Days"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "With the Lord there is mercy and fullness of redemption."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "I Am the Bread of Life"
+          composer: Toolan
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Keep In Mind"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "I Know That My Redeemer Lives"
+          composer: Soper
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "We Shall Rise Again"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Lord, Who Throughout These Forty Days"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Create a clean heart in me, O God."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Unless A Grain of Wheat"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Bread of Life"
+          composer: Fisher
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: ""
+          priority: none
+    recessional:
+      list:
+        - name: "Change Our Hearts"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "Lord, Who Throughout These Forty Days"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord has done great things for us; we are filled with joy."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Only This I Want"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "What Wondrous Love"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "You Alone"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "Beyond the Days"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} passion, resurrection, supplication, suﬀering,
+triumph, life  
+[Year B:]{.red} passion, covenant, immolation  
+[Year C:]{.red} forgiveness, pardon, justice, deliverance, justification
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Give me justice, O God,  
+> and plead my cause against a nation that is faithless.  
+> From the deceitful and cunning rescue me,  
+> for you, O God, are my strength.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Everyone who lives and believes in me  
+> will not die for ever, says the Lord.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Lent.
+* [Years B and C:]{.red} If the Scutinies are celebrated this week with the RCIA, the readings may be taken from Year A, in which case the music is also taken from Year A.

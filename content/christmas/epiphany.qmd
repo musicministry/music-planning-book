@@ -1,0 +1,112 @@
+---
+title: "Epiphany of the Lord"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "Songs of Thankfulness and Praise"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, every nation on earth will adore you."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "We Three Kings"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "The First Nowell"
+          book: BB
+          priority: preferred
+        - name: "What Child is This"
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: "What Star Is This"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "As With Gladness Men of Old"
+          book: BB
+          priority: required
+  a:
+    anthems:
+      list:
+        - name: Welcome the Light
+  b:
+    anthems:
+      list:
+        - name: Wood of the Cradle
+  c:
+    anthems:
+      list:
+        - name: "Nowell! Nowell! Nowell!"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+universality, revelation, glory, wisdom
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Behold, the Lord, the Mighty One, has come;  
+> and kingship is in his grasp, and power and dominion.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> We have seen his star in the East,  
+> and have come with gifts to adore the Lord.
+
+::: {.titlered}
+### &nbsp; Years A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

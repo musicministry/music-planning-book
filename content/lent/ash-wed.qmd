@@ -1,0 +1,128 @@
+---
+title: Ash Wednesday
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "Again We Keep This Solemn Fast"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Be merciful, O Lord, for we have sinned."
+          book: RA
+          priority: required
+    distribution-of-ashes:
+      list:
+        - name: "Attende Domine / Have Mercy on Us, Lord"
+          book: BB
+          priority: required
+    offertory:
+      list:
+        - name: "Save Your People"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Hosea"
+          book: BB
+          priority: optional
+        - name: "With Ashes and Sorrow"
+          book: BB
+          note: "Ash Wednesday refrain"
+          priority: optional
+    meditation:
+      list:
+        - name: "Ashes"
+          book: BB
+          year: A
+          priority: required
+        - name: "Ashes to Ashes"
+          book: BB
+          year: B
+          priority: required
+        - name: "With These Ashes"
+          book: BB
+          year: C
+          priority: required
+    recessional:
+      list:
+        - name: "Change Our Hearts"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "This Is Our Accepted Time"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+repentance, simplicity, sober reflection
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> You are merciful to all, O Lord  
+> and despise nothing that you have made.  
+> You overlook people's sins, to bring them to repentance,  
+> and you spare them, for you are the Lord our God.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> He who ponders the law of the Lord day and night
+will yield fruit in due season.
+
+::: {.titlered}
+### &nbsp; Years A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The Penitential Rite (***Kyrie eleison***) is omitted.
+* The **Gloria** is omitted during Lent.

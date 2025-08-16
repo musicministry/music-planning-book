@@ -1,0 +1,214 @@
+---
+title: Third Sunday of Lent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "The Glory of These Forty Days"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "If today you hear his voice, harden not your hearts."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "I Heard the Voice of Jesus Say"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Eat This Bread"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Parce Domine"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "Guide Me, O Thou Great Redeemer"
+          book: BB
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: "Praise to You, O Christ, Our Savior"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Lord, you have the words of everlasting life."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "I Am the Bread of Life"
+          book: BB
+          composer: Toolan
+          priority: required
+    communion:
+      list:
+        - name: "Parce Domine"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Your Words Are Spirit and Life"
+          book: BB
+          composer: Farrell
+          priority: preferred
+    recessional:
+      list:
+        - name: "Lift High the Cross"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "This Is Holy Ground"
+        - name: "Be Still, for the Presence of the Lord"
+  c:
+    processional:
+      list:
+        - name: "From the Depths We Cry to Thee"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord is kind and merciful."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Save Your People"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "When We Eat This Bread"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Parce Domine"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "The Glory of These Forty Days"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} water, faith, forgiveness, good works. 
+[Year B:]{.red} the law of God, reverence, zeal, forgiveness  
+[Year C:]{.red} deliverance, justice, repentance, awe
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> My eyes are always on the Lord,  
+> for he rescues my feet from the snare.  
+> Turn to me and have mercy on me,  
+> for I am alone and poor.  
+>  
+> Or:  
+>  
+> When I prove my holiness among you  
+> I will gather you from all the foreign lands;  
+> and I will pour clean water upon you  
+> and cleanse you from all your impurities,  
+> and I will give you a new spirit, says the Lord.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> For anyone who drinks it, says the Lord,  
+> the water I shall give will become in him  
+> a spring welling up to eternal life.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Lent.
+* [Years B and C:]{.red} If the Scutinies are celebrated this week with the RCIA, the readings may be taken from Year A, in which case the music is also taken from Year A.

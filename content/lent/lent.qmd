@@ -1,0 +1,94 @@
+---
+title: LENT
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+mass:
+  abc:
+    kyrie:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+    gloria:
+      list:
+        - name: "*Omitted during Lent*"
+          priority: none
+    holy-holy-holy:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          option: 'A ("*When we eat...*")'
+          year: "A"
+          priority: required
+        - name: "Mass of Charity and Love"
+          book: GIA
+          option: 'B ("*We proclaim...*")'
+          year: "B"
+          priority: required
+        - name: "Mass of Charity and Love"
+          book: GIA
+          option: 'C ("*Save us...*")'
+          year: "C"
+          priority: required
+    amen:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+::: {.red}
+The [Mass of Charity and Love]{.black} by Steven Werner and based on the hymn "[Where Charity and Love Prevail](https://www.youtube.com/watch?v=RbeJrA8Lp3s)," is used during Lent for all years (A, B, C) unless otherwise noted in the Notes for a specific liturgy or occasion:
+:::
+
+::: {.titlered}
+### &nbsp; Year A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['abc'], urls=videos)
+```
+
+(This Mass setting, published by GiA, will need to be purchased for public liturgical use if not contained in the parish hymnal.)
+
+The hymn selections provided herein for the Third, Fourth, and Fifth Sundays of Lent are catered to the regular readings for these weekends. If the Scutinies are celebrated, diﬀerent readings, Responsorial Psalms, and Gospel Acclamations will be used. Some adaptations to the music list may be warranted or prudent in this case. Refer to the section [**Hymn Selection: A Heuristic**](../about-book.qmd#hymn-selection-a-heuristic) for guidance on selecting hymns.
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

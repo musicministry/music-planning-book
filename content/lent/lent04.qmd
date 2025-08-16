@@ -1,0 +1,221 @@
+---
+title: Fourth Sunday of Lent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "I Want to Walk as a Child of the Light"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is my shepherd; there is nothing I shall want."
+          book: RA
+          priority: preferred
+        - name: "Psalm 23: My Shepherd is the Lord"
+          composer: Gelineau
+          book: BB
+          priority: optional
+    offertory:
+      list:
+        - name: "We Are the Light of the World"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "The Lord Is My Light"
+          composer: Walker
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Give Me Ears to Listen"
+          book: BB
+          priority: optional
+        - name: "Open My Eyes"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "City of God"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "I Am the Light of the World"
+          composer: Hayakawa
+  b:
+    processional:
+      list:
+        - name: "Christ, Be Our Light"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Let my tongue be silenced, if I ever forget you."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The Lord Is My Light"
+          composer: Walker
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "When We Eat This Bread"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Where True Love Abides"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "From the Depths We Cry to Thee"
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: "God So Loved the World"
+          composer: "John Stainer"
+  c:
+    processional:
+      list:
+        - name: "Love Divine, All Loves Excelling"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Taste and see the goodness of the Lord."
+          book: RA
+          priority: preferred
+        - name: "Taste and See"
+          composer: Kendzia
+          book: BB
+          priority: optional
+    offertory:
+      list:
+        - name: "Amazing Grace"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Taste and See"
+          composer: Moore
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Arrepiéntete / Repent"
+          book: BB
+          note: English
+          priority: preferred
+    recessional:
+      list:
+        - name: "There's a Wideness in God’s Mercy"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} joy, light, oil, faith  
+[Year B:]{.red} joy, mercy, love, redemption  
+[Year C:]{.red} reconciliation, fulfillment, God’s providential care
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Rejoice, Jerusalem, and all who love her.  
+> Be joyful, all who were in mourning;  
+> exult and be satisfied at her consoling breast.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The Lord anointed my eyes: I went, I washed,  
+> I saw and I believed in God.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Lent.
+* [Years B and C:]{.red} If the Scutinies are celebrated this week with the RCIA, the readings may be taken from Year A, in which case the music is also taken from Year A.

@@ -1,0 +1,210 @@
+---
+title: First Sunday of Lent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Lord, Who Throughout These Forty Days"
+          verses: "1-3, at least"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Be merciful, O Lord, for we have sinned."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Forty Days and Forty Nights"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Shepherd of Souls"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Psalm 91: Be With Me, Lord"
+          book: BB
+          composer: Haugen
+          priority: required
+    recessional:
+      list:
+        - name: "Led By the Spirit"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Out Into the Wilderness"
+  b:
+    processional:
+      list:
+        - name: "Lord, Who Throughout These Forty Days"
+          verses: "1-3, at least"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Your ways, O Lord, are love and truth to those who keep your covenant."
+          book: BB
+          priority: required
+    offertory:
+      list:
+        - name: "Led By the Spirit"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "On Eagle's Wings"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Gracious God"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Beyond the Days"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "This is Our Accepted Time"
+  c:
+    processional:
+      list:
+        - name: "Forty Days and Forty Nights"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Be with me, Lord, when I am in trouble."
+          book: RA
+          priority: preferred
+        - name: "Psalm 91: Be With Me, Lord"
+          composer: Haugen
+          book: BB
+          priority: optional
+    offertory:
+      list:
+        - name: "You Are Near"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "On Eagle's Wings"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Psalm 91: Be With Me, Lord"
+          composer: Haugen
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Blest Be the Lord"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+penance, temptation, history of salvation, sin/grace
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> When he calls on me, I will answer him;  
+> I will deliver him and give him glory,  
+> I will grant him length of days.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> One does not live by bread alone,  
+> but by every word that comes forth from the mouth of God.  
+>  
+>  Or:  
+>  
+> The Lord will conceal you with his pinions,  
+> and under his wings you will trust.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Lent.

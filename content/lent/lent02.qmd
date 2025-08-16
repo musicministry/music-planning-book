@@ -1,0 +1,212 @@
+---
+title: Second Sunday of Lent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "'Tis Good, Lord, To Be Here"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, let your mercy be on us, as we place our trust in you."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Remember Your Love"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Transfigure Us, O Lord"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Behold the Lamb"
+          book: BB
+          composer: Willet
+          priority: required
+    recessional:
+      list:
+        - name: "There's a Wideness in God's Mercy"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "On the Wings of Change"
+  b:
+    processional:
+      list:
+        - name: "Love Divine, All Loves Excelling"
+          book: BB
+          note: "*all verses*"
+          priority: required
+    psalm:
+      list:
+        - name: "I will walk before the Lord, in the land of the living."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "'Tis Good, Lord, To Be Here"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "There is a Longing"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Remember Your Love"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Change Our Hearts"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Be Still, for the Presence of the Lord"
+  c:
+    processional:
+      list:
+        - name: "'Tis Good, Lord, To Be Here"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is my light and my salvation."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The Lord Is My Light"
+          book: BB
+          composer: Walker
+          priority: required
+    communion:
+      list:
+        - name: "Transfigure Us, O Lord"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "There Is a Longing"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Love Divine, All Loves Excelling"
+          book: BB
+          notes: "all verses"
+          priority: required
+    anthems:
+      list:
+        - name: Transfiguration
+          note: "Lenten version"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+prefigured glory, heaven, holiness, hope
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Of you my heart has spoken: Seek his face.  
+> It is your face, O Lord, that I seek;  
+> hide not your face from me.  
+>  
+> Or:  
+>  
+> Remember your compassion, O Lord  
+> and your merciful love, for they are from of old.  
+> Let not our enemies exult over us.  
+> Redeem us, O God of Israel, from all our distress.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> This is my beloved Son, with whom I am well pleased;
+listen to him.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is omitted during Lent.

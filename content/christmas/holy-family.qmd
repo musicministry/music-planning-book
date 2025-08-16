@@ -1,0 +1,193 @@
+---
+title: "Holy Family of Jesus, Mary, and Joseph"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Angels, from the Realms of Glory"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed are those who fear the Lord and walk in his ways."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "While Shepherds Watched Their Flock"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Once in Royal David’s City"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Infant Holy, Infant Lowly"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Angels We Have Heard on High"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "And Love Was Born (Sewell)"
+        - name: "Sing Lullaby"
+  b:
+    processional:
+      list:
+        - name: "Angels, from the Realms of Glory"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord remembers his covenant for ever."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Infant Holy, Infant Lowly"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Once in Royal David’s City"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Luke 2: Song of Simeon"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Hark! The Herald Angels Sing"
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: "Thou Must Leave Thy Lowly Dwelling"
+  c:
+    processional:
+      list:
+        - name: "Angels, from the Realms of Glory"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed are they who dwell in your house, O Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "O Come, Little Children"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Once in Royal David’s City"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Infant Holy, Infant Lowly"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Joy to the World"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Cold Was the Stable"
+        - name: "O How Amiable"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+family life, love, understanding, spiritual growth
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> The shepherds went in haste,  
+> and found Mary and Joseph and the Infant lying in a manger.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Our God has appeared on the earth, and lived among us.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
