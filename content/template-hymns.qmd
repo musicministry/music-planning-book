@@ -15,54 +15,67 @@ hymns:
           tune: 
           verses: 
           composer: 
+          book: 
           priority: required
     psalm:
       list:
-        - name: "Let us go rejoicing to the house of the Lord."
+        - name: 
+          book: RA
           priority: required
     offertory:
       list:
         - name: 
+          book: BB
           priority: preferred
         - name: 
+          book: BB
           priority: optional
     communion:
       list:
         - name: 
+          book: BB
           priority: required
     meditation:
       list:
         - name: 
+          book: BB
           composer: 
           priority: required
     recessional:
       list:
         - name: 
+          book: BB
           priority: required
   b:
     processional:
       list:
         - name: 
+          book: BB
           priority: required
     psalm:
       list:
         - name: 
+          book: RA
           priority: required
     offertory:
       list:
         - name: 
+          book: BB
           priority: required
     communion:
       list:
         - name: 
+          book: BB
           priority: required
     meditation:
       list:
         - name: 
+          book: BB
           priority: required
     recessional:
       list:
         - name: 
+          book: BB
           priority: preferred
     anthems:
       list:
@@ -71,35 +84,44 @@ hymns:
     processional:
       list:
         - name: 
+          book: BB
           priority: required
     psalm:
       list:
         - name: 
+          book: RA
           priority: required
     offertory:
       list:
         - name: 
+          book: BB
           priority: preferred
         - name: 
+          book: BB
           priority: optional
     communion:
       list:
         - name: 
+          book: BB
           composer: 
           tune: 
           verses: 
           priority: optional
         - name: 
+          book: BB
           priority: optional
     meditation:
       list:
         - name: 
+          book: BB
           priority: required
     recessional:
       list:
         - name: 
+          book: BB
           priority: preferred
         - name: 
+          book: BB
           priority: optional
     anthems:
       list:
