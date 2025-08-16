@@ -52,11 +52,18 @@ hymns:
         - name: "Joy to the World"
           book: BB
           priority: required
+  a:
+    anthems:
+      list:
+        - name: For Unto Us
+  b:
+    anthems:
+      list:
+        - name: Birthday of a King
+  c:
     anthems:
       list:
         - name: Christ Lives Among Us
-        - name: Birthday of a King
-        - name: For Unto Us
         - name: Cry Out With Joy and Gladness
 """
 ```

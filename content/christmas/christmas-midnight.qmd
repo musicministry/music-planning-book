@@ -48,12 +48,20 @@ hymns:
         - name: "Hark! The Herald Angels Sing"
           book: BB
           priority: required
+  a:
     anthems:
       list:
         - name: Et in Terra Pax
         - name: For Unto Us
+  b:
+    anthems:
+      list:
         - name: Gloria in Excelsis (Vivaldi)
         - name: Sussex Carol
+  c:
+    anthems:
+      list:
+        - name: Slumber, My Darling
         - name: Welcome the Light
 """
 ```

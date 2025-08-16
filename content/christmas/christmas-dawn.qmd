@@ -49,12 +49,19 @@ hymns:
         - name: "Joy to the World"
           book: BB
           priority: required
+  a:
     anthems:
       list:
         - name: Arise and Shine
         - name: Arise, Arise, and Shine
+  b:
+    anthems:
+      list:
         - name: Lo! He Comes With Clouds Descending
         - name: Personent Hodie
+  c:
+    anthems:
+      list:
         - name: Wake from Your Sleep
         - name: Welcome the Light
 """

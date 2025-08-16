@@ -40,13 +40,21 @@ hymns:
         - name: "Joy to the World"
           book: BB
           priority: required
+  a:
     anthems:
       list:
         - name: Child of Mary Newly Born
+        - name: In the Bleak Midwinter (Darke)
+  b:
+    anthems:
+      list:
         - name: Gesú Bambino (When Blossoms Flowered)
         - name: In the Bleak Midwinter (Holst)
-        - name: In the Bleak Midwinter (Darke)
+  c:
+    anthems:
+      list:
         - name: See Amid the Winter's Snow (HUMILITY)
+        - name: Slumber My Darling
 """
 ```
 
@@ -66,29 +74,30 @@ with open('../../_hymns.yml', 'r') as vf:
     videos = yaml.safe_load(vf)
 ```
 
-:::  {.red}
+::: red
 #### **Themes**
 :::
 
 expectation, fulfillment, hope, joy, salvation history, ancestors
 
-:::  {.red}
+::: red
 #### **Entrance Antiphon**
 :::
 
-> Today you will know that the Lord will come, and he will save us,  
+> Today you will know that the Lord will come, and he will save us,\
 > and in the morning you will see his glory.
 
-:::  {.red}
+::: red
 #### **Communion Antiphon**
 :::
 
-> The glory of the Lord will be revealed,  
+> The glory of the Lord will be revealed,\
 > and all flesh will see the salvation of our God.
 
-::: {.titlered}
-### &nbsp; Years A, B, C
+::: titlered
+###   Years A, B, C
 :::
+
 {{< var text.yearabc >}}
 
 ```{python}
@@ -104,10 +113,10 @@ utils.hymnlist(params['hymns']['abc'], urls=videos)
 utils.anthemlist(hymns=params['hymns'], urls=videos)
 ```
 
-::: {.red}
+::: red
 ### Notes
 :::
 
-* The Christmas Vigil Mass takes place in the early evening on Christmas Eve.
-* The Gospel Acclamation is taken from *Respond & Acclaim* (RA) for the Vigil Mass.
-* "O Holy Night" can be be found in Appendix A.
+-   The Christmas Vigil Mass takes place in the early evening on Christmas Eve.
+-   The Gospel Acclamation is taken from *Respond & Acclaim* (RA) for the Vigil Mass.
+-   "O Holy Night" can be be found in Appendix A.
