@@ -76,7 +76,7 @@ with open('../../_hymns.yml', 'r') as vf:
 ```
 
 ::: {.red}
-The [Missa Emmanuel (Richard Proulx)]{.black} puts the texts of the Mass to the fifteenth-century chant tune “*Bone Jesu dulcis cunctis*,” more commonly known as “*Veni, Veni, Emmanuel*” (“O Come, O Come, Emmanuel.”) The tune’s familiarity makes this Mass setting easy to learn and sing. It is preferred for all Masses during Advent for all years (A, B, C) unless otherwise noted in the **Notes** for a specific liturgy or occasion. Alternatively, the [Mass of Angels and Saints]{.black}, which includes an Advent Penitential Rite, can be used instead, particularly for the [Kyrie]{.black} and [Lamb of God]{.black}:
+The [Missa Emmanuel]{.black} by Richard Proulx puts the texts of the Mass to the fifteenth-century chant tune “*Bone Jesu dulcis cunctis*,” more commonly known as “*Veni, Veni, Emmanuel*” (“O Come, O Come, Emmanuel.”) The tune’s familiarity makes this Mass setting easy to learn and sing. It is preferred for all Masses during Advent for all years (A, B, C) unless otherwise noted in the **Notes** for a specific liturgy or occasion. Alternatively, the [Mass of Angels and Saints]{.black}, which includes an Advent Penitential Rite, can be used instead, particularly for the [Kyrie]{.black} and [Lamb of God]{.black}:
 :::
 
 ::: {.titlered}
