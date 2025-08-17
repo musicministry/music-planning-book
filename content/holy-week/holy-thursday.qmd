@@ -1,0 +1,226 @@
+---
+title: "Holy Thursday"
+subtitle: "Mass of the Lord's Supper"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Gather the People"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Our blessing-cup is a communion with the Blood of Christ."
+          book: RA
+          priority: required
+    washing-of-feet:
+      list:
+        - name: "Ubi Caritas"
+          composer: Hurd
+          book: BB
+          priority: required
+    offertory:
+      list:
+        - name: "Lord, Who at Your First Eucharist"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Take and Eat"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "O Sacrament Most Holy"
+          book: BB
+          priority: required
+    transfer-of-the-blessed-sacrament:
+      list:
+        - name: "Pange, Lingua, Gloriosi / Tantum Ergo"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Ave Verum Corpus"
+          composer: Mozart
+  b:
+    processional:
+      list:
+        - name: "Table of Plenty"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Our blessing-cup is a communion with the Blood of Christ."
+          book: RA
+          priority: required
+    washing-of-feet:
+      list:
+        - name: "Jesu, Jesu"
+          book: BB
+          priority: required
+    offertory:
+      list:
+        - name: "Lord, Who at Your First Eucharist"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Pan de Vida"
+          book: BB
+          note: "English verses"
+          priority: required
+    meditation:
+      list:
+        - name: "Panis Angelicus "
+          tune: "SACRIS SOLEMNIIS"
+          book: BB
+          priority: required
+    transfer-of-the-blessed-sacrament:
+      list:
+        - name: "Pange, Lingua, Gloriosi / Tantum Ergo"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "Come to the Feast"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Our blessing-cup is a communion with the Blood of Christ."
+          book: RA
+          priority: required
+    washing-of-feet:
+      list:
+        - name: "What Wondrous Love"
+          book: BB
+          priority: required
+    offertory:
+      list:
+        - name: "Lord, Who at Your First Eucharist"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "The Supper of the Lord"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Jesus, My Lord, My God, My All"
+          book: BB
+          priority: required
+    transfer-of-the-blessed-sacrament:
+      list:
+        - name: "Pange, Lingua, Gloriosi / Tantum Ergo"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Panis Angelicus"
+          composer: "Franck"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+eucharist, glory, salvation, service, humility, love
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> We should glory in the Cross of our Lord Jesus Christ,  
+> in whom is our salvation, life and resurrection,  
+> through whom we are saved and delivered.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> This is the Body that will be given up for you;  
+> this is the Chalice of the new covenant in my Blood, says the Lord;  
+> do this, whenever you receive it, in memory of me.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is sung. While the hymn is being sung, bells are rung. The
+organist is encouraged to use the Zimbelstern throughout the entire
+piece. Cantors and singers should be prepared to sing strongly and
+joyously. When finished, all bells remain silent until the **Gloria** of the Easter Vigil. Likewise, during this same period, the organ and other
+musical instruments may be used only so as to support singing.
+* During the **Transfer of the Blessed Sacrament** to the Altar of
+Repose, verses 1-4 of “Pange Lingua, Gloriosi” are sung, repeating as
+necessary. Verses 5-6 (“Tantum Ergo”) are sung at the Altar of Repose.

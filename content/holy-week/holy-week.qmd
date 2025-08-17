@@ -1,0 +1,247 @@
+---
+title: "HOLY WEEK"
+subtitle: "Palm Sunday, Holy Thursday, Good Friday, Easter Vigil"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+mass:
+  abc:
+    kyrie:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+    gloria:
+      list:
+        - name: "*Omitted during Lent*"
+          priority: none
+    holy-holy-holy:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          option: 'A ("*When we eat...*")'
+          year: "A"
+          priority: required
+        - name: "Mass of Charity and Love"
+          book: GIA
+          option: 'B ("*We proclaim...*")'
+          year: "B"
+          priority: required
+        - name: "Mass of Charity and Love"
+          book: GIA
+          option: 'C ("*Save us...*")'
+          year: "C"
+          priority: required
+    amen:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Mass of Charity and Love"
+          book: GIA
+          priority: required
+  a:
+    kyrie:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    gloria:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    holy-holy-holy:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          option: 'A ("*When we eat...*")'
+          year: "A"
+          priority: required
+    amen:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+  b:
+    kyrie:
+      list:
+        - name: "Chant Mode III"
+          book: GIA
+          priority: required
+    gloria:
+      list:
+        - name: "Congregational Mass"
+          priority: required
+    holy-holy-holy:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          option: 'B ("*We proclaim...*")'
+          year: "B"
+          priority: required
+    amen:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          priority: required
+  c:
+    kyrie:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    gloria:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    holy-holy-holy:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          option: 'C ("*Save us...*")'
+          year: "C"
+          priority: required
+    amen:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+::: {.red}
+Holy Week and the Holy Triduum are the most solemn celebrations in the
+liturgical year. Because each celebration is unique, extra preparation and
+attention to detail are required by all involved in order to celebrate them
+properly, beautifully, and liturgically.
+
+Important instructions for musicians are included in the **Notes** for each
+liturgy in the pages that follow. The order of the liturgies can be found in the missalette section of *Breaking Bread*. It is imperative that musicians be familiar with the order of events and follow along closely to anticipate what comes next. Consult the Celebrant before each liturgy for clarifications or special instructions.
+:::
+
+### Palm Sunday and Good Friday {.red}
+
+::: {.red}
+On **Palm Sunday** and **Good Friday**, the [Mass of Charity and Love]{.black} by Steven Werner is used for all years (A, B, C):
+:::
+
+::: {.titlered}
+### &nbsp; Year A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['abc'], urls=videos)
+```
+
+::: {.red}
+(This Mass setting, published by GiA, will need to be purchased for public liturgical use if not contained in the parish hymnal.)
+:::
+
+### Holy Thursday and Easter Vigil {.red}
+
+::: {.red}
+The Mass parts, including the [Gloria]{.black}, for **Holy Thursday** and the **Easter Vigil** are taken from the appropriate liturgical year:
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['c'], urls=videos)
+```
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

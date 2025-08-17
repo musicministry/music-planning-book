@@ -1,0 +1,246 @@
+---
+title: Easter Vigil
+subtitle: "Holy Saturday At the Easter Vigil in the Holy Night of Easter"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: 
+          tune: 
+          verses: 
+          composer: 
+          book: 
+          priority: required
+    psalm:
+      list:
+        - name: 
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: 
+          book: BB
+          priority: preferred
+        - name: 
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: 
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: 
+          book: BB
+          composer: 
+          priority: required
+    recessional:
+      list:
+        - name: 
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: 
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: 
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: 
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: 
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: 
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: 
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: 
+  c:
+    processional:
+      list:
+        - name: 
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: 
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: 
+          book: BB
+          priority: preferred
+        - name: 
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: 
+          book: BB
+          composer: 
+          tune: 
+          verses: 
+          priority: optional
+        - name: 
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: 
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: 
+          book: BB
+          priority: preferred
+        - name: 
+          book: BB
+          priority: optional
+    anthems:
+      list:
+        - name: 
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+solemnity, glory, joy, initiation, history of salvation, resurrection, life, hope
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+*No Entrance Antiphon* 
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Christ our Passover has been sacrificed;  
+> therefore let us keep the feast with the unleavened bread of purity and truth. Alleluia.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Easter Vigil** requires extra vigilance and attention to detail by all ministers, including and especially the music ministry. Cantors, singers, and instrumentalists should all follow along with the Order of the
+Liturgy found in the missalette section of Breaking Bread. The Liturgy of
+the Eucharist, starting with the **Oﬀertory hymn**, proceeds as usual.
+* The **Easter Vigil** continues, culminates, and concludes the single liturgy of the Holy Triduum. Thus, it begins in silence. No prelude music is permitted, and no music rehearsals of any kind, including singer
+warm-ups, should take place in the church before the service. The organ
+and other musical instruments should be used only so as to support
+singing until the **Gloria**.
+* The cantor leads the congregation in all chanted responses throughout
+the Liturgy, starting with the **“Thanks be to God”** triplicate as the
+Holy Cross is brought into the church.
+* The cantor may be asked by the presider to chant the **Paschal
+Proclamation** (also known as the *Exsultet*). He/she should be
+extremely comfortable with this important – and lengthy – chant, which
+is to be done *a capella* and in the dark. Be sure to confirm with the
+presider whether to chant the long version (provided in Appendix E: The
+Paschal Proclamation, usually preferred) or the optional shorter version.
+Always omit the section for Deacon/Priest only (see instructions in
+Appendix E: The Paschal Proclamation), regardless of the version used.
+* The presider may opt to shorten the Liturgy of the Word by omitting the
+second, fourth, and sixth sets of readings, psalms, and prayers. Music
+ministers should be sure to consult with the presider well before the Mass
+to know how this will be done.
+* The Celebrant intones the **Gloria** with “*Glory to God in the highest*” or “*Gloria in excelsis Deo.*” The introduction can be started immediately after this and the **Gloria** is sung as usual while bells are rung. The organist is encouraged to use the Zimbelstern throughout the entire piece. Cantors and singers should be prepared to sing strongly and joyously.
+* *If Baptism is not celebrated, the **Litany of the Saints** and the
+**“Water of Life”** acclamations are omitted.
+* The **Regina Cæli** *may* be chanted (with light accompaniment) after
+Communion during the Easter Season if requested by the presider or if
+custom to the parish. It is not prescribed in the Liturgy.
+* If the **dismissal of the people** is chanted by the presider, the cantor
+and/or choir must promptly – without pause or hesitation – lead the
+chanted response, as found in Appendix F: Easter Dismissal.
+* The hymn, “Hail Thee, Festival Day”, could be considered as a **Recessional hymn** if (1) it is available in the hymnal, (2) a strong choir and skilled musicians are performing at the **Easter Vigil**, AND (3) the congregation is not likely to sing at this Liturgy. It is usually unfamiliar to Catholic congregations and is diﬃcult to sing; thus, it needs to be well rehearsed by choir, cantor, and musicians alike in order to be performed accurately and well. Nevertheless, it is a particularly festive hymn that is highly appropriate for this occasion. If used, only the Easter verses (1-2) should be sung this night.
