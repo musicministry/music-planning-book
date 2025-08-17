@@ -230,7 +230,7 @@ span.so {
 ul {
   list-style-type: "\2720";
   padding-right: 2px;
-  text-indent: 0.25em;
+  text-indent: 0.3em;
 }
 li::marker {
   color: #bd3732; /* bullet color */
