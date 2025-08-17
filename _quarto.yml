@@ -55,11 +55,14 @@ book:
         - content/lent/lent03.qmd
         - content/lent/lent04.qmd
         - content/lent/lent05.qmd
-  #   - part: content/holy-week/holy-week.qmd
-  #     chapters:
-  #       - content/holy-week/palm-sun.qmd
-  #       - content/holy-week/holy-thurs.qmd
-  #       - content/holy-week/good-fri.qmd
+    - part: content/holy-week/holy-week.qmd
+      chapters:
+        - text: "Palm Sunday"
+          href: content/holy-week/palm-sunday.qmd
+        - text: "Holy Thursday"
+          href: content/holy-week/holy-thursday.qmd
+        - text: "Good Friday"
+          href: content/holy-week/good-friday.qmd
   #       - content/holy-week/easter-vigil.qmd
   #   - part: easter.qmd
   #     chapters:
