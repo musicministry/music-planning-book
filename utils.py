@@ -21,9 +21,20 @@ def get_url(hymn, urls):
     else:
         return None
 
+def to_small_caps(text):
+    small_caps = {
+        'a': 'ᴀ', 'b': 'ʙ', 'c': 'ᴄ', 'd': 'ᴅ', 'e': 'ᴇ',
+        'f': 'ғ', 'g': 'ɢ', 'h': 'ʜ', 'i': 'ɪ', 'j': 'ᴊ',
+        'k': 'ᴋ', 'l': 'ʟ', 'm': 'ᴍ', 'n': 'ɴ', 'o': 'ᴏ',
+        'p': 'ᴘ', 'q': 'Q', 'r': 'ʀ', 's': 's', 't': 'ᴛ',
+        'u': 'ᴜ', 'v': 'ᴠ', 'w': 'ᴡ', 'x': 'x', 'y': 'ʏ',
+        'z': 'ᴢ'
+    }
+    return ''.join(small_caps.get(char, char) for char in text.lower())
+
 def make_name(hymn, urls, index=None):
     """Append hymn tune, composer, and/or verses to title and add hyperlink to video."""
-    new_text = titlecase(hymn['name']) + f' (<span style="font-variant:small-caps;">{hymn["tune"]}</span>)' if 'tune' in hymn.keys() else titlecase(hymn['name'])
+    new_text = titlecase(hymn['name']) + f' (<span style="font-variant:small-caps;">{hymn["tune"].lower()}</span>)' if 'tune' in hymn.keys() else titlecase(hymn['name'])
     # Add URL, if available
     hymn_url = get_url(hymn=hymn, urls=urls)
     if hymn_url is not None:
