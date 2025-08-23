@@ -47,79 +47,82 @@ book:
   #       - ot07.qmd
   #       - ot08.qmd
   #       - ot09.qmd
-    - part: content/lent/lent.qmd
+    # - part: content/lent/lent.qmd
+    #   chapters:
+    #     - content/lent/ash-wed.qmd
+    #     - content/lent/lent01.qmd
+    #     - content/lent/lent02.qmd
+    #     - content/lent/lent03.qmd
+    #     - content/lent/lent04.qmd
+    #     - content/lent/lent05.qmd
+    # - part: content/holy-week/holy-week.qmd
+    #   chapters:
+    #     - text: "Palm Sunday"
+    #       href: content/holy-week/palm-sunday.qmd
+    #     - text: "Holy Thursday"
+    #       href: content/holy-week/holy-thursday.qmd
+    #     - text: "Good Friday"
+    #       href: content/holy-week/good-friday.qmd
+    #     - content/holy-week/easter-vigil.qmd
+    - part: content/easter/easter.qmd
       chapters:
-        - content/lent/ash-wed.qmd
-        - content/lent/lent01.qmd
-        - content/lent/lent02.qmd
-        - content/lent/lent03.qmd
-        - content/lent/lent04.qmd
-        - content/lent/lent05.qmd
-    - part: content/holy-week/holy-week.qmd
-      chapters:
-        - text: "Palm Sunday"
-          href: content/holy-week/palm-sunday.qmd
-        - text: "Holy Thursday"
-          href: content/holy-week/holy-thursday.qmd
-        - text: "Good Friday"
-          href: content/holy-week/good-friday.qmd
-  #       - content/holy-week/easter-vigil.qmd
-  #   - part: easter.qmd
+        - content/easter/easter01.qmd
+        - content/easter/easter02.qmd
+        - content/easter/easter03.qmd
+        - content/easter/easter04.qmd
+        - content/easter/easter05.qmd
+        - content/easter/easter06.qmd
+        - content/easter/ascension.qmd
+        - content/easter/easter07.qmd
+        - text: "Pentecost Vigil"
+          href: content/easter/pentecost-vigil.qmd
+        - text: "Pentecost Sunday"
+          href: content/easter/pentecost.qmd
+  #   - part: content/ot/ot-summer.qmd
   #     chapters:
-  #       - easter-sun.qmd
-  #       - easter02.qmd
-  #       - easter03.qmd
-  #       - easter04.qmd
-  #       - easter05.qmd
-  #       - easter06.qmd
-  #       - ascension.qmd
-  #       - easter07.qmd
-  #       - pentecost.qmd
-  #   - part: ot-summer.qmd
-  #     chapters:
-  #       - ot10.qmd
-  #       - ot11.qmd
-  #       - ot12.qmd
-  #       - ot13.qmd
-  #       - ot14.qmd
-  #       - ot15.qmd
-  #       - ot16.qmd
-  #       - ot17.qmd
-  #       - ot18.qmd
-  #       - ot19.qmd
-  #       - ot20.qmd
-  #       - ot21.qmd
-  #       - ot22.qmd
-  #       - ot23.qmd
-  #       - ot24.qmd
-  #       - ot25.qmd
-  #       - ot26.qmd
-  #       - ot27.qmd
-  #       - ot28.qmd
-  #       - ot29.qmd
-  #       - ot30.qmd
-  #       - ot31.qmd
-  #       - ot32.qmd
-  #       - ot33.qmd
-  #       - christ-the-king.qmd
-  #       - thanksgiving.qmd
+  #       - content/ot/ot10.qmd
+  #       - content/ot/ot11.qmd
+  #       - content/ot/ot12.qmd
+  #       - content/ot/ot13.qmd
+  #       - content/ot/ot14.qmd
+  #       - content/ot/ot15.qmd
+  #       - content/ot/ot16.qmd
+  #       - content/ot/ot17.qmd
+  #       - content/ot/ot18.qmd
+  #       - content/ot/ot19.qmd
+  #       - content/ot/ot20.qmd
+  #       - content/ot/ot21.qmd
+  #       - content/ot/ot22.qmd
+  #       - content/ot/ot23.qmd
+  #       - content/ot/ot24.qmd
+  #       - content/ot/ot25.qmd
+  #       - content/ot/ot26.qmd
+  #       - content/ot/ot27.qmd
+  #       - content/ot/ot28.qmd
+  #       - content/ot/ot29.qmd
+  #       - content/ot/ot30.qmd
+  #       - content/ot/ot31.qmd
+  #       - content/ot/ot32.qmd
+  #       - content/ot/ot33.qmd
+  #       - content/ot/christ-the-king.qmd
+  #       - content/ot/thanksgiving.qmd
   #   - part: feasts.qmd
   #     chapters:
-  #       - dec08-immaculate-conception.qmd
-  #       - feb02-presentation.qmd
-  #       - mar19-stjoseph.qmd
-  #       - mar25-annunciation.qmd
-  #       - jun23-nativity-john-baptist.qmd
-  #       - jun28-peter-paul.qmd
-  #       - holy-trinity.qmd
-  #       - corpus-christi.qmd
-  #       - sacred-heart.qmd
-  #       - aug06-transfiguration.qmd
-  #       - aug15-assumption.qmd
-  #       - sep14-holy-cross.qmd
-  #       - nov01-all-saints.qmd
-  #       - nov02-all-souls.qmd
-  #       - nov09-john-lateran.qmd
+  #       - content/feasts/dec08-immaculate-conception.qmd
+  #       - content/feasts/feb02-presentation.qmd
+  #       - content/feasts/mar19-stjoseph.qmd
+  #       - content/feasts/mar25-annunciation.qmd
+  #       - content/feasts/jun23-nativity-john-baptist.qmd
+  #       - content/feasts/jun28-peter-paul.qmd
+  #       - content/feasts/holy-trinity.qmd
+  #       - content/feasts/corpus-christi.qmd
+  #       - content/feasts/sacred-heart.qmd
+  #       - content/feasts/aug06-transfiguration.qmd
+  #       - content/feasts/aug15-assumption.qmd
+  #       - content/feasts/sep14-holy-cross.qmd
+  #       - content/feasts/nov01-all-saints.qmd
+  #       - content/feasts/nov02-all-souls.qmd
+  #       - content/feasts/nov09-john-lateran.qmd
     - content/references.qmd
   # appendices:
   #   - A-o-holy-night.qmd
