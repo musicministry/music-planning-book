@@ -26,10 +26,7 @@ hymns:
       list:
         - name: 
           book: BB
-          priority: preferred
-        - name: 
-          book: BB
-          priority: optional
+          priority: required
     communion:
       list:
         - name: 
@@ -95,10 +92,7 @@ hymns:
       list:
         - name: 
           book: BB
-          priority: preferred
-        - name: 
-          book: BB
-          priority: optional
+          priority: required
     communion:
       list:
         - name: 
@@ -106,10 +100,7 @@ hymns:
           composer: 
           tune: 
           verses: 
-          priority: optional
-        - name: 
-          book: BB
-          priority: optional
+          priority: required
     meditation:
       list:
         - name: 
@@ -119,10 +110,7 @@ hymns:
       list:
         - name: 
           book: BB
-          priority: preferred
-        - name: 
-          book: BB
-          priority: optional
+          priority: required
     anthems:
       list:
         - name: 
