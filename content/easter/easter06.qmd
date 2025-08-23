@@ -1,0 +1,199 @@
+---
+title: Sixth Sunday of Easter
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Jesus Christ is Risen Today"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Let all the earth cry out to God with joy."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "God Is Love"
+          book: BB
+          priority: preferred
+        - name: "Now the Green Blade Rises"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "Send Us Your Spirit, O Lord"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Isaiah 49"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "One Spirit, One Church"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Christ, the Lord, Is Risen Today"
+          tune: "LLANFAIR"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord has revealed to the nations his saving power."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Christians, Let Us Love One Another"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Come Down, O Love Divine"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "On This Day, O Beautiful Mother"
+          book: BB
+          priority: optional
+        - name: "God So Loved the World"
+          composer: "John Stainer"
+          priority: optional
+    recessional:
+      list:
+        - name: "One Spirit, One Church"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "Alleluia No. 1"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "O God, let all the nations praise you."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Come, O Holy Spirit"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Love Has Come"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Peace"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "One Spirit, One Church"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+initiation, Holy Spirit, truth, community, love
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Proclaim a joyful sound and let it be heard;  
+> proclaim to the ends of the earth:  
+> The Lord has freed his people, alleluia.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> If you love me, keep my commandments, says the Lord,  
+> and I will ask the Father and he will send you another Paraclete,  
+> to abide with you for ever, alleluia.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* If Mothers' Day falls on this week, “[On This Day, O Beautiful Mother](https://www.youtube.com/watch?v=Sn5sz5D67BY)” (BB) may be sung as a Meditation hymn.

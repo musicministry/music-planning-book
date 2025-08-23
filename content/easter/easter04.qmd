@@ -1,0 +1,202 @@
+---
+title: Fourth Sunday of Easter
+subtitle: Good Shepherd Sunday
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Alleluia! Alleluia!"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord is my shepherd; there is nothing I shall want."
+          book: RA
+          priority: preferred
+        - name: "Psalm 23: My Shepherd is the Lord"
+          book: BB
+          priority: optional
+    offertory:
+      list:
+        - name: "The King of Love My Shepherd Is"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Keep In Mind"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Shepherd Me, O God"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "The Strife is O'er"
+          book: BB
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: "Sing with All the Saints in Glory"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The stone rejected by the builders has become the cornerstone."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The King of Love My Shepherd Is"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Shepherd of Souls"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Because the Lord is My Shepherd"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "The Church's One Foundation"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "At the Lamb's High Feast"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "We are his people, the sheep of his flock."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The King of Love My Shepherd Is"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Christ, the Lord, Is Risen Today"
+          tune: "VICTIMAE PASCHALI"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Christ the Good Shepherd"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "Let Heaven Rejoice"
+          book: BB
+          priority: required
+  abc:
+    anthems:
+      list:
+        - name: "He Shall Feed His Flock"
+          note: "Handel's Messiah"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+Good Shepherd, trust, safety, suﬀering, discernment
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> The merciful love of the Lord fills the earth;  
+> by the word of the Lord the heavens were made, alleluia.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The Good Shepherd has risen,  
+> who laid down his life for his sheep  
+> and willingly died for his flock, alleluia.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The Fourth Sunday of Easter is also **Good Shepherd Sunday**.
+* If Mothers' Day falls on this week, “[On This Day, O Beautiful Mother](https://www.youtube.com/watch?v=Sn5sz5D67BY)” (BB) may be sung as a Meditation hymn.

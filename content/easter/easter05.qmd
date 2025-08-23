@@ -1,0 +1,205 @@
+---
+title: Fifth Sunday of Easter
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Sing a New Song"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, let your mercy be on us, as we place our trust in you."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Song of Mary"
+          book: BB
+          note: "all verses"
+          priority: preferred
+    communion:
+      list:
+        - name: "I Received the Living God"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "O How Lovely Is Your Dwelling Place"
+          book: BB
+          composer: DeBruyn
+          priority: required
+    recessional:
+      list:
+        - name: "The Church's One Foundation"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Where True Love Abides"
+  b:
+    processional:
+      list:
+        - name: "Sing a New Song"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I will praise you, Lord, in the assembly of the people."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Festival Canticle (This is the Feast)"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Abide With Me"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Song of Mary"
+          book: BB
+          verses: "4-5"
+          priority: required
+    recessional:
+      list:
+        - name: "Join in the Dance"
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: "Good Christians All Rejoice and Sing"
+  c:
+    processional:
+      list:
+        - name: "Sing a New Song"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I will praise your name for ever, my king and my God."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "I Know That My Redeemer Lives"
+          tune: "DUKE STREET"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "When We Eat This Bread"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Christians, Let Us Love One Another"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "The Day of Resurrection"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[**Year A:**]{.red} ministry, service, diaconate, chosen people, faith in action  
+[**Year B:**]{.red} ministry, service, diaconate, chosen people, faith in action   
+[**Year C:**]{.red} love, remain in Christ, Church, discipleship
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> O sing a new song to the Lord.  
+> for he has worked wonders;  
+> in the sight of the nations  
+> he has shown his deliverance, alleluia.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Father, I wish that where I am,  
+> those you gave me may also be with me,  
+> that they may see the glory that you gave me, alleluia.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* If Mothers' Day falls on this week, “[On This Day, O Beautiful Mother](https://www.youtube.com/watch?v=Sn5sz5D67BY)” (BB) may be sung as a Meditation hymn.

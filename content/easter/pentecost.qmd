@@ -1,0 +1,242 @@
+---
+title: Pentecost Sunday
+subtitle: "Mass During the Day"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Come, Holy Ghost"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, send out your Spirit, and renew the face of the earth."
+          book: RA
+          priority: required
+    sequence:
+      list:
+        - name: "Come, O Holy Spirit"
+          note: "Pentecost Sequence"
+          tune: "Ode to Joy"
+          book: BB
+          priority: optional
+        - name: "Sequence for Pentecost Sunday (chant)"
+          note: "Sunday only"
+          book: Appendix G
+          priority: optional
+    offertory:
+      list:
+        - name: "Creator Spirit, By Whose Aid"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "We Are Many Parts"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Peace"
+          book: BB
+          priority: optional
+        - name: "One Bread, One Body"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "The Spirit Sends Us Forth"
+          note: "all verses"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Come, Holy Ghost"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, send out your Spirit, and renew the face of the earth."
+          book: RA
+          priority: required
+    sequence:
+      list:
+        - name: "Come, O Holy Spirit"
+          note: "Pentecost Sequence"
+          tune: "Ode to Joy"
+          book: BB
+          priority: optional
+        - name: "Sequence for Pentecost Sunday (chant)"
+          note: "Sunday only"
+          book: Appendix G
+          priority: optional
+    offertory:
+      list:
+        - name: "Creator Spirit, By Whose Aid"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "God’s Holy Gifts"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "On This Day, the First of Days"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lord, You Give the Great Commission"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "Come, Holy Ghost"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, send out your Spirit, and renew the face of the earth."
+          book: RA
+          priority: required
+    sequence:
+      list:
+        - name: "Come, O Holy Spirit"
+          note: "Pentecost Sequence"
+          tune: "Ode to Joy"
+          book: BB
+          priority: optional
+        - name: "Sequence for Pentecost Sunday (chant)"
+          note: "Sunday only"
+          book: Appendix G
+          priority: optional
+    offertory:
+      list:
+        - name: "Creator Spirit, By Whose Aid"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Spirit and Grace"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Abba! Father"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Tell the Good News"
+          note: "all verses"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+Holy Spirit, language, ministry, Church, peace
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> The Spirit of the Lord has filled the whole world  
+> and that which contains all things  
+> understands what is said, alleluia.  
+>  
+> [Or:]{.red}  
+>  
+> The love of God has been poured into our hearts  
+> through the Spirit of God dwelling within us, alleluia.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> They were all filled with the Holy Spirit  
+> and spoke of the marvels of God, alleluia.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* If the [Extended Form of the Vigil Mass](pentecost-vigil.qmd) is celebrated, musicians must follow the missalette section of *Breaking Bread* and be prepared with appropriate Responsorial Psalms. The same hymns as above may be used throughout the liturgy.
+* The **Sequence** is sung by the cantor only (*i.e.*, no choir) immediately after the Second Reading on Sunday morning only, *not* at the Saturday Vigil Mass. Either the hymn “[Come, O Holy Spirit](https://www.youtube.com/watch?v=n210fEwUM48)” (BB) or the chant version (Appendix G: Sequence for Pentecost (Years ABC)) may be used. If the hymn used, the entire hymn is to be sung. Accompaniment should be soft and reverent, like Meditation hymns.
+* If available, the Festival Alleluia (GIA), with the **Pentecost**
+verse found in Appendix B: Festival Alleluia, is sung for the **Gospel
+Acclamation** immediately after the Sequence.
+* If the **dismissal of the people** is chanted by the presider, the cantor
+must promptly-–-without pause or hesitation---lead the chanted response
+found in Appendix F: Easter Dismissal.

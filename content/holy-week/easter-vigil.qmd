@@ -9,124 +9,106 @@ subtitle: "Holy Saturday At the Easter Vigil in the Holy Night of Easter"
 
 frontmatter = """
 hymns:
-  a:
-    processional:
+  abc:
+    psalm-after-first-reading:
       list:
-        - name: 
-          tune: 
-          verses: 
-          composer: 
-          book: 
-          priority: required
-    psalm:
-      list:
-        - name: 
+        - name: "Lord, send out your Spirit, and renew the face of the earth."
           book: RA
           priority: required
-    offertory:
+    psalm-after-second-reading:
       list:
-        - name: 
+        - name: "You are my inheritance, O Lord."
+          book: RA
+          priority: required
+    psalm-after-third-reading:
+      list:
+        - name: "Let us sing to the Lord; he has covered himself in glory."
+          book: RA
+          priority: required
+    psalm-after-fourth-reading:
+      list:
+        - name: "I will praise you, Lord, for you have rescued me."
+          book: RA
+          priority: required
+    psalm-after-fifth-reading:
+      list:
+        - name: "You will draw water joyfully from the springs of salvation."
+          book: RA
+          priority: required
+    psalm-after-sixth-reading:
+      list:
+        - name: "Lord, you have the words of everlasting life."
+          book: RA
+          priority: required
+    psalm-after-seventh-reading:
+      list:
+        - name: "Like a deer that longs for running streams, my soul longs for you, my God."
+          book: RA
+          note: "when Baptism is celebrated"
+          priority: required
+        - name: "Create a clean heart in me, O God."
+          book: RA
+          note: "when Baptism is *not* celebrated"
+          priority: required
+    psalm-after-epistle:
+      list:
+        - name: "Alleluia, alleluia, alleluia."
+          book: RA
+          priority: required
+    litany-of-the-saints:
+      list:
+        - name: "Litany of the Saints"
+          book: BB
+          composer: Becker
+          note: "[preview lyrics](https://dh8zy5a1i9xe5.cloudfront.net/shared/pdf/preview/30117884.pdf); omitted if no Baptisms"
+          priority: required
+    after-each-baptism:
+      list:
+        - name: "Water of Life"
+          book: BB
+          note: "refrain only; omitted if no Baptisms"
+          priority: required
+    sprinkling:
+      list:
+        - name: "Baptized in Water"
           book: BB
           priority: preferred
-        - name: 
+        - name: "River of Glory"
           book: BB
           priority: optional
+    offertory:
+      list:
+        - name: "Come, Ye Faithful, Raise the Strain"
+          book: BB
+          priority: required
     communion:
       list:
-        - name: 
+        - name: "Christ, Be Our Light"
           book: BB
+          note: "Easter Vigil text"
           priority: required
     meditation:
       list:
-        - name: 
+        - name: "Out of the Darkness"
           book: BB
-          composer: 
-          priority: required
+          priority: optional
+        - name: "Thine Be the Glory"
+          priority: optional
+    marian-antiphon:
+      list:
+        - name: "Regina Cæli"
+          book: BB
+          note: "if requested; not part of liturgy"
+          priority: optional
     recessional:
       list:
-        - name: 
-          book: BB
-          priority: required
-  b:
-    processional:
-      list:
-        - name: 
-          book: BB
-          priority: required
-    psalm:
-      list:
-        - name: 
-          book: RA
-          priority: required
-    offertory:
-      list:
-        - name: 
-          book: BB
-          priority: required
-    communion:
-      list:
-        - name: 
-          book: BB
-          priority: required
-    meditation:
-      list:
-        - name: 
-          book: BB
-          priority: required
-    recessional:
-      list:
-        - name: 
-          book: BB
-          priority: preferred
-    anthems:
-      list:
-        - name: 
-  c:
-    processional:
-      list:
-        - name: 
-          book: BB
-          priority: required
-    psalm:
-      list:
-        - name: 
-          book: RA
-          priority: required
-    offertory:
-      list:
-        - name: 
-          book: BB
-          priority: preferred
-        - name: 
+        - name: "Jesus Christ is Risen Today"
           book: BB
           priority: optional
-    communion:
-      list:
-        - name: 
+        - name: "Hail Thee, Festival Day"
           book: BB
-          composer: 
-          tune: 
-          verses: 
+          verses: "1-2"
           priority: optional
-        - name: 
-          book: BB
-          priority: optional
-    meditation:
-      list:
-        - name: 
-          book: BB
-          priority: required
-    recessional:
-      list:
-        - name: 
-          book: BB
-          priority: preferred
-        - name: 
-          book: BB
-          priority: optional
-    anthems:
-      list:
-        - name: 
 """
 ```
 
@@ -166,39 +148,15 @@ solemnity, glory, joy, initiation, history of salvation, resurrection, life, hop
 > therefore let us keep the feast with the unleavened bread of purity and truth. Alleluia.
 
 ::: {.titlered}
-### &nbsp; Year A
+### &nbsp; Year ABC
 :::
-{{< var text.yeara >}}
+{{< var text.yearabc >}}
 
 ```{python}
-#| title: Year A
+#| title: Year ABC
 #| echo: false
 #| output: asis
-utils.hymnlist(params['hymns']['a'], urls=videos)
-```
-
-::: {.titlered}
-### &nbsp; Year B
-:::
-{{< var text.yearb >}}
-
-```{python}
-#| title: Year B
-#| echo: false
-#| output: asis
-utils.hymnlist(params['hymns']['b'], urls=videos)
-```
-
-::: {.titlered}
-### &nbsp; Year C
-:::
-{{< var text.yearc >}}
-
-```{python}
-#| title: Year C
-#| echo: false
-#| output: asis
-utils.hymnlist(params['hymns']['c'], urls=videos)
+utils.hymnlist(params['hymns']['abc'], urls=videos)
 ```
 
 
@@ -235,7 +193,7 @@ second, fourth, and sixth sets of readings, psalms, and prayers. Music
 ministers should be sure to consult with the presider well before the Mass
 to know how this will be done.
 * The Celebrant intones the **Gloria** with “*Glory to God in the highest*” or “*Gloria in excelsis Deo.*” The introduction can be started immediately after this and the **Gloria** is sung as usual while bells are rung. The organist is encouraged to use the Zimbelstern throughout the entire piece. Cantors and singers should be prepared to sing strongly and joyously.
-* *If Baptism is not celebrated, the **Litany of the Saints** and the
+* If Baptism is not celebrated, the **Litany of the Saints** and the
 **“Water of Life”** acclamations are omitted.
 * The **Regina Cæli** *may* be chanted (with light accompaniment) after
 Communion during the Easter Season if requested by the presider or if
@@ -243,4 +201,4 @@ custom to the parish. It is not prescribed in the Liturgy.
 * If the **dismissal of the people** is chanted by the presider, the cantor
 and/or choir must promptly – without pause or hesitation – lead the
 chanted response, as found in Appendix F: Easter Dismissal.
-* The hymn, “Hail Thee, Festival Day”, could be considered as a **Recessional hymn** if (1) it is available in the hymnal, (2) a strong choir and skilled musicians are performing at the **Easter Vigil**, AND (3) the congregation is not likely to sing at this Liturgy. It is usually unfamiliar to Catholic congregations and is diﬃcult to sing; thus, it needs to be well rehearsed by choir, cantor, and musicians alike in order to be performed accurately and well. Nevertheless, it is a particularly festive hymn that is highly appropriate for this occasion. If used, only the Easter verses (1-2) should be sung this night.
+* The hymn, “[Hail Thee, Festival Day](https://www.youtube.com/watch?v=cQvb8SN6RlU)”, could be considered as a **Recessional hymn** if (1) it is available in the hymnal, (2) a strong choir and skilled musicians are performing at the **Easter Vigil**, AND (3) the congregation is not likely to sing at this Liturgy. It is usually unfamiliar to Catholic congregations and is diﬃcult to sing; thus, it needs to be well rehearsed by choir, cantor, and musicians alike in order to be performed accurately and well. Nevertheless, it is a particularly festive hymn that is highly appropriate for this occasion. If used, only the Easter verses (1-2) should be sung this night.

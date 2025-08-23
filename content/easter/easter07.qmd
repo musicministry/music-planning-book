@@ -1,0 +1,194 @@
+---
+title: Seventh Sunday of Easter
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "The Strife is O'er"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "I believe that I shall see the good things of the Lord in the land of the living."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Alleluia! Sing to Jesus"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "We Remember"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Be Joyful, Mary"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Come, O Holy Spirit"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "The Strife is O'er"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord has set his throne in heaven."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "O Bless the Lord, My Soul"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "We Remember"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Where True Love Abides"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Come, O Holy Spirit"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "The Strife is O'er"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord is king, the most high over all the earth."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Alleluia! Sing to Jesus"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "We Remember"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Abba! Father"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Come, O Holy Spirit"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[**Year A:**]{.red} Christ as mediator, coming of Holy Spirit, mission, prayer  
+[**Year B:**]{.red} Christ as mediator, coming of Holy Spirit, mission, prayer  
+[**Year C:**]{.red} coming of Holy Spirit, mission, prayer, witness, unity
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> O Lord, hear my voice, for I have called to you;  
+> of you my heart has spoken: Seek his face;  
+> hide not your face from me, alleluia.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Behold, I am with you always,  
+> even to the end of the age, alleluia.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* In many dioceses, the Solemnity of the Ascension is transferred to---and
+replaces-–-the Seventh Sunday of Easter. In this scenario, the Solemnity of the Ascension takes priority and the hymns for the Solemnity are used. The Seventh Sunday of Easter is then skipped; the following weekend is Pentecost Sunday.
