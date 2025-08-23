@@ -230,6 +230,11 @@ utils.masssetting(params['mass']['a'], urls=videos)
 utils.masssetting(params['mass']['b'], urls=videos)
 ```
 
+::: {.red}
+The Kyrie, Chant Mode III, when preceding the Congregational Mass Gloria in
+B♭, should be played in the key of F.
+:::
+
 ::: {.titlered}
 ### &nbsp; Year C
 :::
