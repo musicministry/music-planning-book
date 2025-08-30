@@ -64,20 +64,20 @@ book:
     #     - text: "Good Friday"
     #       href: content/holy-week/good-friday.qmd
     #     - content/holy-week/easter-vigil.qmd
-    - part: content/easter/easter.qmd
-      chapters:
-        - content/easter/easter01.qmd
-        - content/easter/easter02.qmd
-        - content/easter/easter03.qmd
-        - content/easter/easter04.qmd
-        - content/easter/easter05.qmd
-        - content/easter/easter06.qmd
-        - content/easter/ascension.qmd
-        - content/easter/easter07.qmd
-        - text: "Pentecost Vigil"
-          href: content/easter/pentecost-vigil.qmd
-        - text: "Pentecost Sunday"
-          href: content/easter/pentecost.qmd
+    # - part: content/easter/easter.qmd
+    #   chapters:
+    #     - content/easter/easter01.qmd
+    #     - content/easter/easter02.qmd
+    #     - content/easter/easter03.qmd
+    #     - content/easter/easter04.qmd
+    #     - content/easter/easter05.qmd
+    #     - content/easter/easter06.qmd
+    #     - content/easter/ascension.qmd
+    #     - content/easter/easter07.qmd
+    #     - text: "Pentecost Vigil"
+    #       href: content/easter/pentecost-vigil.qmd
+    #     - text: "Pentecost Sunday"
+    #       href: content/easter/pentecost.qmd
   #   - part: content/ot/ot-summer.qmd
   #     chapters:
   #       - content/ot/ot10.qmd
@@ -106,23 +106,44 @@ book:
   #       - content/ot/ot33.qmd
   #       - content/ot/christ-the-king.qmd
   #       - content/ot/thanksgiving.qmd
-  #   - part: feasts.qmd
-  #     chapters:
-  #       - content/feasts/dec08-immaculate-conception.qmd
-  #       - content/feasts/feb02-presentation.qmd
-  #       - content/feasts/mar19-stjoseph.qmd
-  #       - content/feasts/mar25-annunciation.qmd
-  #       - content/feasts/jun23-nativity-john-baptist.qmd
-  #       - content/feasts/jun28-peter-paul.qmd
-  #       - content/feasts/holy-trinity.qmd
-  #       - content/feasts/corpus-christi.qmd
-  #       - content/feasts/sacred-heart.qmd
-  #       - content/feasts/aug06-transfiguration.qmd
-  #       - content/feasts/aug15-assumption.qmd
-  #       - content/feasts/sep14-holy-cross.qmd
-  #       - content/feasts/nov01-all-saints.qmd
-  #       - content/feasts/nov02-all-souls.qmd
-  #       - content/feasts/nov09-john-lateran.qmd
+    - part: content/feasts/feasts.qmd
+      chapters:
+        - text: "December 8: Immaculate Conception"
+          href: content/feasts/dec08-immaculate-conception.qmd
+        - text: "February 2: Presentation of the Lord"
+          href: content/feasts/feb02-presentation.qmd
+        - text: "March 19: St. Joseph"
+          href: content/feasts/mar19-stjoseph.qmd
+        - text: "March 25: Annunciation"
+          href: content/feasts/mar25-annunciation.qmd
+        - text: "June 23: Nativity John Baptist (Vigil)"
+          href: content/feasts/jun23-nativity-john-baptist-vigil.qmd
+        - text: "June 24: Nativity John Baptist"
+          href: content/feasts/jun24-nativity-john-baptist.qmd
+        - text: "June 27: Ss. Peter and Paul (Vigil)"
+          href: content/feasts/jun27-peter-paul-vigil.qmd
+        - text: "June 28: Ss. Peter and Paul"
+          href: content/feasts/jun28-peter-paul.qmd
+        - text: "Holy Trinity"
+          href: content/feasts/holy-trinity.qmd
+        - text: "Corpus Christi"
+          href: content/feasts/corpus-christi.qmd
+        - text: "Sacred Heart"
+          href: content/feasts/sacred-heart.qmd
+        - text: "August 6: Transfiguration"
+          href: content/feasts/aug06-transfiguration.qmd
+        - text: "August 14: Assumption of Mary (Vigil)"
+          href: content/feasts/aug14-assumption-vigil.qmd
+        - text: "August 15: Assumption of Mary"
+          href: content/feasts/aug15-assumption.qmd
+        - text: "September 14: Holy Cross"
+          href: content/feasts/sep14-holy-cross.qmd
+        - text: "November 1: All Saints"
+          href: content/feasts/nov01-all-saints.qmd
+        - text: "November 2: All Souls"
+          href: content/feasts/nov02-all-souls.qmd
+        - text: "November 9: John Lateran Basilica"
+          href: content/feasts/nov09-john-lateran.qmd
     - content/references.qmd
   # appendices:
   #   - A-o-holy-night.qmd
