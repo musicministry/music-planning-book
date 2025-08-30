@@ -1,0 +1,111 @@
+---
+title: "Solemnity of the Assumption of the Blessed Virgin Mary: Vigil"
+subtitle: August 14
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "Immaculate Mary"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, go up to the place of your rest, you and the ark of your holiness."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Luke 1: My Soul Rejoices"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Mary's Song"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "O Sanctissima"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Sing of Mary"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Holy Is His Name"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+preparation, Mary's honor
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Glorious things are spoken of you, O Mary,  
+> Who today were exalted above the choirs of Angels  
+> into eternal triumph with Christ.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Blessed is the womb of the Virgin Mary,  
+> which bore the Son of the eternal Father.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The music for the Vigil Mass is the same as for the [Mass During the Day](aug15-assumption.qmd), but the antiphons, readings, and Responsorial Psalm are diﬀerent.
+* The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Ordinary Time
+preamble](../ordinary-time/ordinary-time.qmd).

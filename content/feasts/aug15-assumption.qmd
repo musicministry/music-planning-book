@@ -1,0 +1,118 @@
+---
+title: "Solemnity of the Assumption of the Blessed Virgin Mary: Mass During the Day"
+subtitle: August 15
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "Immaculate Mary"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The queen stands at your right hand, arrayed in gold."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Luke 1: My Soul Rejoices"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Mary's Song"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "O Sanctissima"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Sing of Mary"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Holy Is His Name"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+Mary's dignity, heavenly life, hope
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> A great sign appeared in heaven:  
+> a woman clothed with the sun, and the moon beneath her feet,  
+> and on her head a crown of twelve stars.  
+>  
+> [Or:]{.red}  
+>  
+> Let us all rejoice in the Lord,  
+> as we celebrate the feast day in honor of the Virgin Mary,  
+> at whose Assumption the Angels rejoice  
+> and praise the Son of God.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> All generations will call me blessed,  
+> for he who is mighty has done great things for me.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The music for the Mass During the Day is the same as for the [Vigil Mass](aug14-assumption-vigil.qmd), but the antiphons, readings, and Responsorial Psalm are diﬀerent.
+* The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Ordinary Time
+preamble](../ordinary-time/ordinary-time.qmd).

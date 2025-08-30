@@ -1,0 +1,108 @@
+---
+title: Feast of the Exaltation of the Holy Cross
+subtitle: September 14
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "Take Up Your Cross"
+          tune: "erhalt uns, herr"
+          book: BB
+          priority: preferred
+        - name: "Crown Him with Many Crowns"
+          book: BB
+          priority: optional
+    psalm:
+      list:
+        - name: "Do not forget the works of the Lord!"
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "At the Name of Jesus"
+          tune: "king's weston"
+          book: BB
+          priority: preferred
+        - name: "Only This I Want"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "One Love Released"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "What Wondrous Love"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lift High the Cross"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+cross, Christ's mission, dignity of Christ, God's love
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> We should glory in the Cross of our Lord Jesus Christ,  
+> in whom is our salvation, life and resurrection,  
+> through whom we are saved and delivered.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> When I am lifted up from the earth,  
+> I will draw everyone to myself, says the Lord.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

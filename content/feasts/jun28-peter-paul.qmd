@@ -1,0 +1,121 @@
+---
+title: "Solemnity of Saints Peter and Paul, Apostles: Mass During the Day"
+subtitle: June 28
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "By All Your Saints Still Striving"
+          verses: "1, 8*, and 3"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The angel of the Lord will rescue those who fear him."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The Summons"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Only This I Want"
+          book: BB
+          priority: optional
+        - name: "Taste and See"
+          composer: Moore
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: "Simon, Son of John"
+          priority: preferred
+        - name: "Age to Age"
+          book: BB
+          priority: optional
+        - name: "Cry of the Poor"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "Faith of Our Fathers"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+Peter, Paul, faith, evangelization, Church
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> These are the ones who, living in the flesh,  
+> planted the Church with their blood;  
+> they drank the chalice of the Lord  
+> and became the friends of God.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Peter said to Jesus: You are the Christ, the Son of the living God.  
+> And Jesus replied: You are Peter,  
+> and upon this rock I will build my Church.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* *The first (generic) verse should be sung followed by the special verse for this solemnity.
+* The music for the Mass During the Day is the same as for the [Vigil Mass](jun27-peter-paul-vigil.qmd), but the antiphons, readings, and Responsorial Psalm are diﬀerent.
+* The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Ordinary Time
+preamble](../ordinary-time/ordinary-time.qmd).

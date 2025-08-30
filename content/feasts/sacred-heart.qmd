@@ -1,0 +1,209 @@
+---
+title: Solemnity of the Sacred Heart of Jesus
+subtitle: "Nineteenth day after Pentecost (Friday)"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "O Bless the Lord, My Soul"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord’s kindness is everlasting to those who fear him."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Come to Me"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "What Wondrous Love"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Abide With Me"
+          book: BB
+          priority: preferred
+        - name: "How Great Thou Art"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "We Shall Rise Again"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Love Divine, All Loves Excelling"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "You will draw water joyfully from the springs of salvation."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "I Heard the Voice of Jesus Say"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Come Down, O Love Divine"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "What Feast of Love"
+          book: BB
+          priority: optional
+        - name: "Dwelling Place"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "God Is Love"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "Love Divine, All Loves Excelling"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is my shepherd; there is nothing I shall want."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The King of Love My Shepherd Is"
+          book: BB
+          priority: optional
+        - name: "Like a Shepherd"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "I Have Loved You"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Ubi Caritas"
+          composer: Hurd
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "There's a Wideness in God's Mercy"
+          book: BB
+          priority: required
+  abc:
+    anthems:
+      list:
+        - name: "Heart of Christ"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+love, providence, mercy
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> The designs of his heart are from age to age,  
+> to rescue their souls from death,  
+> and to keep them alive in famine.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Thus says the Lord:  
+> Let whoever is thirsty come to me and drink.  
+> Streams of living water will flow  
+> from within the one who believes in me.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Sacred Heart of Jesus** is celebrated on the nineteenth day after
+Pentecost, on a Friday. It may, at the discretion of a diocese or local pastor, be transferred or celebrated on the weekend immediately following, such as for parishes named after or devoted to the Sacred Heart.

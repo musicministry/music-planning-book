@@ -1,0 +1,116 @@
+---
+title: Feast of the Dedication of Saint John Lateran Basilica
+subtitle: November 9
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "The Church's One Foundation"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The waters of the river gladden the city of God, the holy dwelling of the Most High."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Church of God, Elect and Glorious"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Adoro Te Devote"
+          book: BB
+          priority: optional
+        - name: "Jesu, Joy of Our Desiring"
+          book: BB
+          priority: optional
+        - name: "When We Eat this Bread"
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: "O How Lovely Is Your Dwelling Place"
+          book: BB
+          composer: DeBruyn
+          priority: preferred
+        - name: "Father, We Thank You, Who Have Planted"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "One Spirit, One Church"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+Church, our ties to Rome, glory, holiness, joy, dwelling-place of God, people of God
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> I saw the holy city, a new Jerusalem,  
+> coming down out of heaven from God,  
+> prepared like bride adorned for her husband.  
+>  
+> [Or:]{.red}  
+> 
+> Behold God's dwelling with the human race.  
+> He will dwell with them and they will be his people,  
+> and God himself with them will be their God.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Be built up like living stones,  
+> into a spiritual house, a holy priesthood.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

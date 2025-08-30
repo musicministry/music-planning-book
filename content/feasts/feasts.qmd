@@ -1,0 +1,17 @@
+---
+title: SOLEMNITIES AND FEASTS
+---
+
+::: {.red}
+This section contains special feasts and solemnities throughout the year. Some are celebrated on specific dates, while others “float” within the liturgical calendar from year to year. See the Notes for each occasion for more information.  
+
+If any of these feasts or solemnities falls on a Sunday, the music selections for the feast or solemnity should be used.  
+
+The Mass parts are always taken from the Liturgical season in which the occasion falls, unless otherwise noted.  
+
+The prudent musician is encouraged to consult with the presider before the start of any of these celebrations for any special instructions or information, such as the use of incense within the liturgy.
+:::
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

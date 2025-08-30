@@ -1,0 +1,199 @@
+---
+title: Solemnity of the Most Holy Trinity
+subtitle: First Sunday after Pentecost
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Holy, Holy, Holy"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Glory and praise for ever!"
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Holy God, We Praise Thy Name"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "What Wondrous Love"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "On This Day, the First of Days"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "O God, Almighty Father"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "God So Loved the World"
+          composer: John Stainer
+  b:
+    processional:
+      list:
+        - name: "Holy, Holy, Holy"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed the people the Lord has chosen to be his own."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "All Hail, Adored Trinity"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Lord, Who at Thy First Eucharist"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Abba! Father"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Go Make of All Disciples"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "Holy, Holy, Holy"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "O Lord, our God, how wonderful your name in all the earth!"
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "O God, Almighty Father"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "All Hail, Adored Trinity"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Father, We Praise You"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "God, We Praise You"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+mystery, salvation, love of God
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Blest be God the Father;  
+> and the Only Begotten Son of God,  
+> and also the Holy Spirit,  
+> for he has shown us his merciful love.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Since you are children of God,  
+> God has sent into your hearts the Spirit of his Son,  
+> the Spirit who cries out: Abba, Father.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* Every verse of every hymn should be sung this week in order to capture
+the fullness of Trinitarian theology captured in the lyrics.

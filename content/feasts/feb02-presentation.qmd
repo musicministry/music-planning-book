@@ -1,0 +1,105 @@
+---
+title: Feast of the Presentation of the Lord
+subtitle: February 2
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "The King of Glory"
+          book: BB
+          priority: optional
+        - name: "Lift Up Your Heads, Ye Mighty Gates"
+          book: BB
+          priority: optional
+    psalm:
+      list:
+        - name: "Who is the king of glory? It is the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "In His Temple Now Behold Him"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Behold the Lamb"
+          composer: Willett
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Luke 2: Song of Simeon"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Christ, Be Our Light"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+light, splendor, glory, meeting Christ
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Your merciful love, O God,  
+> we have received in the midst of your temple.  
+> Your praise, O God, like your name,  
+> reaches to the ends of the earth;  
+> your right hand is filled with saving justice.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> My eyes have seen your salvation,  
+> which you prepared in the sight of all peoples.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

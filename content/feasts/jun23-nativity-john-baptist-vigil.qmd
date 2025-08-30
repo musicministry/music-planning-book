@@ -1,0 +1,115 @@
+---
+title: "Solemnity of the Nativity of Saint John the Baptist: Vigil Mass"
+subtitle: June 23
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "By All Your Saints Still Striving"
+          verses: "1, 7*, and 3"
+          book: BB
+          priority: preferred
+        - name: "On Jordan's Bank"
+          book: BB
+          priority: optional
+    psalm:
+      list:
+        - name: "Since my mother's womb, you have been my strength."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Ye Watchers and Ye Holy Ones"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Behold the Lamb"
+          composer: Willett
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "O God, You Search Me"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "When Jesus Comes to Be Baptized"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+predestined glory, salvation, prophecy, light
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> He will be great in the sight of the Lord  
+> and will be filled with the Holy Spirit,  
+> even from his mother’s womb;  
+> and many will rejoice at his birth.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Blessed be the Lord, the God of Israel!  
+> He has visited his people and redeemed them.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* *The first (generic) verse should be sung followed by the special verse for this feast.
+* The music for the Vigil Mass is the same as for the [Mass During the Day](jun24-nativity-john-baptist.qmd), but the antiphons, readings, and Responsorial Psalm are diﬀerent.
+* The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Ordinary Time
+preamble](../ordinary-time/ordinary-time.qmd).

@@ -1,0 +1,116 @@
+---
+title: Solemnity of the Immaculate Conception of the Blessed Virgin Mary
+subtitle: December 8
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "Immaculate Mary"
+          book: "BB"
+          priority: required
+    psalm:
+      list:
+        - name: "Sing to the Lord a new song, for he has done marvelous deeds."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Luke 1: My Soul Rejoices"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "The Angel Gabriel from Heaven Came"
+          book: BB
+          verses: "1-3"
+          priority: required
+    meditation:
+      list:
+        - name: "Hail Mary, Gentle Woman"
+          book: BB
+          priority: optional
+        - name: "See How the Virgin Waits"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "Song of Mary"
+          book: BB
+          verses: "1-2"
+          priority: required
+    anthems:
+      list:
+        - name: "Dixit Maria"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+Mary, purity, the benevolence of God
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> I rejoice heartily in the Lord,  
+> in my God is the joy of my soul;  
+> for he has clothed me with a robe of salvation,  
+> and wrapped me in a mantle of justice,  
+> like a bride adorned with her jewels
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Glorious things are spoken of you, O Mary,  
+> for from you arose the sun of justice,  
+> Christ our God.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Christmas season preamble](../christmas/christmas.qmd).

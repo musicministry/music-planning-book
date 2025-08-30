@@ -1,0 +1,263 @@
+---
+title: "Commemoration of All the Faithful Departed (All Souls)"
+subtitle: November 2
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "O God, Our Help in Ages Past"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is kind and merciful."
+          book: RA
+          priority: optional
+        - name: "The salvation of the just comes from the Lord."
+          book: RA
+          priority: optional
+    offertory:
+      list:
+        - name: "I Know that My Redeemer Lives"
+          composer: Soper
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Shepherd of Souls"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Christ Before Us"
+          book: BB
+          note: "see note below"
+          priority: optional
+        - name: "Unless A Grain of Wheat"
+          book: BB
+          note: "see note below"
+          priority: optional
+    recessional:
+      list:
+        - name: "We Shall Rise Again"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "On the Wings of Change"
+  b:
+    processional:
+      list:
+        - name: "O God, Our Help in Ages Past"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is my shepherd; there is nothing I shall want."
+          book: RA
+          priority: optional
+        - name: "Psalm 23: My Shepherd is the Lord"
+          book: BB
+          priority: optional
+        - name: "Though I walk in the valley of darkness, I fear no evil, for you are with me."
+          book: RA
+          priority: optional
+    offertory:
+      list:
+        - name: "Jerusalem, My Happy Home"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Keep in Mind"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Shepherd of Souls"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Sing with All the Saints in Glory"
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: "The Trumpet Shall Sound"
+          note: "from Handel's Messiah"
+  c:
+    processional:
+      list:
+        - name: "O God, Our Help in Ages Past"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is my light and my salvation."
+          book: RA
+          priority: optional
+        - name: "I believe that I shall see the good things of the Lord in the land of the living."
+          book: RA
+          priority: optional
+    offertory:
+      list:
+        - name: "O Breathe on Me, O Breath of God"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Shepherd of Souls"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "I Am the Bread of Life"
+          composer: Toolan
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "We Shall Rise Again"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+communion of saints, prayer, resurrection, hope
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> [(1)]{.red} Just as Jesus died and has risen again,  
+> so through Jesus God will bring with  
+> him those who have fallen asleep;  
+> and as in Adam all die, so also in Christ will all be brought to life.  
+>  
+> [Or:]{.red}  
+> 
+> [(2)]{.red} Eternal rest grant unto them, O Lord,  
+> and let perpetual light shine upon them.  
+>  
+> [Or:]{.red}  
+> 
+> [(3)]{.red} God, who raised Jesus from the dead,  
+> will give life also to your mortal bodies, through his Spirit that dwells in you.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> [(1)]{.red} I am the Resurrection and the Life, says the Lord.  
+> Whoever believes in me, even though he dies, will live,  
+> and everyone who lives and believes in me will not die for ever.  
+>  
+> [Or:]{.red}  
+> 
+> [(2)]{.red} Let perpetual light shine upon them, O Lord,  
+> with your Saints for ever, for you are merciful.  
+>  
+> [Or:]{.red}  
+> 
+> [(3)]{.red} We await a savior, the Lord Jesus Christ,  
+> who will change our mortal bodies,  
+> to conform with his glorified body.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The **Commemoration of All Souls** is not a Holy Day of Obligation.
+Accordingly, the parts of the Mass may be recited instead of sung.
+Musicians should coordinate with the presider before Mass for special
+instructions.
+* The **Responsorial Psalm**, if sung, can be taken from Respond &
+Acclaim (RA).
+* The **Gospel Acclamation** is sung: Chant Mode VI. Verses from the
+appropriate year:
+
+  - [Year A:]{.red}  
+    “If we die with Christ, we shall *líve* with him;  
+     and if we are faithful to the end, *wé* shall reign with him.”
+  
+  - [Year B:]{.red}  
+    “Come, you who are blessed by my *Fá*ther;  
+    inherit the Kingdom prepared for you from the  
+    foun*dá*tion of the world.”
+
+  - [Year C:]{.red}  
+    “Jesus Christ is the firstborn *óf* the dead;  
+     glory and kingship be his for ever and ev*ér*. Amen"
+
+* [Year A:]{.red} The **Meditation Hymn** should correspond to the Gospel that is read.

@@ -1,0 +1,191 @@
+---
+title: Solemnity of All Saints
+subtitle: November 1
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Ye Watchers and Ye Holy Ones"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, this is the people that longs to see your face."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "For All the Saints"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Worthy Is the Lamb"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "We Are the Light of the World"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lead Me, Lord"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "For All the Saints"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, this is the people that longs to see your face."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "We Are the Light of the World"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "How Firm a Foundation"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Worthy Is the Lamb"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Blessed Feasts of Blessed Martyrs"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "By All Your Saints Still Striving"
+          verses: "1-3"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, this is the people that longs to see your face."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "For All the Saints"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "We Are the Light of the World"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Worthy Is the Lamb"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "How Firm a Foundation"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+glory, mystical body, community, holiness, mystery
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Let us all rejoice in the Lord,  
+> as we celebrate the feast day in honor of all the Saints,  
+> at whose festival the Angels rejoice. 
+> and praise the Son of God.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Blessed are the clean of heart, for they shall see God.  
+> Blessed are the peacemakers,  
+> for they shall be called children of God.  
+> Blessed are they who are persecuted for the sake of righteousness,  
+> for theirs is the Kingdom of Heaven.
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

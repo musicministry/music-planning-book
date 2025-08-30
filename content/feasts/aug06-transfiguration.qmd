@@ -1,0 +1,108 @@
+---
+title: Feast of the Transfiguration of the Lord
+subtitle: August 6
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "To Jesus Christ, Our Sovereign King"
+          book: BB
+          priority: optional
+        - name: "Love Divine, All Loves Excelling"
+          book: BB
+          note: "*all verses*"
+          priority: optional
+    psalm:
+      list:
+        - name: "The Lord is king, the most high over all the earth."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "'Tis Good, Lord, To Be Here"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Transfigure Us, O Lord"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Behold the Lamb"
+          book: BB
+          composer: Willett
+          priority: required
+    recessional:
+      list:
+        - name: "Rejoice, the Lord is King"
+          book: BB
+          priority: optional
+        - name: "Change Our Hearts"
+          book: BB
+          priority: optional
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+glory, hope, splendor, fulfillment of Old Testament
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> In a resplendent cloud the Holy Spirit appeared.  
+> The Father’s voice was heard: This is my beloved Son,  
+> with whom I am well pleased. Listen to him.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> When Christ appears, we shall be like him,  
+for we shall see him as he is.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Years ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
