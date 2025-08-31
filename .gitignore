@@ -9,8 +9,6 @@ _book/
 __pycache__/
 sandbox.ipynb
 
-/.quarto
-
 /content/advent/*_files/
 /content/christmas/*_files/
 /content/lent/*_files/
@@ -19,3 +17,5 @@ sandbox.ipynb
 /content/ordinary-time/*_files/
 /content/feasts/*_files/
 /content/appendices/*_files/
+
+/.quarto/
