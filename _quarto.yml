@@ -21,8 +21,8 @@ book:
     #     - content/advent/advent04.qmd
     # - part: content/christmas/christmas.qmd
     #   chapters:
-    #     - text: "Christmas Vigil"
-    #       href: content/christmas/christmas-vigil.qmd
+        # - text: "Christmas Vigil"
+        #   href: content/christmas/christmas-vigil.qmd
         # - text: "Christmas Midnight"
         #   href: content/christmas/christmas-midnight.qmd
         # - text: "Christmas Dawn"
@@ -37,16 +37,16 @@ book:
         #   href: content/christmas/epiphany.qmd
         # - text: Baptism of the Lord
         #   href: content/christmas/baptism.qmd
-  #   - part: ot-winter.qmd
+  #   - part: content/ordinary-time/ot-winter.qmd
   #     chapters:
-  #       - ot02.qmd
-  #       - ot03.qmd
-  #       - ot04.qmd
-  #       - ot05.qmd
-  #       - ot06.qmd
-  #       - ot07.qmd
-  #       - ot08.qmd
-  #       - ot09.qmd
+  #       - content/ordinary-time/ot02.qmd
+  #       - content/ordinary-time/ot03.qmd
+  #       - content/ordinary-time/ot04.qmd
+  #       - content/ordinary-time/ot05.qmd
+  #       - content/ordinary-time/ot06.qmd
+  #       - content/ordinary-time/ot07.qmd
+  #       - content/ordinary-time/ot08.qmd
+  #       - content/ordinary-time/ot09.qmd
     # - part: content/lent/lent.qmd
     #   chapters:
     #     - content/lent/ash-wed.qmd
@@ -78,84 +78,92 @@ book:
     #       href: content/easter/pentecost-vigil.qmd
     #     - text: "Pentecost Sunday"
     #       href: content/easter/pentecost.qmd
-  #   - part: content/ot/ot-summer.qmd
+  #   - part: content/ordinary-time/ot-summer.qmd
   #     chapters:
-  #       - content/ot/ot10.qmd
-  #       - content/ot/ot11.qmd
-  #       - content/ot/ot12.qmd
-  #       - content/ot/ot13.qmd
-  #       - content/ot/ot14.qmd
-  #       - content/ot/ot15.qmd
-  #       - content/ot/ot16.qmd
-  #       - content/ot/ot17.qmd
-  #       - content/ot/ot18.qmd
-  #       - content/ot/ot19.qmd
-  #       - content/ot/ot20.qmd
-  #       - content/ot/ot21.qmd
-  #       - content/ot/ot22.qmd
-  #       - content/ot/ot23.qmd
-  #       - content/ot/ot24.qmd
-  #       - content/ot/ot25.qmd
-  #       - content/ot/ot26.qmd
-  #       - content/ot/ot27.qmd
-  #       - content/ot/ot28.qmd
-  #       - content/ot/ot29.qmd
-  #       - content/ot/ot30.qmd
-  #       - content/ot/ot31.qmd
-  #       - content/ot/ot32.qmd
-  #       - content/ot/ot33.qmd
-  #       - content/ot/christ-the-king.qmd
-  #       - content/ot/thanksgiving.qmd
-    - part: content/feasts/feasts.qmd
-      chapters:
-        - text: "December 8: Immaculate Conception"
-          href: content/feasts/dec08-immaculate-conception.qmd
-        - text: "February 2: Presentation of the Lord"
-          href: content/feasts/feb02-presentation.qmd
-        - text: "March 19: St. Joseph"
-          href: content/feasts/mar19-stjoseph.qmd
-        - text: "March 25: Annunciation"
-          href: content/feasts/mar25-annunciation.qmd
-        - text: "June 23: Nativity John Baptist (Vigil)"
-          href: content/feasts/jun23-nativity-john-baptist-vigil.qmd
-        - text: "June 24: Nativity John Baptist"
-          href: content/feasts/jun24-nativity-john-baptist.qmd
-        - text: "June 27: Ss. Peter and Paul (Vigil)"
-          href: content/feasts/jun27-peter-paul-vigil.qmd
-        - text: "June 28: Ss. Peter and Paul"
-          href: content/feasts/jun28-peter-paul.qmd
-        - text: "Holy Trinity"
-          href: content/feasts/holy-trinity.qmd
-        - text: "Corpus Christi"
-          href: content/feasts/corpus-christi.qmd
-        - text: "Sacred Heart"
-          href: content/feasts/sacred-heart.qmd
-        - text: "August 6: Transfiguration"
-          href: content/feasts/aug06-transfiguration.qmd
-        - text: "August 14: Assumption of Mary (Vigil)"
-          href: content/feasts/aug14-assumption-vigil.qmd
-        - text: "August 15: Assumption of Mary"
-          href: content/feasts/aug15-assumption.qmd
-        - text: "September 14: Holy Cross"
-          href: content/feasts/sep14-holy-cross.qmd
-        - text: "November 1: All Saints"
-          href: content/feasts/nov01-all-saints.qmd
-        - text: "November 2: All Souls"
-          href: content/feasts/nov02-all-souls.qmd
-        - text: "November 9: John Lateran Basilica"
-          href: content/feasts/nov09-john-lateran.qmd
+  #       - content/ordinary-time/ot10.qmd
+  #       - content/ordinary-time/ot11.qmd
+  #       - content/ordinary-time/ot12.qmd
+  #       - content/ordinary-time/ot13.qmd
+  #       - content/ordinary-time/ot14.qmd
+  #       - content/ordinary-time/ot15.qmd
+  #       - content/ordinary-time/ot16.qmd
+  #       - content/ordinary-time/ot17.qmd
+  #       - content/ordinary-time/ot18.qmd
+  #       - content/ordinary-time/ot19.qmd
+  #       - content/ordinary-time/ot20.qmd
+  #       - content/ordinary-time/ot21.qmd
+  #       - content/ordinary-time/ot22.qmd
+  #       - content/ordinary-time/ot23.qmd
+  #       - content/ordinary-time/ot24.qmd
+  #       - content/ordinary-time/ot25.qmd
+  #       - content/ordinary-time/ot26.qmd
+  #       - content/ordinary-time/ot27.qmd
+  #       - content/ordinary-time/ot28.qmd
+  #       - content/ordinary-time/ot29.qmd
+  #       - content/ordinary-time/ot30.qmd
+  #       - content/oordinary-timet/ot31.qmd
+  #       - content/ordinary-time/ot32.qmd
+  #       - content/ordinary-time/ot33.qmd
+  #       - content/ordinary-time/christ-the-king.qmd
+  #       - content/ordinary-time/thanksgiving.qmd
+    # - part: content/feasts/feasts.qmd
+    #   chapters:
+    #     - text: "December 8: Immaculate Conception"
+    #       href: content/feasts/dec08-immaculate-conception.qmd
+    #     - text: "February 2: Presentation of the Lord"
+    #       href: content/feasts/feb02-presentation.qmd
+    #     - text: "March 19: St. Joseph"
+    #       href: content/feasts/mar19-stjoseph.qmd
+    #     - text: "March 25: Annunciation"
+    #       href: content/feasts/mar25-annunciation.qmd
+    #     - text: "June 23: Nativity John Baptist (Vigil)"
+    #       href: content/feasts/jun23-nativity-john-baptist-vigil.qmd
+    #     - text: "June 24: Nativity John Baptist"
+    #       href: content/feasts/jun24-nativity-john-baptist.qmd
+    #     - text: "June 27: Ss. Peter and Paul (Vigil)"
+    #       href: content/feasts/jun27-peter-paul-vigil.qmd
+    #     - text: "June 28: Ss. Peter and Paul"
+    #       href: content/feasts/jun28-peter-paul.qmd
+    #     - text: "Holy Trinity"
+    #       href: content/feasts/holy-trinity.qmd
+    #     - text: "Corpus Christi"
+    #       href: content/feasts/corpus-christi.qmd
+    #     - text: "Sacred Heart"
+    #       href: content/feasts/sacred-heart.qmd
+    #     - text: "August 6: Transfiguration"
+    #       href: content/feasts/aug06-transfiguration.qmd
+    #     - text: "August 14: Assumption of Mary (Vigil)"
+    #       href: content/feasts/aug14-assumption-vigil.qmd
+    #     - text: "August 15: Assumption of Mary"
+    #       href: content/feasts/aug15-assumption.qmd
+    #     - text: "September 14: Holy Cross"
+    #       href: content/feasts/sep14-holy-cross.qmd
+    #     - text: "November 1: All Saints"
+    #       href: content/feasts/nov01-all-saints.qmd
+    #     - text: "November 2: All Souls"
+    #       href: content/feasts/nov02-all-souls.qmd
+    #     - text: "November 9: John Lateran Basilica"
+    #       href: content/feasts/nov09-john-lateran.qmd
     - content/references.qmd
-  # appendices:
-  #   - A-o-holy-night.qmd
-  #   - B-festival-alleluia.qmd
-  #   - C-mar19-psalm.qmd
-  #   - D-mar25-psalm.qmd
-  #   - E-easter-proclamation.qmd
-  #   - F-easter-dismissal.qmd
-  #   - G-pentecost-sequence.qmd
-  #   - H-trinity-sequence.qmd
-  #   - I-lauda-jerusalem.qmd
-  #   - J-adoration.qmd
+  appendices:
+    - text: "A: O Holy Night"
+      href: content/appendices/A-o-holy-night.qmd
+    # - text: "A: O Holy Night (organ)"
+    #   href: content/appendices/A-o-holy-night-organ.qmd
+    - text: "B: Festival Alleluia"
+      href: content/appendices/B-festival-alleluia.qmd
+    - text: "C: St. Joseph Psalm and Gospel Acclamation"
+      href: content/appendices/C-mar19-psalm.qmd
+    - text: "D: Annunciation Lenten Gospel Acclamation"
+      href: content/appendices/D-mar25-accl.qmd
+    - text: "E: Paschal Proclamation"
+      href: content/appendices/E-easter-proclamation.qmd
+    - text: "F: Easter Dismissal"
+      href: content/appendices/F-easter-dismissal.qmd
+  #   - content/appendices/G-pentecost-sequence.qmd
+  #   - content/appendices/H-trinity-sequence.qmd
+  #   - content/appendices/I-lauda-jerusalem.qmd
+  #   - content/appendices/J-adoration.qmd
   page-navigation: true
   page-footer: 
     background: light
@@ -185,6 +193,7 @@ format:
       text: |
         \usepackage{imakeidx}
         \makeindex[intoc=true, columns=2, columnseprule=false, options=-s latex/indexstyles.ist]
+        \usepackage{includepdf}
     include-after-body: 
       text: |
         \printindex
