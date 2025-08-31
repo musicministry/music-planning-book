@@ -9,4 +9,13 @@ _book/
 __pycache__/
 sandbox.ipynb
 
-/.quarto/
+/.quarto
+
+/content/advent/*_files/
+/content/christmas/*_files/
+/content/lent/*_files/
+/content/holy-week/*_files/
+/content/easter/*_files/
+/content/ordinary-time/*_files/
+/content/feasts/*_files/
+/content/appendices/*_files/
