@@ -119,4 +119,4 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 * If Mothers' Day falls on this week, “[On This Day, O Beautiful Mother](https://www.youtube.com/watch?v=Sn5sz5D67BY)” (BB) may be sung as a Meditation hymn.
 * If the **dismissal of the people** is chanted by the presider, the cantor
 must promptly-–-without pause or hesitation-–-lead the chanted response
-found in Appendix F: Easter Dismissal.
+found in [Appendix F](../appendices/F-easter-dismissal.qmd).

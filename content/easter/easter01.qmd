@@ -135,7 +135,7 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* If available, the Festival Alleluia (GIA) is used for the **Gospel Acclamation** with the **Easter** verse found in Appendix B: Festival Alleluia.
-* The **Sequence** is sung by the cantor only (i.e., no choir) immediately after the Second Reading. The entire hymn is to be sung. Note that it is the version set to the tune <span style="font-variant:small-caps">victimae paschali</span>. Accompaniment should be soft and reverent, like Meditation hymns.
+* If available, the Festival Alleluia (GIA) is used for the **Gospel Acclamation** with the **Easter** verse found in [Appendix B](../appendices/B-festival-alleluia.qmd).
+* The **Sequence** is sung by the cantor only (*i.e.*, no choir) immediately after the Second Reading. The entire hymn is to be sung. Note that it is the version set to the tune <span style="font-variant:small-caps">victimae paschali</span>. Accompaniment should be soft and reverent, like Meditation hymns.
 * The **Regina Cæli** may be chanted (with light accompaniment) after Communion during the Easter Season if requested by the presider or if custom to the parish. It is not prescribed in the Liturgy.
-* If the **dismissal of the people** is chanted by the presider, the cantor must promptly – without pause or hesitation – lead the chanted response found in Appendix F: Easter Dismissal.
+* If the **dismissal of the people** is chanted by the presider, the cantor must promptly – without pause or hesitation – lead the chanted response found in [Appendix F](../appendices/F-easter-dismissal.qmd).

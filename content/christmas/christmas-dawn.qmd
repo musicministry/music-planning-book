@@ -128,6 +128,6 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 :::
 
 * The Mass at Dawn may be celebrated at the first Mass of the morning. For simplicity, the hymns are the same as those for the [Mass During the Day](christmas-day.qmd), but the readings and Responsorial Psalm are diﬀerent. Be sure to find out which Mass the presider is celebrating and sing the correct psalm.
-* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas verse found in Appendix B.
+* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas verse found in [Appendix B](../appendices/B-festival-alleluia.qmd).
 * The Oﬀertory hymn is taken from the appropriate Liturgical Cycle.
 * Additional Christmas carols can be sung at Communion as needed.

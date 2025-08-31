@@ -1,5 +1,5 @@
 ---
-title: Saint Joseph, Spouse of Mary
+title: Solemnity of Saint Joseph, Spouse of Mary
 subtitle: March 19
 ---
 
@@ -19,7 +19,7 @@ hymns:
     psalm:
       list:
         - name: "The son of David will live forever."
-          book: Appendix C
+          book: "[Appx C](../appendices/C-mar19-psalm.qmd)"
           priority: required
     offertory:
       list:
@@ -104,6 +104,6 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 :::
 
 * *The first (generic) verse should be sung followed by the special verse for this feast.
-* The **Responsorial Psalm** is found in Appendix C.
-* If this Solemnity falls within the season of Lent, the **Lenten Gospel Acclamation** in Appendix C is sung.
-* If this Solemnity *does not* fall within the season of Lent, the verse text in Appendix C is sung with a familiar “Alleluia” refrain. In this case, if the verse accompaniment from Appendix C is also used, either the chosen refrain should be in the same key as the verse (F major or D minor), or the verse should be transposed to the key signature of the chosen refrain.
+* The **Responsorial Psalm** is found in [Appendix C](../appendices/C-mar19-psalm.qmd).
+* If this Solemnity falls within the season of Lent, the **Lenten Gospel Acclamation** in [Appendix C](../appendices/C-mar19-psalm.qmd) is sung.
+* If this Solemnity *does not* fall within the season of Lent, the verse text in [Appendix C](../appendices/C-mar19-psalm.qmd) is sung with a familiar “Alleluia” refrain. In this case, if the verse accompaniment from [Appendix C](../appendices/C-mar19-psalm.qmd) is also used, either the chosen refrain should be in the same key as the verse (F major or D minor), or the verse should be transposed to the key signature of the chosen refrain.

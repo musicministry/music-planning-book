@@ -184,10 +184,7 @@ Holy Cross is brought into the church.
 Proclamation** (also known as the *Exsultet*). He/she should be
 extremely comfortable with this important – and lengthy – chant, which
 is to be done *a capella* and in the dark. Be sure to confirm with the
-presider whether to chant the long version (provided in Appendix E: The
-Paschal Proclamation, usually preferred) or the optional shorter version.
-Always omit the section for Deacon/Priest only (see instructions in
-Appendix E: The Paschal Proclamation), regardless of the version used.
+presider whether to chant the long version (provided in [Appendix E](../appendices/E-easter-proclamation.qmd), usually preferred) or the optional shorter version. Always omit the section for Deacon/Priest only (see instructions in [Appendix E](../appendices/E-easter-proclamation.qmd)), regardless of the version used.
 * The presider may opt to shorten the Liturgy of the Word by omitting the
 second, fourth, and sixth sets of readings, psalms, and prayers. Music
 ministers should be sure to consult with the presider well before the Mass
@@ -200,5 +197,5 @@ Communion during the Easter Season if requested by the presider or if
 custom to the parish. It is not prescribed in the Liturgy.
 * If the **dismissal of the people** is chanted by the presider, the cantor
 and/or choir must promptly – without pause or hesitation – lead the
-chanted response, as found in Appendix F: Easter Dismissal.
+chanted response, as found in [Appendix F](../holy-week/easter-vigil.qmd).
 * The hymn, “[Hail Thee, Festival Day](https://www.youtube.com/watch?v=cQvb8SN6RlU)”, could be considered as a **Recessional hymn** if (1) it is available in the hymnal, (2) a strong choir and skilled musicians are performing at the **Easter Vigil**, AND (3) the congregation is not likely to sing at this Liturgy. It is usually unfamiliar to Catholic congregations and is diﬃcult to sing; thus, it needs to be well rehearsed by choir, cantor, and musicians alike in order to be performed accurately and well. Nevertheless, it is a particularly festive hymn that is highly appropriate for this occasion. If used, only the Easter verses (1-2) should be sung this night.

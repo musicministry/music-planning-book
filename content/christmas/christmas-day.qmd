@@ -126,6 +126,6 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas verse found in Appendix B.
+* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas verse found in [Appendix B](../appendices/B-festival-alleluia.qmd).
 * The Oﬀertory hymn is taken from the appropriate Liturgical Cycle.
 * Additional Christmas carols can be sung at Communion as needed.

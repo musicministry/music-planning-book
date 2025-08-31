@@ -42,6 +42,7 @@ hymns:
           book: BB
           priority: optional
         - name: "O Holy Night"
+          book: "[Appx A](../appendices/A-o-holy-night.qmd)"
           priority: optional
     recessional:
       list:
@@ -49,6 +50,7 @@ hymns:
           book: BB
           priority: required
   a:
+
     anthems:
       list:
         - name: Et in Terra Pax
@@ -129,6 +131,6 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 :::
 
 * The Mass at Dawn may be celebrated at the first Mass of the morning. For simplicity, the hymns are the same as those for the [Mass During the Day](christmas-day.qmd), but the readings and Responsorial Psalm are diﬀerent. Be sure to find out which Mass the presider is celebrating and sing the correct psalm.
-* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas Vigil verse found in Appendix B: Festival Alleluia.
+* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas Vigil verse found in [Appendix B: Festival Alleluia](../appendices/B-festival-alleluia.qmd).
 * Additional Christmas carols can be sung at Communion as needed.
-* "O Holy Night" can be be found in Appendix A.
+* "O Holy Night" can be be found in [Appendix A](../appendices/A-o-holy-night.qmd).
