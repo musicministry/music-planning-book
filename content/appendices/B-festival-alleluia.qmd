@@ -1,0 +1,45 @@
+---
+title: Festival Alleluia
+subtitle: "Published by GIA; verses arranged by M. Grossi"
+---
+
+::: {.red}
+The “Festival Alleluia” by Chepponis, published by GIA, is recommended for high solemnities throughout the year, if available to the parish:
+
+* [Christmas Midnight Mass](../christmas/christmas-midnight.qmd)
+* Christmas Day (both at [dawn](../christmas/christmas-dawn.qmd) and [during the day](../christmas/christmas-day.qmd))
+* [Easter Sunday](../easter/easter.qmd)
+* Pentecost (both [Vigil](../easter/pentecost-vigil.qmd) and [Sunday](../easter/pentecost.qmd))
+
+Be sure to sing the correct verse for the given occasion.
+
+The piece itself is copyrighted and has its own verses, but simpler verses set to psalm tones and having the same texts as the Lectionary have been arranged by M. Grossi. These are provided here for both cantor and organist. The unaltered refrain melody, as published by GIA, is also reproduced here for convenience.
+
+Provided here are the cantor version, both refrain and verses, and the organ accompaniment for the psalm tone verses.
+:::
+
+::: {.red}
+### Cantor
+:::
+
+```{=html}
+<object data="festival-alleluia-cantor.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="100%">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="festival-alleluia-cantor.pdf">click here to download the PDF file.</a></p>
+</object>
+```
+
+::: {.red}
+### Organ
+:::
+
+```{=html}
+<object data="festival-alleluia.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="100%">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="festival-alleluia.pdf">click here to download the PDF file.</a></p>
+</object>
+```
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

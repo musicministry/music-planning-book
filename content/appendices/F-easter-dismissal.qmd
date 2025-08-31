@@ -1,0 +1,28 @@
+---
+title: Easter Dismissal
+---
+
+::: {.red}
+The Easter Dismissal is used at the [Easter Vigil](../holy-week/easter-vigil.qmd), on [Easter Sunday](../easter/easter01.qmd) morning, throughout the Octave of Easter (concluding with the [Second Sunday of Easter](../easter/easter02.qmd)), for the [Pentecost Vigil](../easter/pentecost-vigil.qmd) and for [Pentecost Sunday](../easter/pentecost.qmd).
+
+The priest or deacon chants the dismissal and the people respond “Thanks be
+to God, alleluia, alleluia.” This is all *a cappella*.
+
+The cantor and/or choir must lead the congregation in the response. The
+response starts immediately after the priest, just like when spoken. DO NOT
+DELAY OR HESITATE HERE.
+
+The cantor must be very confident in this response. Be prepared; do not
+be caught oﬀ-guard.
+:::
+
+```{=html}
+<object data="easter_dismissal.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="100%">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="easter_dismissal.pdf">click here to download the PDF file.</a></p>
+</object>
+```
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

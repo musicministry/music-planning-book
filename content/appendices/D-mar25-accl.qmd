@@ -1,0 +1,21 @@
+---
+title: "Solemnity of the Annunciation of the Lord (ABC)"
+subtitle: "Responsorial Psalm and Lenten Gospel Acclamation (March 25)"
+---
+
+::: {.red}
+The following Responsorial Psalm and Gospel Acclamation can be used if the [Solemnity of the Annunciation of the Lord](../feasts/mar25-annunciation.qmd) falls within the Season of Lent.
+
+The Lenten Gospel Acclamation refrain from OCP *Respond & Acclaim* by Owen Alstott is copyrighted by OCP, as indicated, while the verse text was arranged to a simple psalm tone by M. Grossi because none existed in *Respond & Acclaim* the year this was needed.
+:::
+
+```{=html}
+<object data="annunciation-accl.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="100%">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="annunciation-accl.pdf">click here to download the PDF file.</a></p>
+</object>
+```
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
