@@ -68,15 +68,6 @@ def make_psalm(psalm, urls, index=None):
     new_text = new_text + f' (<i>verses {psalm["verses"]}</i>)' if 'verses' in psalm.keys() else new_text
     # Add note, if available
     new_text = new_text + f' ({psalm["note"]})' if 'note' in psalm.keys() else new_text
-    # # Add URL, if available
-    # psalm_url = get_url(hymn=psalm, urls=urls)
-    # if psalm_url == 'No URL found':
-    #     return new_text
-    # else:
-    #     if index is not None:
-    #         return f'[{new_text}]({psalm_url})\index[{index}]{{new_text}}'
-    #     else:
-    #         return f'[{new_text}]({psalm_url})'
     return new_text
 
 def hymnlist(hymns, urls, index=None):
@@ -99,7 +90,7 @@ def hymnlist(hymns, urls, index=None):
     # Create a dataframe
     df = pd.DataFrame({
         'hymn': remove_dupes([titlecase(hymn.replace('-', ' ')) for hymn in hymnsnew for i in hymns[hymn]['list']]),
-        'hymnal': [''.join(l for l in i['book'] if l.isupper()) if 'book' in i.keys() else '' for hymn in hymnsnew for i in hymns[hymn]['list']],
+        'hymnal': [(i['book'] if '](' in i['book'].lower() else ''.join(l for l in i['book'] if l.isupper())) if 'book' in i.keys() else '' for hymn in hymnsnew for i in hymns[hymn]['list']],
         'options': [f'<i>{make_psalm(i, urls=urls, index=index)}</i>' if 'psalm' in hymn else make_name(i, urls=urls, index=index) for hymn in hymnsnew for i in hymns[hymn]['list']],
         'priority': [i['priority'] for hymn in hymnsnew for i in hymns[hymn]['list']]
     })
@@ -127,11 +118,11 @@ def hymnlist(hymns, urls, index=None):
                        style=[style.fill(color=from_column(column='background')), style.text(v_align='top')])
             .cols_hide(columns=['priority', 'background'])
             .cols_align(columns='hymnal', align='center')
-            .cols_width(cases={'hymnal': '5%', 'options': '85%'})
+            .cols_width(cases={'hymnal': '10%', 'options': '80%'})
             .tab_options(table_width='100%', column_labels_hidden=True,
                          table_body_hlines_width='0pt',
                          row_striping_background_color=None)
-            .fmt_markdown(columns='options')
+            .fmt_markdown(columns=['hymnal', 'options'])
             )
     gtbl.show()
 
@@ -168,21 +159,12 @@ def masssetting(mass, urls, index=None):
         new_text = new_text + f' ({hymn["composer"].title()})' if 'composer' in hymn.keys() else new_text
         # Add note, if available
         new_text = new_text + f' ({hymn["note"]})' if 'note' in hymn.keys() else new_text
-        # # Add URL, if available
-        # hymn_url = get_url(hymn=hymn, urls=urls)
-        # if hymn_url == 'No URL found':
-        #     return new_text
-        # else:
-        #     if index is not None:
-        #         return f'[{new_text}]({hymn_url})\index[{index}]{{new_text}}'
-        #     else:
-        #         return f'[{new_text}]({hymn_url})'
         return new_text
     
     # Create a dataframe
     df = pd.DataFrame({
         'hymn': remove_dupes([titlecase(part.replace('-', ' ')) for part in mass for i in mass[part]['list']]),
-        'hymnal': [''.join(l for l in i['book'] if l.isupper()) if 'book' in i.keys() else '' for part in mass for i in mass[part]['list']],
+        'hymnal': [(i['book'] if '](' in i['book'].lower() else ''.join(l for l in i['book'] if l.isupper())) if 'book' in i.keys() else '' for part in mass for i in mass[part]['list']],
         'options': [make_part(i, urls=urls, index=index) for part in mass for i in mass[part]['list']],
         'priority': [i['priority'] for part in mass for i in mass[part]['list']]
     })
@@ -212,11 +194,11 @@ def masssetting(mass, urls, index=None):
                        style=[style.fill(color=from_column(column='background')), style.text(v_align='top')])
             .cols_hide(columns=['priority', 'background'])
             .cols_align(columns='hymnal', align='center')
-            .cols_width(cases={'hymnal': '5%', 'options': '80%'})
+            .cols_width(cases={'hymnal': '10%', 'options': '75%'})
             .tab_options(table_width='100%', column_labels_hidden=True,
                          table_body_hlines_width='0pt',
                          row_striping_background_color=None)
-            .fmt_markdown(columns='options')
+            .fmt_markdown(columns=['hymnal', 'options'])
             )
     gtbl.show()
 
