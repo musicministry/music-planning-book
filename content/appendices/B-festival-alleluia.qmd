@@ -6,18 +6,24 @@ subtitle: "Published by GIA; verses arranged by M. Grossi"
 ::: {.red}
 The “Festival Alleluia” by Chepponis, published by GIA, is recommended for high solemnities throughout the year, if available to the parish:
 
-* [Christmas Midnight Mass](../christmas/christmas-midnight.qmd)
-* Christmas Day (both at [dawn](../christmas/christmas-dawn.qmd) and [during the day](../christmas/christmas-day.qmd))
-* [Easter Sunday](../easter/easter.qmd)
-* Pentecost (both [Vigil](../easter/pentecost-vigil.qmd) and [Sunday](../easter/pentecost.qmd))
+* [[Christmas Midnight Mass](../christmas/christmas-midnight.qmd)]{.red}
+* [Christmas Day (both at [dawn](../christmas/christmas-dawn.qmd) and [during the day](../christmas/christmas-day.qmd))]{.red}
+* [[Easter Sunday](../easter/easter.qmd)]{.red}
+* [Pentecost (both [Vigil](../easter/pentecost-vigil.qmd) and [Sunday](../easter/pentecost.qmd))]{.red}
 
 Be sure to sing the correct verse for the given occasion.
 
 The piece itself is copyrighted and has its own verses, but simpler verses set to psalm tones and having the same texts as the Lectionary have been arranged by M. Grossi. These are provided here for both cantor and organist. The unaltered refrain melody, as published by GIA, is also reproduced here for convenience.
 
 Provided here are the cantor version, both refrain and verses, and the organ accompaniment for the psalm tone verses.
+
+<a href="./festival-alleluia-cantor.pdf" target="_blank">Click to download</a> a cantor version.
+
+
+<a href="./festival-alleluia.pdf" target="_blank">Click to download</a> organ accompaniment.
 :::
 
+<!-- 
 ::: {.red}
 ### Cantor
 :::
@@ -38,7 +44,7 @@ Provided here are the cantor version, both refrain and verses, and the organ acc
     <p>It appears you don't have a PDF plugin for this browser.
     No biggie... you can <a href="festival-alleluia.pdf">click here to download the PDF file.</a></p>
 </object>
-```
+``` -->
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}

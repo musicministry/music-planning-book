@@ -1,13 +1,17 @@
 ---
-title: "O Holy Night (cantor)"
+title: "O Holy Night"
 subtitle: "Accompaniment arranged by M. Grossi"
 ---
 
 ::: {.red}
 [O Holy Night](https://www.youtube.com/watch?v=gTFG_nvreoI) is an optional meditation hymn for [Christmas: Mass During the Night (Midnight Mass)](../christmas/christmas-midnight.qmd).
+
+<a href="./o-holy-night-cantor.pdf" target="_blank">Click to download</a> the cantor version.
+
+<a href="./o-holy-night.pdf" target="_blank">Click to download</a> organ accompaniment.
 :::
 
-::: {.red}
+<!-- ::: {.red}
 ### Cantor
 :::
 
@@ -29,7 +33,7 @@ subtitle: "Accompaniment arranged by M. Grossi"
     No biggie... you can <a href="o-holy-night.pdf">click here to
     download the PDF file.</a></p>
 </object>
-```
+``` -->
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}

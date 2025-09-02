@@ -9,14 +9,18 @@ The following Responsorial Psalm and Gospel Acclamation can be used if the [Sole
 The Responsorial Psalm was arranged by M. Grossi.
 
 The Lenten Gospel Acclamation refrain from OCP *Respond & Acclaim* by Owen Alstott is copyrighted by OCP, as indicated, while the verse text was arranged to a simple psalm tone by M. Grossi because none existed in *Respond & Acclaim* the year this was needed.
+
+<a href="./saint-joseph-psalm.pdf" target="_blank">Click to download</a> the Responsorial Psalm.
+
+<a href="./saint-joseph-acclamation.pdf" target="_blank">Click to download</a> the Gospel Acclamation.
 :::
 
-```{=html}
+<!-- ```{=html}
 <object data="saint-joseph-psalm-accl.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="100%">
     <p>It appears you don't have a PDF plugin for this browser.
     No biggie... you can <a href="saint-joseph-psalm-accl.pdf">click here to download the PDF file.</a></p>
 </object>
-```
+``` -->
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
