@@ -1,6 +1,7 @@
 .red {
     /* color: rgb(188, 54, 48); */
-    color: #bd3732;
+    /* color: #bd3732; */
+    color: #B32121;
 }
 
 .black {
@@ -8,12 +9,14 @@
 }
 
 .titlered {
-    background-color: #bd3732;
+    /* background-color: #bd3732; */
+    background-color: #B32121;
     color: #FFFFFF
 }
 
 .title{
-  color: #bd3732;
+  /* color: #bd3732; */
+  color: #B32121;
 }
 
 /* Noto Sans, Noto Serif and Fira Mono fonts from Google change as needed */
@@ -233,7 +236,8 @@ ul {
   text-indent: 0.3em;
 }
 li::marker {
-  color: #bd3732; /* bullet color */
+  /* color: #bd3732; bullet color */
+  color: #B32121;
 }
 li {
   color: black /* text color */
