@@ -22,14 +22,14 @@ hymns:
           priority: required
     sequence:
       list:
+        - name: "Sequence for Pentecost Sunday"
+          note: "psalmody version"
+          book: "[Appx G](../appendicies/G-pentecost-sequence.qmd)"
+          priority: optional
         - name: "Come, O Holy Spirit"
-          note: "Pentecost Sequence"
+          note: "hymn alternative"
           tune: "Ode to Joy"
           book: BB
-          priority: optional
-        - name: "Sequence for Pentecost Sunday (chant)"
-          note: "Sunday only"
-          book: Appendix G
           priority: optional
     offertory:
       list:
@@ -68,14 +68,14 @@ hymns:
           priority: required
     sequence:
       list:
+        - name: "Sequence for Pentecost Sunday"
+          note: "psalmody version"
+          book: "[Appx G](../appendicies/G-pentecost-sequence.qmd)"
+          priority: optional
         - name: "Come, O Holy Spirit"
-          note: "Pentecost Sequence"
+          note: "hymn alternative"
           tune: "Ode to Joy"
           book: BB
-          priority: optional
-        - name: "Sequence for Pentecost Sunday (chant)"
-          note: "Sunday only"
-          book: Appendix G
           priority: optional
     offertory:
       list:
@@ -110,14 +110,14 @@ hymns:
           priority: required
     sequence:
       list:
+        - name: "Sequence for Pentecost Sunday"
+          note: "psalmody version"
+          book: "[Appx G](../appendicies/G-pentecost-sequence.qmd)"
+          priority: optional
         - name: "Come, O Holy Spirit"
-          note: "Pentecost Sequence"
+          note: "hymn alternative"
           tune: "Ode to Joy"
           book: BB
-          priority: optional
-        - name: "Sequence for Pentecost Sunday (chant)"
-          note: "Sunday only"
-          book: Appendix G
           priority: optional
     offertory:
       list:
@@ -233,7 +233,7 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 :::
 
 * If the [Extended Form of the Vigil Mass](pentecost-vigil.qmd) is celebrated, musicians must follow the missalette section of *Breaking Bread* and be prepared with appropriate Responsorial Psalms. The same hymns as above may be used throughout the liturgy.
-* The **Sequence** is sung by the cantor only (*i.e.*, no choir) immediately after the Second Reading on Sunday morning only, *not* at the Saturday Vigil Mass. Either the hymn “[Come, O Holy Spirit](https://www.youtube.com/watch?v=n210fEwUM48)” (BB) or the chant version (Appendix G: Sequence for Pentecost (Years ABC)) may be used. If the hymn used, the entire hymn is to be sung. Accompaniment should be soft and reverent, like Meditation hymns.
+* The **Sequence** is sung by the cantor only (*i.e.*, no choir) immediately after the Second Reading on Sunday morning only, *not* at the Saturday Vigil Mass. Either the hymn “[Come, O Holy Spirit](https://www.youtube.com/watch?v=n210fEwUM48)” (BB) or the chant version ([Appendix G](../appendices/G-pentecost-sequence.qmd)) may be used. If the hymn used, the entire hymn is to be sung. Accompaniment should be soft and reverent, like Meditation hymns.
 * If available, the Festival Alleluia (GIA), with the **Pentecost**
 verse found in [Appendix B](../appendices/B-festival-alleluia.qmd), is sung for the **Gospel Acclamation** immediately after the Sequence.
 * If the **dismissal of the people** is chanted by the presider, the cantor

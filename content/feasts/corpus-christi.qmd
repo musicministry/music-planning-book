@@ -23,7 +23,7 @@ hymns:
     sequence:
       list:
         - name: "Sequence for *Corpus Christi*"
-          book: Appendix H
+          book: "[Appx H](../appendices/H-corpus-christi-sequence.qmd)"
           priority: required
     offertory:
       list:
@@ -71,7 +71,7 @@ hymns:
     sequence:
       list:
         - name: "Sequence for *Corpus Christi*"
-          book: Appendix H
+          book: "[Appx H](../appendices/H-corpus-christi-sequence.qmd)"
           priority: required
     offertory:
       list:
@@ -115,7 +115,7 @@ hymns:
     sequence:
       list:
         - name: "Sequence for *Corpus Christi*"
-          book: Appendix H
+          book: "[Appx H](../appendices/H-corpus-christi-sequence.qmd)"
           priority: required
     offertory:
       list:
@@ -223,15 +223,8 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* The optional **Sequence**, found in Appendix H, is sung by the cantor
-only immediately after the Second Reading. Either the long or short
-version may be used at the discretion of the presider. Musicians must
-coordinate with the presider before Mass to determine if the Sequence is
-desired, and if so, whether the long or short version is preferred.
-Accompaniment should be soft and reverent, like Meditation hymns.
+* The optional **Sequence**, found in [Appendix H](../appendices/H-corpus-christi-sequence.qmd), is sung by the cantor only immediately after the Second Reading. Either the long or short version may be used at the discretion of the presider. Musicians must coordinate with the presider before Mass to determine if the Sequence is desired, and if so, whether the long or short version is preferred. Accompaniment should be soft and reverent, like Meditation hymns.
 * If a Eucharist Procession takes place after Mass, “Lauda, Jerusalem”, as
-found in Appendix I: Lauda, Jerusalem, can be sung, cycling through
-verses 1-4 as many times as needed and concluding with either verse 5 or
-6 upon reaching the final destination, as in the recording.
+found in [Appendix I](../appendices/I-lauda-jerusalem.qmd), can be sung, cycling through verses 1-4 as many times as needed and concluding with either verse 5 or 6 upon reaching the final destination, as in the recording.
 * If Adoration of the Blessed Sacrament takes place during or after Mass,
-the music is taken from Appendix J.
+the music is taken from [Appendix J](../appendices/J-adoration.qmd).
