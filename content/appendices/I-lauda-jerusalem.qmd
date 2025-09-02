@@ -1,0 +1,20 @@
+---
+title: "Lauda, Jerusalem"
+---
+
+::: {.red}
+If a Eucharist Procession takes place after Mass on the [Solemnity of the Most Holy Body and Blood of Christ (Corpus Christi)](../feasts/corpus-christi.qmd), “Lauda, Jerusalem” can be sung, cycling through verses 1-4 as many times as needed and concluding with *either* verse 5 or 6 upon reaching the final destination, as in the recording.
+
+Suggestions, dependent on music ministry and level of musical participation:
+
+* [Cantor chants verses, choir and/or people sing refrains]{.red}
+* [Multiple cantors take turns chanting verses, choir and/or people sing refrains]{.red}
+* [Subset of the choir sing verses, full choir and/or people sing refrains]{.red}
+* [Choir, scattered throughout the procession, sing verses, choir and people sing refrains]{.red}
+
+<a href="./lauda-jerusalem.pdf" target="_blank">Click to download</a> *Lauda, Jerusalem*.
+:::
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

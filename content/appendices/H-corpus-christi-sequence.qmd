@@ -1,0 +1,163 @@
+---
+title: "Sequence for the Solemnity of the Most Holy Body and Blood of Christ (Years ABC)"
+subtitle: "Second Sunday after Pentecost"
+---
+
+::: {.red}
+According to the General Instruction of the Roman Missal, the Sequence, or the shorter form beginning with the verse [*Lo! the angel's food is given*]{.black}, may optionally be chanted immediately following the Second Reading and before the Gospel Acclamation on the Solemnity of the [Most Holy Body and Blood of Christ](../feasts/corpus-christi.qmd). It is not sung at the Saturday Vigil Mass.
+
+Here, the oﬃcial approved text, as found in the Lectionary, is put to a simple psalm tone arranged by M. Grossi (©2021). Both the full version and shorter option are included. A cantor version containing only the psalm melody is provided first, followed by an organ version with a suggested accompaniment arranged by M. Grossi (©2021).
+:::
+
+::: {.red}
+### Liturgical performance notes
+:::
+
+* [The chant tone contains six measures, some of which are omitted for stanzas containing fewer than six lines of text. The annotated melody is provided at the top of each page.]{.red}
+* [The melody is simply repeated for each stanza in a fashion similar to the more-familiar singing of Responsorial Psalm verses. Liturgical musicians are advised to be keenly attentive to what tone measure coincides with each stanza, especially as the stanza structures evolve from three to four, to five, and finally to six lines.]{.red}
+* [The use of *italics* font together with an accent symbol (´) indicates the textual syllable on which to move to the next note in the tone for each line. Everything preceding this annotated syllable is chanted on the first note of the measure. The musical timing of these sustained notes is arbitrary and should be determined entirely by the singing, which should be done in a smooth, chant-like fashion.]{.red}
+* [The verses are arranged column-wise: Read down column one first, then
+the second column (verse 2 begins [*Bring him all...*]{.black})]{.red}
+
+::: {.red}
+<a href="./sequence-corpus-christi.pdf" target="_blank">Click to download</a> ***Laud, O Zion***, the Sequence for *Corpus Christi*.
+:::
+
+***
+
+### Laud, O Zion (*Lauda Sion*)
+
+[Cantor:]{.red}
+
+![](corpus-christi-tone.png){fig-alt="Psalm tone for four to six stanzas."}
+
+[Organ:]{.red}
+
+![](corpus-christi-tone-organ.png){fig-alt="Psalm tone for four to six stanzas with accompaniment."}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Laud, O Zion, *yóur* salvation,  
+Laud with hymns of *éx*ultation,  
+Christ, your king and *shép*herd true:  
+
+Bring him all the *práise* you know,  
+He is more than *yóu* bestow.  
+Never can you *réach* his due.  
+
+Special theme for *glád* thanksgiving  
+Is the quick'ning *ánd* the living  
+Bread today be*fóre* you set:  
+
+From his hands of *óld* partaken,  
+As we know, by *fáith* unshaken,  
+Where the Twelve at *súp*per met.  
+
+Full and clear ring *óut* your chanting,  
+Joy nor sweetest *gráce* be wanting,  
+From your heart let *práis*es burst:  
+
+For today the *féast* is holden,  
+When the insti*tú*tion olden  
+Of that supper *wás* rehearsed.  
+
+Here the new law's *néw* oblation,  
+By the new king's *rév*elation,  
+Ends the form of *án*cient rite:  
+
+Now the new the *óld* eﬀaces,  
+Truth away the *shá*dow chases,  
+Light dispels the *glóom* of night.  
+
+What he did at *súp*per seated,  
+Christ ordained to *bé* repeated,  
+His memorial ne*vér* to cease:
+
+And his rule for *gúi*dance taking  
+Bread and wine we *hál*low, making  
+Thus our sacri*fíce* of peace.  
+
+This the truth each *Chríst*ian learns,  
+Bread into his *flésh* he turns,  
+To his precious *blóod* the wine:  
+
+Sight has fail'd, nor *thóught* conceives,  
+But a dauntless *fáith* believes,  
+Resting on a *pów'r* divine.  
+
+Here beneath these *sígns* are hidden  
+Priceless things to *sénse* forbidden;  
+Signs, not things are *áll* we see:  
+
+Blood is poured and *flésh* is broken,  
+Yet in either *wón*drous token  
+Christ entire we *knów* to be.  
+:::
+
+::: {.column width="50%"}
+Whoso of this *fóod* partakes,  
+Does not rend the *Lórd* nor breaks;  
+Christ is whole to *áll* that taste:  
+
+Thousands are, as *óne*, receivers,  
+One, as thousands *óf* believers,  
+Eats of him who *cán*not waste.  
+
+Bad and good the *féast* are sharing,  
+Of what divers *dóoms* preparing,  
+Endless death, or *énd*less life.  
+
+Life to these, to *thóse* damnation,  
+See how like par*tíc*ipation  
+Is with unlike *ís*sues rife.
+
+When the sacra*mént* is broken,  
+Doubt not, but be*líeve* 'tis spoken,  
+That each severed out*wárd* token  
+Doth the very *whóle* contain.
+
+Nought the precious *gíft* divides,  
+Breaking but the *sígn* betides  
+Jesus still the same *á*bides,  
+Still unbroken *dóes* remain.  
+
+[*The shorter form of the Sequence begins here.*]{.red}
+
+Lo! the angel's *fóod* is given  
+To the pilgrim *whó* has striven;  
+See the children's bread *fróm* heaven,  
+Which on dogs may *nót* be spent.  
+
+Truth the ancient *týpes* fulfilling,  
+Isaac bound, a *víc*tim willing,  
+Paschal lamb, its life*blóod* spilling,  
+Manna to the *fá*thers sent.  
+
+Very bread, good *shép*herd, tend us,  
+Jesu, of your *lóve* befriend us,  
+You refresh us, *yóu* defend us,  
+Your eternal *góod*ness send us  
+In the land of *lífe* to see.  
+
+You who all things *cán* and know,  
+Who on earth such *fóod* bestow,  
+Grant us with your *sáints*, though lowest,  
+Where the heav'nly *féast* you show,  
+Fellow heirs and guests *tó* be.  
+Amen. Al*lé*luia.
+:::
+
+::::
+
+
+<!-- ```{=html}
+<object data="sequence_corpus_christi.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="100%">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="sequence_corpus_christi.pdf">click here to download the PDF file.</a></p>
+</object>
+``` -->
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

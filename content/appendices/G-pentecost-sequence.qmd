@@ -1,0 +1,92 @@
+---
+title: "Sequence for Pentecost (Years ABC)"
+---
+
+::: {.red}
+According to the General Instruction of the Roman Missal, the following Sequence is chanted immediately following the Second Reading and before the Gospel Acclamation on [Pentecost Sunday](../easter/pentecost.qmd). It is not sung at the Saturday Vigil Mass.
+
+Here, the oﬃcial approved text, as found in the Lectionary, is put to a simple psalm tone arranged by M. Grossi (©2023). A cantor version containing only the psalm melody is provided first, followed by an organ version with a suggested accompaniment arranged by M. Grossi (©2023).
+:::
+
+::: {.red}
+### Liturgical performance notes
+:::
+
+* [The melody is simply repeated for each stanza in a fashion similar to the more-familiar singing of Responsorial Psalm verses, one line per stanza.]{.red}
+* [The use of *italics* font together with an accent symbol (´) indicates
+the textual syllable on which to move to the next note in the stanza.
+Everything preceding this annotated syllable is chanted on the first note
+of the measure. The musical timing of these sustained notes is arbitrary
+and should be determined entirely by the singing, which should be done
+in a smooth, chant-like fashion.]{.red}
+* [The verses are arranged column-wise: Read down column one first, then the second column (verse 2 begins “*Come, O Father...*”)]{.red}
+
+::: {.red}
+<a href="./sequence_pentecost.pdf" target="_blank">Click to download</a> the Sequence for Pentecost.
+:::
+
+***
+
+### Come, Holy Spirit (*Veni, Sancte Spiritus*)
+
+[Cantor:]{.red}
+
+![](./pentecost-psalm-tone.png){fig-alt="Psalm tone for three stanzas."}
+
+[Organ:]{.red}
+
+![](./pentecost-psalm-tone-organ.png){fig-alt="Psalm tone for three stanzas with accompaniment."}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Come, O Holy Spirit, *cóme*!  
+And from your cel*ést*ial home  
+Shed a ray of *líght* divine!  
+
+Come, O Father of the *póor*!  
+Come, source of *áll* our store!  
+Come, within our *bós*oms shine.  
+
+You, of comforters the *bést*;  
+You, the soul's most *wél*come guest;  
+Sweet refreshment *hére* below;  
+
+In our labor, rest most *swéet*;  
+Grateful coolness *ín* the heat;  
+Solace in the *mídst* of woe.  
+
+O most blessed, Light di*víne*,  
+Shine within these *héarts* of yours,  
+And our inmost *bé*ing fill!
+:::
+
+::: {.column width="50%"}
+Where you are not, we have *náught*,  
+Nothing good in *déed* or thought,  
+Nothing free from *táint* of ill.  
+
+Heal our wounds, our strength re*néw*;  
+On our dryness *póur* your dew;  
+Wash the stains of *gúilt* away:
+
+Bend the stubborn heart and *wíll*;  
+Melt the frozen, *wárm* the chill;  
+Guide the steps that *gó* astray.
+
+On the faithful, who a*dóre*  
+And confess you, *év*ermore  
+In your sev'nfold *gíft* descend;
+
+Give them virtue's sure re*wárd*;  
+Give them your sal*vá*tion, Lord;  
+Give them joys that *né*ver end.
+
+A*mén*. Al*lé*luia, Al*lé*luia.
+:::
+
+::::
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::

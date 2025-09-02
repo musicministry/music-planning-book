@@ -1,0 +1,12 @@
+---
+title: "Adoration of the Blessed Sacrament"
+---
+
+**Explosition:** [*O Salutaris*](https://www.youtube.com/watch?v=q09VE8-kkt4)  
+**Benediction:** [*Tantum Ergo*](https://www.youtube.com/watch?v=3g71OCa4tkY)  
+
+*Coming soon.*
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
