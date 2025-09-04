@@ -1,0 +1,133 @@
+---
+title: "Christmas: Mass at Dawn"
+subtitle: December 25
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "O Come, All Ye Faithful"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "A light will shine on us this day: the Lord is born for us."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "God Rest You, Merry Gentlemen"
+          year: A
+          book: BB
+          priority: required
+        - name: "Good Christian Friends, Rejoice"
+          year: B
+          book: BB
+          priority: required
+        - name: "The Snow Lay on the Ground"
+          year: C
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "It Came Upon the Midnight Clear"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Of the Father’s Love Begotten"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Joy to the World"
+          book: BB
+          priority: required
+  a:
+    anthems:
+      list:
+        - name: Arise and Shine
+        - name: Arise, Arise, and Shine
+  b:
+    anthems:
+      list:
+        - name: Lo! He Comes With Clouds Descending
+        - name: Personent Hodie
+  c:
+    anthems:
+      list:
+        - name: Wake from Your Sleep
+        - name: Welcome the Light
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+light, humility, quiet joy, awe, wonder
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Today a light will shine upon us, for the Lord is born for us;  
+> and he will be called Wondrous God,  
+> Prince of peace, Father of future ages:  
+> and his reign will be without end.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Rejoice, O Daughter Sion; lift up praise, Daughter Jerusalem:  
+> Behold, your King will come, the Holy One and Savior of the world.
+
+::: {.titlered}
+### &nbsp; Years A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The Mass at Dawn may be celebrated at the first Mass of the morning. For simplicity, the hymns are the same as those for the [Mass During the Day](christmas-day.qmd), but the readings and Responsorial Psalm are diﬀerent. Be sure to find out which Mass the presider is celebrating and sing the correct psalm.
+* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas verse found in [Appendix B](../appendices/B-festival-alleluia.qmd).
+* The Oﬀertory hymn is taken from the appropriate Liturgical Cycle.
+* Additional Christmas carols can be sung at Communion as needed.

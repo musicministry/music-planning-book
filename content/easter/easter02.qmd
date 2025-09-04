@@ -1,0 +1,122 @@
+---
+title: "Second Sunday of Easter"
+subtitle: "Sunday of Divine Mercy"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "The Day of Resurrection"
+          book: BB
+          priority: optional
+        - name: "Christ, the Lord, Is Risen Today"
+          tune: LLANFAIR
+          book: BB
+          priority: optional
+    psalm:
+      list:
+        - name: "Give thanks to the Lord for he is good, his love is everlasting."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "We Remember"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Ye Sons and Daughters"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "We Walk By Faith"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "There's a Wideness in God's Mercy"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "Peace I Leave You"
+          note: "Communaute de Taizé"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+mercy, baptism, faith, community, praise, rejoicing
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Like newborn infants, you must long for the pure, spiritual milk,  
+> that in him you may grow to salvation, alleluia.  
+>  
+> [Or:]{.red}  
+>  
+> Receive the joy of your glory, giving thanks to God,  
+> who has called you into the heavenly kingdom, alleluia.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Bring your hand and feel the place of the nails,  
+> and do not be unbelieving but believing, alleluia.
+
+::: {.titlered}
+### &nbsp; Year ABC
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The Second Sunday of Easter is also **Divine Mercy Sunday**.
+* If Mothers' Day falls on this week, “[On This Day, O Beautiful Mother](https://www.youtube.com/watch?v=Sn5sz5D67BY)” (BB) may be sung as a Meditation hymn.
+* If the **dismissal of the people** is chanted by the presider, the cantor
+must promptly-–-without pause or hesitation-–-lead the chanted response
+found in [Appendix F](../appendices/F-easter-dismissal.qmd).

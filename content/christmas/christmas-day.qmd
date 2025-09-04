@@ -1,0 +1,131 @@
+---
+title: "Christmas: Mass During the Day"
+subtitle: December 25
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  abc:
+    processional:
+      list:
+        - name: "O Come, All Ye Faithful"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "All the ends of the Earth have seen the power of God."
+          book: RA
+          priority: optional
+        - name: "Psalm 98: All the Ends of the Earth (Hurd)"
+          book: BB
+          priority: preferred
+    offertory:
+      list:
+        - name: "God Rest You, Merry Gentlemen"
+          year: A
+          book: BB
+          priority: required
+        - name: "Good Christian Friends, Rejoice"
+          year: B
+          book: BB
+          priority: required
+        - name: "The Snow Lay on the Ground"
+          year: C
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "It Came Upon the Midnight Clear"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Of the Father’s Love Begotten"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Joy to the World"
+          book: BB
+          priority: required
+  a:
+    anthems:
+      list:
+        - name: For Unto Us
+  b:
+    anthems:
+      list:
+        - name: Birthday of a King
+  c:
+    anthems:
+      list:
+        - name: Christ Lives Among Us
+        - name: Cry Out With Joy and Gladness
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+mystery of the Word, salvation, good news, God the Father
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> A child is born for us, and a son is given to us;  
+> his scepter of power rests upon his shoulder,  
+> and his name will be called Messenger of great counsel.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> All the ends of the earth have seen the salvation of our God.
+
+::: {.titlered}
+### &nbsp; Years A, B, C
+:::
+{{< var text.yearabc >}}
+
+```{python}
+#| title: Year ABC
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['abc'], urls=videos)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* If available, the Festival Alleluia can be used for the Gospel Acclamation with the Christmas verse found in [Appendix B](../appendices/B-festival-alleluia.qmd).
+* The Oﬀertory hymn is taken from the appropriate Liturgical Cycle.
+* Additional Christmas carols can be sung at Communion as needed.
