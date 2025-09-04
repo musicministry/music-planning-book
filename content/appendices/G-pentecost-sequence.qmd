@@ -22,7 +22,7 @@ in a smooth, chant-like fashion.]{.red}
 * [The verses are arranged column-wise: Read down column one first, then the second column (verse 2 begins “*Come, O Father...*”)]{.red}
 
 ::: {.red}
-<a href="./sequence_pentecost.pdf" target="_blank">Click to download</a> the Sequence for Pentecost.
+<a href="./sequence-pentecost.pdf" target="_blank">Click to download</a> the Sequence for Pentecost.
 :::
 
 ***
