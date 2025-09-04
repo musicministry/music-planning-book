@@ -197,6 +197,7 @@ format:
     documentclass: scrreprt
     include-in-header: 
       text: |
+        \usepackage{graphicx}
         \usepackage{imakeidx}
         \makeindex[intoc=true, columns=2, columnseprule=false, options=-s latex/indexstyles.ist]
     include-after-body: 
