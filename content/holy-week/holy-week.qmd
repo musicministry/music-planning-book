@@ -158,6 +158,7 @@ mass:
 import sys
 import yaml
 sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
 import utils
 
 # Front matter YAML and check for errors
