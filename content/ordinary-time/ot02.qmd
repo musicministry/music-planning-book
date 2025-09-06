@@ -125,7 +125,10 @@ with open('../../_hymns.yml', 'r') as vf:
 #### **Themes**
 :::
 
-THEMES
+[Year A:]{.red} Lamb of God, witness, service  
+[Year B:]{.red} the call of God, receptivity, discipleship, Lamb of
+God, obedience  
+[Year C:]{.red} revealed glory, manifestation, marriage, miracle  
 
 :::  {.red}
 #### **Entrance Antiphon**

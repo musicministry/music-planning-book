@@ -125,7 +125,10 @@ with open('../../_hymns.yml', 'r') as vf:
 #### **Themes**
 :::
 
-THEMES
+[Year A:]{.red} unity, light, discipleship, joy, protection, healing  
+[Year B:]{.red} forgiveness, repentance, mercy, kingdom of God,
+metanoia, proclamation of the Good News  
+[Year C:]{.red} unity, fulfillment  
 
 :::  {.red}
 #### **Entrance Antiphon**
