@@ -1,0 +1,179 @@
+---
+title: Ordinary Time (Summer)
+subtitle: After Pentecost until Advent
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+mass:
+  a:
+    kyrie:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    gloria:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    holy-holy-holy:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          option: 'A ("*When we eat...*")'
+          year: "A"
+          priority: required
+    amen:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Heritage Mass"
+          book: OCP
+          priority: required
+  b:
+    kyrie:
+      list:
+        - name: "Chant Mode III"
+          book: GIA
+          priority: required
+    gloria:
+      list:
+        - name: "Congregational Mass"
+          priority: required
+    holy-holy-holy:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          option: 'B ("*We proclaim...*")'
+          year: "B"
+          priority: required
+    amen:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "A Community Mass"
+          book: GIA
+          priority: required
+  c:
+    kyrie:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    gloria:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    holy-holy-holy:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    memorial-acclamation:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          option: 'C ("*Save us...*")'
+          year: "C"
+          priority: required
+    amen:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+    lamb-of-god:
+      list:
+        - name: "Mass of Christ the Savior"
+          book: OCP
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+::: {.red}
+The season of Ordinary Time begins on the Monday following the Feast of the Baptism of the Lord, which replaces the First Sunday of Advent. Ordinary Time continues until the start of Lent on Ash Wednesday, at which time it pauses and resumes after the conclusion of the Easter season on Pentecost Sunday. The number of weeks in Ordinary Time between Christmas and Lent varies from year to year.
+
+The Mass parts for all Masses during Ordinary Time are taken from the
+appropriate Liturgical Cycle unless otherwise noted:
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| title: Year A
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| title: Year B
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['b'], urls=videos)
+```
+
+::: {.red}
+The Kyrie, Chant Mode III, when preceding the Congregational Mass Gloria in
+B♭, should be played in the key of F.
+:::
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| title: Year C
+#| echo: false
+#| output: asis
+utils.masssetting(params['mass']['c'], urls=videos)
+```
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
