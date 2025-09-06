@@ -15,7 +15,7 @@ hymns:
           tune: 
           verses: 
           composer: 
-          book: 
+          book: BB
           priority: required
     psalm:
       list:
