@@ -149,7 +149,7 @@ solemnity, glory, joy, initiation, history of salvation, resurrection, life, hop
 > therefore let us keep the feast with the unleavened bread of purity and truth. Alleluia.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

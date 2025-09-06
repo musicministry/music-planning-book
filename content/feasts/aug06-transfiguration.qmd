@@ -90,7 +90,7 @@ glory, hope, splendor, fulfillment of Old Testament
 for we shall see him as he is.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

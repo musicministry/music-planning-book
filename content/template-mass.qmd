@@ -74,7 +74,7 @@ Commentary:
 :::
 
 ::: {.titlered}
-### &nbsp; Year A, B, C
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

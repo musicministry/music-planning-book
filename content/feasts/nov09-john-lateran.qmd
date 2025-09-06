@@ -98,7 +98,7 @@ Church, our ties to Rome, glory, holiness, joy, dwelling-place of God, people of
 > into a spiritual house, a holy priesthood.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

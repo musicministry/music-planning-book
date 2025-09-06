@@ -88,7 +88,7 @@ light, splendor, glory, meeting Christ
 > which you prepared in the sight of all peoples.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

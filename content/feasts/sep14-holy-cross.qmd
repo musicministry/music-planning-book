@@ -90,7 +90,7 @@ cross, Christ's mission, dignity of Christ, God's love
 > I will draw everyone to myself, says the Lord.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

@@ -94,7 +94,7 @@ mercy, baptism, faith, community, praise, rejoicing
 > and do not be unbelieving but believing, alleluia.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

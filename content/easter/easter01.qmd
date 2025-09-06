@@ -114,7 +114,7 @@ solemnity, glory, joy, resurrection, life, hope, baptism
 > of purity and truth, alleluia, alleluia.  
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

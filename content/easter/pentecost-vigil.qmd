@@ -113,7 +113,7 @@ light, language, the Spirit's imminence, renewal
 > If anyone is thirsty, let him come to me and drink, alleluia.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

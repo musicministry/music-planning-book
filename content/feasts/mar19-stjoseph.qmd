@@ -82,7 +82,7 @@ fidelity, righteousness, stewardship
 > Come, share you master's joy.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

@@ -88,7 +88,7 @@ predestined glory, salvation, prophecy, light
 > He has visited his people and redeemed them.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

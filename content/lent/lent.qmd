@@ -75,7 +75,7 @@ The [Mass of Charity and Love]{.black} by Steven Werner and based on the hymn "[
 :::
 
 ::: {.titlered}
-### &nbsp; Year A, B, C
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

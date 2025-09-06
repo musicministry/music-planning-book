@@ -94,7 +94,7 @@ Peter, Paul, faith, evangelization, Church
 > and upon this rock I will build my Church.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

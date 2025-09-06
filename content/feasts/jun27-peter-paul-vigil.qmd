@@ -91,7 +91,7 @@ Peter, Paul, faith, evangelization, Church
 > Lord, you know everything; you know that I love you.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

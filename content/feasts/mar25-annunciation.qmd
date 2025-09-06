@@ -92,7 +92,7 @@ faith, fidelity, Mary, trust
 > and his name will be called Emmanuel.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

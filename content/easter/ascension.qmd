@@ -91,7 +91,7 @@ glory, majesty, fulfillment, promise of Holy Spirit, baptism & mission
 > even to the end of the age, alleluia.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

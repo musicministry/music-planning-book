@@ -93,7 +93,7 @@ Mary, purity, the benevolence of God
 > Christ our God.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

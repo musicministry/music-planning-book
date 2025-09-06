@@ -186,7 +186,7 @@ On **Palm Sunday** and **Good Friday**, the [Mass of Charity and Love]{.black} b
 :::
 
 ::: {.titlered}
-### &nbsp; Year A, B, C
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 

@@ -85,7 +85,7 @@ preparation, Mary's honor
 > which bore the Son of the eternal Father.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 
