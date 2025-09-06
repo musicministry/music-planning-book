@@ -93,7 +93,7 @@ predestined glory, salvation, prophecy, light
 {{< var text.yearabc >}}
 
 ```{python}
-#| title: Years ABC
+#| label: Years ABC
 #| echo: false
 #| output: asis
 utils.hymnlist(params['hymns']['abc'], urls=videos)
@@ -101,6 +101,7 @@ utils.hymnlist(params['hymns']['abc'], urls=videos)
 
 
 ```{python}
+#| label: Anthems
 #| echo: false
 #| output: asis
 utils.anthemlist(hymns=params['hymns'], urls=videos)

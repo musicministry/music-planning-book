@@ -103,7 +103,7 @@ Church, our ties to Rome, glory, holiness, joy, dwelling-place of God, people of
 {{< var text.yearabc >}}
 
 ```{python}
-#| title: Year ABC
+#| label: Year ABC
 #| echo: false
 #| output: asis
 utils.hymnlist(params['hymns']['abc'], urls=videos)
@@ -111,6 +111,7 @@ utils.hymnlist(params['hymns']['abc'], urls=videos)
 
 
 ```{python}
+#| label: Anthems
 #| echo: false
 #| output: asis
 utils.anthemlist(hymns=params['hymns'], urls=videos)

@@ -79,7 +79,7 @@ Commentary:
 {{< var text.yearabc >}}
 
 ```{python}
-#| title: Year ABC
+#| label: Year ABC
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['abc'], urls=videos)

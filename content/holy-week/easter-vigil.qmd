@@ -154,7 +154,7 @@ solemnity, glory, joy, initiation, history of salvation, resurrection, life, hop
 {{< var text.yearabc >}}
 
 ```{python}
-#| title: Year ABC
+#| label: Year ABC
 #| echo: false
 #| output: asis
 utils.hymnlist(params['hymns']['abc'], urls=videos)
@@ -162,6 +162,7 @@ utils.hymnlist(params['hymns']['abc'], urls=videos)
 
 
 ```{python}
+#| label: Anthems
 #| echo: false
 #| output: asis
 utils.anthemlist(hymns=params['hymns'], urls=videos)

@@ -96,13 +96,14 @@ glory, majesty, fulfillment, promise of Holy Spirit, baptism & mission
 {{< var text.yearabc >}}
 
 ```{python}
-#| title: Year ABC
+#| label: Year ABC
 #| echo: false
 #| output: asis
 utils.hymnlist(params['hymns']['abc'], urls=videos)
 ```
 
 ```{python}
+#| label: Anthems
 #| echo: false
 #| output: asis
 utils.anthemlist(hymns=params['hymns'], urls=videos)

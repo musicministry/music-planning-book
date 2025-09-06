@@ -191,7 +191,7 @@ On **Palm Sunday** and **Good Friday**, the [Mass of Charity and Love]{.black} b
 {{< var text.yearabc >}}
 
 ```{python}
-#| title: Year ABC
+#| label: Year ABC
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['abc'], urls=videos)
@@ -213,7 +213,7 @@ The Mass parts, including the [Gloria]{.black}, for **Holy Thursday** and the **
 {{< var text.yeara >}}
 
 ```{python}
-#| title: Year A
+#| label: Year A
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['a'], urls=videos)
@@ -225,7 +225,7 @@ utils.masssetting(params['mass']['a'], urls=videos)
 {{< var text.yearb >}}
 
 ```{python}
-#| title: Year B
+#| label: Year B
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['b'], urls=videos)
@@ -242,7 +242,7 @@ B♭, should be played in the key of F.
 {{< var text.yearc >}}
 
 ```{python}
-#| title: Year C
+#| label: Year C
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['c'], urls=videos)

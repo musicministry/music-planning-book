@@ -1,5 +1,5 @@
 ---
-title: Second Sunday of Ordinary Time
+label: Second Sunday of Ordinary Time
 ---
 
 ```{python}
@@ -153,7 +153,7 @@ THEMES
 {{< var text.yeara >}}
 
 ```{python}
-#| title: Year A
+#| label: Year A
 #| echo: false
 #| output: asis
 utils.hymnlist(params['hymns']['a'], urls=videos)
@@ -165,7 +165,7 @@ utils.hymnlist(params['hymns']['a'], urls=videos)
 {{< var text.yearb >}}
 
 ```{python}
-#| title: Year B
+#| label: Year B
 #| echo: false
 #| output: asis
 utils.hymnlist(params['hymns']['b'], urls=videos)
@@ -177,7 +177,7 @@ utils.hymnlist(params['hymns']['b'], urls=videos)
 {{< var text.yearc >}}
 
 ```{python}
-#| title: Year C
+#| label: Year C
 #| echo: false
 #| output: asis
 utils.hymnlist(params['hymns']['c'], urls=videos)
@@ -185,6 +185,7 @@ utils.hymnlist(params['hymns']['c'], urls=videos)
 
 
 ```{python}
+#| label: Anthems
 #| echo: false
 #| output: asis
 utils.anthemlist(hymns=params['hymns'], urls=videos)

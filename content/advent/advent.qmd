@@ -86,7 +86,7 @@ The [Missa Emmanuel]{.black} by Richard Proulx puts the texts of the Mass to the
 {{< var text.yearabc >}}
 
 ```{python}
-#| title: Year ABC
+#| label: Year ABC
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['abc'], urls=videos)

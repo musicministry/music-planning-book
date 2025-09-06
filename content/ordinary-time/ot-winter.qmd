@@ -1,6 +1,6 @@
 ---
-title: Ordinary Time (Winter)
-subtitle: After Christmas until Lent
+title: ORDINARY TIME (WINTER)
+subtitle: Between Christmas and Lent
 ---
 
 ```{python}
@@ -140,7 +140,7 @@ appropriate Liturgical Cycle unless otherwise noted:
 {{< var text.yeara >}}
 
 ```{python}
-#| title: Year A
+#| label: Year A
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['a'], urls=videos)
@@ -152,7 +152,7 @@ utils.masssetting(params['mass']['a'], urls=videos)
 {{< var text.yearb >}}
 
 ```{python}
-#| title: Year B
+#| label: Year B
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['b'], urls=videos)
@@ -169,7 +169,7 @@ B♭, should be played in the key of F.
 {{< var text.yearc >}}
 
 ```{python}
-#| title: Year C
+#| label: Year C
 #| echo: false
 #| output: asis
 utils.masssetting(params['mass']['c'], urls=videos)
