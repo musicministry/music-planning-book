@@ -135,9 +135,9 @@ with open('../../_hymns.yml', 'r') as vf:
 #### **Themes**
 :::
 
-[**Year A:**]{.red} ministry, service, diaconate, chosen people, faith in action  
-[**Year B:**]{.red} ministry, service, diaconate, chosen people, faith in action   
-[**Year C:**]{.red} love, remain in Christ, Church, discipleship
+[Year A:]{.red} ministry, service, diaconate, chosen people, faith in action  
+[Year B:]{.red} ministry, service, diaconate, chosen people, faith in action   
+[Year C:]{.red} love, remain in Christ, Church, discipleship
 
 :::  {.red}
 #### **Entrance Antiphon**

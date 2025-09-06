@@ -125,9 +125,9 @@ with open('../../_hymns.yml', 'r') as vf:
 #### **Themes**
 :::
 
-[**Year A:**]{.red} Christ as mediator, coming of Holy Spirit, mission, prayer  
-[**Year B:**]{.red} Christ as mediator, coming of Holy Spirit, mission, prayer  
-[**Year C:**]{.red} coming of Holy Spirit, mission, prayer, witness, unity
+[Year A:]{.red} Christ as mediator, coming of Holy Spirit, mission, prayer  
+[Year B:]{.red} Christ as mediator, coming of Holy Spirit, mission, prayer  
+[Year C:]{.red} coming of Holy Spirit, mission, prayer, witness, unity
 
 :::  {.red}
 #### **Entrance Antiphon**
