@@ -65,7 +65,7 @@ mass:
 import sys
 import yaml
 sys.path.append('/workspaces/planning-book')
-import utils
+import ../../utils
 
 # Front matter YAML and check for errors
 params = utils.get_params(frontmatter)
