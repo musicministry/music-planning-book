@@ -16,10 +16,14 @@ book:
     - content/versions.qmd
     - part: content/advent/advent.qmd
       chapters:
-        - content/advent/advent01.qmd
-        - content/advent/advent02.qmd
-        - content/advent/advent03.qmd
-        - content/advent/advent04.qmd
+        - text: "First Sunday"
+          href: content/advent/advent01.qmd
+        - text: "Second Sunday"
+          href: content/advent/advent02.qmd
+        - text: "Third Sunday"
+          href: content/advent/advent03.qmd
+        - text: "Fourth Sunday"
+          href: content/advent/advent04.qmd
     - part: content/christmas/christmas.qmd
       chapters:
         - text: "Christmas Vigil"
@@ -40,22 +44,35 @@ book:
           href: content/christmas/baptism.qmd
     - part: content/ordinary-time/ot-winter.qmd
       chapters:
-        - content/ordinary-time/ot02.qmd
-        - content/ordinary-time/ot03.qmd
-  #       - content/ordinary-time/ot04.qmd
-  #       - content/ordinary-time/ot05.qmd
-  #       - content/ordinary-time/ot06.qmd
-  #       - content/ordinary-time/ot07.qmd
-  #       - content/ordinary-time/ot08.qmd
-  #       - content/ordinary-time/ot09.qmd
+        - text: "Second Sunday"
+          href: content/ordinary-time/ot02.qmd
+        - text: "Third Sunday"
+          href: content/ordinary-time/ot03.qmd
+        # - text: "Fourth Sunday"
+        #   href: content/ordinary-time/ot04.qmd
+        # - text: "Fifth Sunday"
+        #   href: content/ordinary-time/ot05.qmd
+        # - text: "Sixth Sunday"
+        #   href: content/ordinary-time/ot06.qmd
+        # - text: "Seventh Sunday"
+        #   href: content/ordinary-time/ot07.qmd
+        # - text: "Eighth Sunday"
+        #   href: content/ordinary-time/ot08.qmd
+        # - text: "Ninth Sunday"
+        #   href: content/ordinary-time/ot09.qmd
     - part: content/lent/lent.qmd
       chapters:
         - content/lent/ash-wed.qmd
-        - content/lent/lent01.qmd
-        - content/lent/lent02.qmd
-        - content/lent/lent03.qmd
-        - content/lent/lent04.qmd
-        - content/lent/lent05.qmd
+        - text: "First Sunday"
+          href: content/lent/lent01.qmd
+        - text: "Second Sunday"
+          href: content/lent/lent02.qmd
+        - text: "Third Sunday"
+          href: content/lent/lent03.qmd
+        - text: "Fourth Sunday"
+          href: content/lent/lent04.qmd
+        - text: "Fifth Sunday"
+          href: content/lent/lent05.qmd
     - part: content/holy-week/holy-week.qmd
       chapters:
         - text: "Palm Sunday"
@@ -67,46 +84,80 @@ book:
         - content/holy-week/easter-vigil.qmd
     - part: content/easter/easter.qmd
       chapters:
-        - content/easter/easter01.qmd
-        - content/easter/easter02.qmd
-        - content/easter/easter03.qmd
-        - content/easter/easter04.qmd
-        - content/easter/easter05.qmd
-        - content/easter/easter06.qmd
-        - content/easter/ascension.qmd
-        - content/easter/easter07.qmd
+        - text: "Easter Sunday"
+          href: content/easter/easter01.qmd
+        - text: "Second Sunday"
+          href: content/easter/easter02.qmd
+        - text: "Third Sunday"
+          href: content/easter/easter03.qmd
+        - text: "Fourth Sunday"
+          href: content/easter/easter04.qmd
+        - text: "Fifth Sunday"
+          href: content/easter/easter05.qmd
+        - text: "Sixth Sunday"
+          href: content/easter/easter06.qmd
+        - text: "Ascension"
+          href: content/easter/ascension.qmd
+        - text: "Seventh Sunday"
+          href: content/easter/easter07.qmd
         - text: "Pentecost Vigil"
           href: content/easter/pentecost-vigil.qmd
         - text: "Pentecost Sunday"
           href: content/easter/pentecost.qmd
     - part: content/ordinary-time/ot-summer.qmd
-  #     chapters:
-  #       - content/ordinary-time/ot10.qmd
-  #       - content/ordinary-time/ot11.qmd
-  #       - content/ordinary-time/ot12.qmd
-  #       - content/ordinary-time/ot13.qmd
-  #       - content/ordinary-time/ot14.qmd
-  #       - content/ordinary-time/ot15.qmd
-  #       - content/ordinary-time/ot16.qmd
-  #       - content/ordinary-time/ot17.qmd
-  #       - content/ordinary-time/ot18.qmd
-  #       - content/ordinary-time/ot19.qmd
-  #       - content/ordinary-time/ot20.qmd
-  #       - content/ordinary-time/ot21.qmd
-  #       - content/ordinary-time/ot22.qmd
-  #       - content/ordinary-time/ot23.qmd
-  #       - content/ordinary-time/ot24.qmd
-  #       - content/ordinary-time/ot25.qmd
-  #       - content/ordinary-time/ot26.qmd
-  #       - content/ordinary-time/ot27.qmd
-  #       - content/ordinary-time/ot28.qmd
-  #       - content/ordinary-time/ot29.qmd
-  #       - content/ordinary-time/ot30.qmd
-  #       - content/oordinary-timet/ot31.qmd
-  #       - content/ordinary-time/ot32.qmd
-  #       - content/ordinary-time/ot33.qmd
-  #       - content/ordinary-time/christ-the-king.qmd
-  #       - content/ordinary-time/thanksgiving.qmd
+      # chapters:
+      #   - text: "Tenth Sunday"
+      #     href: content/ordinary-time/ot10.qmd
+      #   - text: "Eleventh Sunday"
+      #     href: content/ordinary-time/ot11.qmd
+      #   - text: "Twelfth Sunday"
+      #     href: content/ordinary-time/ot12.qmd
+      #   - text: "Thirteenth Sunday"
+      #     href: content/ordinary-time/ot13.qmd
+      #   - text: "Fourteenth Sunday"
+      #     href: content/ordinary-time/ot14.qmd
+      #   - text: "Fifteenth Sunday"
+      #     href: content/ordinary-time/ot15.qmd
+      #   - text: "Sixteenth Sunday"
+      #     href: content/ordinary-time/ot16.qmd
+      #   - text: "Seventeenth Sunday"
+      #     href: content/ordinary-time/ot17.qmd
+      #   - text: "Eighteenth Sunday"
+      #     href: content/ordinary-time/ot18.qmd
+      #   - text: "Nineteenth Sunday"
+      #     href: content/ordinary-time/ot19.qmd
+      #   - text: "Twentieth Sunday"
+      #     href: content/ordinary-time/ot20.qmd
+      #   - text: "Twenty-First Sunday"
+      #     href: content/ordinary-time/ot21.qmd
+      #   - text: "Twenty-Second Sunday"
+      #     href: content/ordinary-time/ot22.qmd
+      #   - text: "Twenty-Third Sunday"
+      #     href: content/ordinary-time/ot23.qmd
+      #   - text: "Twenty-Fourth Sunday"
+      #     href: content/ordinary-time/ot24.qmd
+      #   - text: "Twenty-Fifth Sunday"
+      #     href: content/ordinary-time/ot25.qmd
+      #   - text: "Twenty-Sixth Sunday"
+      #     href: content/ordinary-time/ot26.qmd
+      #   - text: "Twenty-Seventh Sunday"
+      #     href: content/ordinary-time/ot27.qmd
+      #   - text: "Twenty-Eighth Sunday"
+      #     href: content/ordinary-time/ot28.qmd
+      #   - text: "Twenty-Ninth Sunday"
+      #     href: content/ordinary-time/ot29.qmd
+      #   - text: "Thirtieth Sunday"
+      #     href: content/ordinary-time/ot30.qmd
+      #   - text: "Thirty-First Sunday"
+      #     href: content/oordinary-timet/ot31.qmd
+      #   - text: "Thirty-Second Sunday"
+      #     href: content/ordinary-time/ot32.qmd
+      #   - text: "Thirty-Third Sunday"
+      #     href: content/ordinary-time/ot33.qmd
+      #   - text: "Christ the King"
+      #     href: content/ordinary-time/christ-the-king.qmd
+      #   - text: "Thanksgiving"
+      #     href: content/ordinary-time/thanksgiving.qmd
     - part: content/feasts/feasts.qmd
       chapters:
         - text: "December 8: Immaculate Conception"
