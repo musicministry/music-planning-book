@@ -110,4 +110,4 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 
 * The music for the Vigil Mass is the same as for the [Mass During the Day](aug15-assumption.qmd), but the antiphons, readings, and Responsorial Psalm are diﬀerent.
 * The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Ordinary Time
-preamble](../ordinary-time/ordinary-time.qmd).
+preamble](../ordinary-time/ot-summer.qmd).

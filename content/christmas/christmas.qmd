@@ -100,7 +100,7 @@ utils.masssetting(params['mass']['abc'], urls=videos)
 ::: {.red}
 (This setting is not currently available through any of the three major publishers. It will need to be purchased for public liturgical use [here](https://kevinweed.com/christmas-carol-mass/).)
 
-Alternatively, the Mass parts during the season of Christmas can be taken from the appropriate [Liturgical Cycle](../ordinary-time/ot.qmd), using the [Christmas Gloria]{.black} instead of the Gloria from the Mass setting.
+Alternatively, the Mass parts during the season of Christmas can be taken from the appropriate [Liturgical Cycle](../ordinary-time/ot-winter.qmd), using the [Christmas Gloria]{.black} instead of the Gloria from the Mass setting.
 :::
 
 ::: {.centered}

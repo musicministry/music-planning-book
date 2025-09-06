@@ -111,6 +111,6 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 :::
 
 * *The first (generic) verse should be sung followed by the special verse for this feast.
-* The music for the Mass During the Day is the same as for the [Vigil Mass](un23-nativity-john-baptist-vigil.qmd), but the antiphons, readings, and Responsorial Psalm are diﬀerent.
+* The music for the Mass During the Day is the same as for the [Vigil Mass](jun23-nativity-john-baptist-vigil.qmd), but the antiphons, readings, and Responsorial Psalm are diﬀerent.
 * The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Ordinary Time
-preamble](../ordinary-time/ordinary-time.qmd).
+preamble](../ordinary-time/ot-summer.qmd).

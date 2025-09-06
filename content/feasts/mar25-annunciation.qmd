@@ -117,7 +117,7 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 
 * *The first (generic) verse should be sung followed by the special verse for this solemnity.
 * The **Gloria** is sung or recited. If sung, all Mass parts are taken from the Mass setting for the given year as specified in the [Ordinary Time
-preamble](../ordinary-time/ordinary-time.qmd).
+preamble](../ordinary-time/ot-winter.qmd).
 * If this solemnity falls within the season of Lent, the **Lenten Gospel
 Acclamation** found in Appendix D is sung.
 * If this Solemnity *does not* fall within the season of Lent, the verse text in Appendix D is sung with a familiar “Alleluia” refrain. In this case, if the verse accompaniment from Appendix D is also used, either the chosen refrain should be in the same key as the verse (F major or D minor), or the verse should be transposed to the key signature of the chosen refrain.

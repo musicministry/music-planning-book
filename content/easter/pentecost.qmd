@@ -24,7 +24,7 @@ hymns:
       list:
         - name: "Sequence for Pentecost Sunday"
           note: "psalmody version"
-          book: "[Appx G](../appendicies/G-pentecost-sequence.qmd)"
+          book: "[Appx G](../appendices/G-pentecost-sequence.qmd)"
           priority: optional
         - name: "Come, O Holy Spirit"
           note: "hymn alternative"
@@ -70,7 +70,7 @@ hymns:
       list:
         - name: "Sequence for Pentecost Sunday"
           note: "psalmody version"
-          book: "[Appx G](../appendicies/G-pentecost-sequence.qmd)"
+          book: "[Appx G](../appendices/G-pentecost-sequence.qmd)"
           priority: optional
         - name: "Come, O Holy Spirit"
           note: "hymn alternative"
@@ -112,7 +112,7 @@ hymns:
       list:
         - name: "Sequence for Pentecost Sunday"
           note: "psalmody version"
-          book: "[Appx G](../appendicies/G-pentecost-sequence.qmd)"
+          book: "[Appx G](../appendices/G-pentecost-sequence.qmd)"
           priority: optional
         - name: "Come, O Holy Spirit"
           note: "hymn alternative"
