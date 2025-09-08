@@ -87,7 +87,7 @@ light, preparation, joy, repentance, Lamb of God
 > the Dawn from on high will visit us.
 
 ::: {.titlered}
-### &nbsp; Year ABC
+### &nbsp; Years A, B, C
 :::
 {{< var text.yearabc >}}
 
