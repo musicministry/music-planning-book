@@ -3,8 +3,8 @@
 
 | Version | Description                                                       |
 |:-------:|:------------------------------------------------------------------|
-| 2022.1.0 | The first version of this book was released for St. Kieran Catholic Church, Miami, Florida. The preferred hymnal was OCP’s Breaking Bread (BB), with at least one BB hymn option provided for every slot based on the 2022 Edition. |
-| 2025.1.0 | Alternatives from GIA’s Gather (G) and/or Worship (W) are oﬀered where appropriate. G and W oﬀerings are based on the indices for the Third14 and Fourth15 editions, respectively, but composers, hymn tunes, and lyrics have not been confirmed. |
+| 2022.1.0 | The first version of this book was released for St. Kieran Catholic Church, Miami, Florida and included music selections from both OCP's *Breaking Bread* (BB) and GIA's *Oramos Cantando / We Pray In Song* hymnals. The preferred hymnal was BB, with at least one BB hymn option provided for every slot based on the 2022 Edition. |
+| 2025.1.0 | A second, parish-agnostic, version using OCP's *Breaking Bread* hymnal. |
 
 <br>
 
