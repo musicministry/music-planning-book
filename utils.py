@@ -92,7 +92,7 @@ def hymnlist(hymns, urls, index=None):
         'hymn': remove_dupes([titlecase(hymn.replace('-', ' ')) for hymn in hymnsnew for i in hymns[hymn]['list']]),
         'hymnal': [(i['book'] if '](' in i['book'].lower() else ''.join(l for l in i['book'] if l.isupper())) if 'book' in i.keys() else '' for hymn in hymnsnew for i in hymns[hymn]['list']],
         'options': [f'<i>{make_psalm(i, urls=urls, index=index)}</i>' if 'psalm' in hymn else make_name(i, urls=urls, index=index) for hymn in hymnsnew for i in hymns[hymn]['list']],
-        'priority': [i['priority'] for hymn in hymnsnew for i in hymns[hymn]['list']]
+        'priority': [i['priority'] if 'priority' in i.keys() else 'none' for hymn in hymnsnew for i in hymns[hymn]['list']]
     })
     df['options'] = df['options'].str.replace('Verses', 'verses')
 
@@ -166,7 +166,7 @@ def masssetting(mass, urls, index=None):
         'hymn': remove_dupes([titlecase(part.replace('-', ' ')) for part in mass for i in mass[part]['list']]),
         'hymnal': [(i['book'] if '](' in i['book'].lower() else ''.join(l for l in i['book'] if l.isupper())) if 'book' in i.keys() else '' for part in mass for i in mass[part]['list']],
         'options': [make_part(i, urls=urls, index=index) for part in mass for i in mass[part]['list']],
-        'priority': [i['priority'] for part in mass for i in mass[part]['list']]
+        'priority': [i['priority'] if 'priority' in i.keys() else 'none' for part in mass for i in mass[part]['list']]
     })
     df['options'] = df['options'].str.replace('Verses', 'verses')
     df['hymn'] = df['hymn'].str.replace("Holy Holy Holy", "Holy, Holy, Holy")
@@ -266,7 +266,7 @@ def check_priorities(yml):
     head = yml[list(yml.keys())[0]]
     
     # Perform check
-    passed = [head[y][hymn]['list'][l]['priority'] for y in head.keys() for hymn in head[y].keys() for l in range(len(head[y][hymn]['list'])) if hymn not in ['anthems']]
+    passed = [head[y][hymn]['list'][l]['priority'] if 'priority' in head[y][hymn]['list'][l].keys() else 'none' for y in head.keys() for hymn in head[y].keys() for l in range(len(head[y][hymn]['list'])) if hymn not in ['anthems']]
     priority_errors = set(passed).difference(priorities)
     
     if len(priority_errors) > 0:
