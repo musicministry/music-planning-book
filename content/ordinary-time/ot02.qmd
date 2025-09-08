@@ -1,5 +1,5 @@
 ---
-label: Second Sunday of Ordinary Time
+title: Second Sunday of Ordinary Time
 ---
 
 ```{python}
@@ -11,71 +11,83 @@ hymns:
   a:
     processional:
       list:
-        - name: ""
+        - name: "All the Earth"
           book: BB
           priority: required
     psalm:
       list:
         - name: "Here I am, Lord; I come to do your will."
           book: RA
-          priority: required
+          priority: preferred
+        - name: "Psalm 40: Here I Am"
+          composer: Cooney
+          book: BB
+          priority: optional
     offertory:
       list:
-        - name: ""
+        - name: "Here I Am, Lord"
           book: BB
           priority: required
     communion:
       list:
-        - name: ""
+        - name: "Behold the Lamb"
+          composer: Willett
           book: BB
           priority: required
     meditation:
       list:
-        - name: ""
+        - name: "The Servant Song"
           book: BB
-          priority: required
+          priority: preferred
     recessional:
       list:
-        - name: ""
+        - name: "Word of God, Come Down on Earth"
           book: BB
-          priority: required
+          priority: preferred
   b:
     processional:
       list:
-        - name: ""
+        - name: "All the Earth"
           book: BB
           priority: required
     psalm:
       list:
         - name: "Here I am, Lord; I come to do your will."
           book: RA
-          priority: required
+          priority: preferred
+        - name: "Psalm 40: Here I Am"
+          composer: Cooney
+          book: BB
+          priority: optional
     offertory:
       list:
-        - name: ""
+        - name: "Here I Am, Lord"
           book: BB
           priority: required
     communion:
       list:
-        - name: ""
+        - name: "Behold the Lamb"
+          composer: Willett
           book: BB
           priority: required
     meditation:
       list:
-        - name: ""
+        - name: "Servant Song"
           book: BB
-          priority: required
+          priority: preferred
     recessional:
       list:
         - name: ""
           book: BB
-          priority: preferred
   c:
     processional:
       list:
-        - name: ""
+        - name: "All the Earth"
           book: BB
-          priority: required
+          priority: optional
+        - name: "Come to the Feast"
+          book: BB
+          priority: optional
     psalm:
       list:
         - name: "Proclaim his marvelous deeds to all the nations."
@@ -83,24 +95,23 @@ hymns:
           priority: required
     offertory:
       list:
-        - name: ""
+        - name: "We Are Many Parts"
           book: BB
           priority: required
     communion:
       list:
-        - name: ""
+        - name: "The Supper of the Lord"
           book: BB
           priority: required
     meditation:
       list:
-        - name: ""
+        - name: "What Feast of Love"
           book: BB
           priority: required
     recessional:
       list:
         - name: ""
           book: BB
-          priority: required
 """
 ```
 

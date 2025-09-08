@@ -1,5 +1,5 @@
 ---
-label: Third Sunday of Ordinary Time
+title: Third Sunday of Ordinary Time
 ---
 
 ```{python}
@@ -11,7 +11,7 @@ hymns:
   a:
     processional:
       list:
-        - name: ""
+        - name: "Sing a New Song"
           book: BB
           priority: required
     psalm:
@@ -21,28 +21,31 @@ hymns:
           priority: required
     offertory:
       list:
-        - name: ""
+        - name: "Lord, You Have Come to the Seashore"
           book: BB
+          note: English
           priority: required
     communion:
       list:
-        - name: ""
+        - name: "I Know that My Redeemer Lives"
+          composer: Soper
           book: BB
           priority: required
     meditation:
       list:
-        - name: ""
+        - name: "The Lord Is My Light"
+          composer: Walker
           book: BB
           priority: required
     recessional:
       list:
-        - name: ""
+        - name: "City of God"
           book: BB
           priority: required
   b:
     processional:
       list:
-        - name: ""
+        - name: "Sing a New Song"
           book: BB
           priority: required
     psalm:
@@ -52,17 +55,18 @@ hymns:
           priority: required
     offertory:
       list:
-        - name: ""
+        - name: "The Summons"
           book: BB
-          priority: required
+          priority: preferred
     communion:
       list:
-        - name: ""
+        - name: "Lord, You Have Come to the Seashore"
           book: BB
+          note: English
           priority: required
     meditation:
       list:
-        - name: ""
+        - name: "Remember Your Love"
           book: BB
           priority: required
     recessional:
@@ -73,34 +77,38 @@ hymns:
   c:
     processional:
       list:
-        - name: ""
+        - name: "Sing a New Song"
           book: BB
           priority: required
     psalm:
       list:
         - name: "Your words, Lord, are Spirit and life."
           book: RA
-          priority: required
+          priority: preferred
+        - name: "Your Words Are Spirit and Life"
+          composer: Farrell
+          book: BB
+          priority: optional
     offertory:
       list:
-        - name: ""
+        - name: "One Bread, One Body"
           book: BB
           priority: required
     communion:
       list:
-        - name: ""
+        - name: "One Love Released"
           book: BB
           priority: required
     meditation:
       list:
-        - name: ""
+        - name: "We Are Many Parts"
           book: BB
           priority: required
     recessional:
       list:
-        - name: ""
+        - name: "Praise to You, O Christ, Our Savior"
           book: BB
-          priority: required
+          priority: preferred
 """
 ```
 
