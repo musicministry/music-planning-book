@@ -1,5 +1,5 @@
 ---
-title: Solemnity of the Ascension
+title: "SOLEMNITY OF THE ASCENSION OF THE LORD"
 ---
 
 ```{python}
@@ -113,5 +113,4 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* In many dioceses, the Solemnity of the Ascension is transferred to---and
-replaces-–-the Seventh Sunday of Easter. In this scenario, the Solemnity of the Ascension takes priority and the hymns for the Solemnity are used. The Seventh Sunday of Easter is then skipped; the following weekend is Pentecost Sunday.
+* In most United States dioceses, the Solemnity of the Ascension is transferred to---and replaces-–-the Seventh Sunday of Easter. In this scenario, the Solemnity of the Ascension takes priority and the hymns for the Solemnity are used. The Seventh Sunday of Easter is then skipped; the following weekend is Pentecost Sunday.

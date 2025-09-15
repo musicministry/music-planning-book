@@ -1,6 +1,6 @@
 ---
-title: "Solemnity of the Nativity of Saint John the Baptist: Vigil Mass"
-subtitle: June 23
+title: "SOLEMNITY OF THE NATIVITY OF SAINT JOHN THE BAPTIST: VIGIL MASS"
+subtitle: "June 23"
 ---
 
 ```{python}

@@ -1,5 +1,5 @@
 ---
-title: Third Sunday of Ordinary Time
+title: "THIRD SUNDAY IN ORDINARY TIME"
 ---
 
 ```{python}
@@ -23,7 +23,7 @@ hymns:
       list:
         - name: "Lord, You Have Come to the Seashore"
           book: BB
-          note: English
+          note: English; see note below
           priority: required
     communion:
       list:
@@ -62,7 +62,7 @@ hymns:
       list:
         - name: "Lord, You Have Come to the Seashore"
           book: BB
-          note: English
+          note: English; see note below
           priority: required
     meditation:
       list:
@@ -73,7 +73,6 @@ hymns:
       list:
         - name: ""
           book: BB
-          priority: preferred
   c:
     processional:
       list:
@@ -208,4 +207,4 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* *BB (OCP) calls this song “Lord, You Have Come to the Seashore,” while GIA calls it “Lord, When You Came to the Seashore.” The English GIA lyrics are preferred over those in BB, if given the option.
+* BB (OCP) calls this song “Lord, You Have Come to the Seashore,” while GIA calls it “Lord, When You Came to the Seashore.” The English GIA lyrics are preferred over those in BB, if given the option.

@@ -1,5 +1,5 @@
 ---
-title: Second Sunday of Advent
+title: "SECOND SUNDAY OF ADVENT"
 ---
 
 ```{python}

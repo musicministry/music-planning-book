@@ -1,5 +1,5 @@
 ---
-title: "THIRD SUNDAY OF EASTER"
+title: "FIFTH SUNDAY IN ORDINARY TIME"
 ---
 
 ```{python}
@@ -11,108 +11,99 @@ hymns:
   a:
     processional:
       list:
-        - name: "Alleluia No. 1"
+        - name: ""
           book: BB
-          priority: preferred
     psalm:
       list:
-        - name: "Lord, you will show us the path of life."
+        - name: "The just man is a light in darkness to the upright."
           book: RA
           priority: required
     offertory:
       list:
-        - name: "Two Were Bound for Emmaus"
+        - name: "We Are the Light of the World"
           book: BB
           priority: required
     communion:
       list:
-        - name: "In the Breaking of the Bread"
-          composer:  Hurd
+        - name: ""
           book: BB
-          priority: required
     meditation:
       list:
-        - name: "I Know that My Redeemer Lives"
-          composer: Soper
+        - name: "Whatsoever You Do"
           book: BB
           priority: required
     recessional:
       list:
-        - name: "Alleluia! Alleluia! Let the Holy Anthem Rise"
+        - name: ""
           book: BB
-          priority: required
     anthems:
       list:
-        - name: "Thine Be the Glory"
+        - name: "You Are the Light of the World"
+          composer: WLP
+        - name: "I Am the Light of the World"
+          composer: Hayakawa
   b:
     processional:
       list:
-        - name: "All Creatures of Our God and King"
+        - name: "Praise to the Lord"
           book: BB
-          priority: preferred
+          priority: required
     psalm:
       list:
-        - name: "Lord, let your face shine on us."
+        - name: "Praise the Lord, who heals the brokenhearted."
           book: RA
           priority: required
     offertory:
       list:
-        - name: "Now the Green Blade Rises"
+        - name: ""
           book: BB
-          priority: preferred
     communion:
       list:
-        - name: "In the Breaking of the Bread"
-          composer:  Hurd
+        - name: ""
           book: BB
-          priority: required
     meditation:
       list:
-        - name: "Peace"
+        - name: ""
           book: BB
-          priority: required
     recessional:
       list:
-        - name: "Three Days"
-          tune: THAXTED
-          note: "all verses"
+        - name: ""
           book: BB
-          priority: required
   c:
     processional:
       list:
-        - name: "At the Lamb's High Feast"
+        - name: "Holy, Holy, Holy"
           book: BB
           priority: required
     psalm:
       list:
-        - name: "I will praise you, Lord, for you have rescued me."
+        - name: "In the sight of the angels I will sing your praises, Lord."
           book: RA
           priority: required
     offertory:
       list:
-        - name: "Festival Canticle (This is the Feast)"
+        - name: "Lord, You Have Come to the Seashore"
           book: BB
+          note: English; see note below
           priority: required
     communion:
       list:
-        - name: "Worthy Is the Lamb"
+        - name: "Let All Mortal Flesh Keep Silence"
           book: BB
-          priority: required
+          priority: preferred
     meditation:
       list:
-        - name: "Christ is Arisen"
-          composer: DeBruyn
+        - name: "Here I Am, Lord"
           book: BB
-          priority: preferred
+          priority: optional
+        - name: "I Have Loved You"
+          book: BB
+          priority: optional
     recessional:
       list:
-        - name: "Join in the Dance"
+        - name: "Sing to the Mountains"
           book: BB
-          priority: preferred
-    anthems:
-      list:
-        - name: "Simon, Son of God"
+          priority: required
 """
 ```
 
@@ -137,35 +128,32 @@ with open('../../_hymns.yml', 'r') as vf:
 #### **Themes**
 :::
 
-Word/Eucharist, fulfillment, joy, hope, revelation, scripture, path of life, glory
+[Year A:]{.red} light, wisdom, power of God  
+[Year B:]{.red} healing, sorrow/happiness, burden/joy, service, mercy  
+[Year C:]{.red} holiness, humility, vocation
 
 :::  {.red}
 #### **Entrance Antiphon**
 :::
 
-> Cry out with joy to God, all the earth;  
-> O sing to the glory of his name.  
-> O render him glorious praise, alleluia.
+> O come, let us worship God  
+> and bow low before the God who made us,  
+> for he is the Lord our God.
 
 :::  {.red}
 #### **Communion Antiphon**
 :::
 
-> The disciples recognized the Lord Jesus  
-> in the breaking of the bread, alleluia.
+> Let them thank the Lord for his mercy,  
+> his wonders for the children of men,  
+> for he satisfies the thirsty soul,  
+> and the hungry he fills with good things.  
 >  
 > [Or:]{.red}  
->   
-> [Optional for Year B:]{.red}  
-> The Christ had to suﬀer and on the third day rise from the dead;  
-> in his name repentance and remission of sins  
-> must be preached to all the nations, alleluia.  
->  
-> [Or:]{.red}  
->  
-> [Optional for Year C:]{.red}  
-> Jesus said to his disciples: Come and eat.  
-> And he took bread and gave it to them, alleluia.
+> 
+> Blessed are those who mourn, for they shall be consoled.  
+> Blessed are those who hunger and thirst for righteousness,  
+> for they shall have their fill.
 
 ::: {.titlered}
 ### &nbsp; Year A
@@ -215,4 +203,4 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* If Mothers' Day falls on this week, “[On This Day, O Beautiful Mother](https://www.youtube.com/watch?v=Sn5sz5D67BY)” (BB) may be sung as a Meditation hymn.
+* BB (OCP) calls this song “Lord, You Have Come to the Seashore,” while GIA calls it “Lord, When You Came to the Seashore.” The English GIA lyrics are preferred over those in BB, if given the option.

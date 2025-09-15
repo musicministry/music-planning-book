@@ -1,5 +1,6 @@
 ---
-title: Good Friday of the Lord's Passion
+title: "FRIDAY OF THE PASSION OF THE LORD"
+subtitle: "Good Friday"
 ---
 
 ```{python}

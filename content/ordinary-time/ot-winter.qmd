@@ -1,6 +1,6 @@
 ---
-title: ORDINARY TIME (WINTER)
-subtitle: Between Christmas and Lent
+title: "ORDINARY TIME (WINTER)"
+subtitle: "Between Christmas and Lent"
 ---
 
 ```{python}

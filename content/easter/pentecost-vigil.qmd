@@ -1,6 +1,6 @@
 ---
-title: Vigil of Pentecost
-subtitle: Extended Form
+title: "VIGIL OF PENTECOST"
+subtitle: "Extended Form"
 ---
 
 ```{python}

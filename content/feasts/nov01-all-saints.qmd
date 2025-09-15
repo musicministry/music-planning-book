@@ -1,6 +1,6 @@
 ---
-title: Solemnity of All Saints
-subtitle: November 1
+title: "SOLEMNITY OF ALL SAINTS"
+subtitle: "November 1"
 ---
 
 ```{python}

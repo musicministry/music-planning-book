@@ -1,6 +1,6 @@
 ---
-title: Feast of the Transfiguration of the Lord
-subtitle: August 6
+title: "FEAST OF THE TRANSFIGURATION OF THE LORD"
+subtitle: "August 6"
 ---
 
 ```{python}

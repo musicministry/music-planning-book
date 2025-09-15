@@ -1,5 +1,5 @@
 ---
-title: "Epiphany of the Lord"
+title: "EPIPHANY OF THE LORD"
 ---
 
 ```{python}

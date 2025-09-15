@@ -1,6 +1,6 @@
 ---
-title: Feast of the Dedication of Saint John Lateran Basilica
-subtitle: November 9
+title: "FEAST OF THE DEDICATION OF THE LATERAN BASILICA"
+subtitle: "November 9"
 ---
 
 ```{python}

@@ -1,6 +1,6 @@
 ---
-title: "Solemnity of the Most Holy Body and Blood of Christ (*Corpus Christi*)"
-subtitle: Second Sunday after Pentecost
+title: "THE MOST HOLY BODY AND BLOOD OF CHRIST (*CORPUS CHRISTI*)"
+subtitle: "Second Sunday after Pentecost"
 ---
 
 ```{python}

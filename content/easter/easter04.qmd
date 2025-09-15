@@ -1,6 +1,6 @@
 ---
-title: Fourth Sunday of Easter
-subtitle: Good Shepherd Sunday
+title: "FOURTH SUNDAY OF EASTER"
+subtitle: "Good Shepherd Sunday"
 ---
 
 ```{python}

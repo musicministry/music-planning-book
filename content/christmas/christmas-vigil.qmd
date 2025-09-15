@@ -1,6 +1,6 @@
 ---
-title: "Christmas: Vigil Mass"
-subtitle: December 24
+title: "CHRISTMAS: VIGIL MASS"
+subtitle: "December 24"
 ---
 
 ```{python}

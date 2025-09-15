@@ -1,6 +1,6 @@
 ---
-title: Solemnity of the Annunciation of the Lord
-subtitle: March 25
+title: "SOLEMNITY OF THE ANNUNCIATION OF THE LORD"
+subtitle: "March 25"
 ---
 
 ```{python}

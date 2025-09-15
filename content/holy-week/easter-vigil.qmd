@@ -1,6 +1,6 @@
 ---
-title: Easter Vigil
-subtitle: "Holy Saturday At the Easter Vigil in the Holy Night of Easter"
+title: "EASTER VIGIL"
+subtitle: "Holy Saturday at the Easter Vigil in the Holy Night of Easter"
 ---
 
 ```{python}

@@ -1,6 +1,6 @@
 ---
-title: ORDINARY TIME (SUMMER)
-subtitle: Between Pentecost and Advent
+title: "ORDINARY TIME (SUMMER)"
+subtitle: "Between Pentecost and Advent"
 ---
 
 ```{python}

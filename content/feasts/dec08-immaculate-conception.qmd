@@ -1,6 +1,6 @@
 ---
-title: Solemnity of the Immaculate Conception of the Blessed Virgin Mary
-subtitle: December 8
+title: "SOLEMNITY OF THE IMMACULATE CONCEPTION OF THE BLESSED VIRGIN MARY"
+subtitle: "December 8"
 ---
 
 ```{python}

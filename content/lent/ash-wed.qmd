@@ -1,5 +1,5 @@
 ---
-title: Ash Wednesday
+title: "ASH WEDNESDAY"
 ---
 
 ```{python}

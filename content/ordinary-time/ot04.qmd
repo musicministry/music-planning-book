@@ -1,5 +1,5 @@
 ---
-title: "THIRD SUNDAY OF EASTER"
+title: "FOURTH SUNDAY IN ORDINARY TIME"
 ---
 
 ```{python}
@@ -11,108 +11,92 @@ hymns:
   a:
     processional:
       list:
-        - name: "Alleluia No. 1"
+        - name: "Gather Us In"
           book: BB
-          priority: preferred
+          priority: required
     psalm:
       list:
-        - name: "Lord, you will show us the path of life."
+        - name: "Blessed are the poor in spirit; the kingdom of heaven is theirs!"
           book: RA
           priority: required
     offertory:
       list:
-        - name: "Two Were Bound for Emmaus"
+        - name: "We Are the Light of the World"
           book: BB
           priority: required
     communion:
       list:
-        - name: "In the Breaking of the Bread"
-          composer:  Hurd
+        - name: "Seek Ye First"
           book: BB
           priority: required
     meditation:
       list:
-        - name: "I Know that My Redeemer Lives"
-          composer: Soper
+        - name: "Rejoice in the Promise of Jesus"
           book: BB
           priority: required
     recessional:
       list:
-        - name: "Alleluia! Alleluia! Let the Holy Anthem Rise"
+        - name: "Lead Me, Lord"
           book: BB
           priority: required
-    anthems:
-      list:
-        - name: "Thine Be the Glory"
   b:
     processional:
       list:
-        - name: "All Creatures of Our God and King"
+        - name: "Gather Your People"
           book: BB
-          priority: preferred
+          priority: required
     psalm:
       list:
-        - name: "Lord, let your face shine on us."
+        - name: "If today you hear his voice, harden not your hearts."
           book: RA
           priority: required
     offertory:
       list:
-        - name: "Now the Green Blade Rises"
+        - name: ""
           book: BB
-          priority: preferred
     communion:
       list:
-        - name: "In the Breaking of the Bread"
-          composer:  Hurd
+        - name: ""
           book: BB
-          priority: required
     meditation:
       list:
-        - name: "Peace"
+        - name: "Healing River of the Spirit"
           book: BB
           priority: required
     recessional:
       list:
-        - name: "Three Days"
-          tune: THAXTED
-          note: "all verses"
+        - name: "City of God"
           book: BB
-          priority: required
+          priority: preferred
   c:
     processional:
       list:
-        - name: "At the Lamb's High Feast"
+        - name: "Gather the People"
           book: BB
           priority: required
     psalm:
       list:
-        - name: "I will praise you, Lord, for you have rescued me."
+        - name: "I will sing of your salvation."
           book: RA
           priority: required
     offertory:
       list:
-        - name: "Festival Canticle (This is the Feast)"
+        - name: "O God, You Search Me"
           book: BB
           priority: required
     communion:
       list:
-        - name: "Worthy Is the Lamb"
+        - name: ""
           book: BB
-          priority: required
     meditation:
       list:
-        - name: "Christ is Arisen"
-          composer: DeBruyn
+        - name: ""
           book: BB
-          priority: preferred
     recessional:
       list:
-        - name: "Join in the Dance"
+        - name: "Love Divine, All Loves Excelling"
           book: BB
-          priority: preferred
-    anthems:
-      list:
-        - name: "Simon, Son of God"
+          priority: required
 """
 ```
 
@@ -137,35 +121,32 @@ with open('../../_hymns.yml', 'r') as vf:
 #### **Themes**
 :::
 
-Word/Eucharist, fulfillment, joy, hope, revelation, scripture, path of life, glory
+[Year A:]{.red} humility, kingdom of God, heaven, wisdom  
+[Year B:]{.red} authority of Christ, healing, power of God  
+[Year C:]{.red} love, universality, Christ's presence, prophecy  
 
 :::  {.red}
 #### **Entrance Antiphon**
 :::
 
-> Cry out with joy to God, all the earth;  
-> O sing to the glory of his name.  
-> O render him glorious praise, alleluia.
+> Save us, O Lord our God!  
+> And gather us from the nations,  
+> to give thanks to your holy name,  
+> and make it our glory to praise you.
 
 :::  {.red}
 #### **Communion Antiphon**
 :::
 
-> The disciples recognized the Lord Jesus  
-> in the breaking of the bread, alleluia.
->  
-> [Or:]{.red}  
->   
-> [Optional for Year B:]{.red}  
-> The Christ had to suﬀer and on the third day rise from the dead;  
-> in his name repentance and remission of sins  
-> must be preached to all the nations, alleluia.  
->  
+> Let your face shine on your servant.  
+> Save me in your merciful love.  
+> O Lord, let me never be put to shame, for I call to you.  
+> 
 > [Or:]{.red}  
 >  
-> [Optional for Year C:]{.red}  
-> Jesus said to his disciples: Come and eat.  
-> And he took bread and gave it to them, alleluia.
+> Blessed are the poor in spirit,  
+> for theirs is the Kingdom of Heaven.  
+> Blessed are the meek, for they shall possess the land.
 
 ::: {.titlered}
 ### &nbsp; Year A
@@ -210,9 +191,3 @@ utils.hymnlist(params['hymns']['c'], urls=videos)
 #| output: asis
 utils.anthemlist(hymns=params['hymns'], urls=videos)
 ```
-
-::: {.red}
-### Notes
-:::
-
-* If Mothers' Day falls on this week, “[On This Day, O Beautiful Mother](https://www.youtube.com/watch?v=Sn5sz5D67BY)” (BB) may be sung as a Meditation hymn.

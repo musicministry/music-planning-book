@@ -1,5 +1,5 @@
 ---
-title: Second Sunday of Ordinary Time
+title: "SECOND SUNDAY IN ORDINARY TIME"
 ---
 
 ```{python}
@@ -160,6 +160,253 @@ God, obedience
 >  
 > We have come to know and to believe  
 > in the love that God has for us.
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Passage]{style="float:right" .small}
+:::
+
+First line,  
+&ensp;   indented as needed.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Passage]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Refrain.**  
+
+Verse 1;  
+&emsp;  indented as needed,
+Verse 1, continuing.  
+
+**[℟.]{.red}** **Refrain.**  
+
+***
+
+::: {.red}
+#### Second Reading [Passage]{style="float:right" .small}
+:::
+
+***
+
+::: {.red}
+#### Alleluia [Passage]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse  
+**[℟.]{.red}** **Alleluia, alleluia.**
+
+***
+
+::: {.red}
+#### Gospel [Passage]{style="float:right" .small}
+:::
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Passage]{style="float:right" .small}
+:::
+
+First line,  
+&ensp;   indented as needed.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Passage]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Refrain.**  
+
+Verse 1;  
+&emsp;  indented as needed,
+Verse 1, continuing.  
+
+**[℟.]{.red}** **Refrain.**  
+
+***
+
+::: {.red}
+#### Second Reading [Passage]{style="float:right" .small}
+:::
+
+***
+
+::: {.red}
+#### Alleluia [Passage]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse  
+**[℟.]{.red}** **Alleluia, alleluia.**
+
+***
+
+::: {.red}
+#### Gospel [Passage]{style="float:right" .small}
+:::
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Isaiah 62:1-5]{style="float:right" .small}
+:::
+
+For Zion’s sake I will not be silent,  
+&ensp;   for Jerusalem’s sake I will not be quiet,  
+until her vindication shines forth like the dawn  
+&ensp;   and her victory like a burning torch.  
+
+Nations shall behold your vindication,  
+&ensp;   and all the kings your glory;  
+you shall be called by a new name  
+&ensp;   pronounced by the mouth of the LORD.  
+You shall be a glorious crown in the hand of the LORD,  
+&ensp;   a royal diadem held by your God.  
+No more shall people call you “Forsaken,“  
+&ensp;   or your land “Desolate,“  
+but you shall be called “My Delight,“  
+&ensp;   and your land “Espoused.”  
+For the LORD delights in you  
+&ensp;   and makes your land his spouse.  
+As a young man marries a virgin,  
+&ensp;   your Builder shall marry you;  
+and as a bridegroom rejoices in his bride  
+&ensp;   so shall your God rejoice in you.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 96:1-2, 2-3, 7-8, 9-10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
+
+Sing to the LORD a new song;  
+&emsp;            sing to the LORD, all you lands.  
+Sing to the LORD; bless his name.  
+
+**[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
+
+Announce his salvation, day after day.  
+Tell his glory among the nations;  
+&ensp;            among all peoples, his wondrous deeds.  
+
+**[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
+
+Give to the LORD, you families of nations,  
+&ensp;            give to the LORD glory and praise;  
+&ensp;            give to the LORD the glory due his name!  
+
+**[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
+
+Worship the LORD in holy attire.  
+&ensp;            Tremble before him, all the earth;  
+Say among the nations: The LORD is king.  
+&ensp;            He governs the peoples with equity.  
+
+**℟.** **Proclaim his marvelous deeds to all the nations.**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 12:4-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+There are different kinds of spiritual gifts but the same Spirit;  
+there are different forms of service but the same Lord;  
+there are different workings but the same God  
+who produces all of them in everyone.  
+To each individual the manifestation of the Spirit  
+is given for some benefit.  
+To one is given through the Spirit the expression of wisdom;  
+to another, the expression of knowledge according to the 
+same Spirit;  
+to another, faith by the same Spirit;  
+to another, gifts of healing by the one Spirit;  
+to another, mighty deeds;  
+to another, prophecy;  
+to another, discernment of spirits;  
+to another, varieties of tongues;  
+to another, interpretation of tongues.  
+But one and the same Spirit produces all of these,  
+distributing them individually to each person as he wishes.  
+
+***
+
+::: {.red}
+#### Alleluia [2 Thessalonians 2:14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+God has called us through the Gospel  
+to possess the glory of our Lord Jesus Christ.  
+**[℟.]{.red}** **Alleluia, alleluia.**
+
+***
+
+::: {.red}
+#### Gospel [John 2:1-11]{style="float:right" .small}
+:::
+
+There was a wedding at Cana in Galilee,  
+and the mother of Jesus was there.  
+Jesus and his disciples were also invited to the wedding.  
+When the wine ran short,  
+the mother of Jesus said to him,  
+“They have no wine.”  
+And Jesus said to her,  
+“Woman, how does your concern affect me?  
+My hour has not yet come.”  
+His mother said to the servers,  
+“Do whatever he tells you.”  
+Now there were six stone water jars there for Jewish ceremonial washings,  
+each holding twenty to thirty gallons.  
+Jesus told them,  
+“Fill the jars with water.”  
+So they filled them to the brim.  
+Then he told them,  
+“Draw some out now and take it to the headwaiter.”  
+So they took it.   
+And when the headwaiter tasted the water that had become wine,  
+without knowing where it came from  
+— although the servers who had drawn the water knew —,  
+the headwaiter called the bridegroom and said to him,  
+“Everyone serves good wine first,  
+and then when people have drunk freely, an inferior one;  
+but you have kept the good wine until now.”  
+Jesus did this as the beginning of his signs at Cana in Galilee  
+and so revealed his glory,  
+and his disciples began to believe in him.
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
 
 ::: {.titlered}
 ### &nbsp; Year A

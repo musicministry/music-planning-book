@@ -1,5 +1,5 @@
 ---
-title: Third Sunday of Lent
+title: 'THIRD SUNDAY OF LENT"
 ---
 
 ```{python}

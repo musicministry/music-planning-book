@@ -1,6 +1,6 @@
 ---
-title: "Solemnity of the Assumption of the Blessed Virgin Mary: Vigil"
-subtitle: August 14
+title: "SOLEMNITY OF THE ASSUMPTION OF THE BLESSED VIRGIN MARY: VIGIL MASS"
+subtitle: "August 14"
 ---
 
 ```{python}

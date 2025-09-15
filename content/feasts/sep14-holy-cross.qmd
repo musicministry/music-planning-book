@@ -1,6 +1,6 @@
 ---
-title: Feast of the Exaltation of the Holy Cross
-subtitle: September 14
+title: "FEAST OF THE EXALTATION OF THE HOLY CROSS"
+subtitle: "September 14"
 ---
 
 ```{python}

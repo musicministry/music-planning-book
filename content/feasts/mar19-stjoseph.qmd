@@ -1,6 +1,6 @@
 ---
-title: Solemnity of Saint Joseph, Spouse of Mary
-subtitle: March 19
+title: "SOLEMNITY OF SAINT JOSEPH, SPOUSE OF MARY"
+subtitle: "March 19"
 ---
 
 ```{python}

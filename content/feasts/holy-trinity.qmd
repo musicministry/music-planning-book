@@ -1,6 +1,6 @@
 ---
-title: Solemnity of the Most Holy Trinity
-subtitle: First Sunday after Pentecost
+title: "SOLEMNITY OF THE MOST HOLY TRINITY"
+subtitle: "First Sunday after Pentecost"
 ---
 
 ```{python}

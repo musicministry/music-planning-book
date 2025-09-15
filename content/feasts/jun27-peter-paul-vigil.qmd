@@ -1,6 +1,6 @@
 ---
-title: "Solemnity of Saints Peter and Paul, Apostles: Vigil Mass"
-subtitle: June 27
+title: "SOLEMNITY OF SAINTS PETER AND PAUL, APOSTLES: VIGIL MASS"
+subtitle: "June 27"
 ---
 
 ```{python}

@@ -1,5 +1,5 @@
 ---
-title: Sixth Sunday of Easter
+title: "SIXTH SUNDAY OF EASTER"
 ---
 
 ```{python}
