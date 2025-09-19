@@ -172,47 +172,96 @@ God, obedience
 ::: {.red}
 ### &nbsp; Year A
 
-#### First Reading [Passage]{style="float:right" .small}
+#### First Reading [Isaiah 49:3, 5-6]{style="float:right" .small}
 :::
 
-First line,  
-&ensp;   indented as needed.  
+The LORD said to me: You are my servant,  
+Israel, through whom I show my glory.  
+Now the LORD has spoken  
+who formed me as his servant from the womb,  
+that Jacob may be brought back to him  
+and Israel gathered to him;  
+and I am made glorious in the sight of the LORD,  
+and my God is now my strength!  
+It is too little, the LORD says, for you to be my servant,  
+to raise up the tribes of Jacob,  
+and restore the survivors of Israel;  
+I will make you a light to the nations,  
+that my salvation may reach to the ends of the earth.
 
 ***
 
 ::: {.red}
-#### Responsorial Psalm [Passage]{style="float:right" .small}
+#### Responsorial Psalm [Psalm 40:2, 4, 7-8, 8-9, 10]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **Refrain.**  
+**[℟.]{.red}** **Here am I, Lord; I come to do your will.**  
 
-Verse 1;  
-&emsp;  indented as needed,
-Verse 1, continuing.  
+I have waited, waited for the LORD,  
+and he stooped toward me and heard my cry.  
+And he put a new song into my mouth,  
+a hymn to our God. **[℟.]{.red}**  
 
-**[℟.]{.red}** **Refrain.**  
+Sacrifice or offering you wished not,  
+but ears open to obedience you gave me.  
+Holocausts or sin-offerings you sought not;  
+then said I, "Behold I come." **[℟.]{.red}**  
+
+"In the written scroll it is prescribed for me,  
+to do your will, O my God, is my delight,  
+and your law is within my heart!" **[℟.]{.red}**  
+
+I announced your justice in the vast assembly;  
+I did not restrain my lips, as you, O LORD, know.  
+R/ Here am I, Lord; I come to do your will. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Second Reading [Passage]{style="float:right" .small}
+#### Second Reading [1 Corinthians 1:1-3]{style="float:right" .small}
 :::
+
+Paul, called to be an apostle of Christ Jesus by the will of God,  
+and Sosthenes our brother,  
+to the church of God that is in Corinth,  
+to you who have been sanctified in Christ Jesus, called to be holy,  
+with all those everywhere who call upon the name of our Lord Jesus Christ, their Lord and ours.  
+Grace to you and peace from God our Father  
+and the Lord Jesus Christ.  
 
 ***
 
 ::: {.red}
-#### Alleluia [Passage]{style="float:right" .small}
+#### Alleluia [John 1:14a, 12a]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse  
-**[℟.]{.red}** **Alleluia, alleluia.**
+The Word of God became flesh and dwelt among us.  
+To those who accepted him,  
+he gave power to become children of God. **[℟.]{.red}**
 
 ***
 
 ::: {.red}
-#### Gospel [Passage]{style="float:right" .small}
+#### Gospel [John 1:29-34]{style="float:right" .small}
 :::
+
+John the Baptist saw Jesus coming toward him and said,  
+"Behold, the Lamb of God, who takes away the sin of the world.  
+He is the one of whom I said,  
+'A man is coming after me who ranks ahead of me  
+because he existed before me.'  
+I did not know him,  
+but the reason why I came baptizing with water  
+was that he might be made known to Israel."  
+John testified further, saying,  
+"I saw the Spirit come down like a dove from heaven  
+and remain upon him.  
+I did not know him,  
+but the one who sent me to baptize with water told me,  
+'On whomever you see the Spirit come down and remain,  
+he is the one who will baptize with the Holy Spirit.'  
+Now I have seen and testified that he is the Son of God."
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
@@ -221,47 +270,117 @@ Verse
 ::: {.red}
 ### &nbsp; Year B
 
-#### First Reading [Passage]{style="float:right" .small}
+#### First Reading [1 Sm 3:3b-10, 19]{style="float:right" .small}
 :::
 
-First line,  
-&ensp;   indented as needed.  
+Samuel was sleeping in the temple of the LORD  
+where the ark of God was.  
+The LORD called to Samuel, who answered, "Here I am."  
+Samuel ran to Eli and said, "Here I am. You called me."  
+"I did not call you, " Eli said. "Go back to sleep."  
+So he went back to sleep.  
+Again the LORD called Samuel, who rose and went to Eli.  
+"Here I am, " he said. "You called me."  
+But Eli answered, "I did not call you, my son. Go back to sleep."  
+
+At that time Samuel was not familiar with the LORD,  
+because the LORD had not revealed anything to him as yet.  
+The LORD called Samuel again, for the third time.  
+Getting up and going to Eli, he said, "Here I am. You called me."  
+Then Eli understood that the LORD was calling the youth.  
+So he said to Samuel, "Go to sleep, and if you are called, reply,  
+Speak, LORD, for your servant is listening."  
+When Samuel went to sleep in his place,  
+the LORD came and revealed his presence,  
+calling out as before, "Samuel, Samuel!"  
+Samuel answered, "Speak, for your servant is listening."  
+
+Samuel grew up, and the LORD was with him,  
+not permitting any word of his to be without effect.
 
 ***
 
 ::: {.red}
-#### Responsorial Psalm [Passage]{style="float:right" .small}
+#### Responsorial Psalm [Ps 40:2, 4, 7-8, 8-9, 10]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **Refrain.**  
+**[℟.]{.red}** **Here am I, Lord; I come to do your will.**  
 
-Verse 1;  
-&emsp;  indented as needed,
-Verse 1, continuing.  
+I have waited, waited for the LORD,  
+and he stooped toward me and heard my cry.  
+And he put a new song into my mouth,  
+a hymn to our God. **[℟.]{.red}**  
 
-**[℟.]{.red}** **Refrain.**  
+Sacrifice or offering you wished not,  
+but ears open to obedience you gave me.  
+Holocausts or sin-offerings you sought not;  
+then said I, "Behold I come." **[℟.]{.red}**  
+
+"In the written scroll it is prescribed for me,  
+to do your will, O my God, is my delight,  
+and your law is within my heart!" **[℟.]{.red}**  
+
+I announced your justice in the vast assembly;  
+I did not restrain my lips, as you, O LORD, know. **[℟.]{.red}**
 
 ***
 
 ::: {.red}
-#### Second Reading [Passage]{style="float:right" .small}
+#### Second Reading [1 Cor 6:13c-15a, 17-20]{style="float:right" .small}
 :::
+
+Brothers and sisters:  
+The body is not for immorality, but for the Lord,  
+and the Lord is for the body;  
+God raised the Lord and will also raise us by his power.  
+
+Do you not know that your bodies are members of Christ?  
+But whoever is joined to the Lord becomes one Spirit with him.  
+Avoid immorality.  
+Every other sin a person commits is outside the body,  
+but the immoral person sins against his own body.  
+Do you not know that your body  
+is a temple of the Holy Spirit within you,  
+whom you have from God, and that you are not your own?  
+For you have been purchased at a price.  
+Therefore glorify God in your body.  
 
 ***
 
 ::: {.red}
-#### Alleluia [Passage]{style="float:right" .small}
+#### Alleluia [Jn 1:41, 17b]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse  
-**[℟.]{.red}** **Alleluia, alleluia.**
+We have found the Messiah:  
+Jesus Christ, who brings us truth and grace. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Gospel [Passage]{style="float:right" .small}
+#### Gospel [Jn 1:35-42]{style="float:right" .small}
 :::
+
+John was standing with two of his disciples,  
+and as he watched Jesus walk by, he said,  
+"Behold, the Lamb of God."  
+The two disciples heard what he said and followed Jesus.  
+Jesus turned and saw them following him and said to them,  
+"What are you looking for?"  
+They said to him, "Rabbi" — which translated means Teacher —,  
+"where are you staying?"  
+He said to them, "Come, and you will see."  
+So they went and saw where Jesus was staying,  
+and they stayed with him that day.  
+It was about four in the afternoon.  
+Andrew, the brother of Simon Peter,  
+was one of the two who heard John and followed Jesus.  
+He first found his own brother Simon and told him,  
+"We have found the Messiah" — which is translated Christ —.  
+Then he brought him to Jesus.  
+Jesus looked at him and said,  
+"You are Simon the son of John;  
+you will be called Cephas" — which is translated Peter.  
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
@@ -274,26 +393,26 @@ Verse
 :::
 
 For Zion’s sake I will not be silent,  
-&ensp;   for Jerusalem’s sake I will not be quiet,  
+&ensp; for Jerusalem’s sake I will not be quiet,  
 until her vindication shines forth like the dawn  
-&ensp;   and her victory like a burning torch.  
+&ensp; and her victory like a burning torch.  
 
 Nations shall behold your vindication,  
-&ensp;   and all the kings your glory;  
+&ensp; and all the kings your glory;  
 you shall be called by a new name  
-&ensp;   pronounced by the mouth of the LORD.  
+&ensp; pronounced by the mouth of the LORD.  
 You shall be a glorious crown in the hand of the LORD,  
-&ensp;   a royal diadem held by your God.  
+&ensp; a royal diadem held by your God.  
 No more shall people call you “Forsaken,“  
-&ensp;   or your land “Desolate,“  
+&ensp; or your land “Desolate,“  
 but you shall be called “My Delight,“  
-&ensp;   and your land “Espoused.”  
+&ensp; and your land “Espoused.”  
 For the LORD delights in you  
-&ensp;   and makes your land his spouse.  
+&ensp; and makes your land his spouse.  
 As a young man marries a virgin,  
-&ensp;   your Builder shall marry you;  
+&ensp; your Builder shall marry you;  
 and as a bridegroom rejoices in his bride  
-&ensp;   so shall your God rejoice in you.  
+&ensp; so shall your God rejoice in you.  
 
 ***
 
@@ -304,29 +423,21 @@ and as a bridegroom rejoices in his bride
 **[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
 
 Sing to the LORD a new song;  
-&emsp;            sing to the LORD, all you lands.  
-Sing to the LORD; bless his name.  
-
-**[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
+&emsp; sing to the LORD, all you lands.  
+Sing to the LORD; bless his name. **[℟.]{.red}**  
 
 Announce his salvation, day after day.  
 Tell his glory among the nations;  
-&ensp;            among all peoples, his wondrous deeds.  
-
-**[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
+&emsp; among all peoples, his wondrous deeds. **[℟.]{.red}**  
 
 Give to the LORD, you families of nations,  
-&ensp;            give to the LORD glory and praise;  
-&ensp;            give to the LORD the glory due his name!  
-
-**[℟.]{.red}** **Proclaim his marvelous deeds to all the nations.**  
+&emsp; give to the LORD glory and praise;  
+&emsp; give to the LORD the glory due his name! **[℟.]{.red}**  
 
 Worship the LORD in holy attire.  
-&ensp;            Tremble before him, all the earth;  
+&emsp; Tremble before him, all the earth;  
 Say among the nations: The LORD is king.  
-&ensp;            He governs the peoples with equity.  
-
-**℟.** **Proclaim his marvelous deeds to all the nations.**  
+&emsp; He governs the peoples with equity. **[℟.]{.red}**  
 
 ***
 
@@ -362,8 +473,7 @@ distributing them individually to each person as he wishes.
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
 God has called us through the Gospel  
-to possess the glory of our Lord Jesus Christ.  
-**[℟.]{.red}** **Alleluia, alleluia.**
+to possess the glory of our Lord Jesus Christ. **[℟.]{.red}** 
 
 ***
 

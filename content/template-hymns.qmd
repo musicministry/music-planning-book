@@ -152,6 +152,169 @@ THEMES
 
 > COMMUNION ANTIPHON
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text  
+&ensp; indented as needed
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN.**  
+
+Verse one,
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Alleluia [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Alleluia [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text  
+&ensp; indented as needed.
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Alleluia [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+</details>
+::::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
