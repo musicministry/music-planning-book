@@ -18,3 +18,5 @@ sandbox.ipynb
 /content/appendices/*_files/
 
 /.quarto/
+
+**/*.quarto_ipynb
