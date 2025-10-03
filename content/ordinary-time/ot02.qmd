@@ -270,7 +270,7 @@ Now I have seen and testified that he is the Son of God."
 ::: {.red}
 ### &nbsp; Year B
 
-#### First Reading [1 Sm 3:3b-10, 19]{style="float:right" .small}
+#### First Reading [1 Samuel 3:3b-10, 19]{style="float:right" .small}
 :::
 
 Samuel was sleeping in the temple of the LORD  
@@ -301,7 +301,7 @@ not permitting any word of his to be without effect.
 ***
 
 ::: {.red}
-#### Responsorial Psalm [Ps 40:2, 4, 7-8, 8-9, 10]{style="float:right" .small}
+#### Responsorial Psalm [Psalm 40:2, 4, 7-8, 8-9, 10]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Here am I, Lord; I come to do your will.**  
@@ -326,7 +326,7 @@ I did not restrain my lips, as you, O LORD, know. **[℟.]{.red}**
 ***
 
 ::: {.red}
-#### Second Reading [1 Cor 6:13c-15a, 17-20]{style="float:right" .small}
+#### Second Reading [1 Corinthians 6:13c-15a, 17-20]{style="float:right" .small}
 :::
 
 Brothers and sisters:  
@@ -348,7 +348,7 @@ Therefore glorify God in your body.
 ***
 
 ::: {.red}
-#### Alleluia [Jn 1:41, 17b]{style="float:right" .small}
+#### Alleluia [John 1:41, 17b]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -358,7 +358,7 @@ Jesus Christ, who brings us truth and grace. **[℟.]{.red}**
 ***
 
 ::: {.red}
-#### Gospel [Jn 1:35-42]{style="float:right" .small}
+#### Gospel [John 1:35-42]{style="float:right" .small}
 :::
 
 John was standing with two of his disciples,  

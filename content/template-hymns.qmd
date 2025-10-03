@@ -183,7 +183,6 @@ Verse one,
 Verse two,  
 &emsp; and so on as needed. **[℟.]{.red}**  
 
-
 ***
 
 ::: {.red}
@@ -312,8 +311,16 @@ Verse. **[℟.]{.red}**
 
 Text
 
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
 </details>
 ::::
+
+::: {.red}
+## Music Selections
+:::
 
 ::: {.titlered}
 ### &nbsp; Year A

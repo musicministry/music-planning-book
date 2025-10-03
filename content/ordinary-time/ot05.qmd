@@ -155,6 +155,405 @@ with open('../../_hymns.yml', 'r') as vf:
 > Blessed are those who hunger and thirst for righteousness,  
 > for they shall have their fill.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 58:7-10]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+Share your bread with the hungry,  
+shelter the oppressed and the homeless;  
+clothe the naked when you see them,  
+and do not turn your back on your own.  
+Then your light shall break forth like the dawn,  
+and your wound shall quickly be healed;  
+your vindication shall go before you,  
+and the glory of the LORD shall be your rear guard.  
+Then you shall call, and the LORD will answer,  
+you shall cry for help, and he will say: Here I am!  
+If you remove from your midst  
+oppression, false accusation and malicious speech;  
+if you bestow your bread on the hungry  
+and satisfy the afflicted;  
+then light shall rise for you in the darkness,  
+and the gloom shall become for you like midday.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 112:4-5, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The just man is a light in darkness to the upright.**  
+
+Light shines through the darkness for the upright;  
+he is gracious and merciful and just.  
+Well for the man who is gracious and lends,  
+who conducts his affairs with justice. **[℟.]{.red}**  
+
+He shall never be moved;  
+the just one shall be in everlasting remembrance.  
+An evil report he shall not fear;  
+his heart is firm, trusting in the LORD. **[℟.]{.red}**  
+
+His heart is steadfast; he shall not fear.  
+Lavishly he gives to the poor;  
+His justice shall endure forever;  
+his horn shall be exalted in glory. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 2:1-5]{style="float:right" .small}
+:::
+
+When I came to you, brothers and sisters,  
+proclaiming the mystery of God,  
+I did not come with sublimity of words or of wisdom.  
+For I resolved to know nothing while I was with you  
+except Jesus Christ, and him crucified.  
+I came to you in weakness and fear and much trembling,  
+and my message and my proclamation  
+were not with persuasive words of wisdom,  
+but with a demonstration of Spirit and power,  
+so that your faith might rest not on human wisdom  
+but on the power of God.  
+
+***
+
+::: {.red}
+#### Alleluia [John 8:12]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I am the light of the world, says the Lord;  
+whoever follows me will have the light of life. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [Matthew 5:13-16]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+"You are the salt of the earth.  
+But if salt loses its taste, with what can it be seasoned?  
+It is no longer good for anything  
+but to be thrown out and trampled underfoot.  
+You are the light of the world.  
+A city set on a mountain cannot be hidden.  
+Nor do they light a lamp and then put it under a bushel basket;  
+it is set on a lampstand,  
+where it gives light to all in the house.  
+Just so, your light must shine before others,  
+that they may see your good deeds  
+and glorify your heavenly Father."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Job 7:1-4, 6-7]{style="float:right" .small}
+:::
+
+Job spoke, saying:  
+Is not man's life on earth a drudgery?  
+Are not his days those of hirelings?  
+He is a slave who longs for the shade,  
+a hireling who waits for his wages.  
+So I have been assigned months of misery,  
+and troubled nights have been allotted to me.  
+If in bed I say, "When shall I arise?"  
+then the night drags on;  
+I am filled with restlessness until the dawn.  
+My days are swifter than a weaver's shuttle;  
+they come to an end without hope.  
+Remember that my life is like the wind;  
+I shall not see happiness again.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 147:1-2, 3-4, 5-6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise the Lord, who heals the brokenhearted.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia, alleluia.**
+
+Praise the LORD, for he is good;  
+sing praise to our God, for he is gracious;  
+it is fitting to praise him.  
+The LORD rebuilds Jerusalem;  
+the dispersed of Israel he gathers. **[℟.]{.red}**  
+
+He heals the brokenhearted  
+and binds up their wounds.  
+He tells the number of the stars;  
+he calls each by name. **[℟.]{.red}**  
+
+Great is our Lord and mighty in power;  
+to his wisdom there is no limit.  
+The LORD sustains the lowly;  
+the wicked he casts to the ground. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 9:16-19, 22-23]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+If I preach the gospel, this is no reason for me to boast,  
+for an obligation has been imposed on me,  
+and woe to me if I do not preach it!  
+If I do so willingly, I have a recompense,  
+but if unwillingly, then I have been entrusted with a stewardship.  
+What then is my recompense?  
+That, when I preach,  
+I offer the gospel free of charge  
+so as not to make full use of my right in the gospel.
+
+Although I am free in regard to all,  
+I have made myself a slave to all  
+so as to win over as many as possible.  
+To the weak I became weak, to win over the weak.  
+I have become all things to all, to save at least some.  
+All this I do for the sake of the gospel,  
+so that I too may have a share in it.  
+
+***
+
+::: {.red}
+#### Alleluia [Matthew 8:17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Christ took away our infirmities  
+and bore our diseases. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 1:29-39]{style="float:right" .small}
+:::
+
+On leaving the synagogue  
+Jesus entered the house of Simon and Andrew with James and John.  
+Simon's mother-in-law lay sick with a fever.  
+They immediately told him about her.  
+He approached, grasped her hand, and helped her up.  
+Then the fever left her and she waited on them.  
+
+When it was evening, after sunset,  
+they brought to him all who were ill or possessed by demons.  
+The whole town was gathered at the door.  
+He cured many who were sick with various diseases,  
+and he drove out many demons,  
+not permitting them to speak because they knew him.  
+
+Rising very early before dawn, he left  
+and went off to a deserted place, where he prayed.  
+Simon and those who were with him pursued him  
+and on finding him said, "Everyone is looking for you."  
+He told them, "Let us go on to the nearby villages  
+that I may preach there also.  
+For this purpose have I come."  
+So he went into their synagogues,  
+preaching and driving out demons throughout the whole of Galilee.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Isaiah 6:1-2a, 3-8]{style="float:right" .small}
+:::
+
+In the year King Uzziah died,  
+I saw the Lord seated on a high and lofty throne,  
+with the train of his garment filling the temple.  
+Seraphim were stationed above.  
+
+They cried one to the other,  
+“Holy, holy, holy is the LORD of hosts!  
+All the earth is filled with his glory!”  
+At the sound of that cry, the frame of the door shook  
+and the house was filled with smoke.  
+
+Then I said, “Woe is me, I am doomed!  
+For I am a man of unclean lips,  
+living among a people of unclean lips;  
+yet my eyes have seen the King, the LORD of hosts!”  
+Then one of the seraphim flew to me,  
+holding an ember that he had taken with tongs from the altar.  
+
+He touched my mouth with it, and said,  
+“See, now that this has touched your lips,  
+your wickedness is removed, your sin purged.”  
+
+Then I heard the voice of the Lord saying,  
+“Whom shall I send?  Who will go for us?”  
+“Here I am,” I said; “send me!”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 138:1-2, 2-3, 4-5, 7-8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **In the sight of the angels I will sing your praises, Lord.**  
+
+I will give thanks to you, O LORD, with all my heart,  
+&emsp; ifor you have heard the words of my mouth;  
+in the presence of the angels I will sing your praise;  
+&emsp; I will worship at your holy temple  
+and give thanks to your name. **[℟.]{.red}**  
+
+Because of your kindness and your truth;  
+&emsp; for you have made great above all things  
+&emsp; your name and your promise.  
+When I called, you answered me;  
+&emsp; you built up strength within me. **[℟.]{.red}**  
+
+All the kings of the earth shall give thanks to you, O LORD,  
+&emsp; when they hear the words of your mouth;  
+and they shall sing of the ways of the LORD:  
+&emsp; “Great is the glory of the LORD.” **[℟.]{.red}**  
+
+Your right hand saves me.  
+&emsp; The LORD will complete what he has done for me;  
+your kindness, O LORD, endures forever;  
+&emsp; forsake not the work of your hands. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 15:1-11 or 15:3-8, 11]{style="float:right" .small}
+:::
+
+I am reminding you, brothers and sisters,  
+of the gospel I preached to you,  
+which you indeed received and in which you also stand.  
+Through it you are also being saved,  
+if you hold fast to the word I preached to you,  
+unless you believed in vain.  
+For I handed on to you as of first importance what I also received:  
+that Christ died for our sins  
+in accordance with the Scriptures;  
+that he was buried;  
+that he was raised on the third day  
+in accordance with the Scriptures;  
+that he appeared to Cephas, then to the Twelve.  
+After that, Christ appeared to more  
+than five hundred brothers at once,  
+most of whom are still living,  
+though some have fallen asleep.  
+After that he appeared to James,  
+then to all the apostles.  
+Last of all, as to one born abnormally,  
+he appeared to me.  
+For I am the least of the apostles,  
+not fit to be called an apostle,  
+because I persecuted the church of God.  
+But by the grace of God I am what I am,  
+and his grace to me has not been ineffective.  
+Indeed, I have toiled harder than all of them;  
+not I, however, but the grace of God that is with me.  
+Therefore, whether it be I or they,  
+so we preach and so you believed.  
+
+[Or:]{.red}
+
+Brothers and sisters,  
+I handed on to you as of first importance what I also received:  
+that Christ died for our sins  
+in accordance with the Scriptures;  
+that he was buried;  
+that he was raised on the third day  
+in accordance with the Scriptures;   
+that he appeared to Cephas, then to the Twelve.  
+After that, he appeared to more  
+than five hundred brothers at once,  
+most of whom are still living,  
+though some have fallen asleep.  
+After that he appeared to James,  
+then to all the apostles.  
+Last of all, as to one abnormally born,  
+he appeared to me.  
+Therefore, whether it be I or they,  
+so we preach and so you believed.  
+
+***
+
+::: {.red}
+#### Alleluia [Matthew 4:19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Come after me  
+and I will make you fishers of men. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [Luke 5:1-11]{style="float:right" .small}
+:::
+
+While the crowd was pressing in on Jesus and listening to the word of God,  
+he was standing by the Lake of Gennesaret.  
+He saw two boats there alongside the lake;  
+the fishermen had disembarked and were washing their nets.  
+Getting into one of the boats, the one belonging to Simon,  
+he asked him to put out a short distance from the shore.  
+Then he sat down and taught the crowds from the boat.  
+After he had finished speaking, he said to Simon,  
+“Put out into deep water and lower your nets for a catch.”  
+Simon said in reply,  
+“Master, we have worked hard all night and have caught nothing,  
+but at your command I will lower the nets.”  
+When they had done this, they caught a great number of fish  
+and their nets were tearing.  
+They signaled to their partners in the other boat  
+to come to help them.  
+They came and filled both boats  
+so that the boats were in danger of sinking.  
+When Simon Peter saw this, he fell at the knees of Jesus and said,  
+“Depart from me, Lord, for I am a sinful man.”  
+For astonishment at the catch of fish they had made seized him  
+and all those with him,  
+and likewise James and John, the sons of Zebedee,  
+who were partners of Simon.  
+Jesus said to Simon, “Do not be afraid;  
+from now on you will be catching men.”  
+When they brought their boats to the shore,  
+they left everything and followed him.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
