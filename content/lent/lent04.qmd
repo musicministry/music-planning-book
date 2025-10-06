@@ -167,6 +167,589 @@ with open('../../_hymns.yml', 'r') as vf:
 > The Lord anointed my eyes: I went, I washed,  
 > I saw and I believed in God.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [1 Samuel 16:1b, 6-7, 10-13a]{style="float:right" .small}
+:::
+
+The LORD said to Samuel:  
+“Fill your horn with oil, and be on your way.  
+I am sending you to Jesse of Bethlehem,  
+for I have chosen my king from among his sons.”  
+
+As Jesse and his sons came to the sacrifice,  
+Samuel looked at Eliab and thought,  
+“Surely the LORD’s anointed is here before him.”  
+But the LORD said to Samuel:  
+“Do not judge from his appearance or from his lofty stature,  
+because I have rejected him.  
+Not as man sees does God see,  
+because man sees the appearance  
+but the LORD looks into the heart.”  
+In the same way Jesse presented seven sons before Samuel,  
+but Samuel said to Jesse,  
+“The LORD has not chosen any one of these.”  
+Then Samuel asked Jesse,  
+“Are these all the sons you have?”  
+Jesse replied,  
+“There is still the youngest, who is tending the sheep.”  
+Samuel said to Jesse,  
+“Send for him;  
+we will not begin the sacrificial banquet until he arrives here.”  
+Jesse sent and had the young man brought to them.  
+He was ruddy, a youth handsome to behold  
+and making a splendid appearance.  
+The LORD said,  
+“There—anoint him, for this is the one!”  
+Then Samuel, with the horn of oil in hand,   
+anointed David in the presence of his brothers;  
+and from that day on, the spirit of the LORD rushed upon David.
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 23: 1-3a, 3b-4, 5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is my shepherd; there is nothing I shall want.**  
+
+The LORD is my shepherd; I shall not want.  
+&ensp; In verdant pastures he gives me repose;  
+beside restful waters he leads me;  
+&ensp; he refreshes my soul. **[℟.]{.red}**  
+
+He guides me in right paths  
+&ensp; for his name’s sake.  
+Even though I walk in the dark valley  
+&ensp; I fear no evil; for you are at my side  
+With your rod and your staff  
+&ensp; that give me courage. **[℟.]{.red}**  
+
+You spread the table before me  
+&ensp; in the sight of my foes;  
+you anoint my head with oil;  
+&ensp; my cup overflows. **[℟.]{.red}**  
+
+Only goodness and kindness follow me  
+&ensp; all the days of my life;  
+and I shall dwell in the house of the LORD  
+&ensp; for years to come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 5:8-14]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+You were once darkness,   
+but now you are light in the Lord.  
+Live as children of light,  
+for light produces every kind of goodness  
+and righteousness and truth.  
+Try to learn what is pleasing to the Lord.  
+Take no part in the fruitless works of darkness;  
+rather expose them, for it is shameful even to mention  
+the things done by them in secret;  
+but everything exposed by the light becomes visible,  
+for everything that becomes visible is light.  
+Therefore, it says:  
+&emsp; “Awake, O sleeper,  
+&emsp; and arise from the dead,  
+&emsp; and Christ will give you light.”
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [John 8:12]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+I am the light of the world, says the Lord;  
+whoever follows me will have the light of life. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [John 9:1-41 or 9:1, 6-9, 13-17, 34-38]{style="float:right" .small}
+:::
+
+As Jesus passed by he saw a man blind from birth.  
+His disciples asked him,  
+“Rabbi, who sinned, this man or his parents,  
+that he was born blind?”  
+Jesus answered,  
+“Neither he nor his parents sinned;  
+it is so that the works of God might be made visible through him.  
+We have to do the works of the one who sent me while it is day.  
+Night is coming when no one can work.  
+While I am in the world, I am the light of the world.”  
+When he had said this, he spat on the ground  
+and made clay with the saliva,  
+and smeared the clay on his eyes,  
+and said to him,  
+“Go wash in the Pool of Siloam” —which means Sent.  
+So he went and washed, and came back able to see.  
+
+His neighbors and those who had seen him earlier as a beggar said,  
+“Isn’t this the one who used to sit and beg?”  
+Some said, “It is,“  
+but others said, “No, he just looks like him.”  
+He said, “I am.”  
+So they said to him, “How were your eyes opened?”  
+He replied,  
+“The man called Jesus made clay and anointed my eyes  
+and told me, ‘Go to Siloam and wash.’  
+So I went there and washed and was able to see.”  
+And they said to him, “Where is he?”  
+He said, “I don’t know.”  
+
+They brought the one who was once blind to the Pharisees.  
+Now Jesus had made clay and opened his eyes on a sabbath.  
+So then the Pharisees also asked him how he was able to see.  
+He said to them,  
+“He put clay on my eyes, and I washed, and now I can see.”  
+So some of the Pharisees said,  
+“This man is not from God,  
+because he does not keep the sabbath.”  
+But others said,  
+“How can a sinful man do such signs?”  
+And there was a division among them.  
+So they said to the blind man again,  
+“What do you have to say about him,  
+since he opened your eyes?”  
+He said, “He is a prophet.”  
+
+Now the Jews did not believe  
+that he had been blind and gained his sight  
+until they summoned the parents of the one who had gained his sight.  
+They asked them,  
+“Is this your son, who you say was born blind?  
+How does he now see?”  
+His parents answered and said,  
+“We know that this is our son and that he was born blind.  
+We do not know how he sees now,  
+nor do we know who opened his eyes.  
+Ask him, he is of age;  
+he can speak for himself.”  
+His parents said this because they were afraid  
+of the Jews, for the Jews had already agreed  
+that if anyone acknowledged him as the Christ,  
+he would be expelled from the synagogue.  
+For this reason his parents said,  
+“He is of age; question him.”  
+
+So a second time they called the man who had been blind  
+and said to him, “Give God the praise!  
+We know that this man is a sinner.”  
+He replied,  
+“If he is a sinner, I do not know.  
+One thing I do know is that I was blind and now I see.”  
+So they said to him,  
+“What did he do to you?  
+How did he open your eyes?”  
+He answered them,  
+“I told you already and you did not listen.  
+Why do you want to hear it again?  
+Do you want to become his disciples, too?”  
+They ridiculed him and said,  
+“You are that man’s disciple;  
+we are disciples of Moses!  
+We know that God spoke to Moses,  
+but we do not know where this one is from.”  
+The man answered and said to them,  
+“This is what is so amazing,  
+that you do not know where he is from, yet he opened my eyes.  
+We know that God does not listen to sinners,  
+but if one is devout and does his will, he listens to him.  
+It is unheard of that anyone ever opened the eyes of a person born blind.  
+If this man were not from God,  
+he would not be able to do anything.”  
+They answered and said to him,  
+“You were born totally in sin,  
+and are you trying to teach us?”  
+Then they threw him out.  
+
+When Jesus heard that they had thrown him out,  
+he found him and said, Do you believe in the Son of Man?”  
+He answered and said,  
+“Who is he, sir, that I may believe in him?”  
+Jesus said to him,  
+“You have seen him,  
+the one speaking with you is he.”  
+He said,  
+“I do believe, Lord,” and he worshiped him.  
+Then Jesus said,  
+“I came into this world for judgment,   
+so that those who do not see might see,  
+and those who do see might become blind.”  
+
+Some of the Pharisees who were with him heard this  
+and said to him, “Surely we are not also blind, are we?”  
+Jesus said to them,  
+“If you were blind, you would have no sin;  
+but now you are saying, ‘We see,’ so your sin remains.  
+
+[Or:]{.red}
+
+As Jesus passed by he saw a man blind from birth.  
+He spat on the ground and made clay with the saliva,  
+and smeared the clay on his eyes,  
+and said to him,  
+“Go wash in the Pool of Siloam” — which means Sent.  
+So he went and washed, and came back able to see.  
+
+His neighbors and those who had seen him earlier as a beggar said,  
+“Isn’t this the one who used to sit and beg?”  
+Some said, “It is,“  
+but others said, “No, he just looks like him.”  
+He said, “I am.”  
+
+They brought the one who was once blind to the Pharisees.  
+Now Jesus had made clay and opened his eyes on a sabbath.  
+So then the Pharisees also asked him how he was able to see.  
+He said to them,  
+“He put clay on my eyes, and I washed, and now I can see.”  
+So some of the Pharisees said,  
+“This man is not from God,  
+because he does not keep the sabbath.”  
+But others said,  
+“How can a sinful man do such signs?”  
+And there was a division among them.  
+So they said to the blind man again,  
+“What do you have to say about him,  
+since he opened your eyes?”  
+He said, “He is a prophet.”  
+
+They answered and said to him,  
+“You were born totally in sin,  
+and are you trying to teach us?”  
+Then they threw him out.  
+
+When Jesus heard that they had thrown him out,  
+he found him and said, “Do you believe in the Son of Man?”  
+He answered and said,  
+“Who is he, sir, that I may believe in him?”  
+Jesus said to him,  
+“You have seen him, and  
+the one speaking with you is he.”  
+He said,  
+“I do believe, Lord,” and he worshiped him.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+[If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
+
+#### First Reading [2 Chronicles 36:14-16, 19-23]{style="float:right" .small}
+:::
+
+In those days, all the princes of Judah, the priests, and the people  
+added infidelity to infidelity,  
+practicing all the abominations of the nations  
+and polluting the LORD’s temple  
+which he had consecrated in Jerusalem.  
+
+Early and often did the LORD, the God of their fathers,  
+send his messengers to them,  
+for he had compassion on his people and his dwelling place.  
+But they mocked the messengers of God,  
+despised his warnings, and scoffed at his prophets,  
+until the anger of the LORD against his people was so inflamed  
+that there was no remedy.  
+Their enemies burnt the house of God,  
+tore down the walls of Jerusalem,  
+set all its palaces afire,  
+and destroyed all its precious objects.  
+Those who escaped the sword were carried captive to Babylon,  
+where they became servants of the king of the Chaldeans and his sons  
+until the kingdom of the Persians came to power.  
+All this was to fulfill the word of the LORD spoken by Jeremiah:  
+“Until the land has retrieved its lost sabbaths,  
+during all the time it lies waste it shall have rest  
+while seventy years are fulfilled.”  
+
+In the first year of Cyrus, king of Persia,  
+in order to fulfill the word of the LORD spoken by Jeremiah,  
+the LORD inspired King Cyrus of Persia  
+to issue this proclamation throughout his kingdom,  
+both by word of mouth and in writing:  
+“Thus says Cyrus, king of Persia:  
+All the kingdoms of the earth  
+the LORD, the God of heaven, has given to me,  
+and he has also charged me to build him a house  
+in Jerusalem, which is in Judah.  
+Whoever, therefore, among you belongs to any part of his people,  
+let him go up, and may his God be with him!”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 137:1-2, 3, 4-5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Let my tongue be silenced, if I ever forget you!**  
+
+By the streams of Babylon  
+&emsp; we sat and wept  
+&emsp; when we remembered Zion.  
+On the aspens of that land  
+&emsp; we hung up our harps. **[℟.]{.red}**  
+
+For there our captors asked of us  
+&emsp; the lyrics of our songs,  
+And our despoilers urged us to be joyous:  
+&emsp; “Sing for us the songs of Zion!” **[℟.]{.red}**  
+
+How could we sing a song of the LORD  
+&emsp; in a foreign land?  
+If I forget you, Jerusalem,  
+&emsp; may my right hand be forgotten! **[℟.]{.red}**  
+
+May my tongue cleave to my palate  
+&emsp; if I remember you not,  
+If I place not Jerusalem  
+&emsp; ahead of my joy. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 2:4-10]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+God, who is rich in mercy,  
+because of the great love he had for us,  
+even when we were dead in our transgressions,  
+brought us to life with Christ — by grace you have been saved —,  
+raised us up with him,  
+and seated us with him in the heavens in Christ Jesus,  
+that in the ages to come  
+He might show the immeasurable riches of his grace  
+in his kindness to us in Christ Jesus.  
+For by grace you have been saved through faith,  
+and this is not from you; it is the gift of God;  
+it is not from works, so no one may boast.  
+For we are his handiwork, created in Christ Jesus for the good works  
+that God has prepared in advance,  
+that we should live in them.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [John 3:16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+God so loved the world that he gave his only Son,  
+so everyone who believes in him might have eternal life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 3:14-21]{style="float:right" .small}
+:::
+
+Jesus said to Nicodemus:  
+“Just as Moses lifted up the serpent in the desert,  
+so must the Son of Man be lifted up,  
+so that everyone who believes in him may have eternal life.”  
+
+For God so loved the world that he gave his only Son,  
+so that everyone who believes in him might not perish  
+but might have eternal life.  
+For God did not send his Son into the world to condemn the world,  
+but that the world might be saved through him.  
+Whoever believes in him will not be condemned,  
+but whoever does not believe has already been condemned,  
+because he has not believed in the name of the only Son of God.  
+And this is the verdict,  
+that the light came into the world,  
+but people preferred darkness to light,  
+because their works were evil.  
+For everyone who does wicked things hates the light  
+and does not come toward the light,  
+so that his works might not be exposed.  
+But whoever lives the truth comes to the light,  
+so that his works may be clearly seen as done in God.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+[If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
+
+#### First Reading [Joshua 5:9a, 10-12]{style="float:right" .small}
+:::
+
+The LORD said to Joshua,  
+“Today I have removed the reproach of Egypt from you.”  
+
+While the Israelites were encamped at Gilgal on the plains of Jericho,  
+they celebrated the Passover  
+on the evening of the fourteenth of the month.  
+On the day after the Passover,  
+they ate of the produce of the land  
+in the form of unleavened cakes and parched grain.  
+On that same day after the Passover,  
+on which they ate of the produce of the land, the manna ceased.  
+No longer was there manna for the Israelites,  
+who that year ate of the yield of the land of Canaan.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 34:2-3, 4-5, 6-7]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Taste and see the goodness of the Lord.**  
+
+I will bless the LORD at all times;  
+&emsp; his praise shall be ever in my mouth.  
+Let my soul glory in the LORD;  
+&emsp; the lowly will hear me and be glad. **[℟.]{.red}**  
+
+Glorify the LORD with me,  
+&emsp; let us together extol his name.  
+I sought the LORD, and he answered me  
+&emsp; and delivered me from all my fears. **[℟.]{.red}**  
+
+Look to him that you may be radiant with joy,  
+&emsp; and your faces may not blush with shame.  
+When the poor one called out, the LORD heard,  
+&emsp; and from all his distress he saved him. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Corinthians 5:17-21]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Whoever is in Christ is a new creation:  
+the old things have passed away;  
+behold, new things have come.  
+And all this is from God,  
+who has reconciled us to himself through Christ  
+and given us the ministry of reconciliation,  
+namely, God was reconciling the world to himself in Christ,  
+not counting their trespasses against them  
+and entrusting to us the message of reconciliation.  
+So we are ambassadors for Christ,  
+as if God were appealing through us.  
+We implore you on behalf of Christ,  
+be reconciled to God.  
+For our sake he made him to be sin who did not know sin,  
+so that we might become the righteousness of God in him.
+
+***
+
+::: {.red}
+#### Verse before the Gospel [Luke 15:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+I will get up and go to my Father and shall say to him:  
+Father, I have sinned against heaven and against you. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [Luke 15:1-3, 11-32]{style="float:right" .small}
+:::
+
+Tax collectors and sinners were all drawing near to listen to Jesus,  
+but the Pharisees and scribes began to complain, saying,  
+“This man welcomes sinners and eats with them.”  
+So to them Jesus addressed this parable:  
+“A man had two sons, and the younger son said to his father,  
+‘Father give me the share of your estate that should come to me.’  
+So the father divided the property between them.  
+After a few days, the younger son collected all his belongings  
+and set off to a distant country  
+where he squandered his inheritance on a life of dissipation.  
+When he had freely spent everything,  
+a severe famine struck that country,  
+and he found himself in dire need.  
+So he hired himself out to one of the local citizens  
+who sent him to his farm to tend the swine.  
+And he longed to eat his fill of the pods on which the swine fed,  
+but nobody gave him any.  
+Coming to his senses he thought,  
+‘How many of my father’s hired workers  
+have more than enough food to eat,   
+but here am I, dying from hunger.  
+I shall get up and go to my father and I shall say to him,  
+“Father, I have sinned against heaven and against you.  
+I no longer deserve to be called your son;  
+treat me as you would treat one of your hired workers.”’  
+So he got up and went back to his father.  
+While he was still a long way off,  
+his father caught sight of him, and was filled with compassion.  
+He ran to his son, embraced him and kissed him.  
+His son said to him,  
+‘Father, I have sinned against heaven and against you;  
+I no longer deserve to be called your son.’  
+But his father ordered his servants,  
+‘Quickly bring the finest robe and put it on him;  
+put a ring on his finger and sandals on his feet.  
+Take the fattened calf and slaughter it.  
+Then let us celebrate with a feast,  
+because this son of mine was dead, and has come to life again;  
+he was lost, and has been found.’  
+Then the celebration began.  
+Now the older son had been out in the field  
+and, on his way back, as he neared the house,  
+he heard the sound of music and dancing.  
+He called one of the servants and asked what this might mean.  
+The servant said to him,  
+‘Your brother has returned  
+and your father has slaughtered the fattened calf  
+because he has him back safe and sound.’  
+He became angry,  
+and when he refused to enter the house,  
+his father came out and pleaded with him.  
+He said to his father in reply,  
+‘Look, all these years I served you  
+and not once did I disobey your orders;  
+yet you never gave me even a young goat to feast on with my friends.  
+But when your son returns  
+who swallowed up your property with prostitutes,  
+for him you slaughter the fattened calf.’  
+He said to him,  
+‘My son, you are here with me always;  
+everything I have is yours.  
+But now we must celebrate and rejoice,  
+because your brother was dead and has come to life again;  
+he was lost and has been found.’”
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
@@ -184,7 +767,7 @@ utils.hymnlist(params['hymns']['a'], urls=videos)
 :::
 {{< var text.yearb >}}
 
-[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+[The music for [Year A (above)](#year-a-1) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
 
 ```{python}
 #| label: Year B
@@ -198,7 +781,7 @@ utils.hymnlist(params['hymns']['b'], urls=videos)
 :::
 {{< var text.yearc >}}
 
-[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+[The music for [Year A (above)](#year-a-1) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
 
 ```{python}
 #| label: Year C

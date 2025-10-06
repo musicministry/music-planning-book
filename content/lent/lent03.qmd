@@ -144,7 +144,7 @@ with open('../../_hymns.yml', 'r') as vf:
 > Turn to me and have mercy on me,  
 > for I am alone and poor.  
 >  
-> Or:  
+> [Or:]{.red}  
 >  
 > When I prove my holiness among you  
 > I will gather you from all the foreign lands;  
@@ -159,6 +159,615 @@ with open('../../_hymns.yml', 'r') as vf:
 > For anyone who drinks it, says the Lord,  
 > the water I shall give will become in him  
 > a spring welling up to eternal life.
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Exodus 17:3-7]{style="float:right" .small}
+:::
+
+In those days, in their thirst for water,  
+the people grumbled against Moses,  
+saying, “Why did you ever make us leave Egypt?  
+Was it just to have us die here of thirst  
+with our children and our livestock?”  
+So Moses cried out to the LORD,  
+“What shall I do with this people?  
+a little more and they will stone me!”  
+The LORD answered Moses,  
+“Go over there in front of the people,  
+along with some of the elders of Israel,  
+holding in your hand, as you go,  
+the staff with which you struck the river. 
+I will be standing there in front of you on the rock in Horeb.  
+Strike the rock, and the water will flow from it  
+for the people to drink.”  
+This Moses did, in the presence of the elders of Israel.  
+The place was called Massah and Meribah,  
+because the Israelites quarreled there  
+and tested the LORD, saying,  
+“Is the LORD in our midst or not?”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 95:1-2, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **If today you hear his voice, harden not your hearts.**  
+
+Come, let us sing joyfully to the LORD;  
+&ensp; let us acclaim the Rock of our salvation.  
+Let us come into his presence with thanksgiving;  
+&ensp; let us joyfully sing psalms to him. **[℟.]{.red}**  
+
+Come, let us bow down in worship;  
+&ensp; let us kneel before the LORD who made us.  
+For he is our God,  
+&ensp; and we are the people he shepherds, the flock he guides. **[℟.]{.red}**  
+
+Oh, that today you would hear his voice:  
+&ensp; “Harden not your hearts as at Meribah,  
+&ensp; as in the day of Massah in the desert,  
+Where your fathers tempted me;  
+&ensp; they tested me though they had seen my works.” **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 5:1-2, 5-8]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Since we have been justified by faith,  
+we have peace with God through our Lord Jesus Christ,  
+through whom we have gained access by faith  
+to this grace in which we stand,  
+and we boast in hope of the glory of God.  
+
+And hope does not disappoint,  
+because the love of God has been poured out into our hearts  
+through the Holy Spirit who has been given to us.  
+For Christ, while we were still helpless,  
+died at the appointed time for the ungodly.  
+Indeed, only with difficulty does one die for a just person,  
+though perhaps for a good person one might even find courage to die.  
+But God proves his love for us  
+in that while we were still sinners Christ died for us.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [John 4:42, 15]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+Lord, you are truly the Savior of the world;  
+give me living water, that I may never thirst again. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [John 4:5-42 or 4:5-15, 19b-26, 39a, 40-42]{style="float:right" .small}
+:::
+
+Jesus came to a town of Samaria called Sychar,  
+near the plot of land that Jacob had given to his son Joseph.  
+Jacob’s well was there.  
+Jesus, tired from his journey, sat down there at the well.  
+It was about noon.  
+
+A woman of Samaria came to draw water.  
+Jesus said to her,  
+“Give me a drink.”  
+His disciples had gone into the town to buy food.  
+The Samaritan woman said to him,  
+“How can you, a Jew, ask me, a Samaritan woman, for a drink?”  
+—For Jews use nothing in common with Samaritans.—  
+Jesus answered and said to her,  
+“If you knew the gift of God  
+and who is saying to you, ‘Give me a drink,‘  
+you would have asked him  
+and he would have given you living water.”  
+The woman said to him,  
+“Sir, you do not even have a bucket and the cistern is deep;  
+where then can you get this living water?  
+Are you greater than our father Jacob,  
+who gave us this cistern and drank from it himself  
+with his children and his flocks?”  
+Jesus answered and said to her,  
+“Everyone who drinks this water will be thirsty again;  
+but whoever drinks the water I shall give will never thirst;  
+the water I shall give will become in him  
+a spring of water welling up to eternal life.”  
+The woman said to him,  
+“Sir, give me this water, so that I may not be thirsty  
+or have to keep coming here to draw water.”  
+
+Jesus said to her,  
+“Go call your husband and come back.”  
+The woman answered and said to him,  
+“I do not have a husband.”  
+Jesus answered her,  
+“You are right in saying, ‘I do not have a husband.’  
+For you have had five husbands,  
+and the one you have now is not your husband.  
+What you have said is true.”  
+The woman said to him,  
+“Sir, I can see that you are a prophet.  
+Our ancestors worshiped on this mountain;   
+but you people say that the place to worship is in Jerusalem.”  
+Jesus said to her,  
+“Believe me, woman, the hour is coming  
+when you will worship the Father  
+neither on this mountain nor in Jerusalem.  
+You people worship what you do not understand;  
+we worship what we understand,  
+because salvation is from the Jews.  
+But the hour is coming, and is now here,  
+when true worshipers will worship the Father in Spirit and truth;  
+and indeed the Father seeks such people to worship him.  
+God is Spirit, and those who worship him  
+must worship in Spirit and truth.”  
+The woman said to him,  
+“I know that the Messiah is coming, the one called the Christ;  
+when he comes, he will tell us everything.”  
+Jesus said to her,  
+“I am he, the one speaking with you.”  
+
+At that moment his disciples returned,  
+and were amazed that he was talking with a woman,  
+but still no one said, “What are you looking for?”  
+or “Why are you talking with her?”  
+The woman left her water jar  
+and went into the town and said to the people,  
+“Come see a man who told me everything I have done.  
+Could he possibly be the Christ?”  
+They went out of the town and came to him.  
+Meanwhile, the disciples urged him, “Rabbi, eat.”  
+But he said to them,  
+“I have food to eat of which you do not know.”  
+So the disciples said to one another,  
+“Could someone have brought him something to eat?”  
+Jesus said to them,  
+“My food is to do the will of the one who sent me  
+and to finish his work.  
+Do you not say, ‘In four months the harvest will be here’?  
+I tell you, look up and see the fields ripe for the harvest.  
+The reaper is already receiving payment  
+and gathering crops for eternal life,  
+so that the sower and reaper can rejoice together.  
+For here the saying is verified that ‘One sows and another reaps.’  
+I sent you to reap what you have not worked for;  
+others have done the work,  
+and you are sharing the fruits of their work.”  
+
+Many of the Samaritans of that town began to believe in him  
+because of the word of the woman who testified,  
+“He told me everything I have done.”  
+When the Samaritans came to him,  
+
+they invited him to stay with them;   
+and he stayed there two days.  
+Many more began to believe in him because of his word,  
+and they said to the woman,  
+“We no longer believe because of your word;  
+for we have heard for ourselves,  
+and we know that this is truly the savior of the world.”  
+
+[Or:]{.red}
+
+Jesus came to a town of Samaria called Sychar,  
+near the plot of land that Jacob had given to his son Joseph.  
+Jacob’s well was there.  
+Jesus, tired from his journey, sat down there at the well.  
+It was about noon.  
+
+A woman of Samaria came to draw water.  
+Jesus said to her,  
+“Give me a drink.”  
+His disciples had gone into the town to buy food.  
+The Samaritan woman said to him,  
+“How can you, a Jew, ask me, a Samaritan woman, for a drink?”  
+—For Jews use nothing in common with Samaritans.—  
+Jesus answered and said to her,  
+“If you knew the gift of God  
+and who is saying to you, ‘Give me a drink,‘  
+you would have asked him  
+and he would have given you living water.”  
+The woman said to him,  
+“Sir, you do not even have a bucket and the cistern is deep;  
+where then can you get this living water?  
+Are you greater than our father Jacob,  
+who gave us this cistern and drank from it himself  
+with his children and his flocks?”  
+Jesus answered and said to her,  
+“Everyone who drinks this water will be thirsty again;  
+but whoever drinks the water I shall give will never thirst;  
+the water I shall give will become in him  
+a spring of water welling up to eternal life.”  
+The woman said to him,  
+“Sir, give me this water, so that I may not be thirsty  
+or have to keep coming here to draw water.  
+
+“I can see that you are a prophet.  
+Our ancestors worshiped on this mountain;  
+but you people say that the place to worship is in Jerusalem.”  
+Jesus said to her,  
+“Believe me, woman, the hour is coming  
+when you will worship the Father  
+neither on this mountain nor in Jerusalem.  
+You people worship what you do not understand;  
+we worship what we understand,  
+because salvation is from the Jews.  
+But the hour is coming, and is now here,  
+when true worshipers will worship the Father in Spirit and truth;  
+and indeed the Father seeks such people to worship him.  
+God is Spirit, and those who worship him  
+must worship in Spirit and truth.”  
+The woman said to him,  
+“I know that the Messiah is coming, the one called the Christ;  
+when he comes, he will tell us everything.”  
+Jesus said to her,  
+“I am he, the one who is speaking with you.”  
+
+Many of the Samaritans of that town began to believe in him.  
+When the Samaritans came to him,  
+they invited him to stay with them;   
+and he stayed there two days.  
+Many more began to believe in him because of his word,  
+and they said to the woman,  
+“We no longer believe because of your word;  
+for we have heard for ourselves,  
+and we know that this is truly the savior of the world.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+[If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
+
+#### First Reading [Exodus 20:1-17 or 20:1-3, 7-8, 12-17]{style="float:right" .small}
+:::
+
+In those days, God delivered all these commandments:  
+“I, the LORD, am your God,  
+who brought you out of the land of Egypt, that place of slavery.  
+You shall not have other gods besides me.  
+You shall not carve idols for yourselves  
+in the shape of anything in the sky above  
+or on the earth below or in the waters beneath the earth;  
+you shall not bow down before them or worship them.  
+For I, the LORD, your God, am a jealous God,  
+inflicting punishment for their fathers’ wickedness  
+on the children of those who hate me,  
+down to the third and fourth generation;  
+but bestowing mercy down to the thousandth generation  
+on the children of those who love me and keep my commandments.  
+
+“You shall not take the name of the LORD, your God, in vain.  
+For the LORD will not leave unpunished  
+the one who takes his name in vain.  
+
+“Remember to keep holy the sabbath day.  
+Six days you may labor and do all your work,  
+but the seventh day is the sabbath of the LORD, your God.  
+No work may be done then either by you, or your son or daughter,  
+or your male or female slave, or your beast,  
+or by the alien who lives with you.  
+In six days the LORD made the heavens and the earth,  
+the sea and all that is in them;  
+but on the seventh day he rested.  
+That is why the LORD has blessed the sabbath day and made it holy.
+
+“Honor your father and your mother,  
+that you may have a long life in the land  
+which the LORD, your God, is giving you.  
+You shall not kill.  
+You shall not commit adultery.  
+You shall not steal.  
+You shall not bear false witness against your neighbor.  
+You shall not covet your neighbor’s house.  
+You shall not covet your neighbor’s wife,  
+nor his male or female slave, nor his ox or ass,  
+nor anything else that belongs to him.”
+
+[Or:]{.red}
+
+In those days, God delivered all these commandments:  
+“I, the LORD am your God,  
+who brought you out of the land of Egypt, that place of slavery.  
+You shall not have other gods besides me.  
+
+“You shall not take the name of the LORD, your God, in vain.  
+For the LORD will not leave unpunished  
+the one who takes his name in vain.  
+
+“Remember to keep holy the sabbath day.  
+Honor your father and your mother,  
+that you may have a long life in the land  
+which the Lord, your God, is giving you.  
+You shall not kill.  
+You shall not commit adultery.  
+You shall not steal.  
+You shall not bear false witness against your neighbor.  
+You shall not covet your neighbor’s house.  
+You shall not covet your neighbor’s wife,  
+nor his male or female slave, nor his ox or ass,  
+nor anything else that belongs to him.”
+
+***
+
+::: {.red}
+#### Responsorial Psalm [John 6:68c; Psalm 19:8, 9, 10, 11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, you have the words of everlasting life.**  
+
+The law of the LORD is perfect,  
+&ensp; refreshing the soul;  
+The decree of the LORD is trustworthy,  
+&ensp; giving wisdom to the simple. **[℟.]{.red}**  
+
+The precepts of the LORD are right,  
+&ensp; rejoicing the heart;  
+the command of the LORD is clear,  
+&ensp; enlightening the eye. **[℟.]{.red}**  
+
+The fear of the LORD is pure,  
+&ensp; enduring forever;  
+the ordinances of the LORD are true,  
+&ensp; all of them just. **[℟.]{.red}**  
+
+They are more precious than gold,  
+&ensp; than a heap of purest gold;  
+sweeter also than syrup  
+&ensp; or honey from the comb. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 1:22-25]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Jews demand signs and Greeks look for wisdom,  
+but we proclaim Christ crucified,  
+a stumbling block to Jews and foolishness to Gentiles,  
+but to those who are called, Jews and Greeks alike,  
+Christ the power of God and the wisdom of God.  
+For the foolishness of God is wiser than human wisdom,  
+and the weakness of God is stronger than human strength.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [John 3:16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+God so loved the world that he gave his only Son,  
+so that everyone who believes in him might have eternal life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 2:13-25]{style="float:right" .small}
+:::
+
+Since the Passover of the Jews was near,  
+Jesus went up to Jerusalem.  
+He found in the temple area those who sold oxen, sheep, and doves,  
+as well as the money changers seated there.  
+He made a whip out of cords  
+and drove them all out of the temple area, with the sheep and oxen,  
+and spilled the coins of the money changers  
+and overturned their tables,  
+and to those who sold doves he said,  
+“Take these out of here,  
+and stop making my Father’s house a marketplace.”  
+His disciples recalled the words of Scripture,  
+*Zeal for your house will consume me.*  
+At this the Jews answered and said to him,  
+“What sign can you show us for doing this?”  
+Jesus answered and said to them,  
+“Destroy this temple and in three days I will raise it up.”  
+The Jews said,  
+“This temple has been under construction for forty-six years,  
+and you will raise it up in three days?”  
+But he was speaking about the temple of his body.  
+Therefore, when he was raised from the dead,  
+his disciples remembered that he had said this,  
+and they came to believe the Scripture  
+and the word Jesus had spoken.  
+
+While he was in Jerusalem for the feast of Passover,  
+many began to believe in his name  
+when they saw the signs he was doing.  
+But Jesus would not trust himself to them because he knew them all,  
+and did not need anyone to testify about human nature.  
+He himself understood it well.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+[If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
+
+#### First Reading [Exodus 3:1-8a, 13-15]{style="float:right" .small}
+:::
+
+Moses was tending the flock of his father-in-law Jethro,  
+the priest of Midian.  
+Leading the flock across the desert, he came to Horeb,  
+the mountain of God.  
+There an angel of the LORD appeared to Moses in fire  
+flaming out of a bush.  
+As he looked on, he was surprised to see that the bush,  
+though on fire, was not consumed.  
+So Moses decided,  
+“I must go over to look at this remarkable sight,  
+and see why the bush is not burned.”  
+
+When the LORD saw him coming over to look at it more closely,  
+God called out to him from the bush, "Moses! Moses!”  
+He answered, “Here I am.”  
+God said, “Come no nearer!  
+Remove the sandals from your feet,  
+for the place where you stand is holy ground.  
+I am the God of your fathers,“ he continued,  
+“the God of Abraham, the God of Isaac, the God of Jacob.”  
+Moses hid his face, for he was afraid to look at God.  
+But the LORD said,  
+“I have witnessed the affliction of my people in Egypt  
+and have heard their cry of complaint against their slave drivers,  
+so I know well what they are suffering.  
+Therefore I have come down to rescue them  
+from the hands of the Egyptians  
+and lead them out of that land into a good and spacious land,  
+a land flowing with milk and honey.”  
+
+Moses said to God, “But when I go to the Israelites  
+and say to them, ‘The God of your fathers has sent me to you,’  
+if they ask me, ‘What is his name?’ what am I to tell them?”  
+God replied, “I am who am.”  
+Then he added, “This is what you shall tell the Israelites:  
+I AM sent me to you.”  
+
+God spoke further to Moses, “Thus shall you say to the Israelites:  
+The LORD, the God of your fathers,  
+the God of Abraham, the God of Isaac, the God of Jacob,  
+has sent me to you.  
+
+“This is my name forever;  
+thus am I to be remembered through all generations.”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 103: 1-2, 3-4, 6-7, 8, 11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is kind and merciful.**  
+
+Bless the LORD, O my soul;  
+&emsp; and all my being, bless his holy name.  
+Bless the LORD, O my soul,  
+&emsp; and forget not all his benefits. **[℟.]{.red}**  
+
+He pardons all your iniquities,  
+&emsp; heals all your ills,  
+He redeems your life from destruction,  
+&emsp; crowns you with kindness and compassion. **[℟.]{.red}**  
+
+The LORD secures justice  
+&emsp; and the rights of all the oppressed.  
+He has made known his ways to Moses,  
+&emsp; and his deeds to the children of Israel. **[℟.]{.red}**  
+
+Merciful and gracious is the LORD,  
+&emsp; slow to anger and abounding in kindness.  
+For as the heavens are high above the earth,  
+&emsp; so surpassing is his kindness toward those who fear him. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 10:1-6, 10-12]{style="float:right" .small}
+:::
+
+I do not want you to be unaware, brothers and sisters,  
+that our ancestors were all under the cloud  
+and all passed through the sea,  
+and all of them were baptized into Moses  
+in the cloud and in the sea.  
+All ate the same spiritual food,  
+and all drank the same spiritual drink,  
+for they drank from a spiritual rock that followed them,  
+and the rock was the Christ.  
+Yet God was not pleased with most of them,  
+for they were struck down in the desert.  
+
+These things happened as examples for us,  
+so that we might not desire evil things, as they did.  
+Do not grumble as some of them did,  
+and suffered death by the destroyer.  
+These things happened to them as an example,  
+and they have been written down as a warning to us,  
+upon whom the end of the ages has come.  
+Therefore, whoever thinks he is standing secure  
+should take care not to fall.
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [Matthew 4:17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+Repent, says the Lord;  
+the kingdom of heaven is at hand. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [Luke 13:1-9]{style="float:right" .small}
+:::
+
+Some people told Jesus about the Galileans  
+whose blood Pilate had mingled with the blood of their sacrifices.  
+Jesus said to them in reply,  
+“Do you think that because these Galileans suffered in this way  
+they were greater sinners than all other Galileans?  
+By no means!  
+But I tell you, if you do not repent,  
+you will all perish as they did!  
+Or those eighteen people who were killed  
+when the tower at Siloam fell on them—  
+do you think they were more guilty  
+than everyone else who lived in Jerusalem?  
+By no means!  
+But I tell you, if you do not repent,  
+you will all perish as they did!”  
+
+And he told them this parable:  
+“There once was a person who had a fig tree planted in his orchard,  
+and when he came in search of fruit on it but found none,  
+he said to the gardener,  
+‘For three years now I have come in search of fruit on this fig tree  
+but have found none.  
+So cut it down.  
+Why should it exhaust the soil?’  
+He said to him in reply,  
+‘Sir, leave it for this year also,  
+and I shall cultivate the ground around it and fertilize it;  
+it may bear fruit in the future.  
+If not you can cut it down.’”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
 
 ::: {.titlered}
 ### &nbsp; Year A
@@ -177,7 +786,7 @@ utils.hymnlist(params['hymns']['a'], urls=videos)
 :::
 {{< var text.yearb >}}
 
-[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+[The music for [Year A (above)](#year-a-1) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
 
 ```{python}
 #| label: Year B
@@ -191,7 +800,7 @@ utils.hymnlist(params['hymns']['b'], urls=videos)
 :::
 {{< var text.yearc >}}
 
-[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+[The music for [Year A (above)](#year-a-1) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
 
 ```{python}
 #| label: Year C

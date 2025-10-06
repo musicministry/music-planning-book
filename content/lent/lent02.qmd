@@ -149,7 +149,7 @@ prefigured glory, heaven, holiness, hope
 > It is your face, O Lord, that I seek;  
 > hide not your face from me.  
 >  
-> Or:  
+> [Or:]{.red}  
 >  
 > Remember your compassion, O Lord  
 > and your merciful love, for they are from of old.  
@@ -162,6 +162,408 @@ prefigured glory, heaven, holiness, hope
 
 > This is my beloved Son, with whom I am well pleased;
 listen to him.
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Genesis 12:1-4a]{style="float:right" .small}
+:::
+
+The LORD said to Abram:  
+“Go forth from the land of your kinsfolk  
+and from your father’s house to a land that I will show you.  
+
+“I will make of you a great nation,  
+and I will bless you;  
+I will make your name great,  
+so that you will be a blessing.  
+I will bless those who bless you  
+and curse those who curse you.  
+All the communities of the earth. 
+shall find blessing in you.”  
+
+Abram went as the LORD directed him.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 33:4-5, 18-19, 20, 22]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, let your mercy be on us, as we place our trust in you.**  
+
+Upright is the word of the LORD,  
+and all his works are trustworthy.    
+He loves justice and right;  
+of the kindness of the LORD the earth is full. **[℟.]{.red}**  
+
+See, the eyes of the LORD are upon those who fear him,  
+upon those who hope for his kindness,  
+To deliver them from death  
+and preserve them in spite of famine. **[℟.]{.red}**  
+
+Our soul waits for the LORD,  
+who is our help and our shield.  
+May your kindness, O LORD, be upon us  
+who have put our hope in you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Timothy 1:8b-10]{style="float:right" .small}
+:::
+
+Beloved:  
+Bear your share of hardship for the gospel  
+with the strength that comes from God.  
+
+He saved us and called us to a holy life,  
+not according to our works  
+but according to his own design  
+and the grace bestowed on us in Christ Jesus before time began,  
+but now made manifest  
+through the appearance of our savior Christ Jesus,  
+who destroyed death and brought life and immortality  
+to light through the gospel.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [Matthew 17:5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+From the shining cloud the Father’s voice is heard:  
+This is my beloved Son, hear him. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [Matthew 17:1-9]{style="float:right" .small}
+:::
+
+Jesus took Peter, James, and John his brother,  
+and led them up a high mountain by themselves.  
+And he was transfigured before them;  
+his face shone like the sun  
+and his clothes became white as light.  
+And behold, Moses and Elijah appeared to them,  
+conversing with him.  
+Then Peter said to Jesus in reply,  
+“Lord, it is good that we are here.  
+If you wish, I will make three tents here,  
+one for you, one for Moses, and one for Elijah.”  
+While he was still speaking, behold,  
+a bright cloud cast a shadow over them,  
+then from the cloud came a voice that said,  
+“This is my beloved Son, with whom I am well pleased;  
+listen to him.”  
+When the disciples heard this, they fell prostrate  
+and were very much afraid.  
+But Jesus came and touched them, saying,  
+“Rise, and do not be afraid.”  
+And when the disciples raised their eyes,  
+they saw no one else but Jesus alone.  
+
+As they were coming down from the mountain,  
+Jesus charged them,  
+“Do not tell the vision to anyone  
+until the Son of Man has been raised from the dead.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Genesis 22:1-2, 9a, 10-13, 15-18]{style="float:right" .small}
+:::
+
+God put Abraham to the test.  
+He called to him, "Abraham!"  
+"Here I am!" he replied.  
+Then God said:  
+"Take your son Isaac, your only one, whom you love,  
+and go to the land of Moriah.  
+There you shall offer him up as a holocaust  
+on a height that I will point out to you."  
+
+When they came to the place of which God had told him,  
+Abraham built an altar there and arranged the wood on it.  
+Then he reached out and took the knife to slaughter his son.  
+But the LORD's messenger called to him from heaven,  
+"Abraham, Abraham!"  
+"Here I am!" he answered.  
+"Do not lay your hand on the boy," said the messenger.  
+"Do not do the least thing to him.  
+I know now how devoted you are to God,  
+since you did not withhold from me your own beloved son."  
+As Abraham looked about,  
+he spied a ram caught by its horns in the thicket.  
+So he went and took the ram  
+and offered it up as a holocaust in place of his son.  
+
+Again the LORD's messenger called to Abraham from heaven and said:  
+"I swear by myself, declares the LORD,  
+that because you acted as you did  
+in not withholding from me your beloved son,  
+I will bless you abundantly  
+and make your descendants as countless  
+as the stars of the sky and the sands of the seashore;  
+your descendants shall take possession  
+of the gates of their enemies,  
+and in your descendants all the nations of the earth  
+shall find blessing—  
+all this because you obeyed my command."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 116:10, 15, 16-17, 18-19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will walk before the Lord, in the land of the living.**  
+
+I believed, even when I said,  
+"I am greatly afflicted."  
+Precious in the eyes of the LORD  
+is the death of his faithful ones. **[℟.]{.red}**  
+
+O LORD, I am your servant;  
+I am your servant, the son of your handmaid;  
+you have loosed my bonds.  
+To you will I offer sacrifice of thanksgiving,  
+and I will call upon the name of the LORD. **[℟.]{.red}**  
+
+My vows to the LORD I will pay  
+in the presence of all his people,  
+In the courts of the house of the LORD,  
+in your midst, O Jerusalem. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 8:31b-34]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+If God is for us, who can be against us?  
+He who did not spare his own Son  
+but handed him over for us all,  
+how will he not also give us everything else along with him?  
+
+Who will bring a charge against God's chosen ones?  
+It is God who acquits us, who will condemn?  
+Christ Jesus it is who died—or, rather, was raised—  
+who also is at the right hand of God,  
+who indeed intercedes for us.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [Cf. Matthew 17:5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+From the shining cloud the Father's voice is heard:  
+This is my beloved Son, listen to him. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 9:2-10]{style="float:right" .small}
+:::
+
+Jesus took Peter, James, and John  
+and led them up a high mountain apart by themselves.  
+And he was transfigured before them,  
+and his clothes became dazzling white,  
+such as no fuller on earth could bleach them.  
+Then Elijah appeared to them along with Moses,  
+and they were conversing with Jesus.  
+Then Peter said to Jesus in reply,  
+"Rabbi, it is good that we are here!  
+Let us make three tents:  
+one for you, one for Moses, and one for Elijah."  
+He hardly knew what to say, they were so terrified.  
+Then a cloud came, casting a shadow over them;  
+from the cloud came a voice,  
+"This is my beloved Son. Listen to him."  
+Suddenly, looking around, they no longer saw anyone  
+but Jesus alone with them.  
+
+As they were coming down from the mountain,  
+he charged them not to relate what they had seen to anyone,  
+except when the Son of Man had risen from the dead.  
+So they kept the matter to themselves,  
+questioning what rising from the dead meant.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Genesis 15:5-12, 17-18]{style="float:right" .small}
+:::
+
+The Lord God took Abram outside and said,  
+“Look up at the sky and count the stars, if you can.  
+Just so,” he added, “shall your descendants be.”  
+Abram put his faith in the LORD,  
+who credited it to him as an act of righteousness.  
+
+He then said to him,  
+“I am the LORD who brought you from Ur of the Chaldeans  
+to give you this land as a possession.”  
+“O Lord GOD,” he asked,  
+“how am I to know that I shall possess it?”  
+He answered him,  
+“Bring me a three-year-old heifer, a three-year-old she-goat,  
+a three-year-old ram, a turtledove, and a young pigeon.”  
+Abram brought him all these, split them in two,  
+and placed each half opposite the other;  
+but the birds he did not cut up.  
+Birds of prey swooped down on the carcasses,  
+but Abram stayed with them.  
+As the sun was about to set, a trance fell upon Abram,  
+and a deep, terrifying darkness enveloped him.  
+
+When the sun had set and it was dark,  
+there appeared a smoking fire pot and a flaming torch,  
+which passed between those pieces.  
+It was on that occasion that the LORD made a covenant with Abram,  
+saying: “To your descendants I give this land,  
+from the Wadi of Egypt to the Great River, the Euphrates.”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 27:1, 7-8, 8-9, 13-14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is my light and my salvation.**  
+
+The LORD is my light and my salvation;  
+&ensp; whom should I fear?  
+The LORD is my life’s refuge;  
+&ensp; of whom should I be afraid? **[℟.]{.red}**  
+
+Hear, O LORD, the sound of my call;  
+&ensp; have pity on me, and answer me.  
+Of you my heart speaks; you my glance seeks. **[℟.]{.red}**  
+
+Your presence, O LORD, I seek.  
+&ensp; Hide not your face from me;  
+do not in anger repel your servant.  
+&ensp; You are my helper: cast me not off. **[℟.]{.red}**  
+
+I believe that I shall see the bounty of the LORD  
+&ensp; in the land of the living.  
+Wait for the LORD with courage;  
+&ensp; be stouthearted, and wait for the LORD. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philippians 3:17—4:1 or 3:20—4:1]{style="float:right" .small}
+:::
+
+Join with others in being imitators of me, brothers and sisters,  
+and observe those who thus conduct themselves  
+according to the model you have in us.  
+For many, as I have often told you  
+and now tell you even in tears,  
+conduct themselves as enemies of the cross of Christ.  
+Their end is destruction.  
+Their God is their stomach;  
+their glory is in their “shame.”  
+Their minds are occupied with earthly things.  
+But our citizenship is in heaven,  
+and from it we also await a savior, the Lord Jesus Christ.  
+He will change our lowly body  
+to conform with his glorified body  
+by the power that enables him also  
+to bring all things into subjection to himself.  
+
+Therefore, my brothers and sisters,  
+whom I love and long for, my joy and crown,  
+in this way stand firm in the Lord.  
+
+[Or:]{.red}  
+
+Brothers and sisters:  
+Our citizenship is in heaven,  
+and from it we also await a savior, the Lord Jesus Christ.  
+He will change our lowly body  
+to conform with his glorified body  
+by the power that enables him also  
+to bring all things into subjection to himself.  
+
+Therefore, my brothers and sisters,  
+whom I love and long for, my joy and crown,  
+in this way stand firm in the Lord, beloved.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [Cf. Matthew 17:5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+From the shining cloud the Father’s voice is heard:  
+This is my beloved Son, hear him. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [Luke 9:28b-36]{style="float:right" .small}
+:::
+
+Jesus took Peter, John, and James  
+and went up the mountain to pray.  
+While he was praying his face changed in appearance  
+and his clothing became dazzling white.  
+And behold, two men were conversing with him, Moses and Elijah,  
+who appeared in glory and spoke of his exodus  
+that he was going to accomplish in Jerusalem.  
+Peter and his companions had been overcome by sleep,  
+but becoming fully awake,  
+they saw his glory and the two men standing with him.  
+As they were about to part from him, Peter said to Jesus,  
+“Master, it is good that we are here;  
+let us make three tents,  
+one for you, one for Moses, and one for Elijah.”  
+But he did not know what he was saying.  
+While he was still speaking,  
+a cloud came and cast a shadow over them,  
+and they became frightened when they entered the cloud.  
+Then from the cloud came a voice that said,  
+“This is my chosen Son; listen to him.”  
+After the voice had spoken, Jesus was found alone.  
+They fell silent and did not at that time  
+tell anyone what they had seen.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
 
 ::: {.titlered}
 ### &nbsp; Year A

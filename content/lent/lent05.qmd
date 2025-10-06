@@ -148,6 +148,554 @@ triumph, life
 > Everyone who lives and believes in me  
 > will not die for ever, says the Lord.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Ezekiel 37:12-14]{style="float:right" .small}
+:::
+
+Thus says the Lord GOD:  
+O my people, I will open your graves  
+and have you rise from them,  
+and bring you back to the land of Israel.  
+Then you shall know that I am the LORD,  
+when I open your graves and have you rise from them,  
+O my people!  
+I will put my spirit in you that you may live,  
+and I will settle you upon your land;  
+thus you shall know that I am the LORD.  
+I have promised, and I will do it, says the LORD.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 130:1-2, 3-4, 5-6, 7-8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **With the Lord there is mercy and fullness of redemption.**  
+
+Out of the depths I cry to you, O LORD;  
+&emsp; LORD, hear my voice!  
+Let your ears be attentive  
+&emsp; to my voice in supplication. **[℟.]{.red}**  
+
+If you, O LORD, mark iniquities,  
+&emsp; LORD, who can stand?  
+But with you is forgiveness,  
+&emsp; that you may be revered. **[℟.]{.red}**  
+
+I trust in the LORD;  
+&emsp; my soul trusts in his word.  
+More than sentinels wait for the dawn,  
+&emsp; let Israel wait for the LORD. **[℟.]{.red}**  
+
+For with the LORD is kindness  
+&emsp; and with him is plenteous redemption;  
+And he will redeem Israel  
+&emsp; from all their iniquities. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 8:8-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Those who are in the flesh cannot please God.  
+But you are not in the flesh;  
+on the contrary, you are in the spirit,  
+if only the Spirit of God dwells in you.  
+Whoever does not have the Spirit of Christ does not belong to him.  
+But if Christ is in you,  
+although the body is dead because of sin,  
+the spirit is alive because of righteousness.  
+If the Spirit of the one who raised Jesus from the dead dwells in you,  
+the one who raised Christ from the dead  
+will give life to your mortal bodies also,  
+through his Spirit dwelling in you.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [John 11:25a, 26]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+I am the resurrection and the life, says the Lord;  
+whoever believes in me, even if he dies, will never die. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [John 11:1-45 or 11:3-7, 17, 20-27, 33b-45]{style="float:right" .small}
+:::
+
+Now a man was ill, Lazarus from Bethany,  
+the village of Mary and her sister Martha.  
+Mary was the one who had anointed the Lord with perfumed oil  
+and dried his feet with her hair;  
+it was her brother Lazarus who was ill.  
+So the sisters sent word to him saying,  
+“Master, the one you love is ill.”  
+When Jesus heard this he said,  
+“This illness is not to end in death,  
+but is for the glory of God,  
+that the Son of God may be glorified through it.”  
+Now Jesus loved Martha and her sister and Lazarus.  
+So when he heard that he was ill,  
+he remained for two days in the place where he was.  
+Then after this he said to his disciples,  
+“Let us go back to Judea.”  
+The disciples said to him,  
+“Rabbi, the Jews were just trying to stone you,  
+and you want to go back there?”  
+Jesus answered,  
+“Are there not twelve hours in a day?  
+If one walks during the day, he does not stumble,  
+because he sees the light of this world.  
+But if one walks at night, he stumbles,  
+because the light is not in him.”  
+He said this, and then told them,  
+“Our friend Lazarus is asleep,  
+but I am going to awaken him.”  
+So the disciples said to him,  
+“Master, if he is asleep, he will be saved.”  
+But Jesus was talking about his death,  
+while they thought that he meant ordinary sleep.  
+So then Jesus said to them clearly,  
+“Lazarus has died.  
+And I am glad for you that I was not there,  
+that you may believe.  
+Let us go to him.”  
+So Thomas, called Didymus, said to his fellow disciples,  
+“Let us also go to die with him.”  
+
+When Jesus arrived, he found that Lazarus  
+had already been in the tomb for four days.  
+Now Bethany was near Jerusalem, only about two miles away.  
+And many of the Jews had come to Martha and Mary  
+to comfort them about their brother.  
+When Martha heard that Jesus was coming,  
+she went to meet him;  
+but Mary sat at home.  
+Martha said to Jesus,  
+“Lord, if you had been here,  
+my brother would not have died.  
+But even now I know that whatever you ask of God,  
+God will give you.”  
+Jesus said to her,  
+“Your brother will rise.”  
+Martha said to him,  
+“I know he will rise,  
+in the resurrection on the last day.”  
+Jesus told her,  
+“I am the resurrection and the life;  
+whoever believes in me, even if he dies, will live,  
+and everyone who lives and believes in me will never die.  
+Do you believe this?”  
+She said to him, “Yes, Lord.  
+I have come to believe that you are the Christ, the Son of God,  
+the one who is coming into the world.”  
+
+When she had said this,  
+she went and called her sister Mary secretly, saying,  
+“The teacher is here and is asking for you.”  
+As soon as she heard this,  
+she rose quickly and went to him.  
+For Jesus had not yet come into the village,  
+but was still where Martha had met him.  
+So when the Jews who were with her in the house comforting her  
+saw Mary get up quickly and go out,  
+they followed her,  
+presuming that she was going to the tomb to weep there.  
+When Mary came to where Jesus was and saw him,  
+she fell at his feet and said to him,  
+“Lord, if you had been here,  
+my brother would not have died.”  
+When Jesus saw her weeping and the Jews who had come with her weeping,  
+he became perturbed and deeply troubled, and said,  
+“Where have you laid him?”  
+They said to him, “Sir, come and see.”  
+And Jesus wept.  
+So the Jews said, “See how he loved him.”  
+But some of them said,  
+“Could not the one who opened the eyes of the blind man  
+have done something so that this man would not have died?”  
+
+So Jesus, perturbed again, came to the tomb.  
+It was a cave, and a stone lay across it.  
+Jesus said, “Take away the stone.”  
+Martha, the dead man’s sister, said to him,  
+“Lord, by now there will be a stench;  
+he has been dead for four days.”  
+Jesus said to her,  
+“Did I not tell you that if you believe  
+you will see the glory of God?”  
+So they took away the stone.  
+And Jesus raised his eyes and said,  
+“Father, I thank you for hearing me.  
+I know that you always hear me;  
+but because of the crowd here I have said this,  
+that they may believe that you sent me.”  
+And when he had said this,  
+He cried out in a loud voice,  
+“Lazarus, come out!”  
+The dead man came out,  
+tied hand and foot with burial bands,  
+and his face was wrapped in a cloth.  
+So Jesus said to them,  
+“Untie him and let him go.”  
+
+Now many of the Jews who had come to Mary  
+and seen what he had done began to believe in him.  
+
+[Or:]{.red}  
+
+The sisters of Lazarus sent word to Jesus, saying,  
+“Master, the one you love is ill.”  
+When Jesus heard this he said,  
+“This illness is not to end in death,  
+but is for the glory of God,  
+that the Son of God may be glorified through it.”  
+Now Jesus loved Martha and her sister and Lazarus.  
+So when he heard that he was ill,  
+he remained for two days in the place where he was.  
+Then after this he said to his disciples,  
+"Let us go back to Judea.”  
+
+When Jesus arrived, he found that Lazarus  
+had already been in the tomb for four days.  
+When Martha heard that Jesus was coming,  
+she went to meet him;  
+but Mary sat at home.  
+Martha said to Jesus,  
+“Lord, if you had been here,  
+my brother would not have died.  
+But even now I know that whatever you ask of God,  
+God will give you.”  
+Jesus said to her,  
+“Your brother will rise.”  
+Martha said,  
+“I know he will rise,  
+in the resurrection on the last day.”  
+Jesus told her,  
+“I am the resurrection and the life;  
+whoever believes in me, even if he dies, will live,  
+and everyone who lives and believes in me will never die.  
+Do you believe this?”  
+She said to him, “Yes, Lord.  
+I have come to believe that you are the Christ, the Son of God,  
+the one who is coming into the world.”  
+
+He became perturbed and deeply troubled, and said,  
+“Where have you laid him?”  
+They said to him, “Sir, come and see.”  
+And Jesus wept.  
+So the Jews said, “See how he loved him.”  
+But some of them said,  
+“Could not the one who opened the eyes of the blind man  
+have done something so that this man would not have died?”  
+
+So Jesus, perturbed again, came to the tomb.  
+It was a cave, and a stone lay across it.  
+Jesus said, “Take away the stone.”  
+Martha, the dead man’s sister, said to him,  
+“Lord, by now there will be a stench;  
+he has been dead for four days.”  
+Jesus said to her,  
+“Did I not tell you that if you believe  
+you will see the glory of God?”  
+So they took away the stone.  
+And Jesus raised his eyes and said,  
+“Father, I thank you for hearing me.  
+I know that you always hear me;  
+but because of the crowd here I have said this,  
+that they may believe that you sent me.”  
+And when he had said this,  
+He cried out in a loud voice,  
+“Lazarus, come out!”  
+The dead man came out,  
+tied hand and foot with burial bands,  
+and his face was wrapped in a cloth.  
+So Jesus said to them,  
+“Untie him and let him go.”  
+
+Now many of the Jews who had come to Mary  
+and seen what he had done began to believe in him.
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+[If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
+
+#### First Reading [Jeremiah 31:31-34]{style="float:right" .small}
+:::
+
+The days are coming, says the LORD,  
+when I will make a new covenant with the house of Israel  
+and the house of Judah.  
+It will not be like the covenant I made with their fathers  
+the day I took them by the hand  
+to lead them forth from the land of Egypt;  
+for they broke my covenant,  
+and I had to show myself their master, says the LORD.  
+But this is the covenant that I will make  
+with the house of Israel after those days, says the LORD.  
+I will place my law within them and write it upon their hearts;  
+I will be their God, and they shall be my people.  
+No longer will they have need to teach their friends and relatives  
+how to know the LORD.  
+All, from least to greatest, shall know me, says the LORD,  
+for I will forgive their evildoing and remember their sin no more.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 51:3-4, 12-13, 14-15]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Create a clean heart in me, O God.**  
+
+Have mercy on me, O God, in your goodness;  
+&ensp; in the greatness of your compassion wipe out my offense.  
+Thoroughly wash me from my guilt  
+&ensp; and of my sin cleanse me. **[℟.]{.red}**  
+
+A clean heart create for me, O God,  
+&ensp; and a steadfast spirit renew within me.  
+Cast me not out from your presence,  
+&ensp; and your Holy Spirit take not from me. **[℟.]{.red}**  
+
+Give me back the joy of your salvation,  
+&ensp; and a willing spirit sustain in me.  
+I will teach transgressors your ways,  
+&ensp; and sinners shall return to you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 5:7-9]{style="float:right" .small}
+:::
+
+In the days when Christ Jesus was in the flesh,  
+he offered prayers and supplications with loud cries and tears  
+to the one who was able to save him from death,  
+and he was heard because of his reverence.  
+Son though he was, he learned obedience from what he suffered;  
+and when he was made perfect,  
+he became the source of eternal salvation for all who obey him.  
+
+***
+
+::: {.red}
+#### Verse Before the Gospel [John 12:26]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+Whoever serves me must follow me, says the Lord;  
+and where I am, there also will my servant be. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Jn 12:20-33]{style="float:right" .small}
+:::
+
+Some Greeks who had come to worship at the Passover Feast  
+came to Philip, who was from Bethsaida in Galilee,  
+and asked him, “Sir, we would like to see Jesus.”  
+Philip went and told Andrew;  
+then Andrew and Philip went and told Jesus.  
+Jesus answered them,  
+“The hour has come for the Son of Man to be glorified.  
+Amen, amen, I say to you,  
+unless a grain of wheat falls to the ground and dies,  
+it remains just a grain of wheat;  
+but if it dies, it produces much fruit.  
+Whoever loves his life loses it,  
+and whoever hates his life in this world  
+will preserve it for eternal life.  
+Whoever serves me must follow me,  
+and where I am, there also will my servant be.  
+The Father will honor whoever serves me.  
+
+“I am troubled now.  Yet what should I say?  
+‘Father, save me from this hour’?  
+But it was for this purpose that I came to this hour.  
+Father, glorify your name.”  
+Then a voice came from heaven,  
+“I have glorified it and will glorify it again.”  
+The crowd there heard it and said it was thunder;  
+but others said, “An angel has spoken to him.”  
+Jesus answered and said,  
+“This voice did not come for my sake but for yours.  
+Now is the time of judgment on this world;  
+now the ruler of this world will be driven out.  
+And when I am lifted up from the earth,  
+I will draw everyone to myself.”  
+He said this indicating the kind of death he would die.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+[If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
+
+#### First Reading [Isaiah 43:16-21]{style="float:right" .small}
+:::
+
+Thus says the LORD,  
+&ensp; who opens a way in the sea  
+&ensp; and a path in the mighty waters,  
+who leads out chariots and horsemen,  
+&ensp; a powerful army,  
+till they lie prostrate together, never to rise,  
+&ensp; snuffed out and quenched like a wick.  
+Remember not the events of the past,  
+&ensp; the things of long ago consider not;  
+see, I am doing something new!  
+&ensp; Now it springs forth, do you not perceive it?  
+In the desert I make a way,  
+&ensp; in the wasteland, rivers.  
+Wild beasts honor me,  
+&ensp; jackals and ostriches,  
+for I put water in the desert  
+&ensp; and rivers in the wasteland  
+&ensp; for my chosen people to drink,  
+the people whom I formed for myself,  
+&ensp; that they might announce my praise.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 126:1-2, 2-3, 4-5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord has done great things for us; we are filled with joy.**  
+
+When the LORD brought back the captives of Zion,  
+&emsp; we were like men dreaming.  
+Then our mouth was filled with laughter,  
+&emsp; and our tongue with rejoicing. **[℟.]{.red}**  
+
+Then they said among the nations,  
+&emsp; “The LORD has done great things for them.”  
+The LORD has done great things for us;  
+&emsp; we are glad indeed. **[℟.]{.red}**  
+
+Restore our fortunes, O LORD,  
+&emsp; like the torrents in the southern desert.  
+Those that sow in tears  
+&emsp; shall reap rejoicing. **[℟.]{.red}**  
+
+Although they go forth weeping,  
+&emsp; carrying the seed to be sown,  
+They shall come back rejoicing,  
+&emsp; carrying their sheaves. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philippians 3:8-14]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+I consider everything as a loss  
+because of the supreme good of knowing Christ Jesus my Lord.  
+For his sake I have accepted the loss of all things  
+and I consider them so much rubbish,  
+that I may gain Christ and be found in him,  
+not having any righteousness of my own based on the law  
+but that which comes through faith in Christ,  
+the righteousness from God,  
+depending on faith to know him and the power of his resurrection  
+and the sharing of his sufferings by being conformed to his death,  
+if somehow I may attain the resurrection from the dead.  
+
+It is not that I have already taken hold of it  
+or have already attained perfect maturity,  
+but I continue my pursuit in hope that I may possess it,  
+since I have indeed been taken possession of by Christ Jesus.  
+Brothers and sisters, I for my part  
+do not consider myself to have taken possession.  
+Just one thing: forgetting what lies behind  
+but straining forward to what lies ahead,  
+I continue my pursuit toward the goal,  
+the prize of God’s upward calling, in Christ Jesus.  
+
+***
+
+::: {.red}
+#### Verse before the Gospel [Joel 2:12-13]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
+Even now, says the Lord,  
+return to me with your whole heart;  
+for I am gracious and merciful. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [John 8:1-11]{style="float:right" .small}
+:::
+
+Jesus went to the Mount of Olives.  
+But early in the morning he arrived again in the temple area,  
+and all the people started coming to him,  
+and he sat down and taught them.  
+Then the scribes and the Pharisees brought a woman  
+who had been caught in adultery  
+and made her stand in the middle.  
+They said to him,  
+“Teacher, this woman was caught  
+in the very act of committing adultery.  
+Now in the law, Moses commanded us to stone such women.  
+So what do you say?”  
+They said this to test him,  
+so that they could have some charge to bring against him.  
+Jesus bent down and began to write on the ground with his finger.  
+But when they continued asking him,  
+he straightened up and said to them,  
+“Let the one among you who is without sin  
+be the first to throw a stone at her.”  
+Again he bent down and wrote on the ground.  
+And in response, they went away one by one,  
+beginning with the elders.  
+So he was left alone with the woman before him.  
+Then Jesus straightened up and said to her,  
+“Woman, where are they?  
+Has no one condemned you?”  
+She replied, “No one, sir.”  
+Then Jesus said, “Neither do I condemn you.  
+Go, and from now on do not sin any more.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
@@ -165,7 +713,7 @@ utils.hymnlist(params['hymns']['a'], urls=videos)
 :::
 {{< var text.yearb >}}
 
-[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+[The music for [Year A (above)](#year-a-1) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
 
 ```{python}
 #| label: Year B
@@ -179,7 +727,7 @@ utils.hymnlist(params['hymns']['b'], urls=videos)
 :::
 {{< var text.yearc >}}
 
-[The music for [Year A (above)](#year-a) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
+[The music for [Year A (above)](#year-a-1) is used in Year B if the Scrutinies are celebrated with the RCIA this week and the readings are taken from Year A.]{.red}
 
 ```{python}
 #| label: Year C
