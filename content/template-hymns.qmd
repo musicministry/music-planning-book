@@ -1,5 +1,5 @@
 ---
-title: NTH Sunday of SEASON
+title: "NTH SUNDAY OF SEASON"
 ---
 
 ```{python}
@@ -175,12 +175,18 @@ Text
 #### Responsorial Psalm [PASSAGE]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **REFRAIN.**  
+**[℟.]{.red}** **REFRAIN**  
 
-Verse one,
+Verse one,  
 &emsp; indented as needed. **[℟.]{.red}**  
 
 Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+Verse three,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+Verse four,  
 &emsp; and so on as needed. **[℟.]{.red}**  
 
 ***
@@ -231,7 +237,13 @@ Text
 Verse one,  
 &emsp; indented as needed. **[℟.]{.red}**  
 
-Verse two,
+Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+Verse three,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse four,  
 &emsp; and so on as needed. **[℟.]{.red}**  
 
 ***
@@ -283,7 +295,13 @@ Text
 Verse one,  
 &emsp; indented as needed. **[℟.]{.red}**  
 
-Verse two,
+Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+Verse three,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse four,  
 &emsp; and so on as needed. **[℟.]{.red}**  
 
 ***
@@ -301,7 +319,7 @@ Text
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse. **[℟.]{.red}** 
+Verse **[℟.]{.red}** 
 
 ***
 
