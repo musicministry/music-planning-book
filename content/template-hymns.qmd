@@ -167,7 +167,7 @@ THEMES
 :::
 
 Text  
-&ensp; indented as needed
+&emsp; indented as needed
 
 ***
 
@@ -282,7 +282,7 @@ Text
 :::
 
 Text  
-&ensp; indented as needed.
+&emsp; indented as needed.
 
 ***
 
