@@ -101,24 +101,24 @@ light, splendor, glory, meeting Christ
 #### First Reading [Malachi 3:1-4]{style="float:right" .small}
 :::
   
-&ensp; Thus says the Lord GOD:  
+&emsp; Thus says the Lord GOD:  
 Lo, I am sending my messenger  
-&ensp; to prepare the way before me;  
+&emsp; to prepare the way before me;  
 And suddenly there will come to the temple  
-&ensp; the LORD whom you seek,  
+&emsp; the LORD whom you seek,  
 And the messenger of the covenant whom you desire.  
-&ensp; Yes, he is coming, says the LORD of hosts.  
+&emsp; Yes, he is coming, says the LORD of hosts.  
 But who will endure the day of his coming?  
-&ensp; And who can stand when he appears?  
+&emsp; And who can stand when he appears?  
 For he is like the refiner’s fire,  
-&ensp; or like the fuller’s lye.  
+&emsp; or like the fuller’s lye.  
 He will sit refining and purifying silver,  
-&ensp; and he will purify the sons of Levi,  
+&emsp; and he will purify the sons of Levi,  
 Refining them like gold or like silver  
-&ensp; that they may offer due sacrifice to the LORD.  
+&emsp; that they may offer due sacrifice to the LORD.  
 Then the sacrifice of Judah and Jerusalem  
-&ensp; will please the LORD,  
-&ensp; as in the days of old, as in years gone by.
+&emsp; will please the LORD,  
+&emsp; as in the days of old, as in years gone by.
 
 ***
 

@@ -149,6 +149,323 @@ mystery, salvation, love of God
 > God has sent into your hearts the Spirit of his Son,  
 > the Spirit who cries out: Abba, Father.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Exodus 34:4b-6, 8-9]{style="float:right" .small}
+:::
+
+Early in the morning Moses went up Mount Sinai  
+as the LORD had commanded him,  
+taking along the two stone tablets.  
+
+Having come down in a cloud, the LORD stood with Moses there  
+and proclaimed his name, "LORD."  
+Thus the LORD passed before him and cried out,  
+"The LORD, the LORD, a merciful and gracious God,  
+slow to anger and rich in kindness and fidelity."  
+Moses at once bowed down to the ground in worship.  
+Then he said, "If I find favor with you, O Lord,  
+do come along in our company.  
+This is indeed a stiff-necked people; yet pardon our wickedness and sins,  
+and receive us as your own."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Daniel 3:52, 53, 54, 55, 56]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Glory and praise for ever!**  
+
+Blessed are you, O Lord, the God of our fathers,  
+praiseworthy and exalted above all forever;  
+And blessed is your holy and glorious name,  
+praiseworthy and exalted above all for all ages. **[℟.]{.red}**  
+
+Blessed are you in the temple of your holy glory,  
+praiseworthy and glorious above all forever. **[℟.]{.red}**  
+
+Blessed are you on the throne of your kingdom,  
+praiseworthy and exalted above all forever. **[℟.]{.red}**  
+
+Blessed are you who look into the depths  
+from your throne upon the cherubim,  
+praiseworthy and exalted above all forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Corinthians 13:11-13]{style="float:right" .small}
+:::
+
+Brothers and sisters, rejoice.  
+Mend your ways, encourage one another,  
+agree with one another, live in peace,  
+and the God of love and peace will be with you.  
+Greet one another with a holy kiss.  
+All the holy ones greet you.  
+
+The grace of the Lord Jesus Christ  
+and the love of God  
+and the fellowship of the Holy Spirit be with all of you.  
+
+***
+
+::: {.red}
+#### Alleluia [Cf. Revelation 1:8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Glory to the Father, the Son, and the Holy Spirit;  
+to God who is, who was, and who is to come. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [John 3:16-18]{style="float:right" .small}
+:::
+
+God so loved the world that he gave his only Son,  
+so that everyone who believes in him might not perish  
+but might have eternal life.  
+For God did not send his Son into the world to condemn the world,  
+but that the world might be saved through him.  
+Whoever believes in him will not be condemned,  
+but whoever does not believe has already been condemned,  
+because he has not believed in the name of the only Son of God.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Deuteronomy 4:32-34, 39-40]{style="float:right" .small}
+:::
+
+Moses said to the people:  
+"Ask now of the days of old, before your time,  
+ever since God created man upon the earth;  
+ask from one end of the sky to the other:  
+Did anything so great ever happen before?  
+Was it ever heard of?  
+Did a people ever hear the voice of God  
+speaking from the midst of fire, as you did, and live?  
+Or did any god venture to go and take a nation for himself  
+from the midst of another nation,  
+by testings, by signs and wonders, by war,  
+with strong hand and outstretched arm, and by great terrors,  
+all of which the LORD, your God,  
+did for you in Egypt before your very eyes?  
+This is why you must now know,  
+and fix in your heart, that the LORD is God  
+in the heavens above and on earth below,  
+and that there is no other.  
+You must keep his statutes and commandments that I enjoin on you today,  
+that you and your children after you may prosper,  
+and that you may have long life on the land  
+which the LORD, your God, is giving you forever."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 33:4-5, 6, 9, 18-19, 20, 22]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Blessed the people the Lord has chosen to be his own.**  
+
+Upright is the word of the LORD,  
+and all his works are trustworthy.  
+He loves justice and right;  
+of the kindness of the Lord the earth is full. **[℟.]{.red}**  
+
+Upright is the word of the LORD,  
+and all his works are trustworthy.  
+He loves justice and right;  
+of the kindness of the Lord the earth is full. **[℟.]{.red}**  
+
+See, the eyes of the LORD are upon those who fear him,  
+upon those who hope for his kindness,  
+To deliver them from death  
+and preserve them in spite of famine. **[℟.]{.red}**  
+
+Our soul waits for the LORD,  
+who is our help and our shield.  
+May your kindness, O LORD, be upon us  
+who have put our hope in you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 8:14-17]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+For those who are led by the Spirit of God are sons of God.  
+For you did not receive a spirit of slavery to fall back into fear,  
+but you received a Spirit of adoption,  
+through whom we cry, "Abba, Father!"  
+The Spirit himself bears witness with our spirit  
+that we are children of God,  
+and if children, then heirs,  
+heirs of God and joint heirs with Christ,  
+if only we suffer with him  
+so that we may also be glorified with him.  
+
+***
+
+::: {.red}
+#### Alleluia [Cf. Revelation 1:8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Glory to the Father, the Son, and the Holy Spirit;  
+to God who is, who was, and who is to come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 28:16-20]{style="float:right" .small}
+:::
+
+The eleven disciples went to Galilee,  
+to the mountain to which Jesus had ordered them.  
+When they all saw him, they worshiped, but they doubted.  
+Then Jesus approached and said to them,  
+"All power in heaven and on earth has been given to me.  
+Go, therefore, and make disciples of all nations,  
+baptizing them in the name of the Father,  
+and of the Son, and of the Holy Spirit,  
+teaching them to observe all that I have commanded you.  
+And behold, I am with you always, until the end of the age."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Proverbs 8:22-31]{style="float:right" .small}
+:::
+
+Thus says the wisdom of God:  
+"The LORD possessed me, the beginning of his ways,  
+&emsp; the forerunner of his prodigies of long ago;  
+from of old I was poured forth,  
+&emsp; at the first, before the earth.  
+When there were no depths I was brought forth,  
+&emsp; when there were no fountains or springs of water;  
+before the mountains were settled into place,  
+&emsp; before the hills, I was brought forth;  
+while as yet the earth and fields were not made,  
+&emsp; nor the first clods of the world.  
+
+"When the Lord established the heavens I was there,  
+&emsp; when he marked out the vault over the face of the deep;  
+when he made firm the skies above,  
+&emsp; when he fixed fast the foundations of the earth;  
+when he set for the sea its limit,  
+&emsp; so that the waters should not transgress his command;  
+then was I beside him as his craftsman,  
+&emsp; and I was his delight day by day,  
+playing before him all the while,  
+&emsp; playing on the surface of his earth;  
+&emsp; and I found delight in the human race."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 8:4-5, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **O Lord, our God, how wonderful your name in all the earth!**  
+
+When I behold your heavens, the work of your fingers,  
+&emsp; the moon and the stars which you set in place —  
+What is man that you should be mindful of him,  
+&emsp; or the son of man that you should care for him? **[℟.]{.red}**  
+
+You have made him little less than the angels,  
+&emsp; and crowned him with glory and honor.  
+You have given him rule over the works of your hands,  
+&emsp; putting all things under his feet: **[℟.]{.red}**  
+
+All sheep and oxen,  
+&emsp; yes, and the beasts of the field,  
+The birds of the air, the fishes of the sea,  
+&emsp; and whatever swims the paths of the seas. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 5:1-5]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Therefore, since we have been justified by faith,  
+we have peace with God through our Lord Jesus Christ,  
+through whom we have gained access by faith  
+to this grace in which we stand,  
+and we boast in hope of the glory of God.  
+Not only that, but we even boast of our afflictions,  
+knowing that affliction produces endurance,  
+and endurance, proven character,  
+and proven character, hope,  
+and hope does not disappoint,  
+because the love of God has been poured out into our hearts  
+through the Holy Spirit that has been given to us.  
+
+***
+
+::: {.red}
+#### Alleluia [Cf. Revelation 1:8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Glory to the Father, the Son, and the Holy Spirit;  
+to God who is, who was, and who is to come. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [John 16:12-15]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+"I have much more to tell you, but you cannot bear it now.  
+But when he comes, the Spirit of truth,  
+he will guide you to all truth.  
+He will not speak on his own,  
+but he will speak what he hears,  
+and will declare to you the things that are coming.  
+He will glorify me,  
+because he will take from what is mine and declare it to you.  
+Everything that the Father has is mine;  
+for this reason I told you that he will take from what is mine  
+and declare it to you."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
@@ -197,5 +514,4 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* Every verse of every hymn should be sung this week in order to capture
-the fullness of Trinitarian theology captured in the lyrics.
+* Every verse of every hymn should be sung this week in order to capture the fullness of Trinitarian theology captured in the lyrics.
