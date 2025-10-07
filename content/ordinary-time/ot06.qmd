@@ -1,0 +1,617 @@
+---
+title: "SIXTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "A Mighty Fortress"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed are they who follow the law of the
+Lord!"
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Immortal, Invisible, God Only Wise"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Eye Has Not Seen"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Here At This Table"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "I Will Choose Christ"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "A Mighty Fortress"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I turn to you, Lord, in time of trouble, and you fill me with the joy of salvation."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Here At This Table"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "A Mighty Fortress"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed are they who hope in the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "We Are the Light of the World"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Keep in Mind"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Rejoice in the Promise of Jesus"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lead Me, Lord"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} law, commandments  
+[Year B:]{.red} healing, compassion, imitation of Christ, purification  
+[Year C:]{.red} trust, hope, dependence on God, salvation
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Be my protector, O God,  
+> a mighty stronghold to save me.  
+> For you are my rock, my stronghold!  
+> Lead me, guide me, for the sake of your name.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> They ate and had their fill,  
+> and what they craved the Lord gave them;  
+> they were not disappointed in what they craved.  
+> 
+> [Or:]{.red}
+> 
+> God so loved the world  
+> that he gave his Only Begotten Son,  
+> so that all who believe in him may not perish,  
+> but may have eternal life.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Sirach 15:15-20]{style="float:right" .small}
+:::
+
+If you choose you can keep the commandments, they will save you;  
+if you trust in God, you too shall live;  
+he has set before you fire and water  
+to whichever you choose, stretch forth your hand.  
+Before man are life and death, good and evil,  
+whichever he chooses shall be given him.  
+Immense is the wisdom of the Lord;  
+he is mighty in power, and all-seeing.  
+The eyes of God are on those who fear him;  
+he understands man's every deed.  
+No one does he command to act unjustly,  
+to none does he give license to sin.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 119:1-2, 4-5, 17-18, 33-34]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Blessed are they who follow the law of the Lord!**  
+
+Blessed are they whose way is blameless,  
+who walk in the law of the LORD.  
+Blessed are they who observe his decrees,  
+who seek him with all their heart. **[℟.]{.red}**  
+
+You have commanded that your precepts  
+be diligently kept.  
+Oh, that I might be firm in the ways  
+of keeping your statutes! **[℟.]{.red}**  
+
+Be good to your servant, that I may live  
+and keep your words.  
+Open my eyes, that I may consider  
+the wonders of your law. **[℟.]{.red}**  
+
+Instruct me, O LORD, in the way of your statutes,  
+that I may exactly observe them.  
+Give me discernment, that I may observe your law  
+and keep it with all my heart. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 2:6-10]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+We speak a wisdom to those who are mature,  
+not a wisdom of this age,  
+nor of the rulers of this age who are passing away.  
+Rather, we speak God's wisdom, mysterious, hidden,  
+which God predetermined before the ages for our glory,  
+and which none of the rulers of this age knew;  
+for, if they had known it,  
+they would not have crucified the Lord of glory.  
+But as it is written:  
+*What eye has not seen, and ear has not heard,*  
+*and what has not entered the human heart,*  
+*what God has prepared for those who love him,*  
+this God has revealed to us through the Spirit.
+
+For the Spirit scrutinizes everything, even the depths of God.
+
+***
+
+::: {.red}
+#### Alleluia [cf. Matthew 11:25]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are you, Father, Lord of heaven and earth;  
+you have revealed to little ones the mysteries of the kingdom. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [Matthew 5:17-37 or Matthew 5:20-22a, 27-28, 33-34a, 37]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+"Do not think that I have come to abolish the law or the prophets.  
+I have come not to abolish but to fulfill.  
+Amen, I say to you, until heaven and earth pass away,  
+not the smallest letter or the smallest part of a letter  
+will pass from the law,  
+until all things have taken place.  
+Therefore, whoever breaks one of the least of these commandments  
+and teaches others to do so  
+will be called least in the kingdom of heaven.  
+But whoever obeys and teaches these commandments  
+will be called greatest in the kingdom of heaven.  
+I tell you, unless your righteousness surpasses  
+that of the scribes and Pharisees,  
+you will not enter the kingdom of heaven.  
+
+"You have heard that it was said to your ancestors,  
+*You shall not kill; and whoever kills will be liable to judgment.*  
+But I say to you,  
+whoever is angry with his brother  
+will be liable to judgment;  
+and whoever says to his brother, 'Raqa,'  
+will be answerable to the Sanhedrin;  
+and whoever says, 'You fool,'  
+will be liable to fiery Gehenna.  
+Therefore, if you bring your gift to the altar,  
+and there recall that your brother  
+has anything against you,  
+leave your gift there at the altar,  
+go first and be reconciled with your brother,  
+and then come and offer your gift.  
+Settle with your opponent quickly while on the way to court.  
+Otherwise your opponent will hand you over to the judge,  
+and the judge will hand you over to the guard,  
+and you will be thrown into prison.  
+Amen, I say to you,  
+you will not be released until you have paid the last penny.
+
+"You have heard that it was said,  
+*You shall not commit adultery.*  
+But I say to you,  
+everyone who looks at a woman with lust  
+has already committed adultery with her in his heart.  
+If your right eye causes you to sin,  
+tear it out and throw it away.  
+It is better for you to lose one of your members  
+than to have your whole body thrown into Gehenna.  
+And if your right hand causes you to sin,  
+cut it off and throw it away.  
+It is better for you to lose one of your members  
+than to have your whole body go into Gehenna.
+
+"It was also said,  
+*Whoever divorces his wife must give her a bill of divorce.*  
+But I say to you,  
+whoever divorces his wife -  unless the marriage is unlawful -  
+causes her to commit adultery,  
+and whoever marries a divorced woman commits adultery.  
+
+"Again you have heard that it was said to your ancestors,  
+*Do not take a false oath,*  
+*but make good to the Lord all that you vow.*  
+But I say to you, do not swear at all;  
+not by heaven, for it is God's throne;  
+nor by the earth, for it is his footstool;  
+nor by Jerusalem, for it is the city of the great King.  
+Do not swear by your head,  
+for you cannot make a single hair white or black.  
+Let your 'Yes' mean 'Yes,' and your 'No' mean 'No.'  
+Anything more is from the evil one."  
+
+[Or:]{.red}
+
+Jesus said to his disciples:  
+"I tell you, unless your righteousness surpasses  
+that of the scribes and Pharisees,  
+you will not enter the kingdom of heaven.
+
+"You have heard that it was said to your ancestors,  
+*You shall not kill; and whoever kills will be liable to judgment.*  
+But I say to you,  
+whoever is angry with his brother  
+will be liable to judgment.
+
+"You have heard that it was said,  
+*You shall not commit adultery.*  
+But I say to you,  
+everyone who looks at a woman with lust  
+has already committed adultery with her in his heart.  
+
+"Again you have heard that it was said to your ancestors,  
+*Do not take a false oath,*  
+*but make good to the Lord all that you vow.*  
+But I say to you, do not swear at all.  
+Let your 'Yes' mean 'Yes,'and your 'No' mean 'No.'  
+Anything more is from the evil one."
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Leviticus 13:1-2, 44-46]{style="float:right" .small}
+:::
+
+The LORD said to Moses and Aaron,  
+“If someone has on his skin a scab or pustule or blotch. 
+which appears to be the sore of leprosy,  
+he shall be brought to Aaron, the priest,  
+or to one of the priests among his descendants.  
+If the man is leprous and unclean,  
+the priest shall declare him unclean  
+by reason of the sore on his head.
+
+“The one who bears the sore of leprosy  
+shall keep his garments rent and his head bare,  
+and shall muffle his beard;  
+he shall cry out, ‘Unclean, unclean!’  
+As long as the sore is on him he shall declare himself unclean,  
+since he is in fact unclean.  
+He shall dwell apart, making his abode outside the camp.”
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 32:1-2, 5, 11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I turn to you, Lord, in time of trouble, and you fill me with the joy of salvation.**  
+
+Blessed is he whose fault is taken away,  
+&emsp; whose sin is covered.  
+Blessed the man to whom the LORD imputes not guilt,  
+&emsp; in whose spirit there is no guile. **[℟.]{.red}**  
+
+Then I acknowledged my sin to you,  
+&emsp; my guilt I covered not.  
+I said, “I confess my faults to the LORD,”  
+&emsp; and you took away the guilt of my sin. **[℟.]{.red}**  
+
+Be glad in the LORD and rejoice, you just;  
+&emsp; exult, all you upright of heart. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 10:31—11:1]{style="float:right" .small}
+:::
+
+Brothers and sisters,  
+Whether you eat or drink, or whatever you do,  
+do everything for the glory of God.  
+Avoid giving offense, whether to the Jews or Greeks or  
+the church of God,  
+just as I try to please everyone in every way,  
+not seeking my own benefit but that of the many,  
+that they may be saved.  
+Be imitators of me, as I am of Christ.
+
+***
+
+::: {.red}
+#### Alleluia [Luke 7:16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+A great prophet has arisen in our midst,  
+God has visited his people. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 1:40-45]{style="float:right" .small}
+:::
+
+A leper came to Jesus and kneeling down begged him and said,  
+“If you wish, you can make me clean.”  
+Moved with pity, he stretched out his hand,  
+touched him, and said to him,  
+“I do will it. Be made clean.”  
+The leprosy left him immediately, and he was made clean.  
+Then, warning him sternly, he dismissed him at once. 
+
+He said to him, “See that you tell no one anything,  
+but go, show yourself to the priest  
+and offer for your cleansing what Moses prescribed;  
+that will be proof for them.”
+
+The man went away and began to publicize the whole matter.  
+He spread the report abroad  
+so that it was impossible for Jesus to enter a town openly.  
+He remained outside in deserted places,  
+and people kept coming to him from everywhere.
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Jeremiah 17:5-8]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+&emsp; Cursed is the one who trusts in human beings,  
+&emsp; &emsp; who seeks his strength in flesh,  
+&emsp; &emsp; whose heart turns away from the LORD.  
+&emsp; He is like a barren bush in the desert  
+&emsp; &emsp; that enjoys no change of season,  
+&emsp; but stands in a lava waste,  
+&emsp; &emsp; a salt and empty earth.  
+&emsp; Blessed is the one who trusts in the LORD,  
+&emsp; &emsp; whose hope is the LORD.  
+&emsp; He is like a tree planted beside the waters  
+&emsp; &emsp; that stretches out its roots to the stream:  
+&emsp; it fears not the heat when it comes;  
+&emsp; &emsp; its leaves stay green;  
+&emsp; in the year of drought it shows no distress,  
+&emsp; &emsp; but still bears fruit.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 1:1-2, 3, 4, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Blessed are they who hope in the Lord.**  
+
+Blessed the man who follows not  
+&emsp; the counsel of the wicked,  
+nor walks in the way of sinners,  
+&emsp; nor sits in the company of the insolent,  
+but delights in the law of the LORD  
+&emsp; and meditates on his law day and night. **[℟.]{.red}**  
+
+He is like a tree  
+&emsp; planted near running water,  
+that yields its fruit in due season,  
+&emsp; and whose leaves never fade.  
+Whatever he does, prospers. **[℟.]{.red}**  
+
+Not so the wicked, not so;  
+&emsp; they are like chaff which the wind drives away.  
+For the LORD watches over the way of the just,  
+&emsp; but the way of the wicked vanishes. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 15:12, 16-20]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+If Christ is preached as raised from the dead,  
+how can some among you say there is no resurrection of the dead?  
+If the dead are not raised, neither has Christ been raised,  
+and if Christ has not been raised, your faith is vain;  
+you are still in your sins.  
+Then those who have fallen asleep in Christ have perished.  
+If for this life only we have hoped in Christ,  
+we are the most pitiable people of all.  
+
+But now Christ has been raised from the dead,  
+the firstfruits of those who have fallen asleep.
+
+***
+
+::: {.red}
+#### Alleluia [Luke 6:23ab]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Rejoice and be glad;  
+your reward will be great in heaven. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [Luke 6:17, 20-26]{style="float:right" .small}
+:::
+
+Jesus came down with the Twelve  
+and stood on a stretch of level ground  
+with a great crowd of his disciples  
+and a large number of the people  
+from all Judea and Jerusalem  
+and the coastal region of Tyre and Sidon.  
+And raising his eyes toward his disciples he said:  
+&emsp; “Blessed are you who are poor,  
+&emsp; &emsp; for the kingdom of God is yours.  
+&emsp; Blessed are you who are now hungry,  
+&emsp; &emsp; for you will be satisfied.  
+&emsp; Blessed are you who are now weeping,  
+&emsp; &emsp; for you will laugh.  
+&emsp; Blessed are you when people hate you,  
+&emsp; &emsp; and when they exclude and insult you,  
+&emsp; &emsp; and denounce your name as evil  
+&emsp; &emsp; on account of the Son of Man.  
+Rejoice and leap for joy on that day!  
+Behold, your reward will be great in heaven.  
+For their ancestors treated the prophets in the same way.  
+&emsp; But woe to you who are rich,  
+&emsp; &emsp; for you have received your consolation.  
+&emsp; Woe to you who are filled now,  
+&emsp; &emsp; for you will be hungry.  
+&emsp; Woe to you who laugh now,  
+&emsp; &emsp; for you will grieve and weep.  
+&emsp; Woe to you when all speak well of you,  
+&emsp; &emsp; for their ancestors treated the false prophets in this way.”
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
