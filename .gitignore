@@ -17,6 +17,18 @@ sandbox.ipynb
 /content/feasts/*_files/
 /content/appendices/*_files/
 
+/content/advent/.DS_Store
+/content/christmas/.DS_Store
+/content/lent/.DS_Store
+/content/holy-week/.DS_Store
+/content/easter/.DS_Store
+/content/ordinary-time/.DS_Store
+/content/feasts/.DS_Store
+/content/appendices/.DS_Store
+
+
+
+
 /.quarto/
 
 **/*.quarto_ipynb
