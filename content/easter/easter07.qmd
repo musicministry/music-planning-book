@@ -144,6 +144,375 @@ with open('../../_hymns.yml', 'r') as vf:
 > Behold, I am with you always,  
 > even to the end of the age, alleluia.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Acts 1:12-14]{style="float:right" .small}
+:::
+
+After Jesus had been taken up to heaven the apostles  
+returned to Jerusalem  
+from the mount called Olivet, which is near Jerusalem,  
+a sabbath day’s journey away.  
+
+When they entered the city  
+they went to the upper room where they were staying,  
+Peter and John and James and Andrew,  
+Philip and Thomas, Bartholomew and Matthew,  
+James son of Alphaeus, Simon the Zealot,  
+and Judas son of James.  
+All these devoted themselves with one accord to prayer,  
+together with some women,  
+and Mary the mother of Jesus, and his brothers.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 27:1, 4, 7-8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I believe that I shall see the good things of the Lord in the land of the living.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+The LORD is my light and my salvation;  
+whom should I fear?  
+The LORD is my life’s refuge;  
+of whom should I be afraid? **[℟.]{.red}**  
+
+One thing I ask of the LORD;  
+this I seek:  
+To dwell in the house of the LORD  
+all the days of my life,  
+That I may gaze on the loveliness of the LORD  
+and contemplate his temple. **[℟.]{.red}**  
+
+Hear, O Lord, the sound of my call;  
+have pity on me, and answer me.  
+Of you my heart speaks; you my glance seeks. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Peter 4:13-16]{style="float:right" .small}
+:::
+
+Beloved:  
+Rejoice to the extent that you share in the sufferings of Christ,  
+so that when his glory is revealed  
+you may also rejoice exultantly.  
+If you are insulted for the name of Christ, blessed are you,  
+for the Spirit of glory and of God rests upon you.  
+But let no one among you be made to suffer  
+as a murderer, a thief, an evildoer, or as an intriguer.  
+But whoever is made to suffer as a Christian should not be ashamed  
+but glorify God because of the name.  
+
+***
+
+::: {.red}
+#### Alleluia [John 14:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I will not leave you orphans, says the Lord.  
+I will come back to you, and your hearts will rejoice. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [John 17:1-11a]{style="float:right" .small}
+:::
+
+Jesus raised his eyes to heaven and said,  
+“Father, the hour has come.  
+Give glory to your son, so that your son may glorify you,  
+just as you gave him authority over all people,  
+so that your son may give eternal life to all you gave him.  
+Now this is eternal life,  
+that they should know you, the only true God,  
+and the one whom you sent, Jesus Christ.  
+I glorified you on earth  
+by accomplishing the work that you gave me to do.  
+Now glorify me, Father, with you,  
+with the glory that I had with you before the world began.  
+
+“I revealed your name to those whom you gave me out of the world.  
+They belonged to you, and you gave them to me,  
+and they have kept your word.  
+Now they know that everything you gave me is from you,  
+because the words you gave to me I have given to them,  
+and they accepted them and truly understood that I came from you,  
+and they have believed that you sent me.  
+I pray for them.  
+I do not pray for the world but for the ones you have given me,  
+because they are yours, and everything of mine is yours  
+and everything of yours is mine,  
+and I have been glorified in them.  
+And now I will no longer be in the world,  
+but they are in the world, while I am coming to you.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Acts 1:15-17, 20a, 20c-26]{style="float:right" .small}
+:::
+
+Peter stood up in the midst of the brothers  
+—there was a group of about one hundred and twenty persons  
+in the one place.  
+He said, “My brothers,  
+the Scripture had to be fulfilled  
+which the Holy Spirit spoke beforehand  
+through the mouth of David, concerning Judas,  
+who was the guide for those who arrested Jesus.  
+He was numbered among us  
+and was allotted a share in this ministry.  
+
+“For it is written in the Book of Psalms:  
+*May another take his office.*  
+
+“Therefore, it is necessary that one of the men  
+who accompanied us the whole time  
+the Lord Jesus came and went among us,  
+beginning from the baptism of John  
+until the day on which he was taken up from us,  
+become with us a witness to his resurrection.”  
+So they proposed two, Judas called Barsabbas,  
+who was also known as Justus, and Matthias.  
+Then they prayed,  
+“You, Lord, who know the hearts of all,  
+show which one of these two you have chosen  
+to take the place in this apostolic ministry  
+from which Judas turned away to go to his own place.”  
+Then they gave lots to them, and the lot fell upon Matthias,  
+and he was counted with the eleven apostles.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 103:1-2, 11-12, 19-20]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord has set his throne in heaven.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+Bless the LORD, O my soul;  
+and all my being, bless his holy name.  
+Bless the LORD, O my soul,  
+and forget not all his benefits. **[℟.]{.red}**  
+
+For as the heavens are high above the earth,  
+so surpassing is his kindness toward those who fear him.  
+As far as the east is from the west,  
+so far has he put our transgressions from us. **[℟.]{.red}**  
+
+The LORD has established his throne in heaven,  
+and his kingdom rules over all.  
+Bless the LORD, all you his angels,  
+you mighty in strength, who do his bidding. **[℟.]{.red}**   
+
+***
+
+::: {.red}
+#### Second Reading [1 John 4:11-16]{style="float:right" .small}
+:::
+
+Beloved, if God so loved us,  
+we also must love one another.  
+No one has ever seen God.  
+Yet, if we love one another, God remains in us,  
+and his love is brought to perfection in us.  
+
+This is how we know that we remain in him and he in us,  
+that he has given us of his Spirit.  
+Moreover, we have seen and testify  
+that the Father sent his Son as savior of the world.  
+Whoever acknowledges that Jesus is the Son of God,  
+God remains in him and he in God.  
+We have come to know and to believe in the love God has for us.  
+
+God is love, and whoever remains in love  
+remains in God and God in him.  
+
+***
+
+::: {.red}
+#### Alleluia [Cf. John 14:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I will not leave you orphans, says the Lord.  
+I will come back to you, and your hearts will rejoice. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 17:11b-19]{style="float:right" .small}
+:::
+
+Lifting up his eyes to heaven, Jesus prayed saying:  
+“Holy Father, keep them in your name that you have given me,  
+so that they may be one just as we are one.  
+When I was with them I protected them in your name that you gave me,  
+and I guarded them, and none of them was lost  
+except the son of destruction,  
+in order that the Scripture might be fulfilled.  
+But now I am coming to you.  
+I speak this in the world  
+so that they may share my joy completely.  
+I gave them your word, and the world hated them,  
+because they do not belong to the world  
+any more than I belong to the world.  
+I do not ask that you take them out of the world  
+but that you keep them from the evil one.  
+They do not belong to the world  
+any more than I belong to the world.  
+Consecrate them in the truth. Your word is truth.  
+As you sent me into the world,  
+so I sent them into the world.  
+And I consecrate myself for them,  
+so that they also may be consecrated in truth.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Acts 7:55-60]{style="float:right" .small}
+:::
+
+Stephen, filled with the Holy Spirit,  
+looked up intently to heaven and saw the glory of God  
+and Jesus standing at the right hand of God,  
+and Stephen said, “Behold, I see the heavens opened  
+and the Son of Man standing at the right hand of God.”  
+But they cried out in a loud voice,  
+covered their ears, and rushed upon him together.  
+They threw him out of the city, and began to stone him.  
+The witnesses laid down their cloaks  
+at the feet of a young man named Saul.  
+As they were stoning Stephen, he called out,  
+“Lord Jesus, receive my spirit.”  
+Then he fell to his knees and cried out in a loud voice,  
+“Lord, do not hold this sin against them;”  
+and when he said this, he fell asleep.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 97:1-2, 6-7, 9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is king, the most high over all the earth.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+The LORD is king; let the earth rejoice;  
+&emsp; let the many islands be glad.  
+Justice and judgment are the foundation of his throne. **[℟.]{.red}**  
+
+The heavens proclaim his justice,  
+&emsp; and all peoples see his glory.  
+All gods are prostrate before him. **[℟.]{.red}**  
+
+You, O LORD, are the Most High over all the earth,  
+&emsp; exalted far above all gods. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Revelation 22:12-14, 16-17, 20]{style="float:right" .small}
+:::
+
+I, John, heard a voice saying to me:  
+“Behold, I am coming soon.  
+I bring with me the recompense I will give to each  
+according to his deeds.  
+I am the Alpha and the Omega, the first and the last,  
+the beginning and the end.”  
+
+Blessed are they who wash their robes  
+so as to have the right to the tree of life  
+and enter the city through its gates.  
+
+“I, Jesus, sent my angel to give you this testimony for the churches.  
+I am the root and offspring of David,  
+the bright morning star.”  
+
+The Spirit and the bride say, “Come.”  
+Let the hearer say, “Come.”  
+Let the one who thirsts come forward,  
+and the one who wants it receive the gift of life-giving water.  
+
+The one who gives this testimony says, “Yes, I am coming soon.”  
+Amen!  Come, Lord Jesus!  
+
+***
+
+::: {.red}
+#### Alleluia [Cf. John 14:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I will not leave you orphans, says the Lord.  
+I will come back to you, and your hearts will rejoice. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [John 17:20-26]{style="float:right" .small}
+:::
+
+Lifting up his eyes to heaven, Jesus prayed saying:  
+“Holy Father, I pray not only for them,  
+but also for those who will believe in me through their word,  
+so that they may all be one,  
+as you, Father, are in me and I in you,  
+that they also may be in us,  
+that the world may believe that you sent me.  
+And I have given them the glory you gave me,  
+so that they may be one, as we are one,  
+I in them and you in me,  
+that they may be brought to perfection as one,  
+that the world may know that you sent me,  
+and that you loved them even as you loved me.  
+Father, they are your gift to me.  
+I wish that where I am they also may be with me,  
+that they may see my glory that you gave me,  
+because you loved me before the foundation of the world.  
+Righteous Father, the world also does not know you,  
+but I know you, and they know that you sent me.  
+I made known to them your name and I will make it known,  
+that the love with which you loved me  
+may be in them and I in them.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::

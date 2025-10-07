@@ -1,6 +1,6 @@
 ---
 title: "VIGIL OF PENTECOST"
-subtitle: "Simple Form"
+subtitle: "Extended Form"
 ---
 
 ```{python}
@@ -10,16 +10,38 @@ subtitle: "Simple Form"
 frontmatter = """
 hymns:
   abc:
-    processional:
+    psalm-after-first-reading:
       list:
-        - name: "Come, Holy Ghost"
+        - name: "Blessed the people the Lord has chosen, chosen to be his own."
           book: BB
           priority: required
-    psalm:
+    psalm-after-second-reading:
+      list:
+        - name: "Glory and praise for ever!"
+          book: RA
+          priority: optional
+        - name: "Lord, you have the words of everlasting life."
+          book: RA
+          priority: preferred          
+    psalm-after-third-reading:
+      list:
+        - name: "Give thanks to the Lord; his love is everlasting."
+          book: RA
+          priority: required
+    psalm-after-fourth-reading:
       list:
         - name: "Lord, send out your Spirit, and renew the face of the earth."
           book: RA
           priority: required
+    psalm-after-epistle:
+      list:
+        - name: "Alleluia, alleluia, alleluia"
+          book: RA
+          priority: optional
+        - name: "Festival Alleluia"
+          book: "Appendix B"
+          note: "Pentecost verse"
+          priority: preferred
     offertory:
       list:
         - name: "River of Glory"
@@ -129,7 +151,34 @@ That is why it was called Babel,
 because there the LORD confused the speech of all the world.  
 It was from that place that he scattered them all over the earth.  
 
-[Or:]{.red} [Exodus 19:3-8a, 16-20b]{style="float:right" .small .red}  
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 33:10-11, 12-13, 14-15]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Blessed the people the Lord has chosen to be his own.**  
+
+The LORD brings to nought the plans of nations;  
+he foils the designs of peoples.  
+But the plan of the LORD stands forever;  
+the design of his heart, through all generations. **[℟.]{.red}**  
+
+Blessed the nation whose God is the LORD,  
+the people he has chosen for his own inheritance.  
+From heaven the LORD looks down;  
+he sees all mankind. **[℟.]{.red}**  
+
+From his fixed throne he beholds  
+all who dwell on the earth,  
+He who fashioned the heart of each,  
+he who knows all their works. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Exodus 19:3-8a, 16-20b]{style="float:right" .small}
+:::
 
 Moses went up the mountain to God.  
 Then the LORD called to him and said,  
@@ -167,7 +216,61 @@ and God answering him with thunder.
 When the LORD came down to the top of Mount Sinai,  
 he summoned Moses to the top of the mountain.  
 
-[Or:]{.red} [Ezekiel 37:1-14]{style="float:right" .small .red}  
+***
+
+::: {.red}
+#### Responsorial Psalm [Daniel 3:52, 53, 54, 55, 56]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Glory and praise forever!**  
+
+"Blessed are you, O Lord, the God of our fathers,  
+praiseworthy and exalted above all forever;  
+And blessed is your holy and glorious name,  
+praiseworthy and exalted above all for all ages." **[℟.]{.red}**  
+
+"Blessed are you in the temple of your holy glory,  
+praiseworthy and glorious above all forever." **[℟.]{.red}**  
+
+"Blessed are you on the throne of your Kingdom,  
+praiseworthy and exalted above all forever." **[℟.]{.red}**  
+
+"Blessed are you who look into the depths  
+from your throne upon the cherubim,  
+praiseworthy and exalted above all forever." **[℟.]{.red}**  
+
+"Blessed are you in the firmament of heaven,  
+praiseworthy and glorious forever." **[℟.]{.red}**  
+
+[Or:]{.red} [Psalm 19:8, 9, 10, 11]{style="float:right" .small .red}
+
+**[℟.]{.red}** **Lord, you have the words of everlasting life.**  
+
+The law of the LORD is perfect,  
+refreshing the soul;  
+The decree of the LORD is trustworthy,  
+giving wisdom to the simple. **[℟.]{.red}**  
+
+The precepts of the LORD are right,  
+rejoicing the heart;  
+The command of the LORD is clear,  
+enlightening the eye. **[℟.]{.red}**  
+
+The fear of the LORD is pure,  
+enduring forever;  
+The ordinances of the LORD are true,  
+all of them just. **[℟.]{.red}**  
+
+They are more precious than gold,  
+than a heap of purest gold;  
+Sweeter also than syrup  
+or honey from the comb. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Third Reading [Ezekiel 37:1-14]{style="float:right" .small}
+:::
 
 The hand of the LORD came upon me,  
 and he led me out in the spirit of the LORD  
@@ -216,7 +319,41 @@ and I will settle you upon your land;
 thus you shall know that I am the LORD.  
 I have promised, and I will do it, says the LORD.  
 
-[Or:]{.red} [Joel 3:1-5]{style="float:right" .small .red}
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 107:2-3, 4-5, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Give thanks to the Lord; his love is everlasting.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**
+
+Let the redeemed of the LORD say,  
+those whom he has redeemed from the hand of the foe  
+And gathered from the lands,  
+from the east and the west, from the north and the south. **[℟.]{.red}**  
+
+They went astray in the desert wilderness;  
+the way to an inhabited city they did not find.  
+Hungry and thirsty,  
+their life was wasting away within them. **[℟.]{.red}**  
+
+They cried to the LORD in their distress;  
+from their straits he rescued them.  
+And he led them by a direct way  
+to reach an inhabited city. **[℟.]{.red}**  
+
+Let them give thanks to the LORD for his mercy  
+and his wondrous deeds to the children of men,  
+Because he satisfied the longing soul  
+and filled the hungry soul with good things. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Fourth Reading [Joel 3:1-5]{style="float:right" .small}
+:::
 
 Thus says the LORD:  
 I will pour out my spirit upon all flesh.  
@@ -271,7 +408,7 @@ and you renew the face of the earth. **[℟.]{.red}**
 ***
 
 ::: {.red}
-#### Second Reading [Romans 8:22-27]{style="float:right" .small}
+#### Epistle [Romans 8:22-27]{style="float:right" .small}
 :::
 
 Brothers and sisters:  
@@ -354,9 +491,12 @@ utils.anthemlist(hymns=params['hymns'], urls=videos)
 ### Notes
 :::
 
-* An optional [**Extended Vigil**](pentecost-vigil-extended.qmd) may be celebrated. The music minister should be sure to consult with the presider before the liturgy to know which form is being used.
+* If the **Extended Vigil** is not celebrated, the [**Simple Vigil**](pentecost-vigil.qmd) is celebrated with two readings and one responsorial psalm can be used as usual. These are to be selected by the presider. The music minister should be sure to consult with the presider before the liturgy to know what psalm to sing.
 * The presider may opt to use the same readings as Pentecost Sunday.
 In this case, the music selections are taken from [Pentecost Sunday](pentecost.qmd), not from this list. The music minister must coordinate this with the presider before the start of the liturgy.
+* If celebrated, the **extended Vigil of Pentecost** liturgy begins in the usual way with the Processional hymn and Kyrie; however, the Gloria is not sung until after the readings, as at the [**Easter Vigil**](../holy-week/easter-vigil.qmd).
+* The Liturgy of the Word is organized just like at the [**Easter Vigil**](../holy-week/easter-vigil.qmd), with a series of readings, responsorial psalms, and prayers.
+* After the prayer following the last reading and responsorial psalm, the Celebrant intones the **Gloria** with “**Glory to God in the highest**” or “*Gloria in excelsis Deo*.” The introduction can be started immediately after this and the **Gloria** is sung as usual while the altar candles are lit.
 * If available, the Festival Alleluia (GIA), with the **Pentecost** verse found in [Appendix B](../appendices/B-festival-alleluia.qmd), is sung for the **Gospel Acclamation**.
 * If the **dismissal of the people** is chanted by the presider, the cantor must promptly – without pause or hesitation – lead the chanted response found in [Appendix F](../easter/pentecost-vigil.qmd).
 * The hymn, “[Hail Thee, Festival Day](https://www.youtube.com/watch?v=cQvb8SN6RlU)”, could be considered as a **Recessional hymn** if (1) it is available in the hymnal, (2) a strong choir and skilled musicians are performing at the **Vigil of Pentecost**, AND (3) the congregation is not likely to sing at this Liturgy. It is usually unfamiliar to Catholic congregations and is diﬃcult to sing; thus, it needs to be well rehearsed by choir, cantor, and musicians alike in order to be performed accurately and well. Nevertheless, it is a particularly festive hymn that is highly appropriate for this occasion. If used, the Pentecost verses (5-6) should be sung this night.

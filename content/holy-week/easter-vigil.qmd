@@ -148,6 +148,936 @@ solemnity, glory, joy, initiation, history of salvation, resurrection, life, hop
 > Christ our Passover has been sacrificed;  
 > therefore let us keep the feast with the unleavened bread of purity and truth. Alleluia.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Years A, B, C
+
+#### First Reading [Genesis 1:1—2:2 or 1:1, 26-31a]{style="float:right" .small}
+:::
+
+In the beginning, when God created the heavens and the earth,  
+the earth was a formless wasteland, and darkness covered the abyss,  
+while a mighty wind swept over the waters.  
+
+Then God said,  
+"Let there be light," and there was light.  
+God saw how good the light was.  
+God then separated the light from the darkness.  
+God called the light "day," and the darkness he called "night."  
+Thus evening came, and morning followed—the first day.  
+
+Then God said,  
+"Let there be a dome in the middle of the waters,  
+to separate one body of water from the other."  
+And so it happened:  
+God made the dome,  
+and it separated the water above the dome from the water below it.  
+God called the dome "the sky."  
+Evening came, and morning followed—the second day.  
+
+Then God said,  
+"Let the water under the sky be gathered into a single basin,  
+so that the dry land may appear."  
+And so it happened:  
+the water under the sky was gathered into its basin,  
+and the dry land appeared.  
+God called the dry land "the earth,"  
+and the basin of the water he called "the sea."  
+God saw how good it was.  
+Then God said,  
+"Let the earth bring forth vegetation:  
+every kind of plant that bears seed  
+and every kind of fruit tree on earth  
+that bears fruit with its seed in it."  
+And so it happened:  
+the earth brought forth every kind of plant that bears seed  
+and every kind of fruit tree on earth  
+that bears fruit with its seed in it.  
+God saw how good it was.  
+Evening came, and morning followed—the third day.  
+
+Then God said:  
+"Let there be lights in the dome of the sky,  
+to separate day from night.  
+Let them mark the fixed times, the days and the years,  
+and serve as luminaries in the dome of the sky,  
+to shed light upon the earth."  
+And so it happened:  
+God made the two great lights,  
+the greater one to govern the day,  
+and the lesser one to govern the night;  
+and he made the stars.  
+God set them in the dome of the sky,  
+to shed light upon the earth,  
+to govern the day and the night,  
+and to separate the light from the darkness.  
+God saw how good it was.  
+Evening came, and morning followed—the fourth day.  
+
+Then God said,  
+"Let the water teem with an abundance of living creatures,  
+and on the earth let birds fly beneath the dome of the sky."  
+And so it happened:  
+God created the great sea monsters  
+and all kinds of swimming creatures with which the water teems,  
+and all kinds of winged birds.  
+God saw how good it was, and God blessed them, saying,  
+"Be fertile, multiply, and fill the water of the seas;  
+and let the birds multiply on the earth."  
+Evening came, and morning followed—the fifth day.  
+
+Then God said,  
+"Let the earth bring forth all kinds of living creatures:  
+cattle, creeping things, and wild animals of all kinds."  
+And so it happened:  
+God made all kinds of wild animals, all kinds of cattle,  
+and all kinds of creeping things of the earth.  
+God saw how good it was.  
+Then God said:  
+"Let us make man in our image, after our likeness.  
+Let them have dominion over the fish of the sea,  
+the birds of the air, and the cattle,  
+and over all the wild animals  
+and all the creatures that crawl on the ground."  
+God created man in his image;  
+in the image of God he created him;  
+male and female he created them.  
+God blessed them, saying:  
+"Be fertile and multiply;  
+fill the earth and subdue it.  
+Have dominion over the fish of the sea, the birds of the air,  
+and all the living things that move on the earth."  
+God also said:  
+"See, I give you every seed-bearing plant all over the earth  
+and every tree that has seed-bearing fruit on it to be your food;  
+and to all the animals of the land, all the birds of the air,  
+and all the living creatures that crawl on the ground,  
+I give all the green plants for food."  
+And so it happened.  
+God looked at everything he had made, and he found it very good.  
+Evening came, and morning followed—the sixth day.  
+Thus the heavens and the earth and all their array were completed.  
+Since on the seventh day God was finished  
+with the work he had been doing,  
+he rested on the seventh day from all the work he had undertaken.  
+
+[Or:]{.red}  
+
+In the beginning, when God created the heavens and the earth,  
+God said: "Let us make man in our image, after our likeness.  
+Let them have dominion over the fish of the sea,  
+the birds of the air, and the cattle,  
+and over all the wild animals  
+and all the creatures that crawl on the ground."  
+God created man in his image;  
+in the image of God he created him;  
+male and female he created them.  
+God blessed them, saying:  
+"Be fertile and multiply;  
+fill the earth and subdue it.  
+Have dominion over the fish of the sea, the birds of the air,  
+and all the living things that move on the earth."  
+God also said:  
+"See, I give you every seed-bearing plant all over the earth  
+and every tree that has seed-bearing fruit on it to be your food;  
+and to all the animals of the land, all the birds of the air,  
+and all the living creatures that crawl on the ground,  
+I give all the green plants for food."  
+And so it happened.  
+God looked at everything he had made, and found it very good.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 104:1-2, 5-6, 10, 12, 13-14, 24, 35]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, send out your Spirit, and renew the face of the earth.**  
+
+Bless the LORD, O my soul!  
+O LORD, my God, you are great indeed!  
+You are clothed with majesty and glory,  
+robed in light as with a cloak. **[℟.]{.red}**  
+
+You fixed the earth upon its foundation,  
+not to be moved forever;  
+with the ocean, as with a garment, you covered it;  
+above the mountains the waters stood. **[℟.]{.red}**  
+
+You send forth springs into the watercourses  
+that wind among the mountains.  
+Beside them the birds of heaven dwell;  
+from among the branches they send forth their song. **[℟.]{.red}**  
+
+You water the mountains from your palace;  
+the earth is replete with the fruit of your works.  
+You raise grass for the cattle,  
+and vegetation for man's use,  
+Producing bread from the earth. **[℟.]{.red}**  
+
+How manifold are your works, O LORD!  
+In wisdom you have wrought them all—  
+the earth is full of your creatures.  
+Bless the LORD, O my soul! **[℟.]{.red}**  
+
+[Or:]{.red} [Psalm 33:4-5, 6-7, 12-13, 20, 22]{style="float:right" .small .red}
+
+**[℟.]{.red}** **The earth is full of the goodness of the Lord.**  
+
+Upright is the word of the LORD,  
+and all his works are trustworthy.  
+He loves justice and right;  
+of the kindness of the LORD the earth is full. **[℟.]{.red}**  
+
+By the word of the LORD the heavens were made;  
+by the breath of his mouth all their host.  
+He gathers the waters of the sea as in a flask;  
+in cellars he confines the deep. **[℟.]{.red}**  
+
+Blessed the nation whose God is the LORD,  
+the people he has chosen for his own inheritance.  
+From heaven the LORD looks down;  
+he sees all mankind. **[℟.]{.red}**  
+
+Our soul waits for the LORD,  
+who is our help and our shield.  
+May your kindness, O LORD, be upon us  
+who have put our hope in you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Genesis 22:1-18 or 22:1-2, 9a, 10-13, 15-18]{style="float:right" .small}
+:::
+
+God put Abraham to the test.  
+He called to him, "Abraham!"  
+"Here I am,"  he replied.  
+Then God said:  
+"Take your son Isaac, your only one, whom you love,  
+and go to the land of Moriah.  
+There you shall offer him up as a holocaust  
+on a height that I will point out to you."  
+Early the next morning Abraham saddled his donkey,  
+took with him his son Isaac and two of his servants as well,  
+and with the wood that he had cut for the holocaust,  
+set out for the place of which God had told him.  
+
+On the third day Abraham got sight of the place from afar.  
+Then he said to his servants:  
+"Both of you stay here with the donkey,  
+while the boy and I go on over yonder.  
+We will worship and then come back to you."  
+Thereupon Abraham took the wood for the holocaust  
+and laid it on his son Isaac's shoulders,  
+while he himself carried the fire and the knife.  
+As the two walked on together, Isaac spoke to his father Abraham:  
+"Father!" Isaac said.  
+"Yes, son," he replied.  
+Isaac continued, "Here are the fire and the wood,  
+but where is the sheep for the holocaust?"  
+"Son," Abraham answered,  
+"God himself will provide the sheep for the holocaust."  
+Then the two continued going forward.  
+
+When they came to the place of which God had told him,  
+Abraham built an altar there and arranged the wood on it.  
+Next he tied up his son Isaac,  
+and put him on top of the wood on the altar.  
+Then he reached out and took the knife to slaughter his son.  
+But the LORD's messenger called to him from heaven,  
+"Abraham, Abraham!"  
+"Here I am!" he answered.  
+"Do not lay your hand on the boy," said the messenger.  
+"Do not do the least thing to him.  
+I know now how devoted you are to God,  
+since you did not withhold from me your own beloved son."  
+As Abraham looked about,  
+he spied a ram caught by its horns in the thicket.  
+So he went and took the ram  
+and offered it up as a holocaust in place of his son.  
+Abraham named the site Yahweh-yireh;  
+hence people now say, "On the mountain the LORD will see."  
+
+Again the LORD's messenger called to Abraham from heaven and said:  
+"I swear by myself, declares the LORD,  
+that because you acted as you did  
+in not withholding from me your beloved son,  
+I will bless you abundantly  
+and make your descendants as countless  
+as the stars of the sky and the sands of the seashore;  
+your descendants shall take possession  
+of the gates of their enemies,  
+and in your descendants all the nations of the earth shall find blessing--  
+all this because you obeyed my command."  
+
+[Or:]{.red}  
+
+God put Abraham to the test.  
+He called to him, "Abraham!"  
+"Here I am, " he replied.  
+Then God said:  
+"Take your son Isaac, your only one, whom you love,  
+and go to the land of Moriah.  
+There you shall offer him up as a holocaust  
+on a height that I will point out to you."  
+
+When they came to the place of which God had told him,  
+Abraham built an altar there and arranged the wood on it.  
+Then he reached out and took the knife to slaughter his son.  
+But the LORD's messenger called to him from heaven,  
+"Abraham, Abraham!"  
+"Here I am," he answered.  
+"Do not lay your hand on the boy," said the messenger.  
+"Do not do the least thing to him.  
+I know now how devoted you are to God,  
+since you did not withhold from me your own beloved son."  
+As Abraham looked about,  
+he spied a ram caught by its horns in the thicket.  
+So he went and took the ram  
+and offered it up as a holocaust in place of his son.  
+
+Again the LORD's messenger called to Abraham from heaven and said:  
+"I swear by myself, declares the LORD,  
+that because you acted as you did  
+in not withholding from me your beloved son,  
+I will bless you abundantly  
+and make your descendants as countless  
+as the stars of the sky and the sands of the seashore;  
+your descendants shall take possession  
+of the gates of their enemies,  
+and in your descendants all the nations of the earth shall find blessing--  
+all this because you obeyed my command."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 16:5, 8, 9-10, 11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **You are my inheritance, O Lord.**  
+
+O LORD, my allotted portion and my cup,  
+you it is who hold fast my lot.  
+I set the LORD ever before me;  
+with him at my right hand I shall not be disturbed. **[℟.]{.red}**  
+
+Therefore my heart is glad and my soul rejoices,  
+my body, too, abides in confidence;  
+because you will not abandon my soul to the netherworld,  
+nor will you suffer your faithful one to undergo corruption. **[℟.]{.red}**  
+
+You will show me the path to life,  
+fullness of joys in your presence,  
+the delights at your right hand forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Third Reading [Exodus 14:15—15:1]{style="float:right" .small}
+:::
+
+The LORD said to Moses, "Why are you crying out to me?  
+Tell the Israelites to go forward.  
+And you, lift up your staff and, with hand outstretched over the sea,  
+split the sea in two,  
+that the Israelites may pass through it on dry land.  
+But I will make the Egyptians so obstinate  
+that they will go in after them.  
+Then I will receive glory through Pharaoh and all his army,  
+his chariots and charioteers.  
+The Egyptians shall know that I am the LORD,  
+when I receive glory through Pharaoh  
+and his chariots and charioteers."  
+
+The angel of God, who had been leading Israel's camp,  
+now moved and went around behind them.  
+The column of cloud also, leaving the front,  
+took up its place behind them,  
+so that it came between the camp of the Egyptians  
+and that of Israel.  
+But the cloud now became dark, and thus the night passed  
+without the rival camps coming any closer together  
+all night long.  
+Then Moses stretched out his hand over the sea,  
+and the LORD swept the sea  
+with a strong east wind throughout the night  
+and so turned it into dry land.  
+When the water was thus divided,  
+the Israelites marched into the midst of the sea on dry land,  
+with the water like a wall to their right and to their left.  
+
+The Egyptians followed in pursuit;  
+all Pharaoh's horses and chariots and charioteers went after them  
+right into the midst of the sea.  
+In the night watch just before dawn  
+the LORD cast through the column of the fiery cloud  
+upon the Egyptian force a glance that threw it into a panic;  
+and he so clogged their chariot wheels  
+that they could hardly drive.  
+With that the Egyptians sounded the retreat before Israel,  
+because the LORD was fighting for them against the Egyptians.  
+
+Then the LORD told Moses, "Stretch out your hand over the sea,  
+that the water may flow back upon the Egyptians,  
+upon their chariots and their charioteers."  
+So Moses stretched out his hand over the sea,  
+and at dawn the sea flowed back to its normal depth.  
+The Egyptians were fleeing head on toward the sea,  
+when the LORD hurled them into its midst.  
+As the water flowed back,  
+it covered the chariots and the charioteers of Pharaoh's whole army  
+which had followed the Israelites into the sea.  
+Not a single one of them escaped.  
+But the Israelites had marched on dry land  
+through the midst of the sea,  
+with the water like a wall to their right and to their left.  
+Thus the LORD saved Israel on that day  
+from the power of the Egyptians.  
+When Israel saw the Egyptians lying dead on the seashore  
+and beheld the great power that the LORD  
+had shown against the Egyptians,  
+they feared the LORD and believed in him and in his servant Moses.  
+
+Then Moses and the Israelites sang this song to the LORD:  
+I will sing to the LORD, for he is gloriously triumphant;  
+horse and chariot he has cast into the sea.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Exodus 15:1-2, 3-4, 5-6, 17-18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Let us sing to the Lord; he has covered himself in glory.**  
+
+I will sing to the LORD, for he is gloriously triumphant;  
+horse and chariot he has cast into the sea.  
+My strength and my courage is the LORD,  
+and he has been my savior.  
+He is my God, I praise him;  
+the God of my father, I extol him. **[℟.]{.red}**  
+
+The LORD is a warrior,  
+LORD is his name!  
+Pharaoh's chariots and army he hurled into the sea;  
+the elite of his officers were submerged in the Red Sea. **[℟.]{.red}**  
+
+The flood waters covered them,  
+they sank into the depths like a stone.  
+Your right hand, O LORD, magnificent in power,  
+your right hand, O LORD, has shattered the enemy. **[℟.]{.red}**  
+
+You brought in the people you redeemed  
+and planted them on the mountain of your inheritance  
+the place where you made your seat, O LORD,  
+the sanctuary, LORD, which your hands established.  
+The LORD shall reign forever and ever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Fourth Reading [Isaiah 54:5-14]{style="float:right" .small}
+:::
+
+The One who has become your husband is your Maker;  
+his name is the LORD of hosts;  
+your redeemer is the Holy One of Israel,  
+called God of all the earth.  
+The LORD calls you back,  
+like a wife forsaken and grieved in spirit,  
+a wife married in youth and then cast off,  
+says your God.  
+For a brief moment I abandoned you,  
+but with great tenderness I will take you back.  
+In an outburst of wrath, for a moment  
+I hid my face from you;  
+but with enduring love I take pity on you,  
+says the LORD, your redeemer.  
+This is for me like the days of Noah,  
+when I swore that the waters of Noah  
+should never again deluge the earth;  
+so I have sworn not to be angry with you,  
+or to rebuke you.  
+Though the mountains leave their place  
+and the hills be shaken,  
+my love shall never leave you  
+nor my covenant of peace be shaken,  
+says the LORD, who has mercy on you.  
+O afflicted one, storm-battered and unconsoled,  
+I lay your pavements in carnelians,  
+and your foundations in sapphires;  
+I will make your battlements of rubies,  
+your gates of carbuncles,  
+and all your walls of precious stones.  
+All your children shall be taught by the LORD,  
+and great shall be the peace of your children.  
+In justice shall you be established,  
+far from the fear of oppression,  
+where destruction cannot come near you.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 30:2, 4, 5-6, 11-12, 13   ]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will praise you, Lord, for you have rescued me.**  
+
+I will extol you, O LORD, for you drew me clear  
+and did not let my enemies rejoice over me.  
+O LORD, you brought me up from the netherworld;  
+you preserved me from among those going down into the pit. **[℟.]{.red}**  
+
+Sing praise to the LORD, you his faithful ones,  
+and give thanks to his holy name.  
+For his anger lasts but a moment;  
+a lifetime, his good will.  
+At nightfall, weeping enters in,  
+but with the dawn, rejoicing. **[℟.]{.red}**  
+
+Hear, O LORD, and have pity on me;  
+O LORD, be my helper.  
+You changed my mourning into dancing;  
+O LORD, my God, forever will I give you thanks. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Fifth Reading [Isaiah 55:1-11]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+All you who are thirsty,  
+come to the water!  
+You who have no money,  
+come, receive grain and eat;  
+come, without paying and without cost,  
+drink wine and milk!  
+Why spend your money for what is not bread,  
+your wages for what fails to satisfy?  
+Heed me, and you shall eat well,  
+you shall delight in rich fare.  
+Come to me heedfully,  
+listen, that you may have life.  
+I will renew with you the everlasting covenant,  
+the benefits assured to David.  
+As I made him a witness to the peoples,  
+a leader and commander of nations,  
+so shall you summon a nation you knew not,  
+and nations that knew you not shall run to you,  
+because of the LORD, your God,  
+the Holy One of Israel, who has glorified you.  
+
+Seek the LORD while he may be found,  
+call him while he is near.  
+Let the scoundrel forsake his way,  
+and the wicked man his thoughts;  
+let him turn to the LORD for mercy;  
+to our God, who is generous in forgiving.  
+For my thoughts are not your thoughts,  
+nor are your ways my ways, says the LORD.  
+As high as the heavens are above the earth,  
+so high are my ways above your ways  
+and my thoughts above your thoughts.  
+
+For just as from the heavens  
+the rain and snow come down  
+and do not return there  
+till they have watered the earth,  
+making it fertile and fruitful,  
+giving seed to the one who sows  
+and bread to the one who eats,  
+so shall my word be  
+that goes forth from my mouth;  
+my word shall not return to me void,  
+but shall do my will,  
+achieving the end for which I sent it.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Isaiah 12:2-3, 4, 5-6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **You will draw water joyfully from the springs of salvation.**  
+
+God indeed is my savior;  
+I am confident and unafraid.  
+My strength and my courage is the LORD,  
+and he has been my savior.  
+With joy you will draw water  
+at the fountain of salvation. **[℟.]{.red}**  
+
+Give thanks to the LORD, acclaim his name;  
+among the nations make known his deeds,  
+proclaim how exalted is his name. **[℟.]{.red}**  
+
+Sing praise to the LORD for his glorious achievement;  
+let this be known throughout all the earth.  
+Shout with exultation, O city of Zion,  
+for great in your midst  
+is the Holy One of Israel! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Sixth Reading [Baruch 3:9-15, 32-4:4]{style="float:right" .small}
+:::
+
+Hear, O Israel, the commandments of life:  
+listen, and know prudence!  
+How is it, Israel,  
+that you are in the land of your foes,  
+grown old in a foreign land,  
+defiled with the dead,  
+accounted with those destined for the netherworld?  
+You have forsaken the fountain of wisdom!  
+Had you walked in the way of God,  
+you would have dwelt in enduring peace.  
+Learn where prudence is,  
+where strength, where understanding;  
+that you may know also  
+where are length of days, and life,  
+where light of the eyes, and peace.  
+Who has found the place of wisdom,  
+who has entered into her treasuries?  
+
+The One who knows all things knows her;  
+he has probed her by his knowledge--  
+The One who established the earth for all time,  
+and filled it with four-footed beasts;  
+he who dismisses the light, and it departs,  
+calls it, and it obeys him trembling;  
+before whom the stars at their posts  
+shine and rejoice;  
+when he calls them, they answer, "Here we are!"  
+shining with joy for their Maker.  
+Such is our God;  
+no other is to be compared to him:  
+he has traced out the whole way of understanding,  
+and has given her to Jacob, his servant,  
+to Israel, his beloved son.  
+
+Since then she has appeared on earth,  
+and moved among people.  
+She is the book of the precepts of God,  
+the law that endures forever;  
+all who cling to her will live,  
+but those will die who forsake her.  
+Turn, O Jacob, and receive her:  
+walk by her light toward splendor.  
+Give not your glory to another,  
+your privileges to an alien race.  
+Blessed are we, O Israel;  
+for what pleases God is known to us!  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [John 6:68c; Psalm 19:8, 9, 10, 11 ]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, you have the words of everlasting life.**  
+
+The law of the LORD is perfect,  
+refreshing the soul;  
+the decree of the LORD is trustworthy,  
+giving wisdom to the simple. **[℟.]{.red}**  
+
+The precepts of the LORD are right,  
+rejoicing the heart;  
+the command of the LORD is clear,  
+enlightening the eye. **[℟.]{.red}**  
+
+The fear of the LORD is pure,  
+enduring forever;  
+the ordinances of the LORD are true,  
+all of them just. **[℟.]{.red}**  
+
+They are more precious than gold,  
+than a heap of purest gold;  
+sweeter also than syrup  
+or honey from the comb. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Seventh Reading [Ezekiel 36:16-17a, 18-28]{style="float:right" .small}
+:::
+
+The word of the LORD came to me, saying:  
+Son of man, when the house of Israel lived in their land,  
+they defiled it by their conduct and deeds.  
+Therefore I poured out my fury upon them  
+because of the blood that they poured out on the ground,  
+and because they defiled it with idols.  
+I scattered them among the nations,  
+dispersing them over foreign lands;  
+according to their conduct and deeds I judged them.  
+But when they came among the nations wherever they came,  
+they served to profane my holy name,  
+because it was said of them: "These are the people of the LORD,  
+yet they had to leave their land."  
+So I have relented because of my holy name  
+which the house of Israel profaned  
+among the nations where they came.  
+Therefore say to the house of Israel: Thus says the Lord GOD:  
+Not for your sakes do I act, house of Israel,  
+but for the sake of my holy name,  
+which you profaned among the nations to which you came.  
+I will prove the holiness of my great name, profaned among the nations,  
+in whose midst you have profaned it.  
+Thus the nations shall know that I am the LORD, says the Lord GOD,  
+when in their sight I prove my holiness through you.  
+For I will take you away from among the nations,  
+gather you from all the foreign lands,  
+and bring you back to your own land.  
+I will sprinkle clean water upon you  
+to cleanse you from all your impurities,  
+and from all your idols I will cleanse you.  
+I will give you a new heart and place a new spirit within you,  
+taking from your bodies your stony hearts  
+and giving you natural hearts.  
+I will put my spirit within you and make you live by my statutes,  
+careful to observe my decrees.  
+You shall live in the land I gave your fathers;  
+you shall be my people, and I will be your God.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 42:3, 5; 43:3, 4]{style="float:right" .small}
+:::
+
+[When baptism is celebrated.]{.red}
+
+**[℟.]{.red}** **Like a deer that longs for running streams, my soul longs for you, my God.**  
+
+Athirst is my soul for God, the living God.  
+When shall I go and behold the face of God? **[℟.]{.red}**  
+
+I went with the throng  
+and led them in procession to the house of God,  
+Amid loud cries of joy and thanksgiving,  
+with the multitude keeping festival. **[℟.]{.red}**  
+
+Send forth your light and your fidelity;  
+they shall lead me on  
+And bring me to your holy mountain,  
+to your dwelling-place. **[℟.]{.red}**  
+
+Then will I go in to the altar of God,  
+the God of my gladness and joy;  
+then will I give you thanks upon the harp,  
+O God, my God! **[℟.]{.red}**  
+
+[Or:]{.red} [Isaiah 12:2-3, 4bcd, 5-6]{style="float:right" .small .red}
+
+[When baptism is not celebrated, if not used previously:]{.red}
+
+**[℟.]{.red}** **You will draw water joyfully from the springs of salvation.**  
+
+God indeed is my savior;  
+I am confident and unafraid.  
+My strength and my courage is the LORD,  
+and he has been my savior.  
+With joy you will draw water  
+at the fountain of salvation. **[℟.]{.red}**  
+
+Give thanks to the LORD, acclaim his name;  
+among the nations make known his deeds,  
+proclaim how exalted is his name. **[℟.]{.red}**  
+
+Sing praise to the LORD for his glorious achievement;  
+let this be known throughout all the earth.  
+Shout with exultation, O city of Zion,  
+for great in your midst  
+is the Holy One of Israel! **[℟.]{.red}**  
+
+[Or:]{.red} [Psalm 51:12-13, 14-15, 18-19]{style="float:right" .small .red}
+
+[When baptism is not celebrated.]{.red}
+
+**[℟.]{.red}** **Create a clean heart in me, O God.**  
+
+A clean heart create for me, O God,  
+and a steadfast spirit renew within me.  
+Cast me not out from your presence,  
+and your Holy Spirit take not from me. **[℟.]{.red}**  
+
+Give me back the joy of your salvation,  
+and a willing spirit sustain in me.  
+I will teach transgressors your ways,  
+and sinners shall return to you. **[℟.]{.red}**  
+
+For you are not pleased with sacrifices;  
+should I offer a holocaust, you would not accept it.  
+My sacrifice, O God, is a contrite spirit;  
+a heart contrite and humbled, O God, you will not spurn. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Epistle [Romans 6:3-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Are you unaware that we who were baptized into Christ Jesus  
+were baptized into his death?  
+We were indeed buried with him through baptism into death,  
+so that, just as Christ was raised from the dead  
+by the glory of the Father,  
+we too might live in newness of life.  
+
+For if we have grown into union with him through a death like his,  
+we shall also be united with him in the resurrection.  
+We know that our old self was crucified with him,  
+so that our sinful body might be done away with,  
+that we might no longer be in slavery to sin.  
+For a dead person has been absolved from sin.  
+If, then, we have died with Christ,  
+we believe that we shall also live with him.  
+We know that Christ, raised from the dead, dies no more;  
+death no longer has power over him.  
+As to his death, he died to sin once and for all;  
+as to his life, he lives for God.  
+Consequently, you too must think of yourselves as being dead to sin  
+and living for God in Christ Jesus.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 118:1-2, 16-17, 22-23]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia, alleluia.**  
+
+Give thanks to the LORD, for he is good,  
+for his mercy endures forever.  
+Let the house of Israel say,  
+“His mercy endures forever.” **[℟.]{.red}**  
+
+The right hand of the LORD has struck with power;  
+the right hand of the LORD is exalted.  
+I shall not die, but live,  
+and declare the works of the LORD. **[℟.]{.red}**  
+
+The stone the builders rejected  
+has become the cornerstone.  
+By the LORD has this been done;  
+it is wonderful in our eyes. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel | Year A [Matthew 28:1-10]{style="float:right" .small}
+:::
+
+After the sabbath, as the first day of the week was dawning,  
+Mary Magdalene and the other Mary came to see the tomb.  
+And behold, there was a great earthquake;  
+for an angel of the Lord descended from heaven,  
+approached, rolled back the stone, and sat upon it.  
+His appearance was like lightning  
+and his clothing was white as snow.  
+The guards were shaken with fear of him  
+and became like dead men.  
+Then the angel said to the women in reply,  
+“Do not be afraid!  
+I know that you are seeking Jesus the crucified.  
+He is not here, for he has been raised just as he said.  
+Come and see the place where he lay.  
+Then go quickly and tell his disciples,  
+‘He has been raised from the dead,  
+and he is going before you to Galilee;  
+there you will see him.’  
+Behold, I have told you.”  
+Then they went away quickly from the tomb,  
+fearful yet overjoyed,  
+and ran to announce this to his disciples.  
+And behold, Jesus met them on their way and greeted them.  
+They approached, embraced his feet, and did him homage.  
+Then Jesus said to them, “Do not be afraid.  
+Go tell my brothers to go to Galilee,  
+and there they will see me.”  
+
+::: {.red}
+#### Gospel | Year B [Mark 16:1-7]{style="float:right" .small}
+:::
+
+When the sabbath was over,  
+Mary Magdalene, Mary, the mother of James, and Salome  
+bought spices so that they might go and anoint him.  
+Very early when the sun had risen,  
+on the first day of the week, they came to the tomb.  
+They were saying to one another,  
+“Who will roll back the stone for us  
+from the entrance to the tomb?”  
+When they looked up,  
+they saw that the stone had been rolled back;  
+it was very large.  
+On entering the tomb they saw a young man  
+sitting on the right side, clothed in a white robe,  
+and they were utterly amazed.  
+He said to them, “Do not be amazed!  
+You seek Jesus of Nazareth, the crucified.  
+He has been raised; he is not here.  
+Behold the place where they laid him.  
+But go and tell his disciples and Peter,   
+‘He is going before you to Galilee;  
+there you will see him, as he told you.’”  
+
+::: {.red}
+#### Gospel | Year C [Luke 24:1-12]{style="float:right" .small}
+:::
+
+At daybreak on the first day of the week  
+the women who had come from Galilee with Jesus  
+took the spices they had prepared  
+and went to the tomb.  
+They found the stone rolled away from the tomb;  
+but when they entered,  
+they did not find the body of the Lord Jesus.  
+While they were puzzling over this, behold,  
+two men in dazzling garments appeared to them.  
+They were terrified and bowed their faces to the ground.  
+They said to them,  
+“Why do you seek the living one among the dead?  
+He is not here, but he has been raised.  
+Remember what he said to you while he was still in Galilee,  
+that the Son of Man must be handed over to sinners  
+and be crucified, and rise on the third day.”  
+And they remembered his words.  
+Then they returned from the tomb  
+and announced all these things to the eleven  
+and to all the others.  
+The women were Mary Magdalene, Joanna, and Mary the mother of James;  
+the others who accompanied them also told this to the apostles,  
+but their story seemed like nonsense  
+and they did not believe them.  
+But Peter got up and ran to the tomb,  
+bent down, and saw the burial cloths alone;  
+then he went home amazed at what had happened.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::

@@ -167,6 +167,513 @@ Word/Eucharist, fulfillment, joy, hope, revelation, scripture, path of life, glo
 > Jesus said to his disciples: Come and eat.  
 > And he took bread and gave it to them, alleluia.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Acts 2:14, 22-33]{style="float:right" .small}
+:::
+
+Then Peter stood up with the Eleven,  
+raised his voice, and proclaimed:  
+"You who are Jews, indeed all of you staying in Jerusalem.  
+Let this be known to you, and listen to my words.  
+You who are Israelites, hear these words.  
+Jesus the Nazarene was a man commended to you by God  
+with mighty deeds, wonders, and signs,  
+which God worked through him in your midst, as you yourselves know.  
+This man, delivered up by the set plan and foreknowledge of God,  
+you killed, using lawless men to crucify him.  
+But God raised him up, releasing him from the throes of death,  
+because it was impossible for him to be held by it.  
+For David says of him:  
+*I saw the Lord ever before me,*  
+*with him at my right hand I shall not be disturbed.*  
+*Therefore my heart has been glad and my tongue has exulted;*  
+*my flesh, too, will dwell in hope,*  
+*because you will not abandon my soul to the netherworld,*  
+*nor will you suffer your holy one to see corruption.*  
+*You have made known to me the paths of life;*  
+*you will fill me with joy in your presence.*  
+
+"My brothers, one can confidently say to you  
+about the patriarch David that he died and was buried,  
+and his tomb is in our midst to this day.  
+But since he was a prophet and knew that God had sworn an oath to him  
+that he would set one of his descendants upon his throne,  
+he foresaw and spoke of the resurrection of the Christ,  
+that neither was he abandoned to the netherworld  
+nor did his flesh see corruption.  
+God raised this Jesus;  
+of this we are all witnesses.  
+Exalted at the right hand of God,  
+he received the promise of the Holy Spirit from the Father  
+and poured him forth, as you see and hear."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 16:1-2, 5, 7-8, 9-10, 11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, you will show us the path of life.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+Keep me, O God, for in you I take refuge;  
+I say to the LORD, "My Lord are you."  
+O LORD, my allotted portion and my cup,  
+you it is who hold fast my lot. **[℟.]{.red}**  
+
+I bless the LORD who counsels me;  
+even in the night my heart exhorts me.  
+I set the LORD ever before me;  
+with him at my right hand I shall not be disturbed. **[℟.]{.red}**  
+
+Therefore my heart is glad and my soul rejoices,  
+my body, too, abides in confidence;  
+because you will not abandon my soul to the netherworld,  
+nor will you suffer your faithful one to undergo corruption. **[℟.]{.red}**  
+
+You will show me the path to life,  
+abounding joy in your presence,  
+the delights at your right hand forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Peter 1:17-21]{style="float:right" .small}
+:::
+
+Beloved:  
+If you invoke as Father him who judges impartially  
+according to each one's works,  
+conduct yourselves with reverence during the time of your sojourning,  
+realizing that you were ransomed from your futile conduct,  
+handed on by your ancestors,  
+not with perishable things like silver or gold  
+but with the precious blood of Christ  
+as of a spotless unblemished lamb.  
+
+He was known before the foundation of the world  
+but revealed in the final time for you,  
+who through him believe in God  
+who raised him from the dead and gave him glory,  
+so that your faith and hope are in God.  
+
+***
+
+::: {.red}
+#### Alleluia [Cf. Luke 24:32]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Lord Jesus, open the Scriptures to us;  
+make our hearts burn while you speak to us. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [Luke 24:13-35]{style="float:right" .small}
+:::
+
+That very day, the first day of the week,  
+two of Jesus' disciples were going  
+to a village seven miles from Jerusalem called Emmaus,  
+and they were conversing about all the things that had occurred.  
+And it happened that while they were conversing and debating,  
+Jesus himself drew near and walked with them,  
+but their eyes were prevented from recognizing him.  
+He asked them,   
+"What are you discussing as you walk along?"  
+They stopped, looking downcast.  
+One of them, named Cleopas, said to him in reply,  
+"Are you the only visitor to Jerusalem  
+who does not know of the things  
+that have taken place there in these days?"  
+And he replied to them, "What sort of things?"  
+They said to him,  
+"The things that happened to Jesus the Nazarene,  
+who was a prophet mighty in deed and word  
+before God and all the people,  
+how our chief priests and rulers both handed him over  
+to a sentence of death and crucified him.  
+But we were hoping that he would be the one to redeem Israel;  
+and besides all this,  
+it is now the third day since this took place.  
+Some women from our group, however, have astounded us:  
+they were at the tomb early in the morning  
+and did not find his body;  
+they came back and reported  
+that they had indeed seen a vision of angels  
+who announced that he was alive.  
+Then some of those with us went to the tomb  
+and found things just as the women had described,  
+but him they did not see."  
+And he said to them, "Oh, how foolish you are!  
+How slow of heart to believe all that the prophets spoke!  
+Was it not necessary that the Christ should suffer these things  
+and enter into his glory?"  
+Then beginning with Moses and all the prophets,  
+he interpreted to them what referred to him  
+in all the Scriptures.  
+As they approached the village to which they were going,  
+he gave the impression that he was going on farther.  
+But they urged him, "Stay with us,  
+for it is nearly evening and the day is almost over."  
+So he went in to stay with them.  
+And it happened that, while he was with them at table,  
+he took bread, said the blessing,  
+broke it, and gave it to them.  
+With that their eyes were opened and they recognized him,  
+but he vanished from their sight.  
+Then they said to each other,  
+"Were not our hearts burning within us  
+while he spoke to us on the way and opened the Scriptures to us?"  
+So they set out at once and returned to Jerusalem  
+where they found gathered together  
+the eleven and those with them who were saying,  
+"The Lord has truly been raised and has appeared to Simon!"  
+Then the two recounted  
+what had taken place on the way  
+and how he was made known to them in the breaking of bread.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Acts 3:13-15, 17-19]{style="float:right" .small}
+:::
+
+Peter said to the people:  
+"The God of Abraham,  
+the God of Isaac, and the God of Jacob,  
+the God of our fathers, has glorified his servant Jesus,  
+whom you handed over and denied in Pilate's presence  
+when he had decided to release him.  
+You denied the Holy and Righteous One  
+and asked that a murderer be released to you.  
+The author of life you put to death,  
+but God raised him from the dead; of this we are witnesses.  
+Now I know, brothers,  
+that you acted out of ignorance, just as your leaders did;  
+but God has thus brought to fulfillment  
+what he had announced beforehand  
+through the mouth of all the prophets,  
+that his Christ would suffer.  
+Repent, therefore, and be converted, that your sins may be wiped away."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 4:2, 4, 7-8, 9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, let your face shine on us.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+When I call, answer me, O my just God,  
+you who relieve me when I am in distress;  
+have pity on me, and hear my prayer! **[℟.]{.red}**  
+
+Know that the LORD does wonders for his faithful one;  
+the LORD will hear me when I call upon him. **[℟.]{.red}**  
+
+O LORD, let the light of your countenance shine upon us!  
+You put gladness into my heart. **[℟.]{.red}**  
+
+As soon as I lie down, I fall peacefully asleep,  
+for you alone, O LORD,  
+bring security to my dwelling. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 John 2:1-5a]{style="float:right" .small}
+:::
+
+My children, I am writing this to you  
+so that you may not commit sin.  
+But if anyone does sin, we have an Advocate with the Father,  
+Jesus Christ the righteous one.  
+He is expiation for our sins,  
+and not for our sins only but for those of the whole world.  
+The way we may be sure that we know him is to keep  
+his commandments.  
+Those who say, "I know him," but do not keep his commandments  
+are liars, and the truth is not in them.  
+But whoever keeps his word,  
+the love of God is truly perfected in him.  
+
+***
+
+::: {.red}
+#### Alleluia [Cf. Luke 24:32]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Lord Jesus, open the Scriptures to us;  
+make our hearts burn while you speak to us. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 24:35-48]{style="float:right" .small}
+:::
+
+The two disciples recounted what had taken place on the way,  
+and how Jesus was made known to them  
+in the breaking of bread.  
+
+While they were still speaking about this,  
+he stood in their midst and said to them,  
+"Peace be with you."  
+But they were startled and terrified  
+and thought that they were seeing a ghost.  
+Then he said to them, "Why are you troubled?  
+And why do questions arise in your hearts?  
+Look at my hands and my feet, that it is I myself.  
+Touch me and see, because a ghost does not have flesh and bones  
+as you can see I have."  
+And as he said this,  
+he showed them his hands and his feet.  
+While they were still incredulous for joy and were amazed,  
+he asked them, "Have you anything here to eat?"  
+They gave him a piece of baked fish;  
+he took it and ate it in front of them.  
+
+He said to them,  
+"These are my words that I spoke to you while I was still with you,  
+that everything written about me in the law of Moses  
+and in the prophets and psalms must be fulfilled."  
+Then he opened their minds to understand the Scriptures.  
+And he said to them,  
+"Thus it is written that the Christ would suffer  
+and rise from the dead on the third day  
+and that repentance, for the forgiveness of sins,  
+would be preached in his name  
+to all the nations, beginning from Jerusalem.  
+You are witnesses of these things."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Acts 5:27-32, 40b-41]{style="float:right" .small}
+:::
+
+When the captain and the court officers had brought the apostles in  
+and made them stand before the Sanhedrin,  
+the high priest questioned them,  
+“We gave you strict orders, did we not,  
+to stop teaching in that name?  
+Yet you have filled Jerusalem with your teaching  
+and want to bring this man’s blood upon us.”  
+But Peter and the apostles said in reply,  
+“We must obey God rather than men.  
+The God of our ancestors raised Jesus,  
+though you had him killed by hanging him on a tree.  
+God exalted him at his right hand as leader and savior  
+to grant Israel repentance and forgiveness of sins.  
+We are witnesses of these things,  
+as is the Holy Spirit whom God has given to those who obey him.”  
+
+The Sanhedrin ordered the apostles  
+to stop speaking in the name of Jesus, and dismissed them.  
+So they left the presence of the Sanhedrin,  
+rejoicing that they had been found worthy  
+to suffer dishonor for the sake of the name.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 30:2, 4, 5-6, 11-12, 13]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will praise you, Lord, for you have rescued me.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**
+
+I will extol you, O LORD, for you drew me clear  
+&emsp; and did not let my enemies rejoice over me.  
+O LORD, you brought me up from the netherworld;  
+&emsp; you preserved me from among those going down into the pit. **[℟.]{.red}**  
+
+Sing praise to the LORD, you his faithful ones,  
+&emsp; and give thanks to his holy name.  
+For his anger lasts but a moment;  
+&emsp; a lifetime, his good will.  
+At nightfall, weeping enters in,  
+&emsp; but with the dawn, rejoicing. **[℟.]{.red}**  
+
+Hear, O LORD, and have pity on me;  
+&emsp; O LORD, be my helper.  
+You changed my mourning into dancing;  
+&emsp; O LORD, my God, forever will I give you thanks. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Revelation 5:11-14]{style="float:right" .small}
+:::
+
+I, John, looked and heard the voices of many angels  
+who surrounded the throne  
+and the living creatures and the elders.  
+They were countless in number, and they cried out in a loud voice:  
+&emsp; “Worthy is the Lamb that was slain  
+&emsp; &emsp; to receive power and riches, wisdom and strength,  
+&emsp; &emsp; honor and glory and blessing.”  
+Then I heard every creature in heaven and on earth  
+and under the earth and in the sea,  
+everything in the universe, cry out:  
+&emsp; “To the one who sits on the throne and to the Lamb  
+&emsp; &emsp; be blessing and honor, glory and might,  
+&emsp; &emsp; forever and ever.”  
+The four living creatures answered, “Amen,“  
+and the elders fell down and worshiped.  
+
+***
+
+::: {.red}
+#### Alleluia [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Christ is risen, creator of all;  
+he has shown pity on all people. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [John 21:1-19 or 21:1-14]{style="float:right" .small}
+:::
+
+At that time, Jesus revealed himself again to his disciples at the Sea of Tiberias.  
+He revealed himself in this way.  
+Together were Simon Peter, Thomas called Didymus,  
+Nathanael from Cana in Galilee,  
+Zebedee’s sons, and two others of his disciples.  
+Simon Peter said to them, “I am going fishing.”  
+They said to him, “We also will come with you.”  
+So they went out and got into the boat,  
+but that night they caught nothing.  
+When it was already dawn, Jesus was standing on the shore;  
+but the disciples did not realize that it was Jesus.  
+Jesus said to them, “Children, have you caught anything to eat?”  
+They answered him, “No.”  
+So he said to them, “Cast the net over the right side of the boat  
+and you will find something.”  
+So they cast it, and were not able to pull it in  
+because of the number of fish.  
+So the disciple whom Jesus loved said to Peter, “It is the Lord.”  
+When Simon Peter heard that it was the Lord,  
+he tucked in his garment, for he was lightly clad,  
+and jumped into the sea.  
+The other disciples came in the boat,  
+for they were not far from shore, only about a hundred yards,  
+dragging the net with the fish.  
+When they climbed out on shore,  
+they saw a charcoal fire with fish on it and bread.  
+Jesus said to them, “Bring some of the fish you just caught.”  
+So Simon Peter went over and dragged the net ashore  
+full of one hundred fifty-three large fish.  
+Even though there were so many, the net was not torn.  
+Jesus said to them, “Come, have breakfast.”  
+And none of the disciples dared to ask him, “Who are you?”  
+because they realized it was the Lord.  
+Jesus came over and took the bread and gave it to them,  
+and in like manner the fish.  
+This was now the third time Jesus was revealed to his disciples  
+after being raised from the dead.  
+
+When they had finished breakfast, Jesus said to Simon Peter,  
+“Simon, son of John, do you love me more than these?”  
+Simon Peter answered him, “Yes, Lord, you know that I love you.”  
+Jesus said to him, “Feed my lambs.”  
+He then said to Simon Peter a second time,  
+“Simon, son of John, do you love me?”  
+Simon Peter answered him, “Yes, Lord, you know that I love you.”  
+Jesus said to him, “Tend my sheep.”  
+Jesus said to him the third time,  
+“Simon, son of John, do you love me?”  
+Peter was distressed that Jesus had said to him a third time,  
+“Do you love me?” and he said to him,  
+“Lord, you know everything; you know that I love you.”  
+Jesus said to him, “Feed my sheep.  
+Amen, amen, I say to you, when you were younger,  
+you used to dress yourself and go where you wanted;  
+but when you grow old, you will stretch out your hands,  
+and someone else will dress you  
+and lead you where you do not want to go.”  
+He said this signifying by what kind of death he would glorify God.  
+And when he had said this, he said to him, “Follow me.”  
+
+[Or:]{.red}
+
+At that time, Jesus revealed himself to his disciples at the Sea of Tiberias.  
+He revealed himself in this way.  
+Together were Simon Peter, Thomas called Didymus,  
+Nathanael from Cana in Galilee,  
+Zebedee’s sons, and two others of his disciples.  
+Simon Peter said to them, “I am going fishing.”  
+They said to him, “We also will come with you.”  
+So they went out and got into the boat,  
+but that night they caught nothing.  
+When it was already dawn, Jesus was standing on the shore;  
+but the disciples did not realize that it was Jesus.  
+Jesus said to them, “Children, have you caught anything to eat?”  
+They answered him, “No.”  
+So he said to them, “Cast the net over the right side of the boat  
+and you will find something.”  
+So they cast it, and were not able to pull it in  
+because of the number of fish.  
+So the disciple whom Jesus loved said to Peter, “It is the Lord.”  
+When Simon Peter heard that it was the Lord,  
+he tucked in his garment, for he was lightly clad,  
+and jumped into the sea.  
+The other disciples came in the boat,  
+for they were not far from shore, only about a hundred yards,  
+dragging the net with the fish.  
+When they climbed out on shore,  
+they saw a charcoal fire with fish on it and bread.  
+Jesus said to them, “Bring some of the fish you just caught.”  
+So Simon Peter went over and dragged the net ashore  
+full of one hundred fifty-three large fish.  
+Even though there were so many, the net was not torn.  
+Jesus said to them, “Come, have breakfast.”  
+And none of the disciples dared to ask him, “Who are you?”  
+because they realized it was the Lord.  
+Jesus came over and took the bread and gave it to them,  
+and in like manner the fish.  
+This was now the third time Jesus was revealed to his disciples  
+after being raised from the dead.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
