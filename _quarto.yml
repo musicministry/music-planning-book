@@ -48,18 +48,18 @@ book:
           href: content/ordinary-time/ot02.qmd
         - text: "Third Sunday"
           href: content/ordinary-time/ot03.qmd
-        # - text: "Fourth Sunday"
-        #   href: content/ordinary-time/ot04.qmd
-        # - text: "Fifth Sunday"
-        #   href: content/ordinary-time/ot05.qmd
-        # - text: "Sixth Sunday"
-        #   href: content/ordinary-time/ot06.qmd
-        # - text: "Seventh Sunday"
-        #   href: content/ordinary-time/ot07.qmd
-        # - text: "Eighth Sunday"
-        #   href: content/ordinary-time/ot08.qmd
-        # - text: "Ninth Sunday"
-        #   href: content/ordinary-time/ot09.qmd
+        - text: "Fourth Sunday"
+          href: content/ordinary-time/ot04.qmd
+        - text: "Fifth Sunday"
+          href: content/ordinary-time/ot05.qmd
+        - text: "Sixth Sunday"
+          href: content/ordinary-time/ot06.qmd
+        - text: "Seventh Sunday"
+          href: content/ordinary-time/ot07.qmd
+        - text: "Eighth Sunday"
+          href: content/ordinary-time/ot08.qmd
+        - text: "Ninth Sunday"
+          href: content/ordinary-time/ot09.qmd
     - part: content/lent/lent.qmd
       chapters:
         - content/lent/ash-wed.qmd
@@ -102,62 +102,66 @@ book:
           href: content/easter/easter07.qmd
         - text: "Pentecost Vigil"
           href: content/easter/pentecost-vigil.qmd
+        - text: "Pentecost Extended Vigil"
+          href: content/easter/pentecost-vigil-extended.qmd
         - text: "Pentecost Sunday"
           href: content/easter/pentecost.qmd
     - part: content/ordinary-time/ot-summer.qmd
-      # chapters:
-      #   - text: "Tenth Sunday"
-      #     href: content/ordinary-time/ot10.qmd
-      #   - text: "Eleventh Sunday"
-      #     href: content/ordinary-time/ot11.qmd
-      #   - text: "Twelfth Sunday"
-      #     href: content/ordinary-time/ot12.qmd
-      #   - text: "Thirteenth Sunday"
-      #     href: content/ordinary-time/ot13.qmd
-      #   - text: "Fourteenth Sunday"
-      #     href: content/ordinary-time/ot14.qmd
-      #   - text: "Fifteenth Sunday"
-      #     href: content/ordinary-time/ot15.qmd
-      #   - text: "Sixteenth Sunday"
-      #     href: content/ordinary-time/ot16.qmd
-      #   - text: "Seventeenth Sunday"
-      #     href: content/ordinary-time/ot17.qmd
-      #   - text: "Eighteenth Sunday"
-      #     href: content/ordinary-time/ot18.qmd
-      #   - text: "Nineteenth Sunday"
-      #     href: content/ordinary-time/ot19.qmd
-      #   - text: "Twentieth Sunday"
-      #     href: content/ordinary-time/ot20.qmd
-      #   - text: "Twenty-First Sunday"
-      #     href: content/ordinary-time/ot21.qmd
-      #   - text: "Twenty-Second Sunday"
-      #     href: content/ordinary-time/ot22.qmd
-      #   - text: "Twenty-Third Sunday"
-      #     href: content/ordinary-time/ot23.qmd
-      #   - text: "Twenty-Fourth Sunday"
-      #     href: content/ordinary-time/ot24.qmd
-      #   - text: "Twenty-Fifth Sunday"
-      #     href: content/ordinary-time/ot25.qmd
-      #   - text: "Twenty-Sixth Sunday"
-      #     href: content/ordinary-time/ot26.qmd
-      #   - text: "Twenty-Seventh Sunday"
-      #     href: content/ordinary-time/ot27.qmd
-      #   - text: "Twenty-Eighth Sunday"
-      #     href: content/ordinary-time/ot28.qmd
-      #   - text: "Twenty-Ninth Sunday"
-      #     href: content/ordinary-time/ot29.qmd
-      #   - text: "Thirtieth Sunday"
-      #     href: content/ordinary-time/ot30.qmd
-      #   - text: "Thirty-First Sunday"
-      #     href: content/oordinary-timet/ot31.qmd
-      #   - text: "Thirty-Second Sunday"
-      #     href: content/ordinary-time/ot32.qmd
-      #   - text: "Thirty-Third Sunday"
-      #     href: content/ordinary-time/ot33.qmd
-      #   - text: "Christ the King"
-      #     href: content/ordinary-time/christ-the-king.qmd
-      #   - text: "Thanksgiving"
-      #     href: content/ordinary-time/thanksgiving.qmd
+      chapters:
+        - text: "Tenth Sunday"
+          href: content/ordinary-time/ot10.qmd
+        - text: "Eleventh Sunday"
+          href: content/ordinary-time/ot11.qmd
+        - text: "Twelfth Sunday"
+          href: content/ordinary-time/ot12.qmd
+        - text: "Thirteenth Sunday"
+          href: content/ordinary-time/ot13.qmd
+        - text: "Fourteenth Sunday"
+          href: content/ordinary-time/ot14.qmd
+        - text: "Fifteenth Sunday"
+          href: content/ordinary-time/ot15.qmd
+        - text: "Sixteenth Sunday"
+          href: content/ordinary-time/ot16.qmd
+        - text: "Seventeenth Sunday"
+          href: content/ordinary-time/ot17.qmd
+        - text: "Eighteenth Sunday"
+          href: content/ordinary-time/ot18.qmd
+        - text: "Nineteenth Sunday"
+          href: content/ordinary-time/ot19.qmd
+        - text: "Twentieth Sunday"
+          href: content/ordinary-time/ot20.qmd
+        - text: "Twenty-First Sunday"
+          href: content/ordinary-time/ot21.qmd
+        - text: "Twenty-Second Sunday"
+          href: content/ordinary-time/ot22.qmd
+        - text: "Twenty-Third Sunday"
+          href: content/ordinary-time/ot23.qmd
+        - text: "Twenty-Fourth Sunday"
+          href: content/ordinary-time/ot24.qmd
+        - text: "Twenty-Fifth Sunday"
+          href: content/ordinary-time/ot25.qmd
+        - text: "Twenty-Sixth Sunday"
+          href: content/ordinary-time/ot26.qmd
+        - text: "Twenty-Seventh Sunday"
+          href: content/ordinary-time/ot27.qmd
+        - text: "Twenty-Eighth Sunday"
+          href: content/ordinary-time/ot28.qmd
+        - text: "Twenty-Ninth Sunday"
+          href: content/ordinary-time/ot29.qmd
+        - text: "Thirtieth Sunday"
+          href: content/ordinary-time/ot30.qmd
+        - text: "Thirty-First Sunday"
+          href: content/ordinary-time/ot31.qmd
+        - text: "Thirty-Second Sunday"
+          href: content/ordinary-time/ot32.qmd
+        - text: "Thirty-Third Sunday"
+          href: content/ordinary-time/ot33.qmd
+        - text: "Christ the King: Prior to Thanksgiving"
+          href: content/ordinary-time/christ-the-king-before-thanksgiving.qmd
+        - text: "Christ the King: After Thanksgiving"
+          href: content/ordinary-time/christ-the-king-after-thanksgiving.qmd
+        - text: "Thanksgiving"
+          href: content/ordinary-time/thanksgiving.qmd
     - part: content/feasts/feasts.qmd
       chapters:
         - text: "December 8: Immaculate Conception"
@@ -223,7 +227,7 @@ book:
   page-navigation: true
   page-footer: 
     background: light
-    left: "Copyright 2025, Matthew D. Grossi" 
+    left: "Copyright 2025, Matthew D. Grossi"
     right:
       - icon: github
         href: https://github.com/
