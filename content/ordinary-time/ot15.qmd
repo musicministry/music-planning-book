@@ -1,0 +1,674 @@
+---
+title: "FIFTEENTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Come to the Feast"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The seed that falls on good ground will yield a fruitful harvest."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Seed, Scattered and Sown"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Unless A Grain of Wheat"
+          composer: Farrell
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Give Me Ears to Listen"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Take the Word of God with You"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, let us see your kindness, and grant us
+your salvation."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "How Lovely Is Your Dwelling Place"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Eat This Bread"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "Lord, You Give the Great Commission"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "Immortal, Invisible, God Only Wise"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The precepts of the Lord give joy to the heart."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Whatsoever You Do"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Take and Eat"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "How Lovely Is Your Dwelling Place"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lord, to Whom Shall We Go"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} word of God, providence, harvest, resurrection,
+children of God  
+[Year B:]{.red} mission, discipleship, chosen people, healing, Word,
+vocation  
+[Year C:]{.red} salvation, love, protection, social concern, creation  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> As for me, in justice I shall behold your face;  
+> I shall be filled with the vision of your glory.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The sparrow finds a home,  
+> and the swallow a nest for her young:  
+> by your altars, O Lord of hosts, my King and my God.  
+> Blessed are they who dwell in your house,  
+> for ever singing your praise.  
+> 
+> Or:  
+> 
+> Whoever eats my flesh and drinks my blood  
+> remains in me and I in him, says the Lord.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 55:10-11]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+Just as from the heavens  
+the rain and snow come down  
+and do not return there  
+till they have watered the earth,  
+making it fertile and fruitful,  
+giving seed to the one who sows  
+and bread to the one who eats,  
+so shall my word be  
+that goes forth from my mouth;  
+my word shall not return to me void,  
+but shall do my will,  
+achieving the end for which I sent it.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 65:10, 11, 12-13, 14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The seed that falls on good ground will yield a fruitful harvest.**  
+
+You have visited the land and watered it;  
+greatly have you enriched it.  
+God's watercourses are filled;  
+you have prepared the grain. **[℟.]{.red}**  
+
+Thus have you prepared the land: drenching its furrows,  
+breaking up its clods,  
+Softening it with showers,  
+blessing its yield. **[℟.]{.red}**  
+
+You have crowned the year with your bounty,  
+and your paths overflow with a rich harvest;  
+The untilled meadows overflow with it,  
+and rejoicing clothes the hills. **[℟.]{.red}**  
+
+The fields are garmented with flocks  
+and the valleys blanketed with grain.  
+They shout and sing for joy. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 8:18-23]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+I consider that the sufferings of this present time are as nothing  
+compared with the glory to be revealed for us.  
+For creation awaits with eager expectation  
+the revelation of the children of God;  
+for creation was made subject to futility,  
+not of its own accord but because of the one who subjected it,  
+in hope that creation itself  
+would be set free from slavery to corruption  
+and share in the glorious freedom of the children of God.  
+We know that all creation is groaning in labor pains even until now;  
+and not only that, but we ourselves,  
+who have the firstfruits of the Spirit,  
+we also groan within ourselves  
+as we wait for adoption, the redemption of our bodies.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [See Luke 8:11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The seed is the word of God, Christ is the sower.  
+All who come to him will have life forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 13:1-23 or 13:1-9]{style="float:right" .small}
+:::
+
+On that day, Jesus went out of the house and sat down by the sea.  
+Such large crowds gathered around him  
+that he got into a boat and sat down,  
+and the whole crowd stood along the shore.  
+And he spoke to them at length in parables, saying:  
+"A sower went out to sow.  
+And as he sowed, some seed fell on the path,  
+and birds came and ate it up.  
+Some fell on rocky ground, where it had little soil.  
+It sprang up at once because the soil was not deep,  
+and when the sun rose it was scorched,  
+and it withered for lack of roots.  
+Some seed fell among thorns, and the thorns grew up and choked it.  
+But some seed fell on rich soil, and produced fruit,  
+a hundred or sixty or thirtyfold.  
+Whoever has ears ought to hear."  
+
+The disciples approached him and said,  
+"Why do you speak to them in parables?"  
+He said to them in reply,  
+"Because knowledge of the mysteries of the kingdom of heaven  
+has been granted to you, but to them it has not been granted.  
+To anyone who has, more will be given and he will grow rich;  
+from anyone who has not, even what he has will be taken away.  
+This is why I speak to them in parables, because  
+they look but do not see and hear but do not listen or understand.  
+Isaiah's prophecy is fulfilled in them, which says:  
+You shall indeed hear but not understand,  
+you shall indeed look but never see.  
+Gross is the heart of this people,  
+they will hardly hear with their ears,  
+they have closed their eyes,  
+lest they see with their eyes  
+and hear with their ears  
+and understand with their hearts and be converted,  
+and I heal them.  
+
+"But blessed are your eyes, because they see,  
+and your ears, because they hear.  
+Amen, I say to you, many prophets and righteous people  
+longed to see what you see but did not see it,  
+and to hear what you hear but did not hear it.  
+
+"Hear then the parable of the sower.  
+The seed sown on the path is the one  
+who hears the word of the kingdom without understanding it,  
+and the evil one comes and steals away  
+what was sown in his heart.  
+The seed sown on rocky ground  
+is the one who hears the word and receives it at once with joy.  
+But he has no root and lasts only for a time.  
+When some tribulation or persecution comes because of the word,  
+he immediately falls away.  
+The seed sown among thorns is the one who hears the word,  
+but then worldly anxiety and the lure of riches choke the word  
+and it bears no fruit.  
+But the seed sown on rich soil  
+is the one who hears the word and understands it,  
+who indeed bears fruit and yields a hundred or sixty or thirtyfold."   
+
+[Or:]{.red}  
+
+On that day, Jesus went out of the house and sat down by the sea.  
+Such large crowds gathered around him  
+that he got into a boat and sat down,  
+and the whole crowd stood along the shore.  
+And he spoke to them at length in parables, saying:  
+"A sower went out to sow.  
+And as he sowed, some seed fell on the path,  
+and birds came and ate it up.  
+Some fell on rocky ground, where it had little soil.  
+It sprang up at once because the soil was not deep,  
+and when the sun rose it was scorched,  
+and it withered for lack of roots.  
+Some seed fell among thorns, and the thorns grew up and choked it.  
+But some seed fell on rich soil and produced fruit,  
+a hundred or sixty or thirtyfold.  
+Whoever has ears ought to hear."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Amos 7:12-15]{style="float:right" .small}
+:::
+
+Amaziah, priest of Bethel, said to Amos,  
+“Off with you, visionary, flee to the land of Judah!  
+There earn your bread by prophesying,  
+but never again prophesy in Bethel;  
+for it is the king’s sanctuary and a royal temple.”  
+Amos answered Amaziah, “I was no prophet,  
+nor have I belonged to a company of prophets;  
+I was a shepherd and a dresser of sycamores.  
+The LORD took me from following the flock, and said to me,  
+Go, prophesy to my people Israel.”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 85:9-10, 11-12, 13-14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, let us see your kindness, and grant us your salvation.**  
+
+I will hear what God proclaims;  
+&emsp; the LORD —for he proclaims peace.  
+Near indeed is his salvation to those who fear him,  
+&emsp; glory dwelling in our land. **[℟.]{.red}**  
+
+Kindness and truth shall meet;  
+&emsp; justice and peace shall kiss.  
+Truth shall spring out of the earth,  
+&emsp; and justice shall look down from heaven. **[℟.]{.red}**  
+
+The LORD himself will give his benefits;  
+&emsp; our land shall yield its increase.  
+Justice shall walk before him,  
+&emsp; and prepare the way of his steps. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Eph 1:3-14 or 1:3-10]{style="float:right" .small}
+:::
+
+Blessed be the God and Father of our Lord Jesus Christ,  
+who has blessed us in Christ  
+with every spiritual blessing in the heavens,  
+as he chose us in him, before the foundation of the world,  
+to be holy and without blemish before him.  
+In love he destined us for adoption to himself through Jesus Christ,  
+in accord with the favor of his will,  
+for the praise of the glory of his grace  
+that he granted us in the beloved.  
+In him we have redemption by his blood,  
+the forgiveness of transgressions,  
+in accord with the riches of his grace that he lavished upon us.  
+In all wisdom and insight, he has made known to us  
+the mystery of his will in accord with his favor  
+that he set forth in him as a plan for the fullness of times,  
+to sum up all things in Christ, in heaven and on earth.  
+
+In him we were also chosen,  
+destined in accord with the purpose of the One  
+who accomplishes all things according to the intention of his will,  
+so that we might exist for the praise of his glory,  
+we who first hoped in Christ.   
+In him you also, who have heard the word of truth,  
+the gospel of your salvation, and have believed in him,  
+were sealed with the promised holy Spirit,  
+which is the first installment of our inheritance  
+toward redemption as God’s possession, to the praise of his glory.  
+
+[Or:]{.red}  
+
+Blessed be the God and Father of our Lord Jesus Christ,  
+who has blessed us in Christ  
+with every spiritual blessing in the heavens,  
+as he chose us in him, before the foundation of the world,  
+to be holy and without blemish before him.  
+In love he destined us for adoption to himself through Jesus Christ,  
+in accord with the favor of his will,  
+for the praise of the glory of God’s grace  
+that he granted us in the beloved.  
+
+In him we have redemption by his blood,  
+the forgiveness of transgressions,  
+in accord with the riches of his grace that he lavished upon us.  
+In all wisdom and insight, he has made known to us  
+the mystery of his will in accord with his favor  
+that he set forth in him as a plan for the fullness of times,  
+to sum up all things in Christ, in heaven and on earth.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. Ephesians 1:17-18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+May the Father of our Lord Jesus Christ enlighten the eyes of our hearts,  
+that we may know what is the hope that belongs to our call. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 6:7-13]{style="float:right" .small}
+:::
+
+Jesus summoned the Twelve and began to send them out two by two  
+and gave them authority over unclean spirits.  
+He instructed them to take nothing for the journey  
+but a walking stick—  
+no food, no sack, no money in their belts.  
+They were, however, to wear sandals  
+but not a second tunic.  
+He said to them,  
+“Wherever you enter a house, stay there until you leave.  
+Whatever place does not welcome you or listen to you,  
+leave there and shake the dust off your feet  
+in testimony against them.”  
+So they went off and preached repentance.  
+The Twelve drove out many demons,  
+and they anointed with oil many who were sick and cured them.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Deuteronomy 30:10-14]{style="float:right" .small}
+:::
+
+Moses said to the people:  
+"If only you would heed the voice of the LORD, your God,  
+and keep his commandments and statutes  
+that are written in this book of the law,  
+when you return to the LORD, your God,  
+with all your heart and all your soul.  
+
+"For this command that I enjoin on you today  
+is not too mysterious and remote for you.  
+It is not up in the sky, that you should say,  
+'Who will go up in the sky to get it for us  
+and tell us of it, that we may carry it out?'  
+Nor is it across the sea, that you should say,  
+'Who will cross the sea to get it for us  
+and tell us of it, that we may carry it out?'  
+No, it is something very near to you,  
+already in your mouths and in your hearts;  
+you have only to carry it out."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 69:14, 17, 30-31, 33-34, 36, 37]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Turn to the Lord in your need, and you will live.**  
+
+I pray to you, O LORD,  
+for the time of your favor, O God!  
+In your great kindness answer me  
+with your constant help.  
+Answer me, O LORD, for bounteous is your kindness:  
+in your great mercy turn toward me. **[℟.]{.red}**  
+
+I am afflicted and in pain;  
+let your saving help, O God, protect me.  
+I will praise the name of God in song,  
+and I will glorify him with thanksgiving. **[℟.]{.red}**  
+
+"See, you lowly ones, and be glad;  
+you who seek God, may your hearts revive!  
+For the LORD hears the poor,  
+and his own who are in bonds he spurns not." **[℟.]{.red}**  
+
+For God will save Zion  
+and rebuild the cities of Judah.  
+The descendants of his servants shall inherit it,  
+and those who love his name shall inhabit it. **[℟.]{.red}**  
+
+[Or:]{.red} [Psalm 19:8, 9, 10, 11]{style="float:right" .small .red}
+
+**[℟.]{.red}** **Your words, Lord, are Spirit and life.**  
+
+The law of the LORD is perfect,  
+refreshing the soul;  
+the decree of the LORD is trustworthy,  
+giving wisdom to the simple. **[℟.]{.red}**  
+
+The precepts of the LORD are right,  
+rejoicing the heart;  
+the command of the LORD is clear,  
+enlightening the eye. **[℟.]{.red}**  
+
+The fear of the LORD is pure,  
+enduring forever;  
+the ordinances of the LORD are true,  
+all of them just. **[℟.]{.red}**  
+
+They are more precious than gold,  
+than a heap of purest gold;  
+sweeter also than syrup  
+or honey from the comb. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Colossians 1:15-20]{style="float:right" .small}
+:::
+
+Christ Jesus is the image of the invisible God,  
+the firstborn of all creation.  
+For in him were created all things in heaven and on earth,  
+the visible and the invisible,  
+whether thrones or dominions or principalities or powers;  
+all things were created through him and for him.  
+He is before all things,  
+and in him all things hold together.  
+He is the head of the body, the church.  
+He is the beginning, the firstborn from the dead,  
+that in all things he himself might be preeminent.  
+For in him all the fullness was pleased to dwell,  
+and through him to reconcile all things for him,  
+making peace by the blood of his cross  
+through him, whether those on earth or those in heaven.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. John 6:63c, 68c]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Your words, Lord, are Spirit and life;  
+you have the words of everlasting life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 10:25-37]{style="float:right" .small}
+:::
+
+There was a scholar of the law who stood up to test Jesus and said,  
+"Teacher, what must I do to inherit eternal life?"  
+Jesus said to him, "What is written in the law?  
+How do you read it?"  
+He said in reply,  
+"*You shall love the Lord, your God,*  
+*with all your heart,*  
+*with all your being,*  
+*with all your strength,*  
+*and with all your mind,*  
+*and your neighbor as yourself.*"  
+He replied to him, "You have answered correctly;  
+do this and you will live."  
+
+But because he wished to justify himself, he said to Jesus,  
+"And who is my neighbor?"  
+Jesus replied,  
+"A man fell victim to robbers  
+as he went down from Jerusalem to Jericho.  
+They stripped and beat him and went off leaving him half-dead.  
+A priest happened to be going down that road,  
+but when he saw him, he passed by on the opposite side.  
+Likewise a Levite came to the place,  
+and when he saw him, he passed by on the opposite side.  
+But a Samaritan traveler who came upon him  
+was moved with compassion at the sight.  
+He approached the victim,  
+poured oil and wine over his wounds and bandaged them.  
+Then he lifted him up on his own animal,  
+took him to an inn, and cared for him.  
+The next day he took out two silver coins  
+and gave them to the innkeeper with the instruction,  
+'Take care of him.  
+If you spend more than what I have given you,  
+I shall repay you on my way back.'  
+Which of these three, in your opinion,  
+was neighbor to the robbers' victim?"  
+He answered, "The one who treated him with mercy."  
+Jesus said to him, "Go and do likewise."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

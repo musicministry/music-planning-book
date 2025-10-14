@@ -1,0 +1,579 @@
+---
+title: "EIGHTEENTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Come to the Feast"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The hand of the Lord feeds us; he answers all our needs."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Come to the Water"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Here At This Table"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Sing a Joyful Song"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Praise, My Soul, the King of Heaven"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord gave them bread from heaven."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Look Beyond"
+          book: BB
+          priority: optional
+        - name: "What Feast of Love"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "Eat This Bread"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Living Streams"
+          book: BB
+          note: 3x
+          priority: required
+    recessional:
+      list:
+        - name: "Guide Me, O Thou Great Redeemer"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "O God, Our Help in Ages Past"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "If today you hear his voice, harden not your hearts."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "In Every Age"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Bread for the World"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} Eucharist, providence of God, universal call to
+holiness, baptism, God’s goodness, heavenly banquet  
+[Year B:]{.red} strength from God, spiritual hunger, eternal life  
+[Year C:]{.red} humility, profound faith, renewal  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> O God, come to my assistance;  
+> O Lord, make haste to help me!  
+> You are my rescuer, my help;  
+> O Lord, do not delay.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> You have given us, O Lord, bread from heaven,  
+> endowed with all delights and sweetness in every taste.  
+> 
+> [Or:]{.red}  
+> 
+> I am the bread of life, says the Lord;  
+> whoever comes to me will not hunger  
+> and whoever believes in me will not thirst.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 55:1-3]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+All you who are thirsty,  
+come to the water!  
+You who have no money,  
+come, receive grain and eat;  
+Come, without paying and without cost,  
+drink wine and milk!  
+Why spend your money for what is not bread;  
+your wages for what fails to satisfy?  
+Heed me, and you shall eat well,  
+you shall delight in rich fare.  
+Come to me heedfully,  
+listen, that you may have life.  
+I will renew with you the everlasting covenant,  
+the benefits assured to David.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 145:8-9, 15-16, 17-18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The hand of the Lord feeds us; he answers all our needs.**  
+
+The LORD is gracious and merciful,  
+&emsp; slow to anger and of great kindness.  
+The LORD is good to all  
+&emsp; and compassionate toward all his works. **[℟.]{.red}**  
+
+The eyes of all look hopefully to you,  
+&emsp; and you give them their food in due season;  
+you open your hand  
+&emsp; and satisfy the desire of every living thing. **[℟.]{.red}**  
+
+The LORD is just in all his ways  
+&emsp; and holy in all his works.  
+The LORD is near to all who call upon him,  
+&emsp; to all who call upon him in truth. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 8:35, 37-39]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+What will separate us from the love of Christ?  
+Will anguish, or distress, or persecution, or famine,  
+or nakedness, or peril, or the sword?  
+No, in all these things we conquer overwhelmingly  
+through him who loved us.  
+For I am convinced that neither death, nor life,  
+nor angels, nor principalities,  
+nor present things, nor future things,  
+nor powers, nor height, nor depth,  
+nor any other creature will be able to separate us  
+from the love of God in Christ Jesus our Lord.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 4:4b]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+One does not live on bread alone,  
+but on every word that comes forth from the mouth of God. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 14:13-21]{style="float:right" .small}
+:::
+
+When Jesus heard of the death of John the Baptist,  
+he withdrew in a boat to a deserted place by himself.  
+The crowds heard of this and followed him on foot from their towns.  
+When he disembarked and saw the vast crowd,  
+his heart was moved with pity for them, and he cured their sick.  
+When it was evening, the disciples approached him and said,  
+“This is a deserted place and it is already late;  
+dismiss the crowds so that they can go to the villages  
+and buy food for themselves.”  
+Jesus said to them, “There is no need for them to go away;  
+give them some food yourselves.”  
+But they said to him,  
+“Five loaves and two fish are all we have here.”  
+Then he said, “Bring them here to me,”  
+and he ordered the crowds to sit down on the grass.  
+Taking the five loaves and the two fish, and looking up to heaven,  
+he said the blessing, broke the loaves,  
+and gave them to the disciples,  
+who in turn gave them to the crowds.  
+They all ate and were satisfied,  
+and they picked up the fragments left over—  
+twelve wicker baskets full.  
+Those who ate were about five thousand men,  
+not counting women and children.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Exodus 16:2-4, 12-15]{style="float:right" .small}
+:::
+
+The whole Israelite community grumbled against Moses and Aaron.  
+The Israelites said to them,  
+"Would that we had died at the LORD's hand in the land of Egypt,  
+as we sat by our fleshpots and ate our fill of bread!  
+But you had to lead us into this desert  
+to make the whole community die of famine!"  
+
+Then the LORD said to Moses,  
+"I will now rain down bread from heaven for you.  
+Each day the people are to go out and gather their daily portion;  
+thus will I test them,  
+to see whether they follow my instructions or not.  
+
+"I have heard the grumbling of the Israelites.  
+Tell them: In the evening twilight you shall eat flesh,  
+and in the morning you shall have your fill of bread,  
+so that you may know that I, the LORD, am your God."  
+
+In the evening quail came up and covered the camp.  
+In the morning a dew lay all about the camp,  
+and when the dew evaporated, there on the surface of the desert  
+were fine flakes like hoarfrost on the ground.  
+On seeing it, the Israelites asked one another, "What is this?"  
+for they did not know what it was.  
+But Moses told them,  
+"This is the bread that the LORD has given you to eat."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 78:3-4, 23-24, 25, 54]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord gave them bread from heaven.**  
+
+What we have heard and know,  
+and what our fathers have declared to us,  
+We will declare to the generation to come  
+the glorious deeds of the LORD and his strength  
+and the wonders that he wrought. **[℟.]{.red}**  
+
+He commanded the skies above  
+and opened the doors of heaven;  
+he rained manna upon them for food  
+and gave them heavenly bread. **[℟.]{.red}**  
+
+Man ate the bread of angels,  
+food he sent them in abundance.  
+And he brought them to his holy land,  
+to the mountains his right hand had won. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 4:17, 20-24]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+I declare and testify in the Lord  
+that you must no longer live as the Gentiles do,  
+in the futility of their minds;  
+that is not how you learned Christ,  
+assuming that you have heard of him and were taught in him,  
+as truth is in Jesus,  
+that you should put away the old self of your former way of life,  
+corrupted through deceitful desires,  
+and be renewed in the spirit of your minds,  
+and put on the new self,  
+created in God's way in righteousness and holiness of truth.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 4:4b]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+One does not live on bread alone,  
+but by every word that comes forth from the mouth of God. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 6:24-35]{style="float:right" .small}
+:::
+
+When the crowd saw that neither Jesus nor his disciples were there,  
+they themselves got into boats  
+and came to Capernaum looking for Jesus.  
+And when they found him across the sea they said to him,  
+"Rabbi, when did you get here?"  
+Jesus answered them and said,  
+"Amen, amen, I say to you,  
+you are looking for me not because you saw signs  
+but because you ate the loaves and were filled.  
+Do not work for food that perishes  
+but for the food that endures for eternal life,  
+which the Son of Man will give you.  
+For on him the Father, God, has set his seal."  
+So they said to him,  
+"What can we do to accomplish the works of God?"  
+Jesus answered and said to them,  
+"This is the work of God, that you believe in the one he sent."  
+So they said to him,  
+"What sign can you do, that we may see and believe in you?  
+What can you do?  
+Our ancestors ate manna in the desert, as it is written:  
+*He gave them bread from heaven to eat.*"  
+So Jesus said to them,  
+"Amen, amen, I say to you,  
+it was not Moses who gave the bread from heaven;  
+my Father gives you the true bread from heaven.  
+For the bread of God is that which comes down from heaven. 
+and gives life to the world."  
+
+So they said to him,  
+"Sir, give us this bread always."  
+Jesus said to them,  
+"I am the bread of life;  
+whoever comes to me will never hunger,  
+and whoever believes in me will never thirst."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Ecclesiastes 1:2; 2:21-23]{style="float:right" .small}
+:::
+
+Vanity of vanities, says Qoheleth,  
+vanity of vanities!  All things are vanity!  
+
+Here is one who has labored with wisdom and knowledge and skill,  
+and yet to another who has not labored over it,  
+he must leave property.  
+This also is vanity and a great misfortune.  
+For what profit comes to man from all the toil and anxiety of heart  
+with which he has labored under the sun?  
+All his days sorrow and grief are his occupation;  
+even at night his mind is not at rest.  
+This also is vanity.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 90:3-4, 5-6, 12-13, 14, 17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **If today you hear his voice, harden not your hearts.**  
+
+You turn man back to dust,  
+saying, “Return, O children of men.”  
+For a thousand years in your sight  
+are as yesterday, now that it is past,  
+or as a watch of the night. **[℟.]{.red}**  
+
+You make an end of them in their sleep;  
+the next morning they are like the changing grass,  
+Which at dawn springs up anew,  
+but by evening wilts and fades. **[℟.]{.red}**  
+
+Teach us to number our days aright,  
+that we may gain wisdom of heart.  
+Return, O LORD! How long?  
+Have pity on your servants! **[℟.]{.red}**  
+
+Fill us at daybreak with your kindness,  
+that we may shout for joy and gladness all our days.  
+And may the gracious care of the LORD our God be ours;  
+prosper the work of our hands for us!  
+Prosper the work of our hands! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Colossians 3:1-5, 9-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+If you were raised with Christ, seek what is above,  
+where Christ is seated at the right hand of God.  
+Think of what is above, not of what is on earth.  
+For you have died,  
+and your life is hidden with Christ in God.  
+When Christ your life appears,  
+then you too will appear with him in glory.  
+
+Put to death, then, the parts of you that are earthly:  
+immorality, impurity, passion, evil desire,  
+and the greed that is idolatry.  
+Stop lying to one another,  
+since you have taken off the old self with its practices  
+and have put on the new self,  
+which is being renewed, for knowledge,  
+in the image of its creator.  
+Here there is not Greek and Jew,  
+circumcision and uncircumcision,  
+barbarian, Scythian, slave, free;  
+but Christ is all and in all.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 5:3]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are the poor in spirit,  
+for theirs is the kingdom of heaven. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 12:13-21]{style="float:right" .small}
+:::
+
+Someone in the crowd said to Jesus,  
+“Teacher, tell my brother to share the inheritance with me.”  
+He replied to him,  
+“Friend, who appointed me as your judge and arbitrator?”  
+Then he said to the crowd,  
+“Take care to guard against all greed,  
+for though one may be rich,  
+one’s life does not consist of possessions.”  
+
+Then he told them a parable.  
+“There was a rich man whose land produced a bountiful harvest.  
+He asked himself, ‘What shall I do,  
+for I do not have space to store my harvest?’  
+And he said, ‘This is what I shall do:  
+I shall tear down my barns and build larger ones.  
+There I shall store all my grain and other goods  
+and I shall say to myself, “Now as for you,  
+you have so many good things stored up for many years,  
+rest, eat, drink, be merry!”’  
+But God said to him,  
+‘You fool, this night your life will be demanded of you;  
+and the things you have prepared, to whom will they belong?’  
+Thus will it be for all who store up treasure for themselves  
+but are not rich in what matters to God.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

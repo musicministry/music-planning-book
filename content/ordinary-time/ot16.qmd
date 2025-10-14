@@ -1,0 +1,615 @@
+---
+title: "NTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "To Jesus Christ, Our Sovereign King"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Lord, you are good and forgiving."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "As Grains of Wheat"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Seed, Scattered and Sown"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "O God, You Search Me"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is my shepherd; there is nothing I shall want."
+          book: RA
+          priority: preferred
+        - name: "Psalm 23: My Shepherd is the Lord"
+          composer: Gelineau
+          book: BB
+          priority: optional
+    offertory:
+      list:
+        - name: "I Heard the Voice of Jesus Say"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Shepherd Me, O God"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "He who does justice will live in the presence of the
+Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lord, Whose Love in Humble Service"
+          tune: "HOLY MANNA"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} forgiveness, strength of God’s word, guidance, Holy
+Spirit, prayer, mercy, perseverance, kingdom of God  
+[Year B:]{.red} shepherd, spiritual hunger, renewal, an intimate God  
+[Year C:]{.red} service, contemplation, mystery  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> See, I have God for my help.  
+> The Lord sustains my soul.  
+> I will sacrifice to you with willing heart,  
+> and praise your name, O Lord, for it is good.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The Lord, the gracious, the merciful,  
+> has made a memorial of his wonders;  
+> he gives food to those who fear him.  
+> 
+> [Or:]{.red}  
+>
+> Behold, I stand at the door and knock, says the Lord.  
+> If anyone hears my voice and opens the door to me,  
+> I will enter his house and dine with him, and he with me.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Wisdom 12:13, 16-19]{style="float:right" .small}
+:::
+
+There is no god besides you who have the care of all,  
+that you need show you have not unjustly condemned.  
+For your might is the source of justice;  
+your mastery over all things makes you lenient to all.  
+For you show your might when the perfection of your power is disbelieved;  
+and in those who know you, you rebuke temerity.  
+But though you are master of might, you judge with clemency,  
+and with much lenience you govern us;  
+for power, whenever you will, attends you.  
+And you taught your people, by these deeds,  
+that those who are just must be kind;  
+and you gave your children good ground for hope  
+that you would permit repentance for their sins.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 86:5-6, 9-10, 15-16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, you are good and forgiving.**  
+
+You, O LORD, are good and forgiving,  
+abounding in kindness to all who call upon you.  
+Hearken, O LORD, to my prayer  
+and attend to the sound of my pleading. **[℟.]{.red}**  
+
+All the nations you have made shall come  
+and worship you, O LORD,  
+and glorify your name.  
+For you are great, and you do wondrous deeds;  
+you alone are God. **[℟.]{.red}**  
+
+You, O LORD, are a God merciful and gracious,  
+slow to anger, abounding in kindness and fidelity.  
+Turn toward me, and have pity on me;  
+give your strength to your servant. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 8:26-27]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+The Spirit comes to the aid of our weakness;  
+for we do not know how to pray as we ought,  
+but the Spirit himself intercedes with inexpressible groanings.  
+And the one who searches hearts  
+knows what is the intention of the Spirit,  
+because he intercedes for the holy ones  
+according to God's will.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. Matthew 11:25]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are you, Father, Lord of heaven and earth;  
+you have revealed to little ones the mysteries of the kingdom. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 13:24-43 or 13:24-30]{style="float:right" .small}
+:::
+
+Jesus proposed another parable to the crowds, saying:  
+"The kingdom of heaven may be likened  
+to a man who sowed good seed in his field.  
+While everyone was asleep his enemy came  
+and sowed weeds all through the wheat, and then went off.  
+When the crop grew and bore fruit, the weeds appeared as well.  
+The slaves of the householder came to him and said,  
+'Master, did you not sow good seed in your field?  
+Where have the weeds come from?'  
+He answered, 'An enemy has done this.'  
+His slaves said to him,  
+'Do you want us to go and pull them up?'  
+He replied, 'No, if you pull up the weeds  
+you might uproot the wheat along with them.   
+Let them grow together until harvest;  
+then at harvest time I will say to the harvesters,  
+"First collect the weeds and tie them in bundles for burning;  
+but gather the wheat into my barn."'"  
+
+He proposed another parable to them.  
+"The kingdom of heaven is like a mustard seed  
+that a person took and sowed in a field.  
+It is the smallest of all the seeds,  
+yet when full-grown it is the largest of plants.  
+It becomes a large bush,  
+and the 'birds of the sky come and dwell in its branches.'"  
+
+He spoke to them another parable.  
+"The kingdom of heaven is like yeast  
+that a woman took and mixed with three measures of wheat flour  
+until the whole batch was leavened."  
+
+All these things Jesus spoke to the crowds in parables.  
+He spoke to them only in parables,  
+to fulfill what had been said through the prophet:  
+I will open my mouth in parables,  
+I will announce what has lain hidden from the foundation
+of the world.  
+
+Then, dismissing the crowds, he went into the house.  
+His disciples approached him and said,  
+"Explain to us the parable of the weeds in the field."  
+He said in reply, "He who sows good seed is the Son of Man,  
+the field is the world, the good seed the children of the kingdom.  
+The weeds are the children of the evil one,  
+and the enemy who sows them is the devil.  
+The harvest is the end of the age, and the harvesters are angels.  
+Just as weeds are collected and burned up with fire,  
+so will it be at the end of the age.  
+The Son of Man will send his angels,  
+and they will collect out of his kingdom  
+all who cause others to sin and all evildoers.  
+They will throw them into the fiery furnace,  
+where there will be wailing and grinding of teeth.  
+Then the righteous will shine like the sun  
+in the kingdom of their Father.  
+Whoever has ears ought to hear."  
+
+[Or:]{.red}
+
+Jesus proposed another parable to the crowds, saying:  
+"The kingdom of heaven may be likened to a man  
+who sowed good seed in his field.  
+While everyone was asleep his enemy came  
+and sowed weeds all through the wheat, and then went off.  
+When the crop grew and bore fruit, the weeds appeared as well.  
+The slaves of the householder came to him and said,  
+'Master, did you not sow good seed in your field?  
+Where have the weeds come from?'  
+He answered, 'An enemy has done this.'  
+His slaves said to him, 'Do you want us to go and pull them up?'  
+He replied, 'No, if you pull up the weeds  
+you might uproot the wheat along with them.   
+Let them grow together until harvest;  
+then at harvest time I will say to the harvesters,  
+"First collect the weeds and tie them in bundles for burning;  
+but gather the wheat into my barn."'"  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Jeremiah 23:1-6]{style="float:right" .small}
+:::
+
+Woe to the shepherds  
+who mislead and scatter the flock of my pasture,  
+says the LORD.  
+Therefore, thus says the LORD, the God of Israel,  
+against the shepherds who shepherd my people:  
+You have scattered my sheep and driven them away.  
+You have not cared for them,  
+but I will take care to punish your evil deeds.  
+I myself will gather the remnant of my flock  
+from all the lands to which I have driven them  
+and bring them back to their meadow;  
+there they shall increase and multiply.  
+I will appoint shepherds for them who will shepherd them  
+so that they need no longer fear and tremble;  
+and none shall be missing, says the LORD.  
+
+Behold, the days are coming, says the LORD,  
+when I will raise up a righteous shoot to David;  
+as king he shall reign and govern wisely,  
+he shall do what is just and right in the land.  
+In his days Judah shall be saved,  
+Israel shall dwell in security.  
+This is the name they give him:  
+"The LORD our justice."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 23:1-3, 3-4, 5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is my shepherd; there is nothing I shall want.**  
+
+The LORD is my shepherd; I shall not want.  
+In verdant pastures he gives me repose;  
+beside restful waters he leads me;  
+he refreshes my soul. **[℟.]{.red}**  
+
+He guides me in right paths  
+for his name's sake.  
+Even though I walk in the dark valley  
+I fear no evil; for you are at my side  
+with your rod and your staff  
+that give me courage. **[℟.]{.red}**  
+
+You spread the table before me  
+in the sight of my foes;  
+you anoint my head with oil;  
+my cup overflows. **[℟.]{.red}**  
+
+Only goodness and kindness follow me  
+all the days of my life;  
+and I shall dwell in the house of the LORD  
+for years to come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 2:13-18]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+In Christ Jesus you who once were far off  
+have become near by the blood of Christ.  
+
+For he is our peace, he who made both one  
+and broke down the dividing wall of enmity, through his flesh,  
+abolishing the law with its commandments and legal claims,  
+that he might create in himself one new person in place of the two,  
+thus establishing peace,  
+and might reconcile both with God,  
+in one body, through the cross,  
+putting that enmity to death by it.  
+He came and preached peace to you who were far off  
+and peace to those who were near,  
+for through him we both have access in one Spirit to the Father.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 10:27]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+My sheep hear my voice, says the Lord;  
+I know them, and they follow me. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 6:30-34]{style="float:right" .small}
+:::
+
+The apostles gathered together with Jesus  
+and reported all they had done and taught.  
+He said to them,  
+“Come away by yourselves to a deserted place and rest a while.”  
+People were coming and going in great numbers,  
+and they had no opportunity even to eat.  
+So they went off in the boat by themselves to a deserted place.  
+People saw them leaving and many came to know about it.  
+They hastened there on foot from all the towns  
+and arrived at the place before them.  
+
+When he disembarked and saw the vast crowd,  
+his heart was moved with pity for them,  
+for they were like sheep without a shepherd;  
+and he began to teach them many things.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Genesis 18:1-10a]{style="float:right" .small}
+:::
+
+The LORD appeared to Abraham by the terebinth of Mamre,  
+as he sat in the entrance of his tent,  
+while the day was growing hot.  
+Looking up, Abraham saw three men standing nearby.  
+When he saw them, he ran from the entrance of the tent to greet them;  
+and bowing to the ground, he said:  
+"Sir, if I may ask you this favor,  
+please do not go on past your servant.  
+Let some water be brought, that you may bathe your feet,  
+and then rest yourselves under the tree.  
+Now that you have come this close to your servant,  
+let me bring you a little food, that you may refresh yourselves;  
+and afterward you may go on your way."  
+The men replied, "Very well, do as you have said."  
+
+Abraham hastened into the tent and told Sarah,  
+"Quick, three measures of fine flour! Knead it and make rolls."  
+He ran to the herd, picked out a tender, choice steer,  
+and gave it to a servant, who quickly prepared it.  
+Then Abraham got some curds and milk,  
+as well as the steer that had been prepared,  
+and set these before the three men;  
+and he waited on them under the tree while they ate.  
+
+They asked Abraham, "Where is your wife Sarah?"  
+He replied, "There in the tent."  
+One of them said, "I will surely return to you about this time next year,  
+and Sarah will then have a son."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 15:2-3, 3-4, 5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **He who does justice will live in the presence of the Lord.**  
+
+One who walks blamelessly and does justice;  
+who thinks the truth in his heart  
+and slanders not with his tongue. **[℟.]{.red}**  
+
+Who harms not his fellow man,  
+nor takes up a reproach against his neighbor;  
+by whom the reprobate is despised,  
+while he honors those who fear the LORD. **[℟.]{.red}**  
+
+Who lends not his money at usury  
+and accepts no bribe against the innocent.  
+One who does these things  
+shall never be disturbed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Colossians 1:24-28]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Now I rejoice in my sufferings for your sake,  
+and in my flesh I am filling up  
+what is lacking in the afflictions of Christ  
+on behalf of his body, which is the church,  
+of which I am a minister  
+in accordance with God's stewardship given to me  
+to bring to completion for you the word of God,  
+the mystery hidden from ages and from generations past.  
+But now it has been manifested to his holy ones,  
+to whom God chose to make known the riches of the glory  
+of this mystery among the Gentiles;  
+it is Christ in you, the hope for glory.  
+It is he whom we proclaim,  
+admonishing everyone and teaching everyone with all wisdom,  
+that we may present everyone perfect in Christ.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. Luke 8:15]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are they who have kept the word with a generous heart  
+and yield a harvest through perseverance. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 10:38-42]{style="float:right" .small}
+:::
+
+Jesus entered a village  
+where a woman whose name was Martha welcomed him.  
+She had a sister named Mary  
+who sat beside the Lord at his feet listening to him speak.  
+Martha, burdened with much serving, came to him and said,  
+"Lord, do you not care  
+that my sister has left me by myself to do the serving?  
+Tell her to help me."  
+The Lord said to her in reply,  
+"Martha, Martha, you are anxious and worried about many things.  
+There is need of only one thing.  
+Mary has chosen the better part  
+and it will not be taken from her."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* NOTES

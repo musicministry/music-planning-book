@@ -1,0 +1,625 @@
+---
+title: "TWENTY-SEVENTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The vineyard of the Lord is the house of Israel."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "All Good Gifts"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "One Love Released"
+          book: BB
+          priority: preferred
+        - name: "One Bread, One Body"
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: "We Are Many Parts"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "All the Earth"
+          book: BB
+          priority: preferred
+        - name: "All Creatures of Our God and King"
+    psalm:
+      list:
+        - name: "May the Lord bless us all the days of our lives."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "For the Beauty of the Earth"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "One Bread, One Body"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Thanks Be to God"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "If today you hear his voice, harden not your hearts."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Center of My Life"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Bread of Life"
+          book: BB
+          composer: Farrell
+          priority: preferred
+    meditation:
+      list:
+        - name: "Dwelling Place"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Faith of Our Fathers"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} God’s providential care, suﬀering for the Gospel,
+comfort, petition, prayer  
+[Year B:]{.red} marriage, family, commitment, sacrifice, covenant  
+[Year C:]{.red} faith, word of God  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Within your will, O Lord, all things are established,  
+> and there is none that can resist your will.  
+> For you have made all things, the heaven and the earth,  
+> and all that is held within the circle of heaven;  
+> you are the Lord of all.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The Lord is good to those who hope in him,  
+> to the soul that seeks him.  
+> 
+> [Or:]{.red}  
+> 
+> Though many, we are one bread, one body,  
+> for we all partake of the one Bread and one Chalice.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 5:1-7]{style="float:right" .small}
+:::
+
+Let me now sing of my friend,  
+my friend's song concerning his vineyard.  
+My friend had a vineyard  
+on a fertile hillside;  
+he spaded it, cleared it of stones,  
+and planted the choicest vines;  
+within it he built a watchtower,  
+and hewed out a wine press.  
+Then he looked for the crop of grapes,  
+but what it yielded was wild grapes.  
+
+Now, inhabitants of Jerusalem and people of Judah,  
+judge between me and my vineyard:  
+What more was there to do for my vineyard  
+that I had not done?  
+Why, when I looked for the crop of grapes,  
+did it bring forth wild grapes?  
+Now, I will let you know  
+what I mean to do with my vineyard:  
+take away its hedge, give it to grazing,  
+break through its wall, let it be trampled!  
+Yes, I will make it a ruin:  
+it shall not be pruned or hoed,  
+but overgrown with thorns and briers;  
+I will command the clouds  
+not to send rain upon it.  
+The vineyard of the LORD of hosts is the house of Israel,  
+and the people of Judah are his cherished plant;  
+he looked for judgment, but see, bloodshed!  
+for justice, but hark, the outcry!  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 80:9, 12, 13-14, 15-16, 19-20; Isaiah 5:7a]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The vineyard of the Lord is the house of Israel.**  
+
+A vine from Egypt you transplanted;  
+you drove away the nations and planted it.  
+It put forth its foliage to the Sea,  
+its shoots as far as the River. **[℟.]{.red}**  
+
+Why have you broken down its walls,  
+so that every passer-by plucks its fruit,  
+The boar from the forest lays it waste,  
+and the beasts of the field feed upon it? **[℟.]{.red}**  
+
+Once again, O LORD of hosts,  
+look down from heaven, and see;  
+take care of this vine,  
+and protect what your right hand has planted,  
+the son of man whom you yourself made strong. **[℟.]{.red}**  
+
+Then we will no more withdraw from you;  
+give us new life, and we will call upon your name.  
+O LORD, God of hosts, restore us;  
+if your face shine upon us, then we shall be saved. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philippians 4:6-9]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Have no anxiety at all, but in everything,  
+by prayer and petition, with thanksgiving,  
+make your requests known to God.  
+Then the peace of God that surpasses all understanding  
+will guard your hearts and minds in Christ Jesus.  
+
+Finally, brothers and sisters,  
+whatever is true, whatever is honorable,  
+whatever is just, whatever is pure,  
+whatever is lovely, whatever is gracious,  
+if there is any excellence  
+and if there is anything worthy of praise,  
+think about these things.  
+Keep on doing what you have learned and received  
+and heard and seen in me.  
+Then the God of peace will be with you.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. John 15:16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I have chosen you from the world, says the Lord,  
+to go and bear fruit that will remain. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 21:33-43]{style="float:right" .small}
+:::
+
+Jesus said to the chief priests and the elders of the people:  
+"Hear another parable.  
+There was a landowner who planted a vineyard,  
+put a hedge around it, dug a wine press in it, and built a tower.  
+Then he leased it to tenants and went on a journey.  
+When vintage time drew near,  
+he sent his servants to the tenants to obtain his produce.  
+But the tenants seized the servants and one they beat,  
+another they killed, and a third they stoned.  
+Again he sent other servants, more numerous than the first ones,  
+but they treated them in the same way.  
+Finally, he sent his son to them, thinking,  
+'They will respect my son.'  
+But when the tenants saw the son, they said to one another,  
+'This is the heir.  
+Come, let us kill him and acquire his inheritance.'  
+They seized him, threw him out of the vineyard, and killed him.  
+What will the owner of the vineyard do to those tenants when he comes?"  
+They answered him,  
+"He will put those wretched men to a wretched death  
+and lease his vineyard to other tenants  
+who will give him the produce at the proper times."  
+Jesus said to them, "Did you never read in the Scriptures:  
+*The stone that the builders rejected*  
+*has become the cornerstone;*  
+*by the Lord has this been done,*  
+*and it is wonderful in our eyes?*  
+Therefore, I say to you,  
+the kingdom of God will be taken away from you  
+and given to a people that will produce its fruit."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Genesis 2:18-24]{style="float:right" .small}
+:::
+
+The LORD God said: "It is not good for the man to be alone.  
+I will make a suitable partner for him."  
+So the LORD God formed out of the ground  
+various wild animals and various birds of the air,  
+and he brought them to the man to see what he would call them;  
+whatever the man called each of them would be its name.  
+The man gave names to all the cattle,  
+all the birds of the air, and all wild animals;  
+but none proved to be the suitable partner for the man.  
+
+So the LORD God cast a deep sleep on the man,  
+and while he was asleep,  
+he took out one of his ribs and closed up its place with flesh.  
+The LORD God then built up into a woman the rib  
+that he had taken from the man.  
+When he brought her to the man, the man said:  
+&emsp; "This one, at last, is bone of my bones  
+&emsp; &emsp; and flesh of my flesh;  
+&emsp; this one shall be called 'woman,'  
+&emsp; &emsp; for out of 'her man’ this one has been taken."  
+That is why a man leaves his father and mother  
+and clings to his wife,  
+and the two of them become one flesh.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 128:1-2, 3, 4-5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **May the Lord bless us all the days of our lives.**  
+
+Blessed are you who fear the LORD,  
+&emsp; who walk in his ways!  
+For you shall eat the fruit of your handiwork;  
+&emsp; blessed shall you be, and favored. **[℟.]{.red}**  
+
+Your wife shall be like a fruitful vine  
+&emsp; in the recesses of your home;  
+your children like olive plants  
+&emsp; around your table. **[℟.]{.red}**  
+
+Behold, thus is the man blessed  
+&emsp; who fears the LORD.  
+The LORD bless you from Zion:  
+&emsp; may you see the prosperity of Jerusalem.  
+&emsp; all the days of your life. **[℟.]{.red}**  
+
+May you see your children's children.  
+&emsp; Peace be upon Israel! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 2:9-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+He "for a little while" was made "lower than the angels,"  
+that by the grace of God he might taste death for everyone.  
+
+For it was fitting that he,  
+for whom and through whom all things exist,  
+in bringing many children to glory,  
+should make the leader to their salvation perfect through suffering.  
+He who consecrates and those who are being consecrated  
+all have one origin.  
+Therefore, he is not ashamed to call them “brothers.”  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [1 John 4:12]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+If we love one another, God remains in us  
+and his love is brought to perfection in us. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mk 10:2-16 or 10:2-12]{style="float:right" .small}
+:::
+
+The Pharisees approached Jesus and asked,  
+"Is it lawful for a husband to divorce his wife?"  
+They were testing him.  
+He said to them in reply, "What did Moses command you?"  
+They replied,  
+"Moses permitted a husband to write a bill of divorce  
+and dismiss her."  
+But Jesus told them,  
+"Because of the hardness of your hearts  
+he wrote you this commandment.  
+But from the beginning of creation,  
+*God made them male and female.*  
+*For this reason a man shall leave his father and mother*  
+*and be joined to his wife,*  
+*and the two shall become one flesh.*  
+So they are no longer two but one flesh.  
+Therefore what God has joined together,  
+no human being must separate."  
+In the house the disciples again questioned Jesus about this.  
+He said to them,  
+"Whoever divorces his wife and marries another  
+commits adultery against her;  
+and if she divorces her husband and marries another,  
+she commits adultery."  
+
+And people were bringing children to him that he might touch them,  
+but the disciples rebuked them.  
+When Jesus saw this he became indignant and said to them,  
+"Let the children come to me;  
+do not prevent them, for the kingdom of God belongs to
+such as these.  
+Amen, I say to you,  
+whoever does not accept the kingdom of God like a child
+will not enter it."  
+Then he embraced them and blessed them,  
+placing his hands on them.  
+
+[Or:]{.red}  
+
+The Pharisees approached Jesus and asked,  
+"Is it lawful for a husband to divorce his wife?"  
+They were testing him.  
+He said to them in reply, "What did Moses command you?"  
+They replied,  
+"Moses permitted a husband to write a bill of divorce  
+and dismiss her."   
+But Jesus told them,  
+"Because of the hardness of your hearts  
+he wrote you this commandment.  
+But from the beginning of creation,  
+*God made them male and female.*  
+*For this reason a man shall leave his father and mother*  
+*and be joined to his wife,*  
+*and the two shall become one flesh.*  
+So they are no longer two but one flesh.  
+Therefore what God has joined together,  
+no human being must separate."  
+In the house the disciples again questioned Jesus about this.  
+He said to them,  
+"Whoever divorces his wife and marries another  
+commits adultery against her;  
+and if she divorces her husband and marries another,  
+she commits adultery."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Habakkuk 1:2-3; 2:2-4]{style="float:right" .small}
+:::
+
+How long, O LORD?  I cry for help  
+but you do not listen!  
+I cry out to you, "Violence!"  
+but you do not intervene.  
+Why do you let me see ruin;  
+why must I look at misery?  
+Destruction and violence are before me;  
+there is strife, and clamorous discord.  
+Then the LORD answered me and said:  
+Write down the vision clearly upon the tablets,  
+so that one can read it readily.  
+For the vision still has its time,  
+presses on to fulfillment, and will not disappoint;  
+if it delays, wait for it,  
+it will surely come, it will not be late.  
+The rash one has no integrity;  
+but the just one, because of his faith, shall live.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 95:1-2, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **If today you hear his voice, harden not your hearts.**  
+
+Come, let us sing joyfully to the LORD;  
+let us acclaim the Rock of our salvation.  
+Let us come into his presence with thanksgiving;  
+let us joyfully sing psalms to him. **[℟.]{.red}**  
+
+Come, let us bow down in worship;  
+let us kneel before the LORD who made us.  
+For he is our God,  
+and we are the people he shepherds, the flock he guides. **[℟.]{.red}**  
+
+Oh, that today you would hear his voice:  
+"Harden not your hearts as at Meribah,  
+as in the day of Massah in the desert,  
+Where your fathers tempted me;  
+they tested me though they had seen my works." **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Timothy 1:6-8, 13-14]{style="float:right" .small}
+:::
+
+Beloved:  
+I remind you, to stir into flame  
+the gift of God that you have through the imposition of my hands.  
+For God did not give us a spirit of cowardice  
+but rather of power and love and self-control.  
+So do not be ashamed of your testimony to our Lord,  
+nor of me, a prisoner for his sake;  
+but bear your share of hardship for the gospel  
+with the strength that comes from God.  
+
+Take as your norm the sound words that you heard from me,  
+in the faith and love that are in Christ Jesus.  
+Guard this rich trust with the help of the Holy Spirit  
+that dwells within us.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [1 Peter 1:25]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The word of the Lord remains forever.  
+This is the word that has been proclaimed to you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 17:5-10]{style="float:right" .small}
+:::
+
+The apostles said to the Lord, "Increase our faith."  
+The Lord replied,  
+"If you have faith the size of a mustard seed,  
+you would say to this mulberry tree,  
+'Be uprooted and planted in the sea,' and it would obey you.  
+
+"Who among you would say to your servant  
+who has just come in from plowing or tending sheep in the field,  
+'Come here immediately and take your place at table'?  
+Would he not rather say to him,  
+'Prepare something for me to eat.  
+Put on your apron and wait on me while I eat and drink.  
+You may eat and drink when I am finished'?  
+Is he grateful to that servant because he did what was commanded?  
+So should it be with you.  
+When you have done all you have been commanded,  
+say, 'We are unprofitable servants;  
+we have done what we were obliged to do.'"  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

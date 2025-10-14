@@ -159,6 +159,396 @@ love, providence, mercy
 > Streams of living water will flow  
 > from within the one who believes in me.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Deuteronomy 7:6-11]{style="float:right" .small}
+:::
+
+Moses said to the people:  
+"You are a people sacred to the LORD, your God;  
+he has chosen you from all the nations on the face of the earth  
+to be a people peculiarly his own.  
+It was not because you are the largest of all nations  
+that the LORD set his heart on you and chose you,  
+for you are really the smallest of all nations.  
+It was because the LORD loved you  
+and because of his fidelity to the oath he had sworn your fathers,  
+that he brought you out with his strong hand  
+from the place of slavery,  
+and ransomed you from the hand of Pharaoh, king of Egypt.  
+Understand, then, that the LORD, your God, is God indeed,  
+the faithful God who keeps his merciful covenant  
+down to the thousandth generation. 
+toward those who love him and keep his commandments,  
+but who repays with destruction a person who hates him;  
+he does not dally with such a one,  
+but makes them personally pay for it.  
+You shall therefore carefully observe the commandments,  
+the statutes and the decrees that I enjoin on you today."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 103:1-2, 3-4, 6-7, 8, 10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord's kindness is everlasting to those who fear him.**  
+
+Bless the LORD, O my soul;  
+all my being, bless his holy name.  
+Bless the LORD, O my soul;  
+and forget not all his benefits. **[℟.]{.red}**  
+
+He pardons all your iniquities,  
+heals all your ills.  
+He redeems your life from destruction,  
+crowns you with kindness and compassion. **[℟.]{.red}**  
+
+Merciful and gracious is the LORD,  
+slow to anger and abounding in kindness.  
+Not according to our sins does he deal with us,  
+nor does he requite us according to our crimes. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 John 4:7-16]{style="float:right" .small}
+:::
+
+Beloved, let us love one another,  
+because love is of God;  
+everyone who loves is begotten by God and knows God.  
+Whoever is without love does not know God, for God is love.  
+In this way the love of God was revealed to us:  
+God sent his only Son into the world  
+so that we might have life through him.  
+In this is love:  
+not that we have loved God, but that he loved us  
+and sent his Son as expiation for our sins.  
+Beloved, if God so loved us,  
+we also must love one another.  
+No one has ever seen God.  
+Yet, if we love one another, God remains in us,  
+and his love is brought to perfection in us.  
+
+This is how we know that we remain in him and he in us,  
+that he has given us of his Spirit.  
+Moreover, we have seen and testify  
+that the Father sent his Son as savior of the world.  
+Whoever acknowledges that Jesus is the Son of God,  
+God remains in him and he in God.  
+We have come to know and to believe in the love God has for us.  
+
+God is love, and whoever remains in love  
+remains in God and God in him.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 11:29ab]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Take my yoke upon you, says the Lord;  
+and learn from me, for I am meek and humble of heart. **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [Matthew 11:25-30]{style="float:right" .small}
+:::
+
+At that time Jesus exclaimed:  
+"I give praise to you, Father, Lord of heaven and earth,  
+for although you have hidden these things  
+from the wise and the learned  
+you have revealed them to little ones.  
+Yes, Father, such has been your gracious will.  
+All things have been handed over to me by my Father.  
+No one knows the Son except the Father,  
+and no one knows the Father except the Son  
+and anyone to whom the Son wishes to reveal him.  
+
+"Come to me, all you who labor and are burdened,  
+and I will give you rest.  
+Take my yoke upon you and learn from me,  
+for I am meek and humble of heart;  
+and you will find rest for yourselves.  
+For my yoke is easy, and my burden light."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Hosea 11:1, 3-4, 8c-9]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+When Israel was a child I loved him,  
+out of Egypt I called my son.  
+Yet it was I who taught Ephraim to walk,  
+who took them in my arms;  
+I drew them with human cords,  
+with bands of love;  
+I fostered them like one  
+who raises an infant to his cheeks;  
+Yet, though I stooped to feed my child,  
+they did not know that I was their healer.  
+
+My heart is overwhelmed,  
+my pity is stirred.  
+I will not give vent to my blazing anger,  
+I will not destroy Ephraim again;  
+For I am God and not a man,  
+the Holy One present among you;  
+I will not let the flames consume you.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Isaiah 12:2-3, 4, 5-6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **You will draw water joyfully from the springs of salvation.**  
+
+God indeed is my savior;  
+I am confident and unafraid.  
+My strength and my courage is the LORD,  
+and he has been my savior.  
+With joy you will draw water  
+at the fountain of salvation. **[℟.]{.red}**  
+
+Give thanks to the LORD, acclaim his name;  
+among the nations make known his deeds,  
+proclaim how exalted is his name. **[℟.]{.red}**  
+
+Sing praise to the LORD for his glorious achievement;  
+let this be known throughout all the earth.  
+Shout with exultation, O city of Zion,  
+for great in your midst  
+is the Holy One of Israel! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 3:8-12, 14-19]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+To me, the very least of all the holy ones, this grace was given,  
+to preach to the Gentiles the inscrutable riches of Christ,  
+and to bring to light for all what is the plan of the mystery  
+hidden from ages past in God who created all things,  
+so that the manifold wisdom of God  
+might now be made known through the church  
+to the principalities and authorities in the heavens.  
+This was according to the eternal purpose  
+that he accomplished in Christ Jesus our Lord,  
+in whom we have boldness of speech  
+and confidence of access through faith in him.  
+
+For this reason I kneel before the Father,  
+from whom every family in heaven and on earth is named,  
+that he may grant you in accord with the riches of his glory  
+to be strengthened with power through his Spirit in the inner self,  
+and that Christ may dwell in your hearts through faith;  
+that you, rooted and grounded in love,  
+may have strength to comprehend with all the holy ones  
+what is the breadth and length and height and depth,  
+and to know the love of Christ which surpasses knowledge,  
+so that you may be filled with all the fullness of God.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 11:29ab]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Take my yoke upon you, says the Lord;  
+and learn from me, for I am meek and gentle of heart. **[℟.]{.red}**  
+
+[Or:]{.red} [1 John 4:10b]{style="float:right" .small .red}
+
+God first loved us
+and sent his Son as expiation for our sins. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 19:31-37]{style="float:right" .small}
+:::
+
+Since it was preparation day,  
+in order that the bodies might not remain on the cross on the sabbath,  
+for the sabbath day of that week was a solemn one,  
+the Jews asked Pilate that their legs be broken  
+and they be taken down.  
+So the soldiers came and broke the legs of the first  
+and then of the other one who was crucified with Jesus.  
+But when they came to Jesus and saw that he was already dead,  
+they did not break his legs,  
+but one soldier thrust his lance into his side,  
+and immediately blood and water flowed out.  
+An eyewitness has testified, and his testimony is true;  
+he knows that he is speaking the truth,  
+so that you also may come to believe.  
+For this happened so that the Scripture passage might be fulfilled:  
+*Not a bone of it will be broken.*  
+*And again another passage says:*  
+*They will look upon him whom they have pierced.*  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Ezekiel 34:11-16]{style="float:right" .small}
+:::
+
+Thus says the Lord GOD:  
+I myself will look after and tend my sheep.  
+As a shepherd tends his flock  
+when he finds himself among his scattered sheep,  
+so will I tend my sheep.  
+I will rescue them from every place where they were scattered  
+when it was cloudy and dark.  
+I will lead them out from among the peoples  
+and gather them from the foreign lands;  
+I will bring them back to their own country  
+and pasture them upon the mountains of Israel  
+in the land's ravines and all its inhabited places.  
+In good pastures will I pasture them,  
+and on the mountain heights of Israel  
+shall be their grazing ground.  
+There they shall lie down on good grazing ground,  
+and in rich pastures shall they be pastured  
+on the mountains of Israel.  
+I myself will pasture my sheep;  
+I myself will give them rest, says the Lord GOD.  
+The lost I will seek out,  
+the strayed I will bring back,  
+the injured I will bind up,  
+the sick I will heal,  
+but the sleek and the strong I will destroy,  
+shepherding them rightly.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 23:1-3a, 3b-4, 5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is my shepherd; there is nothing I shall want.**  
+
+The LORD is my shepherd; I shall not want.  
+&emsp; In verdant pastures he gives me repose;  
+beside restful waters he leads me;  
+&emsp; he refreshes my soul. **[℟.]{.red}**  
+
+He guides me in right paths  
+&emsp; for his name's sake.  
+Even though I walk in the dark valley  
+&emsp; I fear no evil; for you are at my side  
+with your rod and your staff  
+&emsp; that give me courage. **[℟.]{.red}**  
+
+You spread the table before me  
+&emsp; in the sight of my foes;  
+you anoint my head with oil;  
+&emsp; my cup overflows. **[℟.]{.red}**  
+
+Only goodness and kindness follow me  
+&emsp; all the days of my life;  
+and I shall dwell in the house of the LORD  
+&emsp; for years to come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 5:5b-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+The love of God has been poured out into our hearts  
+through the Holy Spirit that has been given to us.  
+For Christ, while we were still helpless,  
+died at the appointed time for the ungodly.  
+Indeed, only with difficulty does one die for a just person,  
+though perhaps for a good person  
+one might even find courage to die.  
+But God proves his love for us  
+in that while we were still sinners Christ died for us.  
+How much more then, since we are now justified by his blood,  
+will we be saved through him from the wrath.  
+Indeed, if, while we were enemies,  
+we were reconciled to God through the death of his Son,  
+how much more, once reconciled,  
+will we be saved by his life.  
+Not only that,  
+but we also boast of God through our Lord Jesus Christ,  
+through whom we have now received reconciliation.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 11:29ab]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Take my yoke upon you, says the Lord,  
+and learn from me, for I am meek and humble of heart. **[℟.]{.red}**  
+
+[Or:]{.red} [John 10:14]{style="float:right" .small .red}
+
+I am the good shepherd, says the Lord,  
+I know my sheep, and mine know me. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 15:3-7]{style="float:right" .small}
+:::
+
+Jesus addressed this parable to the Pharisees and scribes:  
+"What man among you having a hundred sheep and losing one of them  
+would not leave the ninety-nine in the desert  
+and go after the lost one until he finds it?  
+And when he does find it,  
+he sets it on his shoulders with great joy  
+and, upon his arrival home,  
+he calls together his friends and neighbors and says to them,  
+'Rejoice with me because I have found my lost sheep.'  
+I tell you, in just the same way  
+there will be more joy in heaven over one sinner who repents  
+than over ninety-nine righteous people  
+who have no need of repentance."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::

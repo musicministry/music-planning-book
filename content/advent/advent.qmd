@@ -83,7 +83,7 @@ The [Missa Emmanuel]{.black} by Richard Proulx puts the texts of the Mass to the
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::
-{{< var text.yearabc >}}
+{{< var text.yearabc-advent >}}
 
 ```{python}
 #| label: Year ABC

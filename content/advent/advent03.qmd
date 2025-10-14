@@ -150,10 +150,398 @@ rejoice, joy, preparation, coming, glory, splendor, John the Baptist
 > Say to the faint of heart: Be strong and do not fear.  
 > Behold, our God will come, and he will save us.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 35:1-6a, 10]{style="float:right" .small}
+:::
+
+The desert and the parched land will exult;  
+the steppe will rejoice and bloom.  
+They will bloom with abundant flowers,  
+and rejoice with joyful song.  
+The glory of Lebanon will be given to them,  
+the splendor of Carmel and Sharon;  
+they will see the glory of the LORD,  
+the splendor of our God.  
+Strengthen the hands that are feeble,  
+make firm the knees that are weak,  
+say to those whose hearts are frightened:  
+Be strong, fear not!  
+Here is your God,  
+he comes with vindication;  
+with divine recompense  
+he comes to save you.  
+Then will the eyes of the blind be opened,  
+the ears of the deaf be cleared;  
+then will the lame leap like a stag,  
+then the tongue of the mute will sing.  
+
+Those whom the LORD has ransomed will return  
+and enter Zion singing,  
+crowned with everlasting joy;  
+they will meet with joy and gladness,  
+sorrow and mourning will flee.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 146:6-7, 8-9, 9-10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, come and save us.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+The LORD God keeps faith forever,  
+secures justice for the oppressed,  
+gives food to the hungry.  
+The LORD sets captives free. **[℟.]{.red}**  
+
+The LORD gives sight to the blind;  
+the LORD raises up those who were bowed down.  
+The LORD loves the just;  
+the LORD protects strangers. **[℟.]{.red}**  
+
+The fatherless and the widow he sustains,  
+but the way of the wicked he thwarts.  
+The LORD shall reign forever;  
+your God, O Zion, through all generations. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [James 5:7-10]{style="float:right" .small}
+:::
+
+Be patient, brothers and sisters,  
+until the coming of the Lord.  
+See how the farmer waits for the precious fruit of the earth,  
+being patient with it  
+until it receives the early and the late rains.  
+You too must be patient.  
+Make your hearts firm,  
+because the coming of the Lord is at hand.  
+Do not complain, brothers and sisters, about one another,  
+that you may not be judged.  
+Behold, the Judge is standing before the gates.  
+Take as an example of hardship and patience, brothers and sisters,  
+the prophets who spoke in the name of the Lord.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Isaiah 61:1 (cited in Luke 4:18)]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The Spirit of the Lord is upon me,  
+because he has anointed me  
+to bring glad tidings to the poor. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 11:2-11]{style="float:right" .small}
+:::
+
+When John the Baptist heard in prison of the works of the Christ,  
+he sent his disciples to Jesus with this question,  
+"Are you the one who is to come,  
+or should we look for another?"  
+Jesus said to them in reply,  
+"Go and tell John what you hear and see:  
+the blind regain their sight,  
+the lame walk,  
+lepers are cleansed,  
+the deaf hear,  
+the dead are raised,  
+and the poor have the good news proclaimed to them.  
+And blessed is the one who takes no offense at me."  
+
+As they were going off,  
+Jesus began to speak to the crowds about John,  
+"What did you go out to the desert to see?  
+A reed swayed by the wind?  
+Then what did you go out to see?  
+Someone dressed in fine clothing?  
+Those who wear fine clothing are in royal palaces.  
+Then why did you go out? To see a prophet?  
+Yes, I tell you, and more than a prophet.  
+This is the one about whom it is written:  
+*Behold, I am sending my messenger ahead of you;*  
+*he will prepare your way before you.*  
+Amen, I say to you,  
+among those born of women  
+there has been none greater than John the Baptist;  
+yet the least in the kingdom of heaven is greater than he."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Isaiah 61:1-2a, 10-11]{style="float:right" .small}
+:::
+
+The spirit of the Lord GOD is upon me,  
+because the LORD has anointed me;  
+he has sent me to bring glad tidings to the poor,  
+to heal the brokenhearted,  
+to proclaim liberty to the captives  
+and release to the prisoners,  
+to announce a year of favor from the LORD  
+and a day of vindication by our God.  
+
+I rejoice heartily in the LORD,  
+in my God is the joy of my soul;  
+for he has clothed me with a robe of salvation  
+and wrapped me in a mantle of justice,  
+like a bridegroom adorned with a diadem,  
+like a bride bedecked with her jewels.  
+As the earth brings forth its plants,  
+and a garden makes its growth spring up,  
+so will the Lord GOD make justice and praise  
+spring up before all the nations.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Luke 1:46-48, 49-50, 53-54; Is 61:10b]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **My soul rejoices in my God.**  
+
+My soul proclaims the greatness of the Lord;  
+my spirit rejoices in God my Savior,  
+for he has looked upon his lowly servant.  
+From this day all generations will call me blessed: **[℟.]{.red}**  
+
+the Almighty has done great things for me,  
+and holy is his Name.  
+He has mercy on those who fear him  
+in every generation. **[℟.]{.red}**  
+
+He has filled the hungry with good things,  
+and the rich he has sent away empty.  
+He has come to the help of his servant Israel  
+for he has remembered his promise of mercy. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Thessalonians 5:16-24]{style="float:right" .small}
+:::
+
+Rejoice always. Pray without ceasing.  
+In all circumstances give thanks,  
+for this is the will of God for you in Christ Jesus.  
+Do not quench the Spirit.  
+Do not despise prophetic utterances.  
+Test everything; retain what is good.  
+Refrain from every kind of evil.  
+
+May the God of peace make you perfectly holy  
+and may you entirely, spirit, soul, and body,  
+be preserved blameless for the coming of our Lord Jesus Christ.  
+The one who calls you is faithful,  
+and he will also accomplish it.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Isaiah 61:1 (cited in Luke 4:18)]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The Spirit of the Lord is upon me,  
+because he has anointed me  
+to bring glad tidings to the poor. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 1:6-8, 19-28]{style="float:right" .small}
+:::
+
+A man named John was sent from God.  
+He came for testimony, to testify to the light,  
+so that all might believe through him.  
+He was not the light,  
+but came to testify to the light.  
+
+And this is the testimony of John.  
+When the Jews from Jerusalem sent priests  
+and Levites to him  
+to ask him, “Who are you?”  
+He admitted and did not deny it,  
+but admitted, “I am not the Christ.”  
+So they asked him,  
+“What are you then? Are you Elijah?”  
+And he said, “I am not.”  
+“Are you the Prophet?”  
+He answered, “No.”  
+So they said to him,  
+“Who are you, so we can give an answer to those who sent us?  
+What do you have to say for yourself?”  
+He said:  
+“*I am the voice of one crying out in the desert,*  
+*‘make straight the way of the Lord,’*  
+as Isaiah the prophet said.”  
+Some Pharisees were also sent.   
+They asked him,  
+“Why then do you baptize  
+if you are not the Christ or Elijah or the Prophet?”  
+John answered them,  
+“I baptize with water;  
+but there is one among you whom you do not recognize,  
+the one who is coming after me,  
+whose sandal strap I am not worthy to untie.”  
+This happened in Bethany across the Jordan,  
+where John was baptizing.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Zephaniah 3:14-18a]{style="float:right" .small}
+:::
+
+Shout for joy, O daughter Zion!  
+&emsp; Sing joyfully, O Israel!  
+Be glad and exult with all your heart,  
+&emsp; O daughter Jerusalem!  
+The LORD has removed the judgment against you  
+&emsp; he has turned away your enemies;  
+the King of Israel, the LORD, is in your midst,  
+&emsp; you have no further misfortune to fear.  
+On that day, it shall be said to Jerusalem:  
+&emsp; Fear not, O Zion, be not discouraged!  
+The LORD, your God, is in your midst,  
+&emsp; a mighty savior;  
+he will rejoice over you with gladness,  
+&emsp; and renew you in his love,  
+he will sing joyfully because of you,  
+&emsp; as one sings at festivals.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Isaiah 12:2-3, 4, 5-6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Cry out with joy and gladness: for among you is the great and Holy One of Israel.**  
+
+God indeed is my savior;  
+&emsp; I am confident and unafraid.  
+My strength and my courage is the LORD,  
+&emsp; and he has been my savior.  
+With joy you will draw water  
+&emsp; at the fountain of salvation. **[℟.]{.red}**  
+
+Give thanks to the LORD, acclaim his name;  
+&emsp; among the nations make known his deeds,  
+proclaim how exalted is his name. **[℟.]{.red}**  
+
+Sing praise to the LORD for his glorious achievement;  
+&emsp; let this be known throughout all the earth.  
+Shout with exultation, O city of Zion,  
+&emsp; for great in your midst  
+&emsp; is the Holy One of Israel! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philippians 4:4-7]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Rejoice in the Lord always.  
+I shall say it again: rejoice!  
+Your kindness should be known to all.  
+The Lord is near.  
+Have no anxiety at all, but in everything,  
+by prayer and petition, with thanksgiving,  
+make your requests known to God.  
+Then the peace of God that surpasses all understanding  
+will guard your hearts and minds in Christ Jesus.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Isaiah 61:1 (cited in Luke 4:18)]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The Spirit of the Lord is upon me,  
+because he has anointed me  
+to bring glad tidings to the poor. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 3:10-18]{style="float:right" .small}
+:::
+
+The crowds asked John the Baptist,  
+“What should we do?”  
+He said to them in reply,  
+“Whoever has two cloaks  
+should share with the person who has none.  
+And whoever has food should do likewise.”  
+Even tax collectors came to be baptized and they said to him,  
+“Teacher, what should we do?”  
+He answered them,  
+“Stop collecting more than what is prescribed.”  
+Soldiers also asked him,  
+“And what is it that we should do?”  
+He told them,  
+“Do not practice extortion,  
+do not falsely accuse anyone,   
+and be satisfied with your wages.”  
+
+Now the people were filled with expectation,  
+and all were asking in their hearts  
+whether John might be the Christ.  
+John answered them all, saying,  
+“I am baptizing you with water,  
+but one mightier than I is coming.  
+I am not worthy to loosen the thongs of his sandals.  
+He will baptize you with the Holy Spirit and fire.  
+His winnowing fan is in his hand to clear his threshing floor  
+and to gather the wheat into his barn,  
+but the chaff he will burn with unquenchable fire.”  
+Exhorting them in many other ways,   
+he preached good news to the people.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
-{{< var text.yeara >}}
+{{< var text.yeara-advent >}}
 
 ```{python}
 #| label: Year A
@@ -165,7 +553,7 @@ utils.hymnlist(params['hymns']['a'], urls=videos)
 ::: {.titlered}
 ### &nbsp; Year B
 :::
-{{< var text.yearb >}}
+{{< var text.yearb-advent >}}
 
 ```{python}
 #| label: Year B
@@ -177,7 +565,7 @@ utils.hymnlist(params['hymns']['b'], urls=videos)
 ::: {.titlered}
 ### &nbsp; Year C
 :::
-{{< var text.yearc >}}
+{{< var text.yearc-advent >}}
 
 ```{python}
 #| label: Year C

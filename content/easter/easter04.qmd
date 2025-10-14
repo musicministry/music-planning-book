@@ -245,7 +245,7 @@ but you have now returned to the shepherd and guardian of your souls.
 ***
 
 ::: {.red}
-#### Alleluia [John 10:14]{style="float:right" .small}
+#### Gospel Acclamation [John 10:14]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -360,7 +360,7 @@ for we shall see him as he is.
 ***
 
 ::: {.red}
-#### Alleluia [John 10:14]{style="float:right" .small}
+#### Gospel Acclamation [John 10:14]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -490,7 +490,7 @@ and made them white in the blood of the Lamb.
 ***
 
 ::: {.red}
-#### Alleluia [John 10:14]{style="float:right" .small}
+#### Gospel Acclamation [John 10:14]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

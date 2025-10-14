@@ -104,6 +104,116 @@ Mary's role in the plan of salvation, Jesus as devout Jew, peace, gentleness
 
 > Jesus Christ is the same yesterday, today, and for ever.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Years A, B, C
+
+#### First Reading [Numbers 6:22-27]{style="float:right" .small}
+:::
+
+The LORD said to Moses:  
+“Speak to Aaron and his sons and tell them:  
+This is how you shall bless the Israelites.  
+Say to them:  
+The LORD bless you and keep you!  
+The LORD let his face shine upon  
+you, and be gracious to you!  
+The LORD look upon you kindly and  
+give you peace!  
+So shall they invoke my name upon the Israelites,  
+and I will bless them.”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 67:2-3, 5, 6, 8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **May God bless us in his mercy.**  
+
+May God have pity on us and bless us;  
+may he let his face shine upon us.  
+So may your way be known upon earth;  
+among all nations, your salvation. **[℟.]{.red}**  
+
+May the nations be glad and exult  
+because you rule the peoples in equity;  
+the nations on the earth you guide. **[℟.]{.red}**  
+
+VMay the peoples praise you, O God;  
+may all the peoples praise you!  
+May God bless us,  
+and may all the ends of the earth fear him! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Galatians 4:4-7]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+When the fullness of time had come, God sent his Son,  
+born of a woman, born under the law,  
+to ransom those under the law,  
+so that we might receive adoption as sons.  
+As proof that you are sons,  
+God sent the Spirit of his Son into our hearts,  
+crying out, “Abba, Father!”  
+So you are no longer a slave but a son,  
+and if a son then also an heir, through God.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Hebrews 1:1-2]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+In the past God spoke to our ancestors through the prophets;  
+in these last days, he has spoken to us through the Son. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 2:16-21]{style="float:right" .small}
+:::
+
+The shepherds went in haste to Bethlehem and found Mary and Joseph,  
+and the infant lying in the manger.  
+When they saw this,  
+they made known the message  
+that had been told them about this child.  
+All who heard it were amazed  
+by what had been told them by the shepherds.  
+And Mary kept all these things,  
+reflecting on them in her heart.  
+Then the shepherds returned,  
+glorifying and praising God  
+for all they had heard and seen,  
+just as it had been told to them.  
+
+When eight days were completed for his circumcision,  
+he was named Jesus, the name given him by the angel  
+before he was conceived in the womb.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::

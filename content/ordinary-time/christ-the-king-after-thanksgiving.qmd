@@ -1,0 +1,574 @@
+---
+title: "CHRIST THE KING | After Thanksgiving Day"
+subtitle: "Jesus Christ, King of the Universe"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "At the Name of Jesus"
+          tune: "KING’S WESTON"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is my shepherd; there is nothing I shall want."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Crown Him with Many Crowns"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Hail, Redeemer, King Divine"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Worthy Is the Lamb"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "All Hail the Power of Jesus’ Name"
+          book: BB
+          priority: optional
+        - name: "Hail Thee, Festival Day"
+          book: BB
+          priority: optional
+  b:
+    processional:
+      list:
+        - name: "To Jesus Christ, Our Sovereign King"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is king; he is robed in majesty."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Crown Him with Many Crowns"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Hail, Redeemer, King Divine"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Worthy Is the Lamb"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Alleluia! Sing to Jesus"
+          book: BB
+          priority: optional
+        - name: "Hail Thee, Festival Day"
+          book: BB
+          priority: optional
+  c:
+    processional:
+      list:
+        - name: "The King of Kings, Christ Jesus Reigns"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Let us go rejoicing to the house of the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Crown Him with Many Crowns"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Hail, Redeemer, King Divine"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Worthy Is the Lamb"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Rejoice, the Lord is King"
+          book: BB
+          priority: optional
+        - name: "Hail Thee, Festival Day"
+          book: BB
+          priority: optional
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+glory, majesty, judgment, peace, eternal life, judgment, mercy
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> How worthy is the Lamb who was slain.  
+> to receive power and divinity,  
+> and wisdom and strength and honor.  
+> To him belong glory and power for ever and ever.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The Lord sits as King for ever.  
+> The Lord will bless his people with peace.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Ezekiel 34:11-12, 15-17]{style="float:right" .small}
+:::
+
+Thus says the Lord GOD:  
+I myself will look after and tend my sheep.  
+As a shepherd tends his flock  
+when he finds himself among his scattered sheep,  
+so will I tend my sheep.  
+I will rescue them from every place where they were scattered  
+when it was cloudy and dark.  
+I myself will pasture my sheep;  
+I myself will give them rest, says the Lord GOD.  
+The lost I will seek out,  
+the strayed I will bring back,  
+the injured I will bind up,  
+the sick I will heal,  
+but the sleek and the strong I will destroy,  
+shepherding them rightly.  
+
+As for you, my sheep, says the Lord GOD,  
+I will judge between one sheep and another,  
+between rams and goats.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 23:1-2, 2-3, 5-6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is my shepherd; there is nothing I shall want.**  
+
+The LORD is my shepherd; I shall not want.  
+In verdant pastures he gives me repose. **[℟.]{.red}**  
+
+Beside restful waters he leads me;  
+he refreshes my soul.  
+He guides me in right paths  
+for his name's sake. **[℟.]{.red}**  
+
+You spread the table before me  
+in the sight of my foes;  
+you anoint my head with oil;  
+my cup overflows. **[℟.]{.red}**  
+
+Only goodness and kindness follow me  
+all the days of my life;  
+and I shall dwell in the house of the LORD  
+for years to come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 15:20-26, 28]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Christ has been raised from the dead,  
+the firstfruits of those who have fallen asleep.  
+For since death came through man,  
+the resurrection of the dead came also through man.  
+For just as in Adam all die,  
+so too in Christ shall all be brought to life,  
+but each one in proper order:  
+Christ the firstfruits;  
+then, at his coming, those who belong to Christ;  
+then comes the end,  
+when he hands over the kingdom to his God and Father,  
+when he has destroyed every sovereignty  
+and every authority and power.  
+For he must reign until he has put all his enemies under his feet.  
+The last enemy to be destroyed is death.  
+When everything is subjected to him,  
+then the Son himself will also be subjected  
+to the one who subjected everything to him,  
+so that God may be all in all.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Mark 11:9, 10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed is he who comes in the name of the Lord!  
+Blessed is the kingdom of our father David that is to come! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 25:31-46]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+"When the Son of Man comes in his glory,  
+and all the angels with him,  
+he will sit upon his glorious throne,  
+and all the nations will be assembled before him.  
+And he will separate them one from another,  
+as a shepherd separates the sheep from the goats.  
+He will place the sheep on his right and the goats on his left.  
+Then the king will say to those on his right,  
+'Come, you who are blessed by my Father.  
+Inherit the kingdom prepared for you from the foundation of the world.  
+For I was hungry and you gave me food,  
+I was thirsty and you gave me drink,  
+a stranger and you welcomed me,  
+naked and you clothed me,  
+ill and you cared for me,  
+in prison and you visited me.'  
+Then the righteous will answer him and say,  
+'Lord, when did we see you hungry and feed you,  
+or thirsty and give you drink?  
+When did we see you a stranger and welcome you,  
+or naked and clothe you?  
+When did we see you ill or in prison, and visit you?'  
+And the king will say to them in reply,  
+'Amen, I say to you, whatever you did  
+for one of the least brothers of mine, you did for me.'  
+Then he will say to those on his left,  
+'Depart from me, you accursed,  
+into the eternal fire prepared for the devil and his angels.  
+For I was hungry and you gave me no food,  
+I was thirsty and you gave me no drink,  
+a stranger and you gave me no welcome,  
+naked and you gave me no clothing,  
+ill and in prison, and you did not care for me.'  
+Then they will answer and say,  
+'Lord, when did we see you hungry or thirsty  
+or a stranger or naked or ill or in prison,  
+and not minister to your needs?'  
+He will answer them, 'Amen, I say to you,  
+what you did not do for one of these least ones,  
+you did not do for me.'  
+And these will go off to eternal punishment,  
+but the righteous to eternal life."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Daniel 7:13-14]{style="float:right" .small}
+:::
+
+As the visions during the night continued, I saw  
+&emsp; one like a Son of man coming,  
+&emsp; &emsp; on the clouds of heaven;  
+&emsp; when he reached the Ancient One  
+&emsp; &emsp; and was presented before him,  
+&emsp; the one like a Son of man received dominion, glory, and kingship;  
+&emsp; &emsp; all peoples, nations, and languages serve him.  
+&emsp; His dominion is an everlasting dominion  
+&emsp; &emsp; that shall not be taken away,  
+&emsp; &emsp; his kingship shall not be destroyed.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 93:1, 1-2, 5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is king; he is robed in majesty.**  
+
+The LORD is king, in splendor robed;  
+&emsp; robed is the LORD and girt about with strength. **[℟.]{.red}**  
+
+And he has made the world firm,  
+&emsp; not to be moved.  
+Your throne stands firm from of old;  
+&emsp; from everlasting you are, O LORD. **[℟.]{.red}**  
+
+Your decrees are worthy of trust indeed;  
+&emsp; holiness befits your house,  
+&emsp; O LORD, for length of days. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Revelation 1:5-8]{style="float:right" .small}
+:::
+
+Jesus Christ is the faithful witness,  
+the firstborn of the dead and ruler of the kings of the earth.  
+To him who loves us and has freed us from our sins by his blood,  
+who has made us into a kingdom, priests for his God and Father,  
+to him be glory and power forever and ever. Amen.  
+Behold, he is coming amid the clouds,  
+and every eye will see him,  
+even those who pierced him.  
+All the peoples of the earth will lament him.  
+Yes. Amen.  
+
+"I am the Alpha and the Omega," says the Lord God,  
+"the one who is and who was and who is to come, the almighty."  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Mark 11:9, 10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed is he who comes in the name of the Lord!  
+Blessed is the kingdom of our father David that is to come! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 18:33b-37]{style="float:right" .small}
+:::
+
+Pilate said to Jesus,  
+"Are you the King of the Jews?"  
+Jesus answered, "Do you say this on your own  
+or have others told you about me?"  
+Pilate answered, "I am not a Jew, am I?  
+Your own nation and the chief priests handed you over to me.  
+What have you done?"  
+Jesus answered, "My kingdom does not belong to this world.  
+If my kingdom did belong to this world,  
+my attendants would be fighting  
+to keep me from being handed over to the Jews.  
+But as it is, my kingdom is not here."  
+So Pilate said to him, "Then you are a king?"  
+Jesus answered, "You say I am a king.  
+For this I was born and for this I came into the world,  
+to testify to the truth.  
+Everyone who belongs to the truth listens to my voice."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [2 Samuel 5:1-3]{style="float:right" .small}
+:::
+
+In those days, all the tribes of Israel came to David in Hebron and said:  
+"Here we are, your bone and your flesh.  
+In days past, when Saul was our king,  
+it was you who led the Israelites out and brought them back.  
+And the LORD said to you,  
+'You shall shepherd my people Israel  
+and shall be commander of Israel.'"  
+When all the elders of Israel came to David in Hebron,  
+King David made an agreement with them there before the LORD,  
+and they anointed him king of Israel.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 122:1-2, 3-4, 4-5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Let us go rejoicing to the house of the Lord.**  
+
+I rejoiced because they said to me,  
+"We will go up to the house of the LORD."  
+And now we have set foot  
+within your gates, O Jerusalem. **[℟.]{.red}**  
+
+Jerusalem, built as a city  
+with compact unity.  
+To it the tribes go up,  
+the tribes of the LORD. **[℟.]{.red}**  
+
+According to the decree for Israel,  
+to give thanks to the name of the LORD.  
+In it are set up judgment seats,  
+seats for the house of David. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Colossians 1:12-20]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Let us give thanks to the Father,  
+who has made you fit to share  
+in the inheritance of the holy ones in light.  
+He delivered us from the power of darkness  
+and transferred us to the kingdom of his beloved Son,  
+in whom we have redemption, the forgiveness of sins.  
+
+He is the image of the invisible God,  
+the firstborn of all creation.  
+For in him were created all things in heaven and on earth,  
+the visible and the invisible,  
+whether thrones or dominions or principalities or powers;  
+all things were created through him and for him.  
+He is before all things,  
+and in him all things hold together.  
+He is the head of the body, the church.  
+He is the beginning, the firstborn from the dead,  
+that in all things he himself might be preeminent.  
+For in him all the fullness was pleased to dwell,  
+and through him to reconcile all things for him,  
+making peace by the blood of his cross  
+through him, whether those on earth or those in heaven.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Mark 11:9, 10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed is he who comes in the name of the Lord!  
+Blessed is the kingdom of our father David that is to come! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 23:35-43]{style="float:right" .small}
+:::
+
+The rulers sneered at Jesus and said,  
+"He saved others, let him save himself  
+if he is the chosen one, the Christ of God."  
+Even the soldiers jeered at him.  
+As they approached to offer him wine they called out,  
+"If you are King of the Jews, save yourself."  
+Above him there was an inscription that read,  
+"This is the King of the Jews."  
+
+Now one of the criminals hanging there reviled Jesus, saying,  
+"Are you not the Christ?  
+Save yourself and us."  
+The other, however, rebuking him, said in reply,  
+"Have you no fear of God,  
+for you are subject to the same condemnation?  
+And indeed, we have been condemned justly,  
+for the sentence we received corresponds to our crimes,  
+but this man has done nothing criminal."  
+Then he said,  
+"Jesus, remember me when you come into your kingdom."  
+He replied to him,  
+"Amen, I say to you,  
+today you will be with me in Paradise."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* These hymns are used if the Solemnity of Christ the King occurs the
+weekend after Thanksgiving Day in the United States. Otherwise, the
+hymns for [Christ the King Prior to Thanksgiving](christ-the-king-before-thanksgiving.qmd) are used instead.

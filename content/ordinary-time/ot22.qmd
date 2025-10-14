@@ -1,0 +1,570 @@
+---
+title: "TWENTY-SECOND SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Take Up Your Cross"
+          tune: "ERHALT UNS, HERR"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "My soul is thirsting for you, O Lord my God."
+          book: RA
+          priority: preferred
+        - name: "Psalm 63: My Soul is Thirsting"
+          composer: Joncas
+          book: BB
+          priority: optional
+        - name: "Psalm 63: My Soul Thirsts"
+          composer: Schutte
+          book: BB
+          priority: optional
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Blessed by Your Sacrifice"
+          book: BB
+          priority: preferred
+        - name: "Keep in Mind"
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lift High the Cross"
+          book: BB
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: "All the Earth"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The one who does justice will live in the presence of the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "All Good Gifts"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: "Be Still, for the Presence of the Lord"
+  c:
+    processional:
+      list:
+        - name: "Gather Us In"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "God, in your goodness, you have made a home for the poor."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Lord, Whose Love in Humble Service"
+          tune: "HOLY MANNA"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Humbly, Lord, We Worship You"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Dwelling Place"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "Praise, My Soul, the King of Heaven"
+          book: BB
+          priority: required
+    anthems:
+      list:
+        - name: "O How Amiable"
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} cross, sacrifice, discipleship, martyrdom, witness  
+[Year B:]{.red} moral cleanness, will of God, living for Christ  
+[Year C:]{.red} humility, mercy, gift of salvation  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Have mercy on me, O Lord, for I cry to you all the day long.  
+> O Lord, you are good and forgiving,  
+> full of mercy to all who call to you.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> How great is the goodness, Lord,  
+> that you keep for those who fear you.  
+>
+> [Or:]{.red}  
+>
+> Blessed are the peacemakers,  
+> for they shall be called children of God.  
+> Blessed are they who are persecuted for the sake of righteousness,  
+> for theirs is the Kingdom of Heaven.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Jeremiah 20:7-9]{style="float:right" .small}
+:::
+
+You duped me, O LORD, and I let myself be duped;  
+you were too strong for me, and you triumphed.  
+All the day I am an object of laughter;  
+everyone mocks me.  
+
+Whenever I speak, I must cry out,  
+violence and outrage is my message;  
+the word of the LORD has brought me  
+derision and reproach all the day.  
+
+I say to myself, I will not mention him,  
+I will speak in his name no more.  
+But then it becomes like fire burning in my heart,  
+imprisoned in my bones;  
+I grow weary holding it in, I cannot endure it.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 63:2, 3-4, 5-6, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **My soul is thirsting for you, O Lord my God.**  
+
+O God, you are my God whom I seek;  
+for you my flesh pines and my soul thirsts  
+like the earth, parched, lifeless and without water. **[℟.]{.red}**  
+
+Thus have I gazed toward you in the sanctuary  
+to see your power and your glory,  
+for your kindness is a greater good than life;  
+my lips shall glorify you. **[℟.]{.red}**  
+
+Thus will I bless you while I live;  
+lifting up my hands, I will call upon your name.  
+As with the riches of a banquet shall my soul be satisfied,  
+and with exultant lips my mouth shall praise you. **[℟.]{.red}**  
+
+You are my help,  
+and in the shadow of your wings I shout for joy.  
+My soul clings fast to you;  
+your right hand upholds me. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 12:1-2]{style="float:right" .small}
+:::
+
+I urge you, brothers and sisters, by the mercies of God,  
+to offer your bodies as a living sacrifice,  
+holy and pleasing to God, your spiritual worship.  
+Do not conform yourselves to this age  
+but be transformed by the renewal of your mind,  
+that you may discern what is the will of God,  
+what is good and pleasing and perfect.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [cf. Ephesians 1:17-18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+May the Father of our Lord Jesus Christ  
+enlighten the eyes of our hearts,  
+that we may know what is the hope. 
+that belongs to our call. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 16:21-27]{style="float:right" .small}
+:::
+
+Jesus began to show his disciples  
+that he must go to Jerusalem and suffer greatly  
+from the elders, the chief priests, and the scribes,  
+and be killed and on the third day be raised.  
+Then Peter took Jesus aside and began to rebuke him,  
+"God forbid, Lord! No such thing shall ever happen to you."  
+He turned and said to Peter,  
+"Get behind me, Satan! You are an obstacle to me.  
+You are thinking not as God does, but as human beings do."  
+
+Then Jesus said to his disciples,  
+"Whoever wishes to come after me must deny himself,  
+take up his cross, and follow me.  
+For whoever wishes to save his life will lose it,  
+but whoever loses his life for my sake will find it.  
+What profit would there be for one to gain the whole world  
+and forfeit his life?  
+Or what can one give in exchange for his life?  
+For the Son of Man will come with his angels in his Father's glory,  
+and then he will repay all according to his conduct."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Deuteronomy 4:1-2, 6-8]{style="float:right" .small}
+:::
+
+Moses said to the people:  
+"Now, Israel, hear the statutes and decrees  
+which I am teaching you to observe,  
+that you may live, and may enter in and take possession of the land  
+which the LORD, the God of your fathers, is giving you.  
+In your observance of the commandments of the LORD, your God,  
+which I enjoin upon you,  
+you shall not add to what I command you nor subtract from it.  
+Observe them carefully,  
+for thus will you give evidence  
+of your wisdom and intelligence to the nations,  
+who will hear of all these statutes and say,  
+'This great nation is truly a wise and intelligent people.'  
+For what great nation is there  
+that has gods so close to it as the LORD, our God, is to us  
+whenever we call upon him?  
+Or what great nation has statutes and decrees  
+that are as just as this whole law  
+which I am setting before you today?"  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 15:2-3, 3-4, 4-5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The one who does justice will live in the presence of the Lord.**  
+
+Whoever walks blamelessly and does justice;  
+who thinks the truth in his heart  
+and slanders not with his tongue. **[℟.]{.red}**  
+
+Who harms not his fellow man,  
+nor takes up a reproach against his neighbor;  
+by whom the reprobate is despised,  
+while he honors those who fear the LORD. **[℟.]{.red}**  
+
+Who lends not his money at usury  
+and accepts no bribe against the innocent.  
+Whoever does these things  
+shall never be disturbed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [James 1:17-18, 21b-22, 27]{style="float:right" .small}
+:::
+
+Dearest brothers and sisters:  
+All good giving and every perfect gift is from above,  
+coming down from the Father of lights,  
+with whom there is no alteration or shadow caused by change.  
+He willed to give us birth by the word of truth  
+that we may be a kind of firstfruits of his creatures.  
+
+Humbly welcome the word that has been planted in you  
+and is able to save your souls.  
+
+Be doers of the word and not hearers only, deluding yourselves.  
+
+Religion that is pure and undefiled before God and the Father is this:  
+to care for orphans and widows in their affliction  
+and to keep oneself unstained by the world.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [James 1:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The Father willed to give us birth by the word of truth  
+that we may be a kind of firstfruits of his creatures. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 7:1-8, 14-15, 21-23]{style="float:right" .small}
+:::
+
+When the Pharisees with some scribes who had come from Jerusalem  
+gathered around Jesus,  
+they observed that some of his disciples ate their meals  
+with unclean, that is, unwashed, hands.  
+—For the Pharisees and, in fact, all Jews,  
+do not eat without carefully washing their hands,  
+keeping the tradition of the elders.  
+And on coming from the marketplace  
+they do not eat without purifying themselves.  
+And there are many other things that they have traditionally observed,  
+the purification of cups and jugs and kettles and beds.-  
+So the Pharisees and scribes questioned him,  
+"Why do your disciples not follow the tradition of the elders  
+but instead eat a meal with unclean hands?"  
+He responded,  
+"Well did Isaiah prophesy about you hypocrites, as it is written:  
+*This people honors me with their lips,*  
+*but their hearts are far from me;*  
+*in vain do they worship me,*  
+*teaching as doctrines human precepts.*  
+You disregard God's commandment but cling to human tradition."  
+
+He summoned the crowd again and said to them,  
+"Hear me, all of you, and understand.  
+Nothing that enters one from outside can defile that person;  
+but the things that come out from within are what defile.  
+
+"From within people, from their hearts,  
+come evil thoughts, unchastity, theft, murder,  
+adultery, greed, malice, deceit,  
+licentiousness, envy, blasphemy, arrogance, folly.  
+All these evils come from within and they defile."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Sirach 3:17-18, 20, 28-29]{style="float:right" .small}
+:::
+
+My child, conduct your affairs with humility,  
+ and you will be loved more than a giver of gifts.  
+ Humble yourself the more, the greater you are,  
+ and you will find favor with God.  
+ What is too sublime for you, seek not,  
+ into things beyond your strength search not.  
+ The mind of a sage appreciates proverbs,  
+ and an attentive ear is the joy of the wise.  
+ Water quenches a flaming fire,  
+ and alms atone for sins.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 68:4-5, 6-7, 10-11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **God, in your goodness, you have made a home for the poor.**  
+
+The just rejoice and exult before God;  
+they are glad and rejoice.  
+Sing to God, chant praise to his name;  
+whose name is the LORD. **[℟.]{.red}**  
+
+The father of orphans and the defender of widows  
+is God in his holy dwelling.  
+God gives a home to the forsaken;  
+he leads forth prisoners to prosperity. **[℟.]{.red}**  
+
+A bountiful rain you showered down, O God, upon your inheritance;  
+you restored the land when it languished;  
+your flock settled in it;  
+in your goodness, O God, you provided it for the needy. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 12:18-19, 22-24a]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+You have not approached that which could be touched  
+and a blazing fire and gloomy darkness  
+and storm and a trumpet blast  
+and a voice speaking words such that those who heard  
+begged that no message be further addressed to them.  
+No, you have approached Mount Zion  
+and the city of the living God, the heavenly Jerusalem,  
+and countless angels in festal gathering,  
+and the assembly of the firstborn enrolled in heaven,  
+and God the judge of all,  
+and the spirits of the just made perfect,  
+and Jesus, the mediator of a new covenant,  
+and the sprinkled blood that speaks more eloquently than that of Abel.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 11:29ab]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Take my yoke upon you, says the Lord,  
+and learn from me, for I am meek and humble of heart. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 14:1, 7-14]{style="float:right" .small}
+:::
+
+On a sabbath Jesus went to dine  
+at the home of one of the leading Pharisees,  
+and the people there were observing him carefully.  
+
+He told a parable to those who had been invited,  
+noticing how they were choosing the places of honor at the table.  
+"When you are invited by someone to a wedding banquet,  
+do not recline at table in the place of honor.  
+A more distinguished guest than you may have been invited by him,  
+and the host who invited both of you may approach you and say,  
+'Give your place to this man,'  
+and then you would proceed with embarrassment  
+to take the lowest place.  
+Rather, when you are invited,  
+go and take the lowest place  
+so that when the host comes to you he may say,  
+'My friend, move up to a higher position.'  
+Then you will enjoy the esteem of your companions at the table.  
+For every one who exalts himself will be humbled,  
+but the one who humbles himself will be exalted."  
+Then he said to the host who invited him,  
+"When you hold a lunch or a dinner,  
+do not invite your friends or your brothers  
+or your relatives or your wealthy neighbors,  
+in case they may invite you back and you have repayment.  
+Rather, when you hold a banquet,  
+invite the poor, the crippled, the lame, the blind;  
+blessed indeed will you be because of their inability to repay you.  
+For you will be repaid at the resurrection of the righteous."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

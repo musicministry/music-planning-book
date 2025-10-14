@@ -1,0 +1,700 @@
+---
+title: "TWENTY-FOURTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is kind and merciful, slow to anger, and rich in compassion."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Servant Song"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Keep in Mind"
+          book: BB
+          priority: optional
+        - name: "This Bread that we Share"
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: "Psalm 91: Be With Me, Lord"
+          composer: Haugen
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Take Up Your Cross"
+          tune: "ERHALT UNS, HERR"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I will walk before the Lord, in the land of the living."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Whatsoever You Do"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Shelter Me, O God"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Blessed by Your Sacrifice"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lift High the Cross"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "Immortal, Invisible, God Only Wise"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I will rise and go to my father."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Remember Your Love"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Our Blessing Cup"
+          book: BB
+          composer: Hurd
+          priority: preferred
+    meditation:
+      list:
+        - name: "Softly and Tenderly Jesus is Calling"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Change Our Hearts"
+          book: BB
+          priority: optional
+        - name: "There’s a Wideness in God’s Mercy"
+          book: BB
+          priority: optional
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} service, forgiveness, reconciliation, redemption, mercy, compassion  
+[Year B:]{.red} discipleship, sacrifice, cross, strength from God  
+[Year C:]{.red} mercy, compassion, forgiveness, humility, petition  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Give peace, O Lord, to those who wait for you,  
+> that your prophets be found true.  
+> Hear the prayers of your servant,  
+> and of your people Israel.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> How precious is your mercy, O God!  
+> The children of men seek shelter in the shadow of your wings.  
+>
+> [Or:]{.red}  
+>
+> The chalice of blessing that we bless  
+> is a communion in the Blood of Christ;  
+> and the bread that we break  
+> is a sharing in the Body of Christ.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Sirach 27:30—28:7]{style="float:right" .small}
+:::
+
+Wrath and anger are hateful things,  
+yet the sinner hugs them tight.  
+The vengeful will suffer the LORD’s vengeance,  
+for he remembers their sins in detail.  
+Forgive your neighbor’s injustice;  
+then when you pray, your own sins will be forgiven.  
+Could anyone nourish anger against another  
+and expect healing from the LORD?  
+Could anyone refuse mercy to another like himself,  
+can he seek pardon for his own sins?  
+If one who is but flesh cherishes wrath,  
+who will forgive his sins?  
+Remember your last days, set enmity aside;  
+remember death and decay, and cease from sin!  
+Think of the commandments, hate not your neighbor;  
+remember the Most High’s covenant, and overlook faults.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 103:1-2, 3-4, 9-10, 11-12]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord is kind and merciful, slow to anger, and rich in compassion.**  
+
+Bless the LORD, O my soul;  
+and all my being, bless his holy name.  
+Bless the LORD, O my soul,  
+and forget not all his benefits. **[℟.]{.red}**  
+
+He pardons all your iniquities,  
+heals all your ills.  
+He redeems your life from destruction,  
+crowns you with kindness and compassion. **[℟.]{.red}**  
+
+He will not always chide,  
+nor does he keep his wrath forever.  
+Not according to our sins does he deal with us,  
+nor does he requite us according to our crimes. **[℟.]{.red}**  
+
+For as the heavens are high above the earth,  
+so surpassing is his kindness toward those who fear him.  
+As far as the east is from the west,  
+so far has he put our transgressions from us. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 14:7-9]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+None of us lives for oneself, and no one dies for oneself.  
+For if we live, we live for the Lord,  
+and if we die, we die for the Lord;  
+so then, whether we live or die, we are the Lord’s.  
+For this is why Christ died and came to life,  
+that he might be Lord of both the dead and the living.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 13:34]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I give you a new commandment, says the Lord:  
+love one another as I have loved you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 18:21-35]{style="float:right" .small}
+:::
+
+Peter approached Jesus and asked him,  
+“Lord, if my brother sins against me,  
+how often must I forgive?  
+As many as seven times?”   
+Jesus answered, “I say to you, not seven times but seventy-seven times.  
+That is why the kingdom of heaven may be likened to a king  
+who decided to settle accounts with his servants.  
+When he began the accounting,  
+a debtor was brought before him who owed him a huge amount.  
+Since he had no way of paying it back,  
+his master ordered him to be sold,  
+along with his wife, his children, and all his property,  
+in payment of the debt.  
+At that, the servant fell down, did him homage, and said,  
+‘Be patient with me, and I will pay you back in full.’  
+Moved with compassion the master of that servant  
+let him go and forgave him the loan.  
+When that servant had left, he found one of his fellow servants  
+who owed him a much smaller amount.  
+He seized him and started to choke him, demanding,  
+‘Pay back what you owe.’  
+Falling to his knees, his fellow servant begged him,  
+‘Be patient with me, and I will pay you back.’  
+But he refused.  
+Instead, he had the fellow servant put in prison  
+until he paid back the debt.  
+Now when his fellow servants saw what had happened,  
+they were deeply disturbed, and went to their master  
+and reported the whole affair.  
+His master summoned him and said to him, ‘You wicked servant!  
+I forgave you your entire debt because you begged me to.  
+Should you not have had pity on your fellow servant,  
+as I had pity on you?’  
+Then in anger his master handed him over to the torturers  
+until he should pay back the whole debt.  
+So will my heavenly Father do to you,  
+unless each of you forgives your brother from your heart.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Isaiah 50:5-9a]{style="float:right" .small}
+:::
+
+The Lord GOD opens my ear that I may hear;  
+and I have not rebelled,  
+have not turned back.  
+I gave my back to those who beat me,  
+my cheeks to those who plucked my beard;  
+my face I did not shield  
+from buffets and spitting.  
+
+The Lord GOD is my help,  
+therefore I am not disgraced;  
+I have set my face like flint,  
+knowing that I shall not be put to shame.  
+He is near who upholds my right;  
+if anyone wishes to oppose me,  
+let us appear together.  
+Who disputes my right?  
+Let that man confront me.  
+See, the Lord GOD is my help;  
+who will prove me wrong?  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 116:1-2, 3-4, 5-6, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will walk before the Lord, in the land of the living.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+I love the LORD because he has heard  
+my voice in supplication,  
+because he has inclined his ear to me  
+the day I called. **[℟.]{.red}**  
+
+The cords of death encompassed me;  
+the snares of the netherworld seized upon me;  
+I fell into distress and sorrow,  
+and I called upon the name of the LORD,  
+"O LORD, save my life!" **[℟.]{.red}**  
+
+Gracious is the LORD and just;  
+yes, our God is merciful.  
+The LORD keeps the little ones;  
+I was brought low, and he saved me. **[℟.]{.red}**  
+
+For he has freed my soul from death,  
+my eyes from tears, my feet from stumbling.  
+I shall walk before the Lord  
+in the land of the living. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [James 2:14-18]{style="float:right" .small}
+:::
+
+What good is it, my brothers and sisters,  
+if someone says he has faith but does not have works?  
+Can that faith save him?  
+If a brother or sister has nothing to wear  
+and has no food for the day,  
+and one of you says to them,  
+"Go in peace, keep warm, and eat well,"  
+but you do not give them the necessities of the body,  
+what good is it?  
+So also faith of itself,  
+if it does not have works, is dead.  
+
+Indeed someone might say,  
+"You have faith and I have works."  
+Demonstrate your faith to me without works,  
+and I will demonstrate my faith to you from my works.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Galatians 6:14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+May I never boast except in the cross of our Lord  
+through which the world has been crucified to me and I to the world. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 8:27-35]{style="float:right" .small}
+:::
+
+Jesus and his disciples set out  
+for the villages of Caesarea Philippi.  
+Along the way he asked his disciples,  
+"Who do people say that I am?"  
+They said in reply,  
+"John the Baptist, others Elijah,  
+still others one of the prophets."  
+And he asked them,  
+"But who do you say that I am?"  
+Peter said to him in reply,  
+"You are the Christ."  
+Then he warned them not to tell anyone about him.  
+
+He began to teach them  
+that the Son of Man must suffer greatly  
+and be rejected by the elders, the chief priests, and the scribes,  
+and be killed, and rise after three days.  
+He spoke this openly.  
+Then Peter took him aside and began to rebuke him.  
+At this he turned around and, looking at his disciples,  
+rebuked Peter and said, "Get behind me, Satan.  
+You are thinking not as God does, but as human beings do."  
+
+He summoned the crowd with his disciples and said to them,  
+"Whoever wishes to come after me must deny himself,  
+take up his cross, and follow me.  
+For whoever wishes to save his life will lose it,  
+but whoever loses his life for my sake  
+and that of the gospel will save it."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Exodus 32:7-11, 13-14]{style="float:right" .small}
+:::
+
+The LORD said to Moses,  
+"Go down at once to your people,  
+whom you brought out of the land of Egypt,  
+for they have become depraved.  
+They have soon turned aside from the way I pointed out to them,  
+making for themselves a molten calf and worshiping it,  
+sacrificing to it and crying out,  
+'This is your God, O Israel,  
+who brought you out of the land of Egypt!'  
+"I see how stiff-necked this people is," continued the LORD to Moses.  
+"Let me alone, then,  
+that my wrath may blaze up against them to consume them.  
+Then I will make of you a great nation."  
+
+But Moses implored the LORD, his God, saying,  
+"Why, O LORD, should your wrath blaze up against your own people,  
+whom you brought out of the land of Egypt  
+with such great power and with so strong a hand?  
+Remember your servants Abraham, Isaac, and Israel,  
+and how you swore to them by your own self, saying,  
+'I will make your descendants as numerous as the stars in the sky;  
+and all this land that I promised,  
+I will give your descendants as their perpetual heritage.'"  
+So the LORD relented in the punishment  
+he had threatened to inflict on his people.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Ps 51:3-4, 12-13, 17, 19; Luke 15:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will rise and go to my father.**  
+
+Have mercy on me, O God, in your goodness;  
+in the greatness of your compassion wipe out my offense.  
+Thoroughly wash me from my guilt  
+and of my sin cleanse me. **[℟.]{.red}**  
+
+A clean heart create for me, O God,  
+and a steadfast spirit renew within me.  
+Cast me not out from your presence,  
+and your Holy Spirit take not from me. **[℟.]{.red}**  
+
+O Lord, open my lips,  
+and my mouth shall proclaim your praise.  
+My sacrifice, O God, is a contrite spirit;  
+a heart contrite and humbled, O God, you will not spurn. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Timothy 1:12-17]{style="float:right" .small}
+:::
+
+Beloved:  
+I am grateful to him who has strengthened me, Christ Jesus our Lord,  
+because he considered me trustworthy  
+in appointing me to the ministry.  
+I was once a blasphemer and a persecutor and arrogant,  
+but I have been mercifully treated  
+because I acted out of ignorance in my unbelief.  
+Indeed, the grace of our Lord has been abundant,  
+along with the faith and love that are in Christ Jesus.  
+This saying is trustworthy and deserves full acceptance:  
+Christ Jesus came into the world to save sinners.  
+Of these I am the foremost.  
+But for that reason I was mercifully treated,  
+so that in me, as the foremost,  
+Christ Jesus might display all his patience as an example  
+for those who would come to believe in him for everlasting life.  
+To the king of ages, incorruptible, invisible, the only God,  
+honor and glory forever and ever. Amen.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [2 Corinthians 5:19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+God was reconciling the world to himself in Christ  
+and entrusting to us the message of reconciliation. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 15:1-32 or 15:1-10]{style="float:right" .small}
+:::
+
+Tax collectors and sinners were all drawing near to listen to Jesus,  
+but the Pharisees and scribes began to complain, saying,  
+“This man welcomes sinners and eats with them.”  
+So to them he addressed this parable.  
+“What man among you having a hundred sheep and losing one of them  
+would not leave the ninety-nine in the desert  
+and go after the lost one until he finds it?  
+And when he does find it,  
+he sets it on his shoulders with great joy  
+and, upon his arrival home,  
+he calls together his friends and neighbors and says to them,  
+‘Rejoice with me because I have found my lost sheep.’  
+I tell you, in just the same way  
+there will be more joy in heaven over one sinner who repents  
+than over ninety-nine righteous people  
+who have no need of repentance.  
+
+“Or what woman having ten coins and losing one  
+would not light a lamp and sweep the house,  
+searching carefully until she finds it?  
+And when she does find it,  
+she calls together her friends and neighbors  
+and says to them,  
+‘Rejoice with me because I have found the coin that I lost.’  
+In just the same way, I tell you,  
+there will be rejoicing among the angels of God  
+over one sinner who repents.”  
+
+Then he said,  
+“A man had two sons, and the younger son said to his father,  
+‘Father give me the share of your estate that should come to me.’  
+So the father divided the property between them.  
+After a few days, the younger son collected all his belongings  
+and set off to a distant country  
+where he squandered his inheritance on a life of dissipation.  
+When he had freely spent everything,  
+a severe famine struck that country,  
+and he found himself in dire need.  
+So he hired himself out to one of the local citizens  
+who sent him to his farm to tend the swine.  
+And he longed to eat his fill of the pods on which the swine fed,  
+but nobody gave him any.  
+Coming to his senses he thought,  
+‘How many of my father’s hired workers  
+have more than enough food to eat,  
+but here am I, dying from hunger.  
+I shall get up and go to my father and I shall say to him,  
+“Father, I have sinned against heaven and against you.  
+I no longer deserve to be called your son;  
+treat me as you would treat one of your hired workers.”’  
+So he got up and went back to his father.  
+While he was still a long way off,  
+his father caught sight of him,  
+and was filled with compassion.  
+He ran to his son, embraced him and kissed him.  
+His son said to him,  
+‘Father, I have sinned against heaven and against you;  
+I no longer deserve to be called your son.’  
+But his father ordered his servants,  
+‘Quickly bring the finest robe and put it on him;  
+put a ring on his finger and sandals on his feet.  
+Take the fattened calf and slaughter it.  
+Then let us celebrate with a feast,  
+because this son of mine was dead, and has come to life again;  
+he was lost, and has been found.’  
+Then the celebration began.  
+Now the older son had been out in the field  
+and, on his way back, as he neared the house,  
+he heard the sound of music and dancing.  
+He called one of the servants and asked what this might mean.  
+The servant said to him,  
+‘Your brother has returned  
+and your father has slaughtered the fattened calf  
+because he has him back safe and sound.’  
+He became angry,  
+and when he refused to enter the house,  
+his father came out and pleaded with him.  
+He said to his father in reply,  
+‘Look, all these years I served you  
+and not once did I disobey your orders;  
+yet you never gave me even a young goat to feast on with my friends.  But when your son returns,  
+who swallowed up your property with prostitutes,  
+for him you slaughter the fattened calf.’  
+He said to him,  
+‘My son, you are here with me always;  
+everything I have is yours.  
+But now we must celebrate and rejoice,  
+because your brother was dead and has come to life again;  
+he was lost and has been found.’”  
+
+[Or;]{.red}  
+
+Tax collectors and sinners were all drawing near to listen to Jesus,  
+but the Pharisees and scribes began to complain, saying,  
+“This man welcomes sinners and eats with them.”  
+So to them he addressed this parable.  
+“What man among you having a hundred sheep and losing one of them  
+would not leave the ninety-nine in the desert  
+and go after the lost one until he finds it?  
+And when he does find it,  
+he sets it on his shoulders with great joy  
+and, upon his arrival home,  
+he calls together his friends and neighbors and says to them,  
+‘Rejoice with me because I have found my lost sheep.’  
+I tell you, in just the same way  
+there will be more joy in heaven over one sinner who repents  
+than over ninety-nine righteous people  
+who have no need of repentance.  
+
+“Or what woman having ten coins and losing one  
+would not light a lamp and sweep the house,  
+searching carefully until she finds it?  
+And when she does find it,  
+she calls together her friends and neighbors  
+and says to them,  
+‘Rejoice with me because I have found the coin that I lost.’  
+In just the same way, I tell you,  
+there will be rejoicing among the angels of God  
+over one sinner who repents.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* “Servant Song” and “The Servant Song” are two diﬀerent songs.

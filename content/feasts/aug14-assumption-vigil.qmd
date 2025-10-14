@@ -84,6 +84,115 @@ preparation, Mary's honor
 > Blessed is the womb of the Virgin Mary,  
 > which bore the Son of the eternal Father.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Years A, B, C
+
+#### First Reading [1 Chronicles 15:3-4, 15-16; 16:1-2]{style="float:right" .small}
+:::
+
+David assembled all Israel in Jerusalem to bring the ark of the Lord  
+to the place which he had prepared for it.  
+David also called together the sons of Aaron and the Levites.  
+
+The Levites bore the ark of God on their shoulders with poles,  
+as Moses had ordained according to the word of the Lord.  
+
+David commanded the chiefs of the Levites  
+to appoint their kinsmen as chanters,  
+to play on musical instruments, harps, lyres, and cymbals,  
+to make a loud sound of rejoicing.  
+
+They brought in the ark of God and set it within the tent  
+which David had pitched for it.  
+Then they offered up burnt offerings and peace offerings to God.  
+When David had finished offering up the burnt offerings and peace offerings,  
+he blessed the people in the name of the Lord.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 132:6-7, 9-10, 13-14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, go up to the place of your rest, you and the ark of your holiness.**  
+
+Behold, we heard of it in Ephrathah;  
+&emsp; we found it in the fields of Jaar.  
+Let us enter his dwelling,  
+&emsp; let us worship at his footstool. **[℟.]{.red}**  
+
+May your priests be clothed with justice;  
+&emsp; let your faithful ones shout merrily for joy.  
+For the sake of David your servant,  
+&emsp; reject not the plea of your anointed. **[℟.]{.red}**  
+
+For the LORD has chosen Zion;  
+&emsp; he prefers her for his dwelling.  
+“Zion is my resting place forever;  
+&emsp; in her will I dwell, for I prefer her.” **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 15:54b-57]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+When that which is mortal clothes itself with immortality,  
+then the word that is written shall come about:  
+
+&emsp; *Death is swallowed up in victory.*  
+&emsp; *Where, O death, is your victory?*  
+&emsp; *Where, O death, is your sting?*  
+
+The sting of death is sin,  
+and the power of sin is the law.  
+But thanks be to God who gives us the victory  
+through our Lord Jesus Christ.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 11:28]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are they who hear the word of God  
+and observe it. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 11:27-28]{style="float:right" .small}
+:::
+
+While Jesus was speaking,  
+a woman from the crowd called out and said to him,  
+“Blessed is the womb that carried you  
+and the breasts at which you nursed.”  
+He replied,  
+“Rather, blessed are those  
+who hear the word of God and observe it.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::

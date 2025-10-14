@@ -301,7 +301,7 @@ the many will be made righteous.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [Matthew 4:4b]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 4:4b]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -435,7 +435,7 @@ with angels, authorities, and powers subject to him.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [Matthew 4:4b]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 4:4b]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -550,7 +550,7 @@ For “everyone who calls on the name of the Lord will be saved.”
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [Matthew 4:4b]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 4:4b]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  

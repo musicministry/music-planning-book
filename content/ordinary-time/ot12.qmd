@@ -1,0 +1,505 @@
+---
+title: "TWELFTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, in your great love, answer me."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Be Not Afraid"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          composer: 
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Give thanks to the Lord, his love is everlasting."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Eternal Father, Strong to Save"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Be Still, My Soul"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Be Not Afraid"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "Baptized in Water"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "My soul is thirsting for you, O Lord my God."
+          book: RA
+          priority: preferred
+        - name: "Psalm 63: My Soul is Thirsting"
+          composer: Joncas
+          book: BB
+          prioritiy: optional
+        - name: "Psalm 63: My Soul Thirsts"
+          composer: Schutte
+          book: BB
+          prioritiy: optional
+    offertory:
+      list:
+        - name: "One Bread, One Body"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Pan de Vida"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Shepherd of Souls"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Take Up Your Cross"
+          tune: "ERHALT UNS, HERR"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} God’s love, trust, prayer, protection, hope  
+[Year B:]{.red} God’s power, protection, care, new creation  
+[Year C:]{.red} faith, Messiah, sacrifice, baptism, unity  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> The Lord is the strength of his people,  
+> a saving refuge for the one he has anointed.  
+> Save your people, Lord, and bless your heritage,  
+> and govern them for ever.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The eyes of all look to you, Lord,  
+> and you give them their food in due season.  
+> 
+> [Or:]{.red}  
+> 
+> I am the Good Shepherd,  
+> and I lay down my life for my sheep, says the Lord.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Jeremiah 20:10-13]{style="float:right" .small}
+:::
+
+Jeremiah said:  
+"I hear the whisperings of many:  
+'Terror on every side!  
+Denounce! let us denounce him!'  
+All those who were my friends  
+are on the watch for any misstep of mine.  
+'Perhaps he will be trapped; then we can prevail,  
+and take our vengeance on him.'  
+But the LORD is with me, like a mighty champion:  
+my persecutors will stumble, they will not triumph.  
+In their failure they will be put to utter shame,  
+to lasting, unforgettable confusion.  
+O LORD of hosts, you who test the just,  
+who probe mind and heart,  
+let me witness the vengeance you take on them,  
+for to you I have entrusted my cause.  
+Sing to the LORD,  
+praise the LORD,  
+for he has rescued the life of the poor  
+from the power of the wicked!"  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 69:8-10, 14, 17, 33-35]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, in your great love, answer me.**  
+
+For your sake I bear insult,  
+and shame covers my face.  
+I have become an outcast to my brothers,  
+a stranger to my mother's children,  
+Because zeal for your house consumes me,  
+and the insults of those who blaspheme you fall upon me. **[℟.]{.red}**  
+
+I pray to you, O LORD,  
+for the time of your favor, O God!  
+In your great kindness answer me  
+with your constant help.  
+Answer me, O LORD, for bounteous is your kindness;  
+in your great mercy turn toward me. **[℟.]{.red}**  
+
+"See, you lowly ones, and be glad;  
+you who seek God, may your hearts revive!  
+For the LORD hears the poor,  
+and his own who are in bonds he spurns not.  
+Let the heavens and the earth praise him,  
+the seas and whatever moves in them!" **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 5:12-15]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Through one man sin entered the world,  
+and through sin, death,  
+and thus death came to all men, inasmuch as all sinned—  
+for up to the time of the law, sin was in the world,  
+though sin is not accounted when there is no law.  
+But death reigned from Adam to Moses,  
+even over those who did not sin  
+after the pattern of the trespass of Adam,  
+who is the type of the one who was to come.  
+
+But the gift is not like the transgression.  
+For if by the transgression of the one the many died,  
+how much more did the grace of God  
+and the gracious gift of the one man Jesus Christ  
+overflow for the many.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 15:26b, 27a]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The Spirit of truth will testify to me, says the Lord;  
+and you also will testify. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 10:26-33]{style="float:right" .small}
+:::
+
+Jesus said to the Twelve:  
+"Fear no one.  
+Nothing is concealed that will not be revealed,  
+nor secret that will not be known.  
+What I say to you in the darkness, speak in the light;  
+what you hear whispered, proclaim on the housetops.  
+And do not be afraid of those who kill the body but cannot kill the soul;  
+rather, be afraid of the one who can destroy  
+both soul and body in Gehenna.  
+Are not two sparrows sold for a small coin?  
+Yet not one of them falls to the ground without your Father's knowledge.  
+Even all the hairs of your head are counted.  
+So do not be afraid; you are worth more than many sparrows.  
+Everyone who acknowledges me before others  
+I will acknowledge before my heavenly Father.  
+But whoever denies me before others,  
+I will deny before my heavenly Father."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Job 38:1, 8-11]{style="float:right" .small}
+:::
+
+The Lord addressed Job out of the storm and said:
+&emsp; Who shut within doors the sea,
+&emsp; &emsp; when it burst forth from the womb;
+&emsp; when I made the clouds its garment
+&emsp; &emsp; and thick darkness its swaddling bands?
+&emsp; When I set limits for it
+&emsp; &emsp; and fastened the bar of its door,
+&emsp; and said: Thus far shall you come but no farther,
+&emsp; &emsp; and here shall your proud waves be stilled!
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 107:23-24, 25-26, 28-29, 30-31]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Give thanks to the Lord, his love is everlasting.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**
+
+They who sailed the sea in ships,
+&emsp; trading on the deep waters,
+These saw the works of the LORD
+&emsp; and his wonders in the abyss. **[℟.]{.red}**  
+
+His command raised up a storm wind
+&emsp; which tossed its waves on high.
+They mounted up to heaven; they sank to the depths;
+&emsp; their hearts melted away in their plight. **[℟.]{.red}**  
+
+They cried to the LORD in their distress;
+&emsp; from their straits he rescued them,
+He hushed the storm to a gentle breeze,
+&emsp; and the billows of the sea were stilled. **[℟.]{.red}**  
+
+They rejoiced that they were calmed,
+&emsp; and he brought them to their desired haven.
+Let them give thanks to the LORD for his kindness
+&emsp; and his wondrous deeds to the children of men. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Corinthians 5:14-17]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+The love of Christ impels us,  
+once we have come to the conviction that one died for all;  
+therefore, all have died.  
+He indeed died for all,  
+so that those who live might no longer live for themselves  
+but for him who for their sake died and was raised.  
+
+Consequently, from now on we regard no one according to the flesh;  
+even if we once knew Christ according to the flesh,  
+yet now we know him so no longer.  
+So whoever is in Christ is a new creation:  
+the old things have passed away;  
+behold, new things have come.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 7:16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+A great prophet has risen in our midst  
+God has visited his people. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 4:35-41]{style="float:right" .small}
+:::
+
+On that day, as evening drew on, Jesus said to his disciples:  
+“Let us cross to the other side.”  
+Leaving the crowd, they took Jesus with them in the boat just as he was.  
+And other boats were with him.  
+A violent squall came up and waves were breaking over the boat,  
+so that it was already filling up.  
+Jesus was in the stern, asleep on a cushion.  
+They woke him and said to him,  
+“Teacher, do you not care that we are perishing?”  
+He woke up,  
+rebuked the wind, and said to the sea, “Quiet!  Be still!”  
+The wind ceased and there was great calm.  
+Then he asked them, “Why are you terrified?  
+Do you not yet have faith?”  
+They were filled with great awe and said to one another,  
+“Who then is this whom even wind and sea obey?”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text  
+&emsp; indented as needed.
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+Verse three,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse four,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* NOTES

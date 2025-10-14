@@ -155,10 +155,375 @@ Mary, promise, love, God-with-us, Savior, hospitality, service
 > Behold, a Virgin shall conceive and bear a son;  
 > and his name will be called Emmanuel.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 7:10-14]{style="float:right" .small}
+:::
+
+The LORD spoke to Ahaz, saying:  
+Ask for a sign from the LORD, your God;  
+let it be deep as the netherworld, or high as the sky!  
+But Ahaz answered,  
+"I will not ask! I will not tempt the LORD!"  
+Then Isaiah said:  
+Listen, O house of David!  
+Is it not enough for you to weary people,  
+must you also weary my God?  
+Therefore the Lord himself will give you this sign:  
+the virgin shall conceive, and bear a son,  
+and shall name him Emmanuel.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 24:1-2, 3-4, 5-6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Let the Lord enter; he is king of glory.**  
+
+The LORD's are the earth and its fullness;  
+the world and those who dwell in it.  
+For he founded it upon the seas  
+and established it upon the rivers. **[℟.]{.red}**  
+
+Who can ascend the mountain of the LORD?  
+or who may stand in his holy place?  
+One whose hands are sinless, whose heart is clean,  
+who desires not what is vain. **[℟.]{.red}**  
+
+He shall receive a blessing from the LORD,  
+a reward from God his savior.  
+Such is the race that seeks for him,  
+that seeks the face of the God of Jacob. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 1:1-7]{style="float:right" .small}
+:::
+
+Paul, a slave of Christ Jesus,  
+called to be an apostle and set apart for the gospel of God,  
+which he promised previously through his prophets in the holy Scriptures,  
+the gospel about his Son, descended from David according to the flesh,  
+but established as Son of God in power  
+according to the Spirit of holiness  
+through resurrection from the dead, Jesus Christ our Lord.  
+Through him we have received the grace of apostleship,  
+to bring about the obedience of faith,  
+for the sake of his name, among all the Gentiles,  
+among whom are you also, who are called to belong to Jesus Christ;  
+to all the beloved of God in Rome, called to be holy.  
+Grace to you and peace from God our Father  
+and the Lord Jesus Christ.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 1:23]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The virgin shall conceive, and bear a son,  
+and they shall name him Emmanuel. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 1:18-24]{style="float:right" .small}
+:::
+
+This is how the birth of Jesus Christ came about.  
+When his mother Mary was betrothed to Joseph,  
+but before they lived together,  
+she was found with child through the Holy Spirit.  
+Joseph her husband, since he was a righteous man,  
+yet unwilling to expose her to shame,  
+decided to divorce her quietly.  
+Such was his intention when, behold,  
+the angel of the Lord appeared to him in a dream and said,  
+"Joseph, son of David,  
+do not be afraid to take Mary your wife into your home.  
+For it is through the Holy Spirit  
+that this child has been conceived in her.  
+She will bear a son and you are to name him Jesus,  
+because he will save his people from their sins."  
+All this took place to fulfill what the Lord had said through the prophet:  
+*Behold, the virgin shall conceive and bear a son,*  
+*and they shall name him Emmanuel,*  
+*which means "God is with us.*"  
+When Joseph awoke,  
+he did as the angel of the Lord had commanded him  
+and took his wife into his home.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [2 Samuel 7:1-5, 8b-12, 14a, 16]{style="float:right" .small}
+:::
+
+When King David was settled in his palace,  
+and the LORD had given him rest from his enemies on every side,  
+he said to Nathan the prophet,  
+"Here I am living in a house of cedar,  
+while the ark of God dwells in a tent!"  
+Nathan answered the king,  
+"Go, do whatever you have in mind,  
+for the LORD is with you."  
+But that night the LORD spoke to Nathan and said:  
+"Go, tell my servant David, 'Thus says the LORD:  
+Should you build me a house to dwell in?'  
+
+"It was I who took you from the pasture  
+and from the care of the flock  
+to be commander of my people Israel.  
+I have been with you wherever you went,  
+and I have destroyed all your enemies before you.  
+And I will make you famous like the great ones of the earth.  
+I will fix a place for my people Israel;  
+I will plant them so that they may dwell in their place  
+without further disturbance.  
+Neither shall the wicked continue to afflict them as they did of old,  
+since the time I first appointed judges over my people Israel.  
+I will give you rest from all your enemies.  
+The LORD also reveals to you  
+that he will establish a house for you.  
+And when your time comes and you rest with your ancestors,  
+I will raise up your heir after you, sprung from your loins,  
+and I will make his kingdom firm.  
+I will be a father to him,  
+and he shall be a son to me.  
+Your house and your kingdom shall endure forever before me;  
+your throne shall stand firm forever."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 89:2-3, 4-5, 27, 29]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **For ever I will sing the goodness of the Lord.**  
+
+The promises of the LORD I will sing forever;  
+through all generations my mouth shall proclaim your faithfulness.  
+For you have said, "My kindness is established forever";  
+in heaven you have confirmed your faithfulness. **[℟.]{.red}**  
+
+"I have made a covenant with my chosen one,  
+I have sworn to David my servant:  
+Forever will I confirm your posterity  
+and establish your throne for all generations." **[℟.]{.red}**  
+
+"He shall say of me, 'You are my father,  
+my God, the Rock, my savior.'  
+Forever I will maintain my kindness toward him,  
+and my covenant with him stands firm." **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 16:25-27]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+To him who can strengthen you,  
+according to my gospel and the proclamation of Jesus Christ,  
+according to the revelation of the mystery kept secret for long ages  
+but now manifested through the prophetic writings and,  
+according to the command of the eternal God,  
+made known to all nations to bring about the obedience of faith,  
+to the only wise God, through Jesus Christ  
+be glory forever and ever. Amen.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 1:38]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Behold, I am the handmaid of the Lord.  
+May it be done to me according to your word. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 1:26-38]{style="float:right" .small}
+:::
+
+The angel Gabriel was sent from God  
+to a town of Galilee called Nazareth,  
+to a virgin betrothed to a man named Joseph,  
+of the house of David,  
+and the virgin's name was Mary.  
+And coming to her, he said,  
+"Hail, full of grace! The Lord is with you."  
+But she was greatly troubled at what was said  
+and pondered what sort of greeting this might be.  
+Then the angel said to her,  
+"Do not be afraid, Mary,  
+for you have found favor with God.  
+
+"Behold, you will conceive in your womb and bear a son,  
+and you shall name him Jesus.  
+He will be great and will be called Son of the Most High,  
+and the Lord God will give him the throne of David his father,  
+and he will rule over the house of Jacob forever,  
+and of his kingdom there will be no end."  
+But Mary said to the angel,  
+"How can this be,  
+since I have no relations with a man?"  
+And the angel said to her in reply,  
+"The Holy Spirit will come upon you,  
+and the power of the Most High will overshadow you.  
+Therefore the child to be born  
+will be called holy, the Son of God.  
+And behold, Elizabeth, your relative,  
+has also conceived a son in her old age,  
+and this is the sixth month for her who was called barren;  
+for nothing will be impossible for God."  
+Mary said, "Behold, I am the handmaid of the Lord.  
+May it be done to me according to your word."  
+Then the angel departed from her.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Micah 5:1-4a]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+You, Bethlehem-Ephrathah  
+&emsp; too small to be among the clans of Judah,  
+from you shall come forth for me  
+&emsp; one who is to be ruler in Israel;  
+whose origin is from of old,  
+&emsp; from ancient times.  
+Therefore the Lord will give them up, until the time  
+&emsp; when she who is to give birth has borne,  
+and the rest of his kindred shall return  
+&emsp; to the children of Israel.  
+He shall stand firm and shepherd his flock  
+&emsp; by the strength of the LORD,  
+&emsp; in the majestic name of the LORD, his God;  
+and they shall remain, for now his greatness  
+&emsp; shall reach to the ends of the earth;  
+&emsp; he shall be peace.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 80:2-3, 15-16, 18-19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, make us turn to you; let us see your face and we shall be saved.**  
+
+O shepherd of Israel, hearken,  
+&emsp; from your throne upon the cherubim, shine forth.  
+Rouse your power,  
+&emsp; and come to save us. **[℟.]{.red}**  
+
+Once again, O LORD of hosts,  
+&emsp; look down from heaven, and see;  
+take care of this vine,  
+&emsp; and protect what your right hand has planted  
+the son of man whom you yourself made strong. **[℟.]{.red}**  
+
+May your help be with the man of your right hand,  
+&emsp; with the son of man whom you yourself made strong.  
+Then we will no more withdraw from you;  
+&emsp; give us new life, and we will call upon your name. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 10:5-10]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+When Christ came into the world, he said:  
+&emsp; “Sacrifice and offering you did not desire,  
+&emsp; &emsp; but a body you prepared for me;  
+&emsp; in holocausts and sin offerings you took no delight.  
+&emsp; Then I said, ‘As is written of me in the scroll,  
+&emsp; behold, I come to do your will, O God.’“  
+
+First he says, “Sacrifices and offerings,  
+holocausts and sin offerings,  
+you neither desired nor delighted in.”  
+These are offered according to the law.  
+Then he says, "Behold, I come to do your will.”  
+He takes away the first to establish the second.  
+By this “will,” we have been consecrated  
+through the offering of the body of Jesus Christ once for all.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 1:38]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Behold, I am the handmaid of the Lord.  
+May it be done to me according to your word. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 1:39-45]{style="float:right" .small}
+:::
+
+Mary set out  
+and traveled to the hill country in haste  
+to a town of Judah,  
+where she entered the house of Zechariah  
+and greeted Elizabeth.  
+When Elizabeth heard Mary’s greeting,  
+the infant leaped in her womb,  
+and Elizabeth, filled with the Holy Spirit,  
+cried out in a loud voice and said,  
+“Blessed are you among women,  
+and blessed is the fruit of your womb.  
+And how does this happen to me,  
+that the mother of my Lord should come to me?  
+For at the moment the sound of your greeting reached my ears,  
+the infant in my womb leaped for joy.  
+Blessed are you who believed  
+that what was spoken to you by the Lord  
+would be fulfilled.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
-{{< var text.yeara >}}
+{{< var text.yeara-advent >}}
 
 ```{python}
 #| label: Year A
@@ -170,7 +535,7 @@ utils.hymnlist(params['hymns']['a'], urls=videos)
 ::: {.titlered}
 ### &nbsp; Year B
 :::
-{{< var text.yearb >}}
+{{< var text.yearb-advent >}}
 
 ```{python}
 #| label: Year B
@@ -182,7 +547,7 @@ utils.hymnlist(params['hymns']['b'], urls=videos)
 ::: {.titlered}
 ### &nbsp; Year C
 :::
-{{< var text.yearc >}}
+{{< var text.yearc-advent >}}
 
 ```{python}
 #| label: Year C

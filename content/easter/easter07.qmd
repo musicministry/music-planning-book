@@ -219,7 +219,7 @@ but glorify God because of the name.
 ***
 
 ::: {.red}
-#### Alleluia [John 14:18]{style="float:right" .small}
+#### Gospel Acclamation [John 14:18]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -351,7 +351,7 @@ remains in God and God in him.
 ***
 
 ::: {.red}
-#### Alleluia [Cf. John 14:18]{style="float:right" .small}
+#### Gospel Acclamation [Cf. John 14:18]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -466,7 +466,7 @@ Amen!  Come, Lord Jesus!
 ***
 
 ::: {.red}
-#### Alleluia [Cf. John 14:18]{style="float:right" .small}
+#### Gospel Acclamation [Cf. John 14:18]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

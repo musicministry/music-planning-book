@@ -229,7 +229,7 @@ so that, as it is written,
 ***
 
 ::: {.red}
-#### Alleluia [Matthew 5:12a]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 5:12a]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -343,7 +343,7 @@ and adherence to the Lord without distraction.
 ***
 
 ::: {.red}
-#### Alleluia [Matthew 4:16]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 4:16]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -509,7 +509,7 @@ but the greatest of these is love.
 ***
 
 ::: {.red}
-#### Alleluia [Luke 4:18]{style="float:right" .small}
+#### Gospel Acclamation [Luke 4:18]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

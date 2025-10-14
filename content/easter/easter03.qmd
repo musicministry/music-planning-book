@@ -271,7 +271,7 @@ so that your faith and hope are in God.
 ***
 
 ::: {.red}
-#### Alleluia [Cf. Luke 24:32]{style="float:right" .small}
+#### Gospel Acclamation [Cf. Luke 24:32]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -419,7 +419,7 @@ the love of God is truly perfected in him.
 ***
 
 ::: {.red}
-#### Alleluia [Cf. Luke 24:32]{style="float:right" .small}
+#### Gospel Acclamation [Cf. Luke 24:32]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -550,7 +550,7 @@ and the elders fell down and worshiped.
 ***
 
 ::: {.red}
-#### Alleluia [PASSAGE]{style="float:right" .small}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

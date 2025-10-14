@@ -1,0 +1,643 @@
+---
+title: "NINETEENTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, let us see your kindness, and grant us your salvation."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Be Not Afraid"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Eternal Father, Strong to Save"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Taste and see the goodness of the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Look Beyond"
+          book: BB
+          priority: preferred
+        - name: "Eat This Bread"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "I Am the Bread of Life"
+          composer: "Toolan"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Shepherd of Souls"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "We Shall Rise Again"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed the people the Lord has chosen to be his own."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Faith of Our Fathers"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Gift of Finest Wheat"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Jerusalem, My Happy Home"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Guide Me, O Thou Great Redeemer"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} trust, faith, voice of God, salvation, suﬀering  
+[Year B:]{.red} goodness of God, forgiveness, food, eternal life,
+Eucharist  
+[Year C:]{.red} providence, protection, children of God, faith,
+preparedness  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Look to your covenant, O Lord,  
+> and forget not the life of your poor ones for ever.  
+> Arise, O God, and defend your cause,  
+> and forget not the cries of those who seek you.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> O Jerusalem, glorify the Lord,  
+> who gives you your fill of finest wheat.  
+> 
+> [Or:]{.red}  
+>
+> The bread that I will give, says the Lord,  
+> is my flesh for the life of the world.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [1 Kings 19:9a, 11-13a]{style="float:right" .small}
+:::
+
+At the mountain of God, Horeb,  
+Elijah came to a cave where he took shelter.  
+Then the LORD said to him,  
+“Go outside and stand on the mountain before the LORD;  
+the LORD will be passing by.”  
+A strong and heavy wind was rending the mountains  
+and crushing rocks before the LORD—  
+but the LORD was not in the wind.  
+After the wind there was an earthquake—  
+but the LORD was not in the earthquake.  
+After the earthquake there was fire—  
+but the LORD was not in the fire.  
+After the fire there was a tiny whispering sound.  
+When he heard this,  
+Elijah hid his face in his cloak  
+and went and stood at the entrance of the cave.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 85:9, 10, 11-12, 13-14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, let us see your kindness, and grant us your salvation.**  
+
+I will hear what God proclaims;  
+the LORD — for he proclaims peace.  
+Near indeed is his salvation to those who fear him,  
+glory dwelling in our land. **[℟.]{.red}**  
+
+Kindness and truth shall meet;  
+justice and peace shall kiss.  
+Truth shall spring out of the earth,  
+and justice shall look down from heaven. **[℟.]{.red}**  
+
+The LORD himself will give his benefits;  
+our land shall yield its increase.  
+Justice shall walk before him,  
+and prepare the way of his steps. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 9:1-5]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+I speak the truth in Christ, I do not lie;  
+my conscience joins with the Holy Spirit in bearing me witness  
+that I have great sorrow and constant anguish in my heart.  
+For I could wish that I myself were accursed and cut off from Christ  
+for the sake of my own people,  
+my kindred according to the flesh.  
+They are Israelites;  
+theirs the adoption, the glory, the covenants,  
+the giving of the law, the worship, and the promises;  
+theirs the patriarchs, and from them,  
+according to the flesh, is the Christ,  
+who is over all, God blessed forever. Amen.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Psalm 130:5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I wait for the Lord;  
+my soul waits for his word. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 14:22-33]{style="float:right" .small}
+:::
+
+After he had fed the people, Jesus made the disciples get into a boat  
+and precede him to the other side,  
+while he dismissed the crowds.  
+After doing so, he went up on the mountain by himself to pray.  
+When it was evening he was there alone.  
+Meanwhile the boat, already a few miles offshore,  
+was being tossed about by the waves, for the wind was against it.  
+During the fourth watch of the night,  
+he came toward them walking on the sea.   
+When the disciples saw him walking on the sea they were terrified.  
+“It is a ghost,” they said, and they cried out in fear.  
+At once Jesus spoke to them, “Take courage, it is I; do not be afraid.”   
+Peter said to him in reply,  
+“Lord, if it is you, command me to come to you on the water.”  
+He said, “Come.”  
+Peter got out of the boat and began to walk on the water toward Jesus.  
+But when he saw how strong the wind was he became frightened;  
+and, beginning to sink, he cried out, “Lord, save me!”  
+Immediately Jesus stretched out his hand and caught Peter,  
+and said to him, “O you of little faith, why did you doubt?”  
+After they got into the boat, the wind died down.  
+Those who were in the boat did him homage, saying,  
+“Truly, you are the Son of God.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [1 Kings 19:4-8]{style="float:right" .small}
+:::
+
+Elijah went a day's journey into the desert,  
+until he came to a broom tree and sat beneath it.  
+He prayed for death saying:  
+"This is enough, O LORD!  
+Take my life, for I am no better than my fathers."  
+He lay down and fell asleep under the broom tree,  
+but then an angel touched him and ordered him to get up and eat.  
+Elijah looked and there at his head was a hearth cake  
+and a jug of water.  
+After he ate and drank, he lay down again,  
+but the angel of the LORD came back a second time,  
+touched him, and ordered,  
+"Get up and eat, else the journey will be too long for you!"  
+He got up, ate, and drank;  
+then strengthened by that food,  
+he walked forty days and forty nights to the mountain of God, Horeb.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 34:2-3, 4-5, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Taste and see the goodness of the Lord.**  
+
+I will bless the LORD at all times;  
+his praise shall be ever in my mouth.  
+Let my soul glory in the LORD;  
+the lowly will hear me and be glad. **[℟.]{.red}**  
+
+Glorify the LORD with me,  
+Let us together extol his name.  
+I sought the LORD, and he answered me  
+And delivered me from all my fears. **[℟.]{.red}**  
+
+Look to him that you may be radiant with joy.  
+And your faces may not blush with shame.  
+When the afflicted man called out, the LORD heard,  
+And from all his distress he saved him. **[℟.]{.red}**  
+
+The angel of the LORD encamps  
+around those who fear him and delivers them.  
+Taste and see how good the LORD is;  
+blessed the man who takes refuge in him. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 4:30—5:2]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Do not grieve the Holy Spirit of God,  
+with which you were sealed for the day of redemption.  
+All bitterness, fury, anger, shouting, and reviling  
+must be removed from you, along with all malice.  
+And be kind to one another, compassionate,  
+forgiving one another as God has forgiven you in Christ.  
+
+So be imitators of God, as beloved children, and live in love,  
+as Christ loved us and handed himself over for us  
+as a sacrificial offering to God for a fragrant aroma.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 6:51]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I am the living bread that came down from heaven, says the Lord;  
+whoever eats this bread will live forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 6:41-51]{style="float:right" .small}
+:::
+
+The Jews murmured about Jesus because he said,  
+"I am the bread that came down from heaven,"  
+and they said,  
+"Is this not Jesus, the son of Joseph?  
+Do we not know his father and mother?  
+Then how can he say,  
+'I have come down from heaven'?"  
+Jesus answered and said to them,  
+"Stop murmuring among yourselves.  
+No one can come to me unless the Father who sent me draw him,  
+and I will raise him on the last day.  
+It is written in the prophets:  
+*They shall all be taught by God.*  
+Everyone who listens to my Father and learns from him comes to me.  
+Not that anyone has seen the Father  
+except the one who is from God;  
+he has seen the Father.  
+Amen, amen, I say to you,  
+whoever believes has eternal life.  
+I am the bread of life.  
+Your ancestors ate the manna in the desert, but they died;  
+this is the bread that comes down from heaven  
+so that one may eat it and not die.  
+I am the living bread that came down from heaven;  
+whoever eats this bread will live forever;  
+and the bread that I will give is my flesh for the life of the world."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Wisdom 18:6-9]{style="float:right" .small}
+:::
+
+The night of the passover was known beforehand to our fathers,  
+that, with sure knowledge of the oaths in which they put their faith,  
+they might have courage.  
+Your people awaited the salvation of the just  
+and the destruction of their foes.  
+For when you punished our adversaries,  
+in this you glorified us whom you had summoned.  
+For in secret the holy children of the good were offering sacrifice  
+and putting into effect with one accord the divine institution.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 33:1, 12, 18-19, 20-22]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Blessed the people the Lord has chosen to be his own.**  
+
+Exult, you just, in the LORD;  
+praise from the upright is fitting.  
+Blessed the nation whose God is the LORD,  
+the people he has chosen for his own inheritance. **[℟.]{.red}**  
+
+See, the eyes of the LORD are upon those who fear him,  
+upon those who hope for his kindness,  
+To deliver them from death  
+and preserve them in spite of famine. **[℟.]{.red}**  
+
+Our soul waits for the LORD,  
+who is our help and our shield.  
+May your kindness, O LORD, be upon us  
+who have put our hope in you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 11:1-2, 8-19 or 11:1-2, 8-12]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Faith is the realization of what is hoped for  
+and evidence of things not seen.  
+Because of it the ancients were well attested.  
+
+By faith Abraham obeyed when he was called to go out to a place  
+that he was to receive as an inheritance;  
+he went out, not knowing where he was to go.  
+By faith he sojourned in the promised land as in a foreign country,  
+dwelling in tents with Isaac and Jacob, heirs of the same promise;  
+for he was looking forward to the city with foundations,  
+whose architect and maker is God.  
+By faith he received power to generate,  
+even though he was past the normal age  
+—and Sarah herself was sterile—  
+for he thought that the one who had made the promise was
+trustworthy.  
+So it was that there came forth from one man,  
+himself as good as dead,  
+descendants as numerous as the stars in the sky  
+and as countless as the sands on the seashore.  
+
+All these died in faith.  
+They did not receive what had been promised  
+but saw it and greeted it from afar  
+and acknowledged themselves to be strangers and aliens on earth,  
+for those who speak thus show that they are seeking a homeland.  
+If they had been thinking of the land from which they had come,  
+they would have had opportunity to return.  
+But now they desire a better homeland, a heavenly one.  
+Therefore, God is not ashamed to be called their God,  
+for he has prepared a city for them.  
+
+By faith Abraham, when put to the test, offered up Isaac,  
+and he who had received the promises was ready to offer his only son,  
+of whom it was said,  
+“Through Isaac descendants shall bear your name.”  
+He reasoned that God was able to raise even from the dead,  
+and he received Isaac back as a symbol.  
+
+[Or:]{.red}  
+
+Brothers and sisters:  
+Faith is the realization of what is hoped for  
+and evidence of things not seen.  
+Because of it the ancients were well attested.  
+
+By faith Abraham obeyed when he was called to go out to a place  
+that he was to receive as an inheritance;  
+he went out, not knowing where he was to go.  
+By faith he sojourned in the promised land as in a foreign country,  
+dwelling in tents with Isaac and Jacob, heirs of the same promise;  
+for he was looking forward to the city with foundations,  
+whose architect and maker is God.  
+By faith he received power to generate,  
+even though he was past the normal age  
+—and Sarah herself was sterile—  
+for he thought that the one who had made the promise was
+trustworthy.  
+ So it was that there came forth from one man,  
+himself as good as dead,  
+descendants as numerous as the stars in the sky  
+and as countless as the sands on the seashore.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 24;42a, 44]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Stay awake and be ready!  
+For you do not know on what day your Lord will come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 12:32-48 or 12:35-40]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+“Do not be afraid any longer, little flock,  
+for your Father is pleased to give you the kingdom.  
+Sell your belongings and give alms.  
+Provide money bags for yourselves that do not wear out,  
+an inexhaustible treasure in heaven  
+that no thief can reach nor moth destroy.  
+For where your treasure is, there also will your heart be.  
+
+“Gird your loins and light your lamps  
+and be like servants who await their master’s return from a wedding,  
+ready to open immediately when he comes and knocks.  
+Blessed are those servants  
+whom the master finds vigilant on his arrival.  
+Amen, I say to you, he will gird himself,  
+have them recline at table, and proceed to wait on them.  
+And should he come in the second or third watch  
+and find them prepared in this way,  
+blessed are those servants.  
+Be sure of this:  
+if the master of the house had known the hour  
+when the thief was coming,  
+he would not have let his house be broken into.  
+You also must be prepared, for at an hour you do not expect,  
+the Son of Man will come.”  
+
+Then Peter said,  
+“Lord, is this parable meant for us or for everyone?”  
+And the Lord replied,  
+“Who, then, is the faithful and prudent steward  
+whom the master will put in charge of his servants  
+to distribute the food allowance at the proper time?  
+Blessed is that servant whom his master on arrival finds doing so.  
+Truly, I say to you, the master will put the servant  
+in charge of all his property.  
+But if that servant says to himself,  
+‘My master is delayed in coming,’  
+and begins to beat the menservants and the maidservants,  
+to eat and drink and get drunk,  
+then that servant’s master will come  
+on an unexpected day and at an unknown hour  
+and will punish the servant severely  
+and assign him a place with the unfaithful.  
+That servant who knew his master’s will  
+but did not make preparations nor act in accord with his will  
+shall be beaten severely;  
+and the servant who was ignorant of his master’s will  
+but acted in a way deserving of a severe beating  
+shall be beaten only lightly.  
+Much will be required of the person entrusted with much,  
+and still more will be demanded of the person entrusted with more.”
+
+[Or:]{.red}  
+
+Jesus said to his disciples:  
+“Gird your loins and light your lamps  
+and be like servants who await their master’s return from a wedding,  
+ready to open immediately when he comes and knocks.  
+Blessed are those servants  
+whom the master finds vigilant on his arrival.  
+Amen, I say to you, he will gird himself,  
+have the servants recline at table, and proceed to wait on them.  
+And should he come in the second or third watch  
+and find them prepared in this way,  
+blessed are those servants.  
+Be sure of this:  
+if the master of the house had known the hour  
+when the thief was coming,  
+he would not have let his house be broken into.  
+You also must be prepared, for at an hour you do not expect,  
+the Son of Man will come.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

@@ -1,0 +1,650 @@
+---
+title: "TWENTY-EIGHTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Come to the Feast"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I shall live in the house of the Lord all the days of my life."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Gift of Finest Wheat"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "The Supper of the Lord"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Bread for the World"
+          book: BB
+          priority: optional
+        - name: "Canticle of the Turning"
+          book: BB
+          priority: optional
+    recessional:
+      list:
+        - name: "Joyful, Joyful, We Adore Thee"
+          book: BB
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: "Sing a Joyful Song"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Fill us with your love, O Lord, and we will sing for joy!"
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "God of the Hungry"
+          book: BB
+          priority: preferred
+        - name: "Seek Ye First"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "I Have Loved You"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: "Wisdom's Feast"
+  c:
+    processional:
+      list:
+        - name: "All the Ends of the Earth"
+          book: BB
+          composer: Duﬀord
+          priority: preferred
+    psalm:
+      list:
+        - name: "The Lord has revealed to the nations his saving power."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Let All Things Now Living"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Unless A Grain of Wheat"
+          book: BB
+          composer: Farrell
+          priority: required
+    meditation:
+      list:
+        - name: "Keep in Mind"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Now Thank We All Our God"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} universal call to holiness, eternal feast, joyful
+celebration, glory of God, guidance  
+[Year B:]{.red} wisdom, discipleship, commitment, omnipotence of
+God, vocation  
+[Year C:]{.red} thanksgiving, faith, power, salvation  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> If you, O Lord, should mark iniquities,  
+> Lord, who could stand?  
+> But with you is found forgiveness,  
+> O God of Israel.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The rich suﬀer want and go hungry,  
+> but those who seek the Lord lack no blessing.  
+>
+> [Or:]{.red}  
+>
+> When the Lord appears, we shall be like him,  
+> for we shall see him as he is.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 25:6-10a]{style="float:right" .small}
+:::
+
+On this mountain the LORD of hosts  
+will provide for all peoples  
+a feast of rich food and choice wines,  
+juicy, rich food and pure, choice wines.  
+On this mountain he will destroy  
+the veil that veils all peoples,  
+the web that is woven over all nations;  
+he will destroy death forever.  
+The Lord GOD will wipe away  
+the tears from every face;  
+the reproach of his people he will remove  
+from the whole earth; for the LORD has spoken.  
+On that day it will be said:  
+"Behold our God, to whom we looked to save us!  
+This is the LORD for whom we looked;  
+let us rejoice and be glad that he has saved us!"  
+For the hand of the LORD will rest on this mountain.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 23:1-3a, 3b-4, 5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I shall live in the house of the Lord all the days of my life.**  
+
+The LORD is my shepherd; I shall not want.  
+In verdant pastures he gives me repose;  
+beside restful waters he leads me;  
+he refreshes my soul. **[℟.]{.red}**  
+
+He guides me in right paths  
+for his name's sake.  
+Even though I walk in the dark valley  
+I fear no evil; for you are at my side  
+with your rod and your staff  
+that give me courage. **[℟.]{.red}**  
+
+You spread the table before me  
+in the sight of my foes;  
+you anoint my head with oil;  
+my cup overflows. **[℟.]{.red}**  
+
+Only goodness and kindness follow me  
+all the days of my life;  
+and I shall dwell in the house of the LORD  
+for years to come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philippians 4:12-14, 19-20]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+I know how to live in humble circumstances;  
+I know also how to live with abundance.  
+In every circumstance and in all things  
+I have learned the secret of being well fed and of going hungry,  
+of living in abundance and of being in need.  
+I can do all things in him who strengthens me.   
+Still, it was kind of you to share in my distress.  
+
+My God will fully supply whatever you need,  
+in accord with his glorious riches in Christ Jesus.  
+To our God and Father, glory forever and ever. Amen.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. Ephesians 1:17-18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+May the Father of our Lord Jesus Christ  
+enlighten the eyes of our hearts,  
+so that we may know what is the hope  
+that belongs to our call. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 22:1-14 or 22:1-10]{style="float:right" .small}
+:::
+
+Jesus again in reply spoke to the chief priests and elders of the people  
+in parables, saying,  
+"The kingdom of heaven may be likened to a king  
+who gave a wedding feast for his son.  
+He dispatched his servants  
+to summon the invited guests to the feast,  
+but they refused to come.  
+A second time he sent other servants, saying,  
+'Tell those invited: "Behold, I have prepared my banquet,  
+my calves and fattened cattle are killed,  
+and everything is ready; come to the feast."'  
+Some ignored the invitation and went away,  
+one to his farm, another to his business.  
+The rest laid hold of his servants,  
+mistreated them, and killed them.  
+The king was enraged and sent his troops,  
+destroyed those murderers, and burned their city.  
+Then he said to his servants, 'The feast is ready,  
+but those who were invited were not worthy to come.  
+Go out, therefore, into the main roads  
+and invite to the feast whomever you find.'  
+The servants went out into the streets  
+and gathered all they found, bad and good alike,  
+and the hall was filled with guests.  
+But when the king came in to meet the guests,  
+he saw a man there not dressed in a wedding garment.  
+The king said to him, 'My friend, how is it  
+that you came in here without a wedding garment?'  
+But he was reduced to silence.  
+Then the king said to his attendants, 'Bind his hands and feet,  
+and cast him into the darkness outside,  
+where there will be wailing and grinding of teeth.'  
+Many are invited, but few are chosen."  
+
+[Or:]{.red}  
+
+Jesus again in reply spoke to the chief priests and elders of the people  
+in parables, saying,  
+"The kingdom of heaven may be likened to a king  
+who gave a wedding feast for his son.  
+He dispatched his servants  
+to summon the invited guests to the feast,  
+but they refused to come.  
+A second time he sent other servants, saying,  
+'Tell those invited: "Behold, I have prepared my banquet,  
+my calves and fattened cattle are killed,  
+and everything is ready; come to the feast."'  
+Some ignored the invitation and went away,  
+one to his farm, another to his business.  
+The rest laid hold of his servants,  
+mistreated them, and killed them.  
+The king was enraged and sent his troops,  
+destroyed those murderers, and burned their city.  
+Then he said to his servants, 'The feast is ready,  
+but those who were invited were not worthy to come.  
+Go out, therefore, into the main roads  
+and invite to the feast whomever you find.'  
+The servants went out into the streets  
+and gathered all they found, bad and good alike,  
+and the hall was filled with guests."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Wisdom 7:7-11]{style="float:right" .small}
+:::
+
+I prayed, and prudence was given me;  
+&emsp; I pleaded, and the spirit of wisdom came to me.  
+I preferred her to scepter and throne,  
+and deemed riches nothing in comparison with her,  
+&emsp; nor did I liken any priceless gem to her;  
+because all gold, in view of her, is a little sand,  
+&emsp; and before her, silver is to be accounted mire.  
+Beyond health and comeliness I loved her,  
+and I chose to have her rather than the light,  
+&emsp; because the splendor of her never yields to sleep.  
+Yet all good things together came to me in her company,  
+&emsp; and countless riches at her hands.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 90:12-13, 14-15, 16-17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Fill us with your love, O Lord, and we will sing for joy!**  
+
+Teach us to number our days aright,  
+&emsp; that we may gain wisdom of heart.  
+Return, O LORD! How long?  
+&emsp; Have pity on your servants! **[℟.]{.red}**  
+
+Fill us at daybreak with your kindness,  
+&emsp; that we may shout for joy and gladness all our days.  
+Make us glad, for the days when you afflicted us,  
+&emsp; for the years when we saw evil. **[℟.]{.red}**  
+
+Let your work be seen by your servants  
+&emsp; and your glory by their children;  
+and may the gracious care of the LORD our God be ours;  
+&emsp; prosper the work of our hands for us!  
+&emsp; Prosper the work of our hands! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 4:12-13]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Indeed the word of God is living and effective,  
+sharper than any two-edged sword,  
+penetrating even between soul and spirit, joints and marrow,  
+and able to discern reflections and thoughts of the heart.  
+No creature is concealed from him,  
+but everything is naked and exposed to the eyes of him  
+to whom we must render an account.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 5:3]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are the poor in spirit,  
+for theirs is the kingdom of heaven. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 10:17-30 or 10:17-27]{style="float:right" .small}
+:::
+
+As Jesus was setting out on a journey, a man ran up,  
+knelt down before him, and asked him,  
+"Good teacher, what must I do to inherit eternal life?"  
+Jesus answered him, "Why do you call me good?  
+No one is good but God alone.  
+You know the commandments:  
+*You shall not kill;*  
+*you shall not commit adultery;*  
+*you shall not steal;*  
+*you shall not bear false witness;*  
+*you shall not defraud;*  
+*honor your father and your mother.*"  
+He replied and said to him,  
+"Teacher, all of these I have observed from my youth."  
+Jesus, looking at him, loved him and said to him,  
+"You are lacking in one thing.  
+Go, sell what you have, and give to the poor  
+and you will have treasure in heaven; then come, follow me."  
+At that statement his face fell,  
+and he went away sad, for he had many possessions.  
+
+Jesus looked around and said to his disciples,  
+"How hard it is for those who have wealth  
+to enter the kingdom of God!"  
+The disciples were amazed at his words.  
+So Jesus again said to them in reply,  
+"Children, how hard it is to enter the kingdom of God!  
+It is easier for a camel to pass through the eye of a needle  
+than for one who is rich to enter the kingdom of God."  
+They were exceedingly astonished and said among themselves,  
+"Then who can be saved?"  
+Jesus looked at them and said,  
+"For human beings it is impossible, but not for God.  
+All things are possible for God."  
+Peter began to say to him,  
+"We have given up everything and followed you."  
+Jesus said, "Amen, I say to you,  
+there is no one who has given up house or brothers or sisters  
+or mother or father or children or lands  
+for my sake and for the sake of the gospel  
+who will not receive a hundred times more now in this present age:  
+houses and brothers and sisters  
+and mothers and children and lands,  
+with persecutions, and eternal life in the age to come."  
+
+[Or:]{.red}  
+
+As Jesus was setting out on a journey, a man ran up,  
+knelt down before him, and asked him,  
+"Good teacher, what must I do to inherit eternal life?"  
+Jesus answered him, "Why do you call me good?  
+No one is good but God alone.  
+You know the commandments:  
+*You shall not kill;*  
+*you shall not commit adultery;*  
+*you shall not steal;*  
+*you shall not bear false witness;*  
+*you shall not defraud;*  
+*honor your father and your mother.*"  
+He replied and said to him,  
+"Teacher, all of these I have observed from my youth."  
+Jesus, looking at him, loved him and said to him,  
+"You are lacking in one thing.  
+Go, sell what you have, and give to the poor. 
+and you will have treasure in heaven; then come, follow me."  
+At that statement his face fell,  
+and he went away sad, for he had many possessions.  
+
+Jesus looked around and said to his disciples,  
+"How hard it is for those who have wealth  
+to enter the kingdom of God!"  
+The disciples were amazed at his words.  
+So Jesus again said to them in reply,  
+"Children, how hard it is to enter the kingdom of God!  
+It is easier for a camel to pass through the eye of a needle  
+than for one who is rich to enter the kingdom of God."  
+They were exceedingly astonished and said among themselves,  
+"Then who can be saved?"  
+Jesus looked at them and said,  
+"For human beings it is impossible, but not for God.  
+All things are possible for God."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [2 Kings 5:14-17]{style="float:right" .small}
+:::
+
+Naaman went down and plunged into the Jordan seven times  
+at the word of Elisha, the man of God.  
+His flesh became again like the flesh of a little child,  
+and he was clean of his leprosy.  
+
+Naaman returned with his whole retinue to the man of God.  
+On his arrival he stood before Elisha and said,  
+"Now I know that there is no God in all the earth,  
+except in Israel.  
+Please accept a gift from your servant."  
+
+Elisha replied, "As the LORD lives whom I serve, I will not take it;"  
+and despite Naaman's urging, he still refused.  
+Naaman said: "If you will not accept,  
+please let me, your servant, have two mule-loads of earth,  
+for I will no longer offer holocaust or sacrifice  
+to any other god except to the LORD."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 98:1, 2-3, 3-4]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord has revealed to the nations his saving power.**  
+
+Sing to the LORD a new song,  
+for he has done wondrous deeds;  
+his right hand has won victory for him,  
+his holy arm. **[℟.]{.red}**  
+
+The LORD has made his salvation known:  
+in the sight of the nations he has revealed his justice.  
+He has remembered his kindness and his faithfulness  
+toward the house of Israel. **[℟.]{.red}**  
+
+All the ends of the earth have seen  
+the salvation by our God.  
+Sing joyfully to the LORD, all you lands:  
+break into song; sing praise. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Timothy 2:8-13]{style="float:right" .small}
+:::
+
+Beloved:  
+Remember Jesus Christ, raised from the dead, a descendant of David:  
+such is my gospel, for which I am suffering,  
+even to the point of chains, like a criminal.  
+But the word of God is not chained.  
+Therefore, I bear with everything for the sake of those who are chosen,  
+so that they too may obtain the salvation that is in Christ Jesus,  
+together with eternal glory.  
+This saying is trustworthy:  
+If we have died with him  
+we shall also live with him;  
+if we persevere  
+we shall also reign with him.  
+But if we deny him  
+he will deny us.  
+If we are unfaithful  
+he remains faithful,  
+for he cannot deny himself.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [1 Thessalonians 5:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+In all circumstances, give thanks,  
+for this is the will of God for you in Christ Jesus. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 17:11-19]{style="float:right" .small}
+:::
+
+As Jesus continued his journey to Jerusalem,  
+he traveled through Samaria and Galilee.  
+As he was entering a village, ten lepers met him.  
+They stood at a distance from him and raised their voices, saying,  
+"Jesus, Master! Have pity on us!"  
+And when he saw them, he said,  
+"Go show yourselves to the priests."  
+As they were going they were cleansed.  
+And one of them, realizing he had been healed,  
+returned, glorifying God in a loud voice;  
+and he fell at the feet of Jesus and thanked him.  
+He was a Samaritan.  
+Jesus said in reply,  
+"Ten were cleansed, were they not?  
+Where are the other nine?  
+Has none but this foreigner returned to give thanks to God?"  
+Then he said to him, "Stand up and go;  
+your faith has saved you."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

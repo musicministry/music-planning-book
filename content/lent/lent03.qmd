@@ -246,7 +246,7 @@ in that while we were still sinners Christ died for us.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [John 4:42, 15]{style="float:right" .small}
+#### Gospel Acclamation [John 4:42, 15]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -553,7 +553,7 @@ and the weakness of God is stronger than human strength.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [John 3:16]{style="float:right" .small}
+#### Gospel Acclamation [John 3:16]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -715,7 +715,7 @@ should take care not to fall.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [Matthew 4:17]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 4:17]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  

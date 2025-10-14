@@ -1,0 +1,586 @@
+---
+title: "TWENTY-FIRST SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Church of God, Elect and Glorious"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, your love is eternal; do not forsake the work of your hands."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The Church’s One Foundation"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "I Received the Living God"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "One Spirit, One Church"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Taste and see the goodness of the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Your Words Are Spirit and Life"
+          composer: Farrell
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Lord, to Whom Shall We Go"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Look Beyond"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "Gather Your People"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Go out to all the world and tell the good news."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "From All That Dwell Below the Skies"
+          tune: "DUKE STREET"
+          book: BB
+          priority: optional
+        - name: "From All That Dwell Below the Skies"
+          tune: "OLD HUNDREDTH"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "Behold the Lamb"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Go Make of All Disciples"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} Peter, apostles, Church, authority, love of God,
+kingdom of God, worship, wisdom  
+[Year B:]{.red} Eucharist, loyalty, faith formation, response,
+vocation, service  
+[Year C:]{.red} people of God, Church, witness, kingdom of God  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Turn your ear, O Lord, and answer me;  
+> save the servant who trusts in you, my God.  
+> Have mercy on me, O Lord, for I cry to you all the day long.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The earth is replete with the fruits of your work, O Lord;  
+> you bring forth bread from the earth  
+> and wine to cheer the heart.  
+> 
+> [Or:]{.red}  
+>
+> Whoever eats my flesh and drinks my blood  
+> has eternal life, says the Lord,  
+> and I will raise him up on the last day.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 22:19-23]{style="float:right" .small}
+:::
+
+Thus says the LORD to Shebna, master of the palace:  
+"I will thrust you from your office  
+and pull you down from your station.  
+On that day I will summon my servant  
+Eliakim, son of Hilkiah;  
+I will clothe him with your robe,  
+and gird him with your sash,  
+and give over to him your authority.  
+He shall be a father to the inhabitants of Jerusalem,  
+and to the house of Judah.  
+I will place the key of the House of David on Eliakim's shoulder;  
+when he opens, no one shall shut,  
+when he shuts, no one shall open.  
+I will fix him like a peg in a sure spot,  
+to be a place of honor for his family."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 138:1-2, 2-3, 6, 8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, your love is eternal; do not forsake the work of your hands.**  
+
+I will give thanks to you, O LORD, with all my heart,  
+for you have heard the words of my mouth;  
+in the presence of the angels I will sing your praise;  
+I will worship at your holy temple. **[℟.]{.red}**  
+
+I will give thanks to your name,  
+because of your kindness and your truth:  
+When I called, you answered me;  
+you built up strength within me. **[℟.]{.red}**  
+
+The LORD is exalted, yet the lowly he sees,  
+and the proud he knows from afar.  
+Your kindness, O LORD, endures forever;  
+forsake not the work of your hands. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 11:33-36]{style="float:right" .small}
+:::
+
+Oh, the depth of the riches and wisdom and knowledge of God!  
+How inscrutable are his judgments and how unsearchable his ways!  
+*For who has known the mind of the Lord*  
+*or who has been his counselor?*  
+*Or who has given the Lord anything*  
+*that he may be repaid?*  
+For from him and through him and for him are all things.  
+To him be glory forever. Amen.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 16:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+You are Peter and upon this rock I will build my Church  
+and the gates of the netherworld shall not prevail against it. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 16:13-20]{style="float:right" .small}
+:::
+
+Jesus went into the region of Caesarea Philippi and  
+he asked his disciples,  
+"Who do people say that the Son of Man is?"  
+They replied, "Some say John the Baptist, others Elijah,  
+still others Jeremiah or one of the prophets."  
+He said to them, "But who do you say that I am?"  
+Simon Peter said in reply,  
+"You are the Christ, the Son of the living God."  
+Jesus said to him in reply,  
+"Blessed are you, Simon son of Jonah.  
+For flesh and blood has not revealed this to you, but my heavenly Father.  
+And so I say to you, you are Peter,  
+and upon this rock I will build my church,  
+and the gates of the netherworld shall not prevail against it.  
+I will give you the keys to the kingdom of heaven.  
+Whatever you bind on earth shall be bound in heaven;  
+and whatever you loose on earth shall be loosed in heaven."  
+Then he strictly ordered his disciples  
+to tell no one that he was the Christ.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Joshua 24:1-2a, 15-17, 18b]{style="float:right" .small}
+:::
+
+Joshua gathered together all the tribes of Israel at Shechem,  
+summoning their elders, their leaders,  
+their judges, and their officers.  
+When they stood in ranks before God,  
+Joshua addressed all the people:  
+"If it does not please you to serve the LORD,  
+decide today whom you will serve,  
+the gods your fathers served beyond the River  
+or the gods of the Amorites in whose country you are now dwelling.  
+As for me and my household, we will serve the LORD."  
+
+But the people answered,  
+"Far be it from us to forsake the LORD  
+for the service of other gods.  
+For it was the LORD, our God,  
+who brought us and our fathers up out of the land of Egypt,  
+out of a state of slavery.  
+He performed those great miracles before our very eyes  
+and protected us along our entire journey  
+and among the peoples through whom we passed.  
+Therefore we also will serve the LORD, for he is our God."  
+
+::: {.red}
+#### Responsorial Psalm [Psalm 34:2-3, 16-17, 18-19, 20-21]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Taste and see the goodness of the Lord.**  
+
+I will bless the LORD at all times;  
+his praise shall be ever in my mouth.  
+Let my soul glory in the LORD;  
+the lowly will hear me and be glad. **[℟.]{.red}**  
+
+The LORD has eyes for the just,  
+and ears for their cry.  
+The LORD confronts the evildoers,  
+to destroy remembrance of them from the earth. **[℟.]{.red}**  
+
+When the just cry out, the LORD hears them,  
+and from all their distress he rescues them.  
+The LORD is close to the brokenhearted;  
+and those who are crushed in spirit he saves. **[℟.]{.red}**  
+
+Many are the troubles of the just one,  
+but out of them all the LORD delivers him;  
+he watches over all his bones;  
+not one of them shall be broken. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 5:21-32 or 5:2a, 25-32]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Be subordinate to one another out of reverence for Christ.  
+Wives should be subordinate to their husbands as to the Lord.  
+For the husband is head of his wife  
+just as Christ is head of the church,  
+he himself the savior of the body.  
+As the church is subordinate to Christ,  
+so wives should be subordinate to their husbands in everything.  
+Husbands, love your wives,  
+even as Christ loved the church  
+and handed himself over for her to sanctify her,  
+cleansing her by the bath of water with the word,  
+that he might present to himself the church in splendor,  
+without spot or wrinkle or any such thing,  
+that she might be holy and without blemish.  
+So also husbands should love their wives as their own bodies.  
+He who loves his wife loves himself.  
+For no one hates his own flesh  
+but rather nourishes and cherishes it,  
+even as Christ does the church,  
+because we are members of his body.  
+*For this reason a man shall leave his father and his mother*  
+*and be joined to his wife,*  
+*and the two shall become one flesh.*  
+This is a great mystery,  
+but I speak in reference to Christ and the church.  
+
+[Or:]{.red}  
+
+Brothers and sisters:  
+Live in love, as Christ loved us.  
+Husbands, love your wives,  
+even as Christ loved the church  
+and handed himself over for her to sanctify her,  
+cleansing her by the bath of water with the word,  
+that he might present to himself the church in splendor,  
+without spot or wrinkle or any such thing,  
+that she might be holy and without blemish.  
+So also husbands should love their wives as their own bodies.  
+He who loves his wife loves himself.  
+For no one hates his own flesh  
+but rather nourishes and cherishes it,  
+even as Christ does the church,  
+because we are members of his body.  
+*For this reason a man shall leave his father and his mother*  
+*and be joined to his wife,*  
+*and the two shall become one flesh.*  
+This is a great mystery,  
+but I speak in reference to Christ and the church.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 6:63c, 68c]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Your words, Lord, are Spirit and life;  
+you have the words of everlasting life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 6:60-69]{style="float:right" .small}
+:::
+
+Many of Jesus' disciples who were listening said,  
+"This saying is hard; who can accept it?"  
+Since Jesus knew that his disciples were murmuring about this,  
+he said to them, "Does this shock you?  
+What if you were to see the Son of Man ascending  
+to where he was before?  
+It is the spirit that gives life,  
+while the flesh is of no avail.  
+The words I have spoken to you are Spirit and life.  
+But there are some of you who do not believe."  
+Jesus knew from the beginning the ones who would not believe  
+and the one who would betray him.  
+And he said,  
+"For this reason I have told you that no one can come to me  
+unless it is granted him by my Father."  
+
+As a result of this,  
+many of his disciples returned to their former way of life  
+and no longer accompanied him.  
+Jesus then said to the Twelve, "Do you also want to leave?"  
+Simon Peter answered him, "Master, to whom shall we go?  
+You have the words of eternal life.  
+We have come to believe  
+and are convinced that you are the Holy One of God."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Isaiah 66:18-21]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+I know their works and their thoughts,  
+and I come to gather nations of every language;  
+they shall come and see my glory.  
+I will set a sign among them;  
+from them I will send fugitives to the nations:  
+to Tarshish, Put and Lud, Mosoch, Tubal and Javan,  
+to the distant coastlands  
+that have never heard of my fame, or seen my glory;  
+and they shall proclaim my glory among the nations.  
+They shall bring all your brothers and sisters from all the nations  
+as an offering to the LORD,  
+on horses and in chariots, in carts, upon mules and dromedaries,  
+to Jerusalem, my holy mountain, says the LORD,  
+just as the Israelites bring their offering  
+to the house of the LORD in clean vessels.  
+Some of these I will take as priests and Levites, says the LORD.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 117:1, 2]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Go out to all the world and tell the good news.**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+Praise the LORD, all you nations;  
+glorify him, all you peoples! **[℟.]{.red}**  
+
+For steadfast is his kindness toward us,  
+and the fidelity of the LORD endures forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 12:5-7, 11-13]{style="float:right" .small}
+:::
+
+Brothers and sisters,  
+You have forgotten the exhortation addressed to you as children:  
+"My son, do not disdain the discipline of the Lord  
+or lose heart when reproved by him;  
+for whom the Lord loves, he disciplines;  
+he scourges every son he acknowledges."  
+Endure your trials as "discipline";  
+God treats you as sons.  
+For what "son" is there whom his father does not discipline?  
+At the time,  
+all discipline seems a cause not for joy but for pain,  
+yet later it brings the peaceful fruit of righteousness  
+to those who are trained by it.  
+
+So strengthen your drooping hands and your weak knees.  
+Make straight paths for your feet,  
+that what is lame may not be disjointed but healed.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 14:6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+I am the way, the truth and the life, says the Lord;  
+no one comes to the Father, except through me. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 13:22-30]{style="float:right" .small}
+:::
+
+Jesus passed through towns and villages,  
+teaching as he went and making his way to Jerusalem.  
+Someone asked him,  
+"Lord, will only a few people be saved?"  
+He answered them,  
+"Strive to enter through the narrow gate,  
+for many, I tell you, will attempt to enter  
+but will not be strong enough.  
+After the master of the house has arisen and locked the door,  
+then will you stand outside knocking and saying,  
+'Lord, open the door for us.'  
+He will say to you in reply,  
+'I do not know where you are from.  
+And you will say,  
+'We ate and drank in your company and you taught in our streets.'  
+Then he will say to you,  
+'I do not know where you are from.  
+Depart from me, all you evildoers!'  
+And there will be wailing and grinding of teeth  
+when you see Abraham, Isaac, and Jacob  
+and all the prophets in the kingdom of God  
+and you yourselves cast out.  
+And people will come from the east and the west  
+and from the north and the south  
+and will recline at table in the kingdom of God.  
+For behold, some are last who will be first,  
+and some are first who will be last."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

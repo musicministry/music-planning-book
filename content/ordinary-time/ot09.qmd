@@ -1,0 +1,374 @@
+---
+title: "NINTH SUNDAY OF SEASON"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, be my rock of safety."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "We Walk By Faith"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "O Lord, I Am Not Worthy"
+          book: BB
+          priority: preferred
+        - name: "Seek Ye First"
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: "Dwelling Place"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Faith of Our Fathers"
+          book: BB
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: "Sing a Joyful Song"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Sing with joy to God our help."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Sing, O Sing"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Go out to all the world and tell the Good News."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "From All That Dwell Below the Skies"
+          tune: "DUKE STREET"
+          book: BB
+          priority: optional
+        - name: "From All That Dwell Below the Skies"
+          tune: "OLD HUNDREDTH"
+          book: BB
+          priority: optional
+    communion:
+      list:
+        - name: "O Lord, I Am Not Worthy"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Jesus, My Lord, My God, My All"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "Take the Word of God with You"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} faith, discipleship, providence  
+[Year B:]{.red} deliverance, healing, light  
+[Year C:]{.red} faith, healing, foreigners  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Turn to me and have mercy on me, O Lord,  
+> for I am alone and poor.  
+> See my lowliness and suﬀering  
+> and take away all my sins, my God.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> To you I call, for you will surely heed me, O God;  
+> turn your ear to me; hear my words.  
+> 
+> [Or:]{.red}  
+> 
+> Amen, I say to you: Whatever you ask for in prayer,  
+> believe you will receive it,  
+> and it will be yours, says the Lord.
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text  
+&emsp; indented as needed
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text  
+&emsp; indented as needed.
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

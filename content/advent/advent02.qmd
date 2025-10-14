@@ -159,10 +159,438 @@ Christ, preparation
 > Jerusalem, arise and stand upon the heights,  
 > and behold the joy which comes to you from God.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 11:1-10]{style="float:right" .small}
+:::
+
+On that day, a shoot shall sprout from the stump of Jesse,  
+and from his roots a bud shall blossom.  
+The spirit of the LORD shall rest upon him:  
+a spirit of wisdom and of understanding,  
+a spirit of counsel and of strength,  
+a spirit of knowledge and of fear of the LORD,  
+and his delight shall be the fear of the LORD.  
+Not by appearance shall he judge,  
+nor by hearsay shall he decide,  
+but he shall judge the poor with justice,  
+and decide aright for the land's afflicted.  
+He shall strike the ruthless with the rod of his mouth,  
+and with the breath of his lips he shall slay the wicked.  
+Justice shall be the band around his waist,  
+and faithfulness a belt upon his hips.  
+Then the wolf shall be a guest of the lamb,  
+and the leopard shall lie down with the kid;  
+the calf and the young lion shall browse together,  
+with a little child to guide them.  
+The cow and the bear shall be neighbors,  
+together their young shall rest;  
+the lion shall eat hay like the ox.  
+The baby shall play by the cobra's den,  
+and the child lay his hand on the adder's lair.  
+There shall be no harm or ruin on all my holy mountain;  
+for the earth shall be filled with knowledge of the LORD,  
+as water covers the sea.  
+On that day, the root of Jesse,  
+set up as a signal for the nations,  
+the Gentiles shall seek out,  
+for his dwelling shall be glorious.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 72:1-2, 7-8, 12-13, 17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Justice shall flourish in his time, and fullness of peace for ever.**  
+
+O God, with your judgment endow the king,  
+and with your justice, the king's son;  
+he shall govern your people with justice  
+and your afflicted ones with judgment. **[℟.]{.red}**  
+
+Justice shall flower in his days,  
+and profound peace, till the moon be no more.  
+May he rule from sea to sea,  
+and from the River to the ends of the earth. **[℟.]{.red}**  
+
+For he shall rescue the poor when he cries out,  
+and the afflicted when he has no one to help him.  
+He shall have pity for the lowly and the poor;  
+the lives of the poor he shall save. **[℟.]{.red}**  
+
+May his name be blessed forever;  
+as long as the sun his name shall remain.  
+In him shall all the tribes of the earth be blessed;  
+all the nations shall proclaim his happiness. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 15:4-9]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Whatever was written previously was written for our instruction,  
+that by endurance and by the encouragement of the Scriptures  
+we might have hope.  
+May the God of endurance and encouragement. 
+grant you to think in harmony with one another,  
+in keeping with Christ Jesus,  
+that with one accord you may with one voice  
+glorify the God and Father of our Lord Jesus Christ.  
+
+Welcome one another, then, as Christ welcomed you,  
+for the glory of God.  
+For I say that Christ became a minister of the circumcised  
+to show God's truthfulness,  
+to confirm the promises to the patriarchs,  
+but so that the Gentiles might glorify God for his mercy.  
+As it is written:  
+*Therefore, I will praise you among the Gentiles*  
+*and sing praises to your name.*  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 3:4, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Prepare the way of the Lord, make straight his paths:  
+all flesh shall see the salvation of God. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 3:1-12]{style="float:right" .small}
+:::
+
+John the Baptist appeared, preaching in the desert of Judea  
+and saying, "Repent, for the kingdom of heaven is at hand!"  
+It was of him that the prophet Isaiah had spoken when he said:  
+*A voice of one crying out in the desert,*  
+*Prepare the way of the Lord,*  
+*make straight his paths.*  
+John wore clothing made of camel's hair  
+and had a leather belt around his waist.  
+His food was locusts and wild honey.  
+At that time Jerusalem, all Judea,  
+and the whole region around the Jordan  
+were going out to him  
+and were being baptized by him in the Jordan River  
+as they acknowledged their sins.  
+
+When he saw many of the Pharisees and Sadducees  
+coming to his baptism, he said to them, "You brood of vipers!  
+Who warned you to flee from the coming wrath?  
+Produce good fruit as evidence of your repentance.  
+And do not presume to say to yourselves,  
+'We have Abraham as our father.'  
+For I tell you,  
+God can raise up children to Abraham from these stones.  
+Even now the ax lies at the root of the trees.  
+Therefore every tree that does not bear good fruit  
+will be cut down and thrown into the fire.  
+I am baptizing you with water, for repentance,  
+but the one who is coming after me is mightier than I.  
+I am not worthy to carry his sandals.  
+He will baptize you with the Holy Spirit and fire.  
+His winnowing fan is in his hand.  
+He will clear his threshing floor  
+and gather his wheat into his barn,  
+but the chaff he will burn with unquenchable fire."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Isaiah 40:1-5, 9-11]{style="float:right" .small}
+:::
+
+Comfort, give comfort to my people,  
+says your God.  
+Speak tenderly to Jerusalem, and proclaim to her  
+that her service is at an end,  
+her guilt is expiated;  
+indeed, she has received from the hand of the LORD  
+double for all her sins.  
+
+A voice cries out:  
+In the desert prepare the way of the LORD!  
+Make straight in the wasteland a highway for our God!  
+Every valley shall be filled in,  
+every mountain and hill shall be made low;  
+the rugged land shall be made a plain,  
+the rough country, a broad valley.  
+Then the glory of the LORD shall be revealed,  
+and all people shall see it together;  
+for the mouth of the LORD has spoken.  
+
+Go up on to a high mountain,  
+Zion, herald of glad tidings;  
+cry out at the top of your voice,  
+Jerusalem, herald of good news!  
+Fear not to cry out  
+and say to the cities of Judah:  
+Here is your God!  
+Here comes with power  
+the Lord GOD,  
+who rules by his strong arm;  
+here is his reward with him,  
+his recompense before him.  
+Like a shepherd he feeds his flock;  
+in his arms he gathers the lambs,  
+carrying them in his bosom,  
+and leading the ewes with care.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 85:9-10-11-12, 13-14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, let us see your kindness, and grant us your salvation.**  
+
+I will hear what God proclaims;  
+the LORD—for he proclaims peace to his people.  
+Near indeed is his salvation to those who fear him,  
+glory dwelling in our land. **[℟.]{.red}**  
+
+Kindness and truth shall meet;  
+justice and peace shall kiss.  
+Truth shall spring out of the earth,  
+and justice shall look down from heaven. **[℟.]{.red}**  
+
+The LORD himself will give his benefits;  
+our land shall yield its increase.  
+Justice shall walk before him,  
+and prepare the way of his steps. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Peter 3:8-14]{style="float:right" .small}
+:::
+
+Do not ignore this one fact, beloved,  
+that with the Lord one day is like a thousand years  
+and a thousand years like one day.  
+The Lord does not delay his promise, as some regard “delay,”  
+but he is patient with you,  
+not wishing that any should perish  
+but that all should come to repentance.  
+But the day of the Lord will come like a thief,  
+and then the heavens will pass away with a mighty roar  
+and the elements will be dissolved by fire,  
+and the earth and everything done on it will be found out.  
+
+Since everything is to be dissolved in this way,  
+what sort of persons ought you to be,  
+conducting yourselves in holiness and devotion,  
+waiting for and hastening the coming of the day of God,  
+because of which the heavens will be dissolved in flames  
+and the elements melted by fire.  
+But according to his promise  
+we await new heavens and a new earth  
+in which righteousness dwells.  
+Therefore, beloved, since you await these things,  
+be eager to be found without spot or blemish before him, at peace.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 3:4, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Prepare the way of the Lord, make straight his paths:  
+All flesh shall see the salvation of God. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 1:1-8]{style="float:right" .small}
+:::
+
+The beginning of the gospel of Jesus Christ the Son of God.  
+
+As it is written in Isaiah the prophet:  
+*Behold, I am sending my messenger ahead of you;*  
+*he will prepare your way.*  
+*A voice of one crying out in the desert:*  
+*“Prepare the way of the Lord,*  
+*make straight his paths.*”  
+John the Baptist appeared in the desert  
+proclaiming a baptism of repentance for the forgiveness of sins.  
+People of the whole Judean countryside  
+and all the inhabitants of Jerusalem  
+were going out to him  
+and were being baptized by him in the Jordan River  
+as they acknowledged their sins.  
+John was clothed in camel’s hair,  
+with a leather belt around his waist.  
+He fed on locusts and wild honey.  
+And this is what he proclaimed:  
+“One mightier than I is coming after me.  
+I am not worthy to stoop and loosen the thongs of his sandals.  
+I have baptized you with water;  
+he will baptize you with the Holy Spirit.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Baruch 5:1-9]{style="float:right" .small}
+:::
+
+Jerusalem, take off your robe of mourning and misery;  
+&emsp; put on the splendor of glory from God forever:  
+wrapped in the cloak of justice from God,  
+&emsp; bear on your head the mitre  
+&emsp; that displays the glory of the eternal name.  
+For God will show all the earth your splendor:  
+&emsp; you will be named by God forever  
+&emsp; the peace of justice, the glory of God’s worship.  
+    
+Up, Jerusalem! stand upon the heights;  
+&emsp; look to the east and see your children  
+gathered from the east and the west  
+&emsp; at the word of the Holy One,  
+&emsp; rejoicing that they are remembered by God.  
+Led away on foot by their enemies they left you:  
+&emsp; but God will bring them back to you  
+&emsp; borne aloft in glory as on royal thrones.  
+For God has commanded  
+&emsp; that every lofty mountain be made low,  
+and that the age-old depths and gorges  
+&emsp; be filled to level ground,  
+&emsp; that Israel may advance secure in the glory of God.  
+The forests and every fragrant kind of tree  
+&emsp; have overshadowed Israel at God’s command;  
+for God is leading Israel in joy  
+&emsp; by the light of his glory,  
+&emsp; with his mercy and justice for company.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 126:1-2, 2-3, 4-5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord has done great things for us; we are filled with joy.**  
+
+When the LORD brought back the captives of Zion,  
+&emsp; we were like men dreaming.  
+Then our mouth was filled with laughter,  
+&emsp; and our tongue with rejoicing. **[℟.]{.red}**  
+
+Then they said among the nations,  
+&emsp; “The LORD has done great things for them.”  
+The LORD has done great things for us;  
+&emsp; we are glad indeed. **[℟.]{.red}**  
+
+Restore our fortunes, O LORD,  
+&emsp; like the torrents in the southern desert.  
+Those who sow in tears  
+&emsp; shall reap rejoicing. **[℟.]{.red}**  
+
+Although they go forth weeping,  
+&emsp; carrying the seed to be sown,  
+They shall come back rejoicing,  
+&emsp; carrying their sheaves. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philippians 1:4-6, 8-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+I pray always with joy in my every prayer for all of you,  
+because of your partnership for the gospel  
+from the first day until now.  
+I am confident of this,  
+that the one who began a good work in you  
+will continue to complete it  
+until the day of Christ Jesus.  
+God is my witness,  
+how I long for all of you with the affection of Christ Jesus.  
+And this is my prayer:  
+that your love may increase ever more and more  
+in knowledge and every kind of perception,  
+to discern what is of value,  
+so that you may be pure and blameless for the day of Christ,  
+filled with the fruit of righteousness  
+that comes through Jesus Christ  
+for the glory and praise of God.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 3:4, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Prepare the way of the Lord, make straight his paths:  
+all flesh shall see the salvation of God. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 3:1-6]{style="float:right" .small}
+:::
+
+In the fifteenth year of the reign of Tiberius Caesar,  
+when Pontius Pilate was governor of Judea,  
+and Herod was tetrarch of Galilee,  
+and his brother Philip tetrarch of the region  
+of Ituraea and Trachonitis,  
+and Lysanias was tetrarch of Abilene,  
+during the high priesthood of Annas and Caiaphas,  
+the word of God came to John the son of Zechariah in the desert.  
+John went throughout the whole region of the Jordan,  
+proclaiming a baptism of repentance for the forgiveness of sins,  
+as it is written in the book of the words of the prophet Isaiah:  
+&emsp; A voice of one crying out in the desert:  
+&emsp; “Prepare the way of the Lord,  
+&emsp; &emsp; make straight his paths.  
+&emsp; Every valley shall be filled  
+&emsp; &emsp; and every mountain and hill shall be made low.  
+&emsp; The winding roads shall be made straight,  
+&emsp; &emsp; and the rough ways made smooth,  
+&emsp; and all flesh shall see the salvation of God.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Year A
 :::
-{{< var text.yeara >}}
+{{< var text.yeara-advent >}}
 
 ```{python}
 #| label: Year A
@@ -174,7 +602,7 @@ utils.hymnlist(params['hymns']['a'], urls=videos)
 ::: {.titlered}
 ### &nbsp; Year B
 :::
-{{< var text.yearb >}}
+{{< var text.yearb-advent >}}
 
 ```{python}
 #| label: Year B
@@ -186,7 +614,7 @@ utils.hymnlist(params['hymns']['b'], urls=videos)
 ::: {.titlered}
 ### &nbsp; Year C
 :::
-{{< var text.yearc >}}
+{{< var text.yearc-advent >}}
 
 ```{python}
 #| label: Year C

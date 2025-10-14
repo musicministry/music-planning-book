@@ -1,0 +1,610 @@
+---
+title: "TWENTY-SIXTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "At the Name of Jesus"
+          composer: Walker
+          book: BB
+          priority: preferred
+        - name: "To Jesus Christ, Our Sovereign King"
+          book: BB
+          priority: optional
+    psalm:
+      list:
+        - name: "Remember your mercies, O Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Remember Your Love"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "To You, O Lord"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Jesus, the Lord"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Praise to You, O Christ, Our Savior"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The precepts of the Lord give joy to the heart."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Word of God, Come Down on Earth"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Your Words Are Spirit and Life"
+          composer: Farrell
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "To Jesus Christ, Our Sovereign King"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Praise the Lord, my soul."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Save Your People"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "We Remember"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "O God, Beyond All Praising"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} active faith, community, cross, mercy, humility  
+[Year B:]{.red} prophecy, ways of God, healing, forgiveness, renewal,
+unity  
+[Year C:]{.red} justice, faith, zeal  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> All that you have done to us, O Lord  
+> you have done with true judgment,  
+> for we have sinned against you  
+> and not obeyed your commandments.  
+> But give glory to your name  
+> and deal with us according to the bounty of your mercy.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Remember your word to your servant, O Lord,  
+> by which you have given me hope.  
+> This is my comfort when I am brought low.  
+>
+> [Or:]{.red}  
+>
+> By this we came to know the love of God;  
+> that Christ laid down his life for us;  
+> so we ought to lay down our lives for one another.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Ezekiel 18:25-28]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+You say, "The LORD's way is not fair!"  
+Hear now, house of Israel:  
+Is it my way that is unfair, or rather, are not your ways unfair?  
+When someone virtuous turns away from virtue to commit iniquity, and dies,  
+it is because of the iniquity he committed that he must die.  
+But if he turns from the wickedness he has committed,  
+and does what is right and just,  
+he shall preserve his life;  
+since he has turned away from all the sins that he has committed,  
+he shall surely live, he shall not die.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 25:4-5, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Remember your mercies, O Lord.**  
+
+Your ways, O LORD, make known to me;  
+teach me your paths,  
+guide me in your truth and teach me,  
+for you are God my savior. **[℟.]{.red}**  
+
+Remember that your compassion, O LORD,  
+and your love are from of old.  
+The sins of my youth and my frailties remember not;  
+in your kindness remember me,  
+because of your goodness, O LORD. **[℟.]{.red}**  
+
+Good and upright is the LORD;  
+thus he shows sinners the way.  
+He guides the humble to justice,   
+and teaches the humble his way. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philippians 2:1-11 or 2:1-5]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+If there is any encouragement in Christ,  
+any solace in love,  
+any participation in the Spirit,  
+any compassion and mercy,  
+complete my joy by being of the same mind, with the same love,  
+united in heart, thinking one thing.  
+Do nothing out of selfishness or out of vainglory;  
+rather, humbly regard others as more important than yourselves,  
+each looking out not for his own interests,  
+but also for those of others.  
+
+Have in you the same attitude  
+that is also in Christ Jesus,  
+Who, though he was in the form of God,  
+did not regard equality with God  
+something to be grasped.  
+Rather, he emptied himself,  
+taking the form of a slave,  
+coming in human likeness;  
+and found human in appearance,  
+he humbled himself,  
+becoming obedient to the point of death,  
+even death on a cross.  
+Because of this, God greatly exalted him  
+and bestowed on him the name  
+which is above every name,  
+that at the name of Jesus  
+every knee should bend,  
+of those in heaven and on earth and under the earth,  
+and every tongue confess that  
+Jesus Christ is Lord,  
+to the glory of God the Father.  
+
+[Or:]{.red}  
+
+Brothers and sisters:  
+If there is any encouragement in Christ,  
+any solace in love,  
+any participation in the Spirit,  
+any compassion and mercy,  
+complete my joy by being of the same mind, with the same love,  
+united in heart, thinking one thing.  
+Do nothing out of selfishness or out of vainglory;  
+rather, humbly regard others as more important than yourselves,  
+each looking out not for his own interests,  
+but also for those of others.  
+
+Have in you the same attitude  
+that is also in Christ Jesus.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 10:27]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+My sheep hear my voice, says the Lord;  
+I know them, and they follow me. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 21:28-32]{style="float:right" .small}
+:::
+
+Jesus said to the chief priests and elders of the people:  
+"What is your opinion?  
+A man had two sons.  
+He came to the first and said,  
+'Son, go out and work in the vineyard today.'  
+He said in reply, 'I will not,'  
+but afterwards changed his mind and went.  
+The man came to the other son and gave the same order.  
+He said in reply, 'Yes, sir, 'but did not go.  
+Which of the two did his father's will?"  
+They answered, "The first."  
+Jesus said to them, "Amen, I say to you,  
+tax collectors and prostitutes  
+are entering the kingdom of God before you.  
+When John came to you in the way of righteousness,  
+you did not believe him;  
+but tax collectors and prostitutes did.  
+Yet even when you saw that,  
+you did not later change your minds and believe him."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Numbers 11:25-29]{style="float:right" .small}
+:::
+
+The LORD came down in the cloud and spoke to Moses.  
+Taking some of the spirit that was on Moses,  
+the LORD bestowed it on the seventy elders;  
+and as the spirit came to rest on them, they prophesied.  
+
+Now two men, one named Eldad and the other Medad,  
+were not in the gathering but had been left in the camp.  
+They too had been on the list, but had not gone out to the tent;  
+yet the spirit came to rest on them also,  
+and they prophesied in the camp.  
+So, when a young man quickly told Moses,  
+"Eldad and Medad are prophesying in the camp,"  
+Joshua, son of Nun, who from his youth had been Moses' aide, said,  
+"Moses, my lord, stop them."  
+But Moses answered him,  
+"Are you jealous for my sake?  
+Would that all the people of the LORD were prophets!  
+Would that the LORD might bestow his spirit on them all!"  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 19:8, 10, 12-13, 14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The precepts of the Lord give joy to the heart.**  
+
+The law of the LORD is perfect,  
+refreshing the soul;  
+the decree of the LORD is trustworthy,  
+giving wisdom to the simple. **[℟.]{.red}**  
+
+The fear of the LORD is pure,  
+enduring forever;  
+the ordinances of the LORD are true,  
+all of them just. **[℟.]{.red}**  
+
+Though your servant is careful of them,  
+very diligent in keeping them,  
+yet who can detect failings?  
+Cleanse me from my unknown faults! **[℟.]{.red}**  
+
+From wanton sin especially, restrain your servant;  
+let it not rule over me.  
+Then shall I be blameless and innocent  
+of serious sin. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [James 5:1-6]{style="float:right" .small}
+:::
+
+Come now, you rich, weep and wail over your impending miseries.  
+Your wealth has rotted away, your clothes have become moth-eaten,  
+your gold and silver have corroded,  
+and that corrosion will be a testimony against you;  
+it will devour your flesh like a fire.  
+You have stored up treasure for the last days.  
+Behold, the wages you withheld from the workers  
+who harvested your fields are crying aloud;  
+and the cries of the harvesters  
+have reached the ears of the Lord of hosts.  
+You have lived on earth in luxury and pleasure;  
+you have fattened your hearts for the day of slaughter.  
+You have condemned;  
+you have murdered the righteous one;  
+he offers you no resistance.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. John 17:17b, 17a]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Your word, O Lord, is truth;  
+consecrate us in the truth. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 9:38-43, 45, 47-48]{style="float:right" .small}
+:::
+
+At that time, John said to Jesus,  
+"Teacher, we saw someone driving out demons in your name,  
+and we tried to prevent him because he does not follow us."  
+Jesus replied, "Do not prevent him.  
+There is no one who performs a mighty deed in my name  
+who can at the same time speak ill of me.  
+For whoever is not against us is for us.  
+Anyone who gives you a cup of water to drink  
+because you belong to Christ,  
+amen, I say to you, will surely not lose his reward.  
+
+"Whoever causes one of these little ones who believe in me to sin,  
+it would be better for him if a great millstone  
+were put around his neck  
+and he were thrown into the sea.  
+If your hand causes you to sin, cut it off.  
+It is better for you to enter into life maimed  
+than with two hands to go into Gehenna,  
+into the unquenchable fire.  
+And if your foot causes you to sin, cut it off.  
+It is better for you to enter into life crippled  
+than with two feet to be thrown into Gehenna.  
+And if your eye causes you to sin, pluck it out.  
+Better for you to enter into the kingdom of God with one eye  
+than with two eyes to be thrown into Gehenna,  
+where 'their worm does not die, and the fire is not quenched.'"  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Amos 6:1a, 4-7]{style="float:right" .small}
+:::
+
+Thus says the LORD the God of hosts:  
+Woe to the complacent in Zion!  
+Lying upon beds of ivory,  
+stretched comfortably on their couches,  
+they eat lambs taken from the flock,  
+and calves from the stall!  
+Improvising to the music of the harp,  
+like David, they devise their own accompaniment.  
+They drink wine from bowls  
+and anoint themselves with the best oils;  
+yet they are not made ill by the collapse of Joseph!  
+Therefore, now they shall be the first to go into exile,  
+and their wanton revelry shall be done away with.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 146:7, 8-9, 9-10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise the Lord, my soul!**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+Blessed is he who keeps faith forever,  
+secures justice for the oppressed,  
+gives food to the hungry.  
+The LORD sets captives free. **[℟.]{.red}**  
+
+The LORD gives sight to the blind;  
+the LORD raises up those who were bowed down.  
+The LORD loves the just;  
+the LORD protects strangers. **[℟.]{.red}**  
+
+The fatherless and the widow he sustains,  
+but the way of the wicked he thwarts.  
+The LORD shall reign forever;  
+your God, O Zion, through all generations. Alleluia. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Timothy 6:11-16]{style="float:right" .small}
+:::
+
+But you, man of God, pursue righteousness,  
+devotion, faith, love, patience, and gentleness.  
+Compete well for the faith.  
+Lay hold of eternal life, to which you were called  
+when you made the noble confession in the presence of many witnesses.  
+I charge you before God, who gives life to all things,  
+and before Christ Jesus,  
+who gave testimony under Pontius Pilate for the noble confession,  
+to keep the commandment without stain or reproach  
+until the appearance of our Lord Jesus Christ  
+that the blessed and only ruler  
+will make manifest at the proper time,  
+the King of kings and Lord of lords,  
+who alone has immortality, who dwells in unapproachable light,  
+and whom no human being has seen or can see.  
+To him be honor and eternal power. Amen.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. 2 Corinthians 8:9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Though our Lord Jesus Christ was rich, he became poor,  
+so that by his poverty you might become rich. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 16:19-31]{style="float:right" .small}
+:::
+
+Jesus said to the Pharisees:  
+"There was a rich man who dressed in purple garments and fine linen  
+and dined sumptuously each day.  
+And lying at his door was a poor man named Lazarus, covered with sores,  
+who would gladly have eaten his fill of the scraps  
+that fell from the rich man's table.  
+Dogs even used to come and lick his sores.  
+When the poor man died,  
+he was carried away by angels to the bosom of Abraham.  
+The rich man also died and was buried,  
+and from the netherworld, where he was in torment,  
+he raised his eyes and saw Abraham far off  
+and Lazarus at his side.  
+And he cried out, 'Father Abraham, have pity on me.  
+Send Lazarus to dip the tip of his finger in water and cool my tongue,  
+for I am suffering torment in these flames.'  
+Abraham replied,  
+'My child, remember that you received  
+what was good during your lifetime  
+while Lazarus likewise received what was bad;  
+but now he is comforted here, whereas you are tormented.  
+Moreover, between us and you a great chasm is established  
+to prevent anyone from crossing who might wish to go  
+from our side to yours or from your side to ours.'  
+He said, 'Then I beg you, father,  
+send him to my father's house, for I have five brothers,  
+so that he may warn them,  
+lest they too come to this place of torment.'  
+But Abraham replied, 'They have Moses and the prophets.  
+Let them listen to them.'  
+He said, 'Oh no, father Abraham,  
+but if someone from the dead goes to them, they will repent.'  
+Then Abraham said, 'If they will not listen to Moses and the prophets,  
+neither will they be persuaded if someone should rise from the dead.'"  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* NOTES

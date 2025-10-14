@@ -237,7 +237,7 @@ to light through the gospel.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [Matthew 17:5]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 17:5]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -370,7 +370,7 @@ who indeed intercedes for us.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [Cf. Matthew 17:5]{style="float:right" .small}
+#### Gospel Acclamation [Cf. Matthew 17:5]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -517,7 +517,7 @@ in this way stand firm in the Lord, beloved.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [Cf. Matthew 17:5]{style="float:right" .small}
+#### Gospel Acclamation [Cf. Matthew 17:5]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  

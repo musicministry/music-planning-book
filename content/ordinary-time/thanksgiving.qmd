@@ -1,0 +1,344 @@
+---
+title: "THANKSGIVING DAY"
+subtitle: "Fourth Thursday in November (United States)"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Come, Ye Thankful People, Come"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed be the name of the Lord forever."
+          book: RA
+          priority: preferred
+        - name: "I will praise your name for ever, Lord."
+          book: RA
+          priority: optional
+    offertory:
+      list:
+        - name: "For the Beauty of the Earth"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Gift of Finest Wheat"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "For the Fruits of This Creation"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Now Thank We All Our God"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "We Gather Together"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed be the name of the Lord forever."
+          book: RA
+          priority: preferred
+        - name: "I will praise your name for ever, Lord."
+          book: RA
+          priority: optional
+    offertory:
+      list:
+        - name: "For the Fruits of This Creation"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Here At This Table"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "All Good Gifts"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Let All Things Now Living"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "Table of Plenty"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed be the name of the Lord forever."
+          book: RA
+          priority: preferred
+        - name: "I will praise your name for ever, Lord."
+          book: RA
+          priority: optional
+    offertory:
+      list:
+        - name: "All Good Gifts"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "The Supper of the Lord"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "For the Beauty of the Earth"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Thanks Be to God"
+          book: BB
+          priority: preferred
+        - name: "Sing of the Lord’s Goodness"
+          book: BB
+          priority: optional
+  abc:
+    anthems:
+      list:
+        - name: "Laudate Dominum"
+          composer: Walker
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+thanksgiving, harvest, blessings
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Sing and make music to the Lord in your hearts,  
+> always thanking God the Father for all things  
+> in the name of our Lord Jesus Christ.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> I will thank you, Lord, with all my heart,  
+> for you have heard the words of my mouth.  
+>
+> [Or:]{.red}  
+> 
+> How can I repay the Lord for all his goodness to me?  
+> The chalice of salvation I will raise,  
+> and I will call on the name of the Lord.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Years A, B, C
+
+#### First Reading [Sirach 50:22-24]{style="float:right" .small}
+:::
+
+And now, bless the God of all,  
+&emsp; who has done wondrous things on earth;  
+Who fosters people’s growth from their mother’s womb,  
+&emsp; and fashions them according to his will!  
+May he grant you joy of heart  
+&emsp; and may peace abide among you;  
+May his goodness toward us endure in Israel  
+&emsp; to deliver us in our days.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 145:2-3, 4-5, 6-7, 8-9, 10-11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will praise your name for ever, Lord.**  
+
+Every day will I bless you,  
+&emsp; and I will praise your name forever and ever.  
+Great is the LORD and highly to be praised;  
+&emsp; his greatness is unsearchable. **[℟.]{.red}**  
+
+Generation after generation praises your works  
+&emsp; and proclaims your might.  
+They speak of the splendor of your glorious majesty  
+&emsp; and tell of your wondrous works. **[℟.]{.red}**  
+
+They discourse of the power of your terrible deeds  
+&emsp; and declare your greatness.  
+They publish the fame of your abundant goodness  
+&emsp; and joyfully sing of your justice. **[℟.]{.red}**  
+
+The LORD is gracious and merciful,  
+&emsp; slow to anger and of great kindness.  
+The LORD is good to all  
+&emsp; and compassionate toward all his works. **[℟.]{.red}**  
+
+Let all your works give you thanks, O LORD,  
+&emsp; and let your faithful ones bless you.  
+Let them discourse of the glory of your Kingdom  
+&emsp; and speak of your might. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 1:3-9]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Grace to you and peace from God our Father  
+and the Lord Jesus Christ.  
+
+I give thanks to my God always on your account  
+for the grace of God bestowed on you in Christ Jesus,  
+that in him you were enriched in every way,  
+with all discourse and all knowledge,  
+as the testimony to Christ was confirmed among you,  
+so that you are not lacking in any spiritual gift  
+as you wait for the revelation of our Lord Jesus Christ.  
+He will keep you firm to the end,  
+irreproachable on the day of our Lord Jesus Christ.  
+God is faithful,  
+and by him you were called to fellowship with his Son, Jesus Christ our Lord.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [1 Thessalonians 5:18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+In all circumstances, give thanks,  
+for this is the will of God for you in Christ Jesus. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 17:11-19]{style="float:right" .small}
+:::
+
+As Jesus continued his journey to Jerusalem,  
+he traveled through Samaria and Galilee.  
+As he was entering a village, ten persons with leprosy met him.  
+They stood at a distance from him and raised their voices, saying,  
+“Jesus, Master! Have pity on us!”  
+And when he saw them, he said,  
+“Go show yourselves to the priests.”  
+As they were going they were cleansed.  
+And one of them, realizing he had been healed,  
+returned, glorifying God in a loud voice;  
+and he fell at the feet of Jesus and thanked him.  
+He was a Samaritan.  
+Jesus said in reply,  
+“Ten were cleansed, were they not?  
+Where are the other nine?  
+Has none but this foreigner returned to give thanks to God?”  
+Then he said to him, “Stand up and go;  
+your faith has saved you.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* The Lectionary contains several options for readings for Thanksgiving
+Day. The Responsorial Psalm should be taken from the set of readings
+selected by the Presider. Other Responsorial Psalm refrains can be often be found within the Respond and Acclaim book for the given year.
+Otherwise, the psalm can be recited.

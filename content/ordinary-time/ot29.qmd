@@ -1,0 +1,555 @@
+---
+title: "TWENTY-NINTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Sing a New Song"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Give the Lord glory and honor."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Only This I Want"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, let your mercy be on us, as we place our trust in you."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Center of My Life"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Our help is from the Lord, who made heaven and earth."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "O God, Our Help in Ages Past"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Be Thou My Vision"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} God’s dominion over the world, finding God in the
+world, grace, peace, hope, worship  
+[Year B:]{.red} suﬀering, service, comfort  
+[Year C:]{.red} perseverance, faith, word of God  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> To you I call; for you will surely heed me, O God;  
+> turn your ear to me; hear my words.  
+> Guard me as the apple of your eye;  
+> in the shadow of your wings protect me.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Behold, the eyes of the Lord  
+> are on those who fear him,  
+> who hope in his merciful love,  
+> to rescue their souls from death,  
+> to keep them alive in famine.  
+>
+> [Or:]{.red}  
+> 
+> The Son of Man has come  
+> to give his life as a ransom for many.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Isaiah 45:1, 4-6]{style="float:right" .small}
+:::
+
+Thus says the LORD to his anointed, Cyrus,  
+whose right hand I grasp,  
+subduing nations before him,  
+and making kings run in his service,  
+opening doors before him  
+and leaving the gates unbarred:  
+For the sake of Jacob, my servant,  
+of Israel, my chosen one,  
+I have called you by your name,  
+giving you a title, though you knew me not.  
+I am the LORD and there is no other,  
+there is no God besides me.  
+It is I who arm you, though you know me not,  
+so that toward the rising and the setting of the sun  
+people may know that there is none besides me.  
+I am the LORD, there is no other.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 96:1, 3, 4-5, 7-8, 9-10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Give the Lord glory and honor.**  
+
+Sing to the LORD a new song;  
+sing to the LORD, all you lands.  
+Tell his glory among the nations;  
+among all peoples, his wondrous deeds. **[℟.]{.red}**  
+
+For great is the LORD and highly to be praised;  
+awesome is he, beyond all gods.  
+For all the gods of the nations are things of nought,  
+but the LORD made the heavens. **[℟.]{.red}**  
+
+Give to the LORD, you families of nations,  
+give to the LORD glory and praise;  
+give to the LORD the glory due his name!  
+Bring gifts, and enter his courts. **[℟.]{.red}**  
+
+Worship the LORD, in holy attire;  
+tremble before him, all the earth;  
+say among the nations: The LORD is king,  
+he governs the peoples with equity. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Thessalonians 1:1-5b]{style="float:right" .small}
+:::
+
+Paul, Silvanus, and Timothy to the church of the Thessalonians  
+in God the Father and the Lord Jesus Christ:  
+grace to you and peace.  
+We give thanks to God always for all of you,  
+remembering you in our prayers,  
+unceasingly calling to mind your work of faith and labor of love  
+and endurance in hope of our Lord Jesus Christ,  
+before our God and Father,  
+knowing, brothers and sisters loved by God,  
+how you were chosen.  
+For our gospel did not come to you in word alone,  
+but also in power and in the Holy Spirit and with much conviction.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Philippians 2:15d, 16a]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Shine like lights in the world  
+as you hold on to the word of life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 22:15-21]{style="float:right" .small}
+:::
+
+The Pharisees went off  
+and plotted how they might entrap Jesus in speech.  
+They sent their disciples to him, with the Herodians, saying,  
+"Teacher, we know that you are a truthful man  
+and that you teach the way of God in accordance with the truth.  
+And you are not concerned with anyone's opinion,  
+for you do not regard a person's status.  
+Tell us, then, what is your opinion:  
+Is it lawful to pay the census tax to Caesar or not?"  
+Knowing their malice, Jesus said,  
+"Why are you testing me, you hypocrites?  
+Show me the coin that pays the census tax."  
+Then they handed him the Roman coin.  
+He said to them, "Whose image is this and whose inscription?"  
+They replied, "Caesar's."  
+At that he said to them,  
+"Then repay to Caesar what belongs to Caesar  
+and to God what belongs to God."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Isaiah 53:10-11]{style="float:right" .small}
+:::
+
+The LORD was pleased  
+&emsp; to crush him in infirmity.  
+
+If he gives his life as an offering for sin,  
+&emsp; he shall see his descendants in a long life,  
+&emsp; and the will of the LORD shall be accomplished through him.  
+
+Because of his affliction  
+&emsp; he shall see the light in fullness of days;  
+through his suffering, my servant shall justify many,  
+&emsp; and their guilt he shall bear.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 33:4-5, 18-19, 20, 22]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, let your mercy be on us, as we place our trust in you.**  
+
+Upright is the word of the LORD,  
+&emsp; and all his works are trustworthy.  
+He loves justice and right;  
+&emsp; of the kindness of the LORD the earth is full. **[℟.]{.red}**  
+
+See, the eyes of the LORD are upon those who fear him,  
+&emsp; upon those who hope for his kindness,  
+To deliver them from death  
+&emsp; and preserve them in spite of famine. **[℟.]{.red}**  
+
+Our soul waits for the LORD,  
+&emsp; who is our help and our shield.  
+May your kindness, O LORD, be upon us  
+&emsp; who have put our hope in you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 4:14-16]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Since we have a great high priest who has passed through the heavens,  
+Jesus, the Son of God,  
+let us hold fast to our confession.  
+For we do not have a high priest  
+who is unable to sympathize with our weaknesses,  
+but one who has similarly been tested in every way,  
+yet without sin.  
+So let us confidently approach the throne of grace  
+to receive mercy and to find grace for timely help.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Mark 10:45]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The Son of Man came to serve  
+and to give his life as a ransom for many. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 10:35-45 or 10:42-45]{style="float:right" .small}
+:::
+
+James and John, the sons of Zebedee, came to Jesus and said to him,  
+"Teacher, we want you to do for us whatever we ask of you."  
+He replied, "What do you wish me to do for you?"  
+They answered him, "Grant that in your glory  
+we may sit one at your right and the other at your left."  
+Jesus said to them, "You do not know what you are asking.  
+Can you drink the cup that I drink  
+or be baptized with the baptism with which I am baptized?"  
+They said to him, "We can."  
+Jesus said to them, "The cup that I drink, you will drink,  
+and with the baptism with which I am baptized, you will be baptized;  
+but to sit at my right or at my left is not mine to give  
+but is for those for whom it has been prepared."  
+When the ten heard this, they became indignant at James and John.  
+Jesus summoned them and said to them,  
+"You know that those who are recognized as rulers over the Gentiles
+lord it over them,  
+and their great ones make their authority over them felt.  
+But it shall not be so among you.  
+Rather, whoever wishes to be great among you will be your servant;  
+whoever wishes to be first among you will be the slave of all.  
+For the Son of Man did not come to be served  
+but to serve and to give his life as a ransom for many."  
+
+[Or:]{.red}  
+
+Jesus summoned the twelve and said to them,  
+"You know that those who are recognized as rulers over the Gentiles
+lord it over them,  
+and their great ones make their authority over them felt.  
+But it shall not be so among you.  
+Rather, whoever wishes to be great among you will be your servant;  
+whoever wishes to be first among you will be the slave of all.  
+For the Son of Man did not come to be served  
+but to serve and to give his life as a ransom for many."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Exodus 17:8-13]{style="float:right" .small}
+:::
+
+In those days, Amalek came and waged war against Israel.  
+Moses, therefore, said to Joshua,  
+"Pick out certain men,  
+and tomorrow go out and engage Amalek in battle.  
+I will be standing on top of the hill  
+with the staff of God in my hand."  
+So Joshua did as Moses told him:  
+he engaged Amalek in battle  
+after Moses had climbed to the top of the hill with Aaron and Hur.  
+As long as Moses kept his hands raised up,  
+Israel had the better of the fight,  
+but when he let his hands rest,  
+Amalek had the better of the fight.  
+Moses'hands, however, grew tired;  
+so they put a rock in place for him to sit on.  
+Meanwhile Aaron and Hur supported his hands,  
+one on one side and one on the other,  
+so that his hands remained steady till sunset.  
+And Joshua mowed down Amalek and his people  
+with the edge of the sword.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 121:1-2, 3-4, 5-6, 7-8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Our help is from the Lord, who made heaven and earth.**  
+
+I lift up my eyes toward the mountains;  
+whence shall help come to me?  
+My help is from the LORD,  
+who made heaven and earth. **[℟.]{.red}**  
+
+May he not suffer your foot to slip;  
+may he slumber not who guards you:  
+indeed he neither slumbers nor sleeps,  
+the guardian of Israel. **[℟.]{.red}**  
+
+The LORD is your guardian; the LORD is your shade;  
+he is beside you at your right hand.  
+The sun shall not harm you by day,  
+nor the moon by night. **[℟.]{.red}**  
+
+The LORD will guard you from all evil;  
+he will guard your life.  
+The LORD will guard your coming and your going,  
+both now and forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Timothy 3:14-4:2]{style="float:right" .small}
+:::
+
+Beloved:  
+Remain faithful to what you have learned and believed,  
+because you know from whom you learned it,  
+and that from infancy you have known the sacred Scriptures,  
+which are capable of giving you wisdom for salvation  
+through faith in Christ Jesus.  
+All Scripture is inspired by God  
+and is useful for teaching, for refutation, for correction,  
+and for training in righteousness,  
+so that one who belongs to God may be competent,  
+equipped for every good work.  
+
+I charge you in the presence of God and of Christ Jesus,  
+who will judge the living and the dead,  
+and by his appearing and his kingly power:  
+proclaim the word;  
+be persistent whether it is convenient or inconvenient;  
+convince, reprimand, encourage through all patience and teaching.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Hebrews 4:12]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+The word of God is living and effective,  
+discerning reflections and thoughts of the heart. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 18:1-8]{style="float:right" .small}
+:::
+
+Jesus told his disciples a parable  
+about the necessity for them to pray always without becoming weary.  
+He said, "There was a judge in a certain town  
+who neither feared God nor respected any human being.  
+And a widow in that town used to come to him and say,  
+'Render a just decision for me against my adversary.'  
+For a long time the judge was unwilling, but eventually he thought,  
+'While it is true that I neither fear God nor respect any human being,  
+because this widow keeps bothering me  
+I shall deliver a just decision for her  
+lest she finally come and strike me.'"  
+The Lord said, "Pay attention to what the dishonest judge says.  
+Will not God then secure the rights of his chosen ones  
+who call out to him day and night?  
+Will he be slow to answer them?  
+I tell you, he will see to it that justice is done for them speedily.  
+But when the Son of Man comes, will he find faith on earth?"  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

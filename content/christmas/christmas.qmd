@@ -88,7 +88,7 @@ The [Christmas Carol Mass](https://kevinweed.com/christmas-carol-mass/) by Kevin
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::
-{{< var text.yearabc >}}
+{{< var text.yearabc-advent >}}
 
 ```{python}
 #| label: Year ABC

@@ -1,0 +1,616 @@
+---
+title: "SEVENTEENTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, I love your commands."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Abba! Father"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Table of Plenty"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "The hand of the Lord feeds us, he answers all our needs."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Gift of Finest Wheat"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "One Love Released"
+          book: BB
+          priority: optional
+        - name: "The Supper of the Lord"
+          book: BB
+          priority: optional
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Sing a Joyful Song"
+          book: BB
+          priority: required
+  c:
+    processional:
+      list:
+        - name: "All Are Welcome"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, on the day I called for help, you answered me."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Seek Ye First"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Abba! Father"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Let All Things Now Living"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} wisdom, kingdom of God, sacrifice, heaven, patience,
+compassion  
+[Year B:]{.red} food, Eucharist, life, God’s providence, compassion  
+[Year C:]{.red} petition, perseverance, prayer, forgiveness  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> God is in his holy place,  
+> God who unites those who dwell in his house;  
+> he himself gives might and strength to his people.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Bless the Lord, O my soul,  
+> and never forget all his benefits.  
+>
+> [Or:]{.red}  
+>
+> Blessed are the merciful, for they shall receive mercy.  
+> Blessed are the clean of heart, for they shall see God.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [1 Kings 3:5, 7-12]{style="float:right" .small}
+:::
+
+The LORD appeared to Solomon in a dream at night.  
+God said, "Ask something of me and I will give it to you."  
+Solomon answered:  
+"O LORD, my God, you have made me, your servant, king  
+to succeed my father David;  
+but I am a mere youth, not knowing at all how to act.  
+I serve you in the midst of the people whom you have chosen,  
+a people so vast that it cannot be numbered or counted.  
+Give your servant, therefore, an understanding heart  
+to judge your people and to distinguish right from wrong.  
+For who is able to govern this vast people of yours?"  
+
+The LORD was pleased that Solomon made this request.  
+So God said to him:  
+"Because you have asked for this—  
+not for a long life for yourself,  
+nor for riches,  
+nor for the life of your enemies,  
+but for understanding so that you may know what is right—  
+I do as you requested.  
+I give you a heart so wise and understanding  
+that there has never been anyone like you up to now,  
+and after you there will come no one to equal you."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 119:57, 72, 76-77, 127-128, 129-130]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, I love your commands.**  
+
+I have said, O LORD, that my part  
+is to keep your words.  
+The law of your mouth is to me more precious  
+than thousands of gold and silver pieces. **[℟.]{.red}**  
+
+Let your kindness comfort me  
+according to your promise to your servants.  
+Let your compassion come to me that I may live,  
+for your law is my delight. **[℟.]{.red}**  
+
+For I love your commands  
+more than gold, however fine.  
+For in all your precepts I go forward;  
+every false way I hate. **[℟.]{.red}**  
+
+Wonderful are your decrees;  
+therefore I observe them.  
+The revelation of your words sheds light,  
+giving understanding to the simple. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 8:28-30]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+We know that all things work for good for those who love God,  
+who are called according to his purpose.  
+For those he foreknew he also predestined  
+to be conformed to the image of his Son,  
+so that he might be the firstborn  
+among many brothers and sisters.  
+And those he predestined he also called;  
+and those he called he also justified;  
+and those he justified he also glorified.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. Matthew 11:25]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are you, Father, Lord of heaven and earth;  
+for you have revealed to little ones the mysteries of the kingdom. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 13:44-52 or 13:44-46]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+"The kingdom of heaven is like a treasure buried in a field,  
+which a person finds and hides again,  
+and out of joy goes and sells all that he has and buys that field.  
+Again, the kingdom of heaven is like a merchant  
+searching for fine pearls.  
+When he finds a pearl of great price,  
+he goes and sells all that he has and buys it.  
+Again, the kingdom of heaven is like a net thrown into the sea,  
+which collects fish of every kind.  
+When it is full they haul it ashore  
+and sit down to put what is good into buckets.  
+What is bad they throw away.  
+Thus it will be at the end of the age.  
+The angels will go out and separate the wicked from the righteous  
+and throw them into the fiery furnace,  
+where there will be wailing and grinding of teeth.  
+
+"Do you understand all these things?"  
+They answered, "Yes."  
+And he replied,  
+"Then every scribe who has been instructed in the kingdom of heaven  
+is like the head of a household  
+who brings from his storeroom both the new and the old."  
+
+[Or:]{.red}  
+
+Jesus said to his disciples:  
+"The kingdom of heaven is like a treasure buried in a field,  
+which a person finds and hides again,  
+and out of joy goes and sells all that he has and buys that field.  
+Again, the kingdom of heaven is like a merchant  
+searching for fine pearls.  
+When he finds a pearl of great price,  
+he goes and sells all that he has and buys it."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [2 Kings 4:42-44]{style="float:right" .small}
+:::
+
+A man came from Baal-shalishah bringing to Elisha, the man of God,  
+twenty barley loaves made from the firstfruits,  
+and fresh grain in the ear.  
+Elisha said, "Give it to the people to eat."  
+But his servant objected,  
+"How can I set this before a hundred people?"  
+Elisha insisted, "Give it to the people to eat."  
+"For thus says the LORD,  
+'They shall eat and there shall be some left over.'"  
+And when they had eaten, there was some left over,  
+as the LORD had said.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 145:10-11, 15-16, 17-18]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The hand of the Lord feeds us; he answers all our needs.**  
+
+Let all your works give you thanks, O LORD,  
+and let your faithful ones bless you.  
+Let them discourse of the glory of your kingdom  
+and speak of your might. **[℟.]{.red}**  
+
+The eyes of all look hopefully to you,  
+and you give them their food in due season;  
+you open your hand  
+and satisfy the desire of every living thing. **[℟.]{.red}**  
+
+The LORD is just in all his ways  
+and holy in all his works.  
+The LORD is near to all who call upon him,  
+to all who call upon him in truth. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Ephesians 4:1-6]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+I, a prisoner for the Lord,  
+urge you to live in a manner worthy of the call you have received,  
+with all humility and gentleness, with patience,  
+bearing with one another through love,  
+striving to preserve the unity of the spirit through the bond of peace:  
+one body and one Spirit,  
+as you were also called to the one hope of your call;  
+one Lord, one faith, one baptism;  
+one God and Father of all,  
+who is over all and through all and in all.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 7:16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+A great prophet has risen in our midst.  
+God has visited his people. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 6:1-15]{style="float:right" .small}
+:::
+
+Jesus went across the Sea of Galilee.  
+A large crowd followed him,  
+because they saw the signs he was performing on the sick.  
+Jesus went up on the mountain,  
+and there he sat down with his disciples.  
+The Jewish feast of Passover was near.  
+When Jesus raised his eyes  
+and saw that a large crowd was coming to him,  
+he said to Philip,  
+"Where can we buy enough food for them to eat?"  
+He said this to test him,  
+because he himself knew what he was going to do.  
+Philip answered him,  
+"Two hundred days' wages worth of food would not be enough  
+for each of them to have a little."  
+One of his disciples,  
+Andrew, the brother of Simon Peter, said to him,  
+"There is a boy here who has five barley loaves and two fish;  
+but what good are these for so many?"  
+Jesus said, "Have the people recline."  
+Now there was a great deal of grass in that place.  
+So the men reclined, about five thousand in number.  
+Then Jesus took the loaves, gave thanks,  
+and distributed them to those who were reclining,  
+and also as much of the fish as they wanted.  
+When they had had their fill, he said to his disciples,  
+"Gather the fragments left over,  
+so that nothing will be wasted."  
+So they collected them,  
+and filled twelve wicker baskets with fragments  
+from the five barley loaves  
+that had been more than they could eat.  
+When the people saw the sign he had done, they said,  
+"This is truly the Prophet, the one who is to come into the world."  
+Since Jesus knew that they were going to come and carry him off  
+to make him king,  
+he withdrew again to the mountain alone.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Genesis 18:20-32]{style="float:right" .small}
+:::
+
+In those days, the LORD said: "The outcry against Sodom and Gomorrah is so great,  
+and their sin so grave,  
+that I must go down and see whether or not their actions  
+fully correspond to the cry against them that comes to me.  
+I mean to find out."  
+
+While Abraham's visitors walked on farther toward Sodom,  
+the LORD remained standing before Abraham.  
+Then Abraham drew nearer and said:  
+"Will you sweep away the innocent with the guilty?  
+Suppose there were fifty innocent people in the city;  
+would you wipe out the place, rather than spare it  
+for the sake of the fifty innocent people within it?  
+Far be it from you to do such a thing,  
+to make the innocent die with the guilty  
+so that the innocent and the guilty would be treated alike!  
+Should not the judge of all the world act with justice?"  
+The LORD replied,  
+"If I find fifty innocent people in the city of Sodom,  
+I will spare the whole place for their sake."  
+Abraham spoke up again:  
+"See how I am presuming to speak to my Lord,  
+though I am but dust and ashes!  
+What if there are five less than fifty innocent people?  
+Will you destroy the whole city because of those five?"  
+He answered, "I will not destroy it, if I find forty-five there."  
+But Abraham persisted, saying "What if only forty are found there?"  
+He replied, "I will forbear doing it for the sake of the forty."  
+Then Abraham said, "Let not my Lord grow impatient if I go on.  
+What if only thirty are found there?"  
+He replied, "I will forbear doing it if I can find but thirty there."  
+Still Abraham went on,  
+"Since I have thus dared to speak to my Lord,  
+what if there are no more than twenty?"  
+The LORD answered, "I will not destroy it, for the sake of the twenty."  
+But he still persisted:  
+"Please, let not my Lord grow angry if I speak up this last time.  
+What if there are at least ten there?"  
+He replied, "For the sake of those ten, I will not destroy it."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 138:1-2, 2-3, 6-7, 7-8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, on the day I called for help, you answered me.**  
+
+I will give thanks to you, O LORD, with all my heart,  
+for you have heard the words of my mouth;  
+in the presence of the angels I will sing your praise;  
+I will worship at your holy temple  
+and give thanks to your name. **[℟.]{.red}**  
+
+Because of your kindness and your truth;  
+for you have made great above all things  
+your name and your promise.  
+When I called you answered me;  
+you built up strength within me. **[℟.]{.red}**  
+
+The LORD is exalted, yet the lowly he sees,  
+and the proud he knows from afar.  
+Though I walk amid distress, you preserve me;  
+against the anger of my enemies you raise your hand. **[℟.]{.red}**  
+
+Your right hand saves me.  
+The LORD will complete what he has done for me;  
+your kindness, O LORD, endures forever;  
+forsake not the work of your hands. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Colossians 2:12-14]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+You were buried with him in baptism,  
+in which you were also raised with him  
+through faith in the power of God,  
+who raised him from the dead.  
+And even when you were dead  
+in transgressions and the uncircumcision of your flesh,  
+he brought you to life along with him,  
+having forgiven us all our transgressions;  
+ obliterating the bond against us, with its legal claims,  
+which was opposed to us,  
+he also removed it from our midst, nailing it to the cross.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Romans 8:15bc]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+You have received a Spirit of adoption,  
+through which we cry, Abba, Father. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 11:1-13]{style="float:right" .small}
+:::
+
+Jesus was praying in a certain place, and when he had finished,  
+one of his disciples said to him,  
+"Lord, teach us to pray just as John taught his disciples."  
+He said to them, "When you pray, say:  
+Father, hallowed be your name,  
+your kingdom come.  
+Give us each day our daily bread  
+and forgive us our sins  
+for we ourselves forgive everyone in debt to us,  
+and do not subject us to the final test."  
+
+And he said to them, "Suppose one of you has a friend  
+to whom he goes at midnight and says,  
+'Friend, lend me three loaves of bread,  
+for a friend of mine has arrived at my house from a journey  
+and I have nothing to offer him,'  
+and he says in reply from within,  
+'Do not bother me; the door has already been locked  
+and my children and I are already in bed.  
+I cannot get up to give you anything.'  
+I tell you,  
+if he does not get up to give the visitor the loaves  
+because of their friendship,  
+he will get up to give him whatever he needs  
+because of his persistence.  
+
+"And I tell you, ask and you will receive;  
+seek and you will find;  
+knock and the door will be opened to you.  
+For everyone who asks, receives;  
+and the one who seeks, finds;  
+and to the one who knocks, the door will be opened.  
+What father among you would hand his son a snake  
+when he asks for a fish?  
+Or hand him a scorpion when he asks for an egg?  
+If you then, who are wicked,  
+know how to give good gifts to your children,  
+how much more will the Father in heaven  
+give the Holy Spirit to those who ask him?"  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

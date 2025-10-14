@@ -1,0 +1,642 @@
+---
+title: "THIRTY-SECOND SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "City of God"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "My soul is thirsting for you, O Lord my God."
+          book: RA
+          priority: preferred
+        - name: "Psalm 63: My Soul is Thirsting"
+          composer: Joncas
+          book: RA
+          priority: optional
+        - name: "Psalm 63: My Soul Thirsts"
+          composer: Schutte
+          book: RA
+          priority: optional
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "In the Breaking of the Bread"
+          composer: Hurd
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Psalm 23: My Shepherd is the Lord"
+          notes: "Antiphon I, Gelineau Tone"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "In the Day of the Lord"
+          book: BB
+          priority: preferred
+    anthems:
+      list:
+        - name: "Wisdom's Feast"
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Praise the Lord, my soul."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Be Not Afraid"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Psalm 23: My Shepherd is the Lord"
+          notes: "Antiphon I, Gelineau Tone"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "In the Breaking of the Bread"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Lord, when your glory appears, my joy will be full."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Abide With Me"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} watchful anticipation, vigilance, preparation, eternal
+life, glory of God, second coming  
+[Year B:]{.red} faith, generosity, trust  
+[Year C:]{.red} end times, resurrection, eternal life  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Let my prayer come into your presence.  
+> Incline your ear to my cry for help, O Lord.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> The Lord is my shepherd; there is nothing I shall want.  
+> Fresh and green are the pastures where he gives me repose,  
+> near restful waters he leads me.  
+>
+> [Or:]{.red}
+>
+> The disciples recognized the Lord Jesus in the breaking of bread.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Wisdom 6:12-16]{style="float:right" .small}
+:::
+
+Resplendent and unfading is wisdom,  
+and she is readily perceived by those who love her,  
+and found by those who seek her.  
+She hastens to make herself known in anticipation of their desire;  
+Whoever watches for her at dawn shall not be disappointed,  
+for he shall find her sitting by his gate.  
+For taking thought of wisdom is the perfection of prudence,  
+and whoever for her sake keeps vigil  
+shall quickly be free from care;  
+because she makes her own rounds, seeking those worthy of her,  
+and graciously appears to them in the ways,  
+and meets them with all solicitude.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 63:2, 3-4, 5-6, 7-8]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **My soul is thirsting for you, O Lord my God.**  
+
+O God, you are my God whom I seek;  
+for you my flesh pines and my soul thirsts. 
+like the earth, parched, lifeless and without water. **[℟.]{.red}**  
+
+Thus have I gazed toward you in the sanctuary  
+to see your power and your glory,  
+For your kindness is a greater good than life;  
+my lips shall glorify you. **[℟.]{.red}**  
+
+Thus will I bless you while I live;  
+lifting up my hands, I will call upon your name.  
+As with the riches of a banquet shall my soul be satisfied,  
+and with exultant lips my mouth shall praise you. **[℟.]{.red}**  
+
+I will remember you upon my couch,  
+and through the night-watches I will meditate on you:  
+You are my help,  
+and in the shadow of your wings I shout for joy. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Thessalonians 4:13-18 or 4:13-14]{style="float:right" .small}
+:::
+
+We do not want you to be unaware, brothers and sisters,  
+about those who have fallen asleep,  
+so that you may not grieve like the rest, who have no hope.  
+For if we believe that Jesus died and rose,  
+so too will God, through Jesus,  
+bring with him those who have fallen asleep.  
+Indeed, we tell you this, on the word of the Lord,  
+that we who are alive,  
+who are left until the coming of the Lord,  
+will surely not precede those who have fallen asleep.  
+For the Lord himself, with a word of command,  
+with the voice of an archangel and with the trumpet of God,  
+will come down from heaven,  
+and the dead in Christ will rise first.  
+Then we who are alive, who are left,  
+will be caught up together with them in the clouds  
+to meet the Lord in the air.   
+Thus we shall always be with the Lord.  
+Therefore, console one another with these words.  
+
+[Or:]{.red}
+
+We do not want you to be unaware, brothers and sisters,  
+about those who have fallen asleep,  
+so that you may not grieve like the rest, who have no hope.  
+For if we believe that Jesus died and rose,  
+so too will God, through Jesus,  
+bring with him those who have fallen asleep.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 24:42a, 44]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Stay awake and be ready!  
+For you do not know on what day your Lord will come. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 25:1-13]{style="float:right" .small}
+:::
+
+Jesus told his disciples this parable:  
+"The kingdom of heaven will be like ten virgins  
+who took their lamps and went out to meet the bridegroom.  
+Five of them were foolish and five were wise.  
+The foolish ones, when taking their lamps,  
+brought no oil with them,  
+but the wise brought flasks of oil with their lamps.  
+Since the bridegroom was long delayed,  
+they all became drowsy and fell asleep.  
+At midnight, there was a cry,  
+'Behold, the bridegroom! Come out to meet him!'  
+Then all those virgins got up and trimmed their lamps.  
+The foolish ones said to the wise,  
+'Give us some of your oil,  
+for our lamps are going out.'  
+But the wise ones replied,  
+'No, for there may not be enough for us and you.  
+Go instead to the merchants and buy some for yourselves.'  
+While they went off to buy it,  
+the bridegroom came  
+and those who were ready went into the wedding feast with him.  
+Then the door was locked.  
+Afterwards the other virgins came and said,  
+'Lord, Lord, open the door for us!'  
+But he said in reply,  
+'Amen, I say to you, I do not know you.'  
+Therefore, stay awake,  
+for you know neither the day nor the hour."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [1 Kings 17:10-16]{style="float:right" .small}
+:::
+
+In those days, Elijah the prophet went to Zarephath.  
+As he arrived at the entrance of the city,  
+a widow was gathering sticks there; he called out to her,  
+"Please bring me a small cupful of water to drink."  
+She left to get it, and he called out after her,  
+"Please bring along a bit of bread."  
+She answered, "As the LORD, your God, lives,  
+I have nothing baked; there is only a handful of flour in my jar  
+and a little oil in my jug.  
+Just now I was collecting a couple of sticks,  
+to go in and prepare something for myself and my son;  
+when we have eaten it, we shall die."   
+Elijah said to her, "Do not be afraid.  
+Go and do as you propose.  
+But first make me a little cake and bring it to me.  
+Then you can prepare something for yourself and your son.  
+For the LORD, the God of Israel, says,  
+'The jar of flour shall not go empty,  
+nor the jug of oil run dry,  
+until the day when the LORD sends rain upon the earth.'"  
+She left and did as Elijah had said.  
+She was able to eat for a year, and he and her son as well;  
+the jar of flour did not go empty,  
+nor the jug of oil run dry,  
+as the LORD had foretold through Elijah.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Ps 146:7, 8-9, 9-10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise the Lord, my soul!**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+The LORD keeps faith forever,  
+secures justice for the oppressed,  
+gives food to the hungry.  
+The LORD sets captives free. **[℟.]{.red}**  
+
+The LORD gives sight to the blind.  
+The LORD raises up those who were bowed down;  
+the LORD loves the just.  
+The LORD protects strangers. **[℟.]{.red}**  
+
+The fatherless and the widow he sustains,  
+but the way of the wicked he thwarts.  
+The LORD shall reign forever;  
+your God, O Zion, through all generations. Alleluia. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 9:24-28]{style="float:right" .small}
+:::
+
+Christ did not enter into a sanctuary made by hands,  
+a copy of the true one, but heaven itself,  
+that he might now appear before God on our behalf.  
+Not that he might offer himself repeatedly,  
+as the high priest enters each year into the sanctuary  
+with blood that is not his own;  
+if that were so, he would have had to suffer repeatedly  
+from the foundation of the world.  
+But now once for all he has appeared at the end of the ages  
+to take away sin by his sacrifice.  
+Just as it is appointed that human beings die once,  
+and after this the judgment, so also Christ,  
+offered once to take away the sins of many,  
+will appear a second time, not to take away sin  
+but to bring salvation to those who eagerly await him.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Matthew 5:3]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Blessed are the poor in spirit,  
+for theirs is the kingdom of heaven. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 12:38-44 or 12:41-44]{style="float:right" .small}
+:::
+
+In the course of his teaching Jesus said to the crowds,  
+"Beware of the scribes, who like to go around in long robes  
+and accept greetings in the marketplaces,  
+seats of honor in synagogues,   
+and places of honor at banquets.  
+They devour the houses of widows and, as a pretext  
+recite lengthy prayers.  
+They will receive a very severe condemnation."  
+
+He sat down opposite the treasury  
+and observed how the crowd put money into the treasury.  
+Many rich people put in large sums.  
+A poor widow also came and put in two small coins worth a few cents.  
+Calling his disciples to himself, he said to them,  
+"Amen, I say to you, this poor widow put in more  
+than all the other contributors to the treasury.  
+For they have all contributed from their surplus wealth,  
+but she, from her poverty, has contributed all she had,  
+her whole livelihood."  
+
+[Or:]{.red}  
+
+Jesus sat down opposite the treasury  
+and observed how the crowd put money into the treasury.  
+Many rich people put in large sums.  
+A poor widow also came and put in two small coins worth a few cents.  
+Calling his disciples to himself, he said to them,  
+"Amen, I say to you, this poor widow put in more  
+than all the other contributors to the treasury.  
+For they have all contributed from their surplus wealth,  
+but she, from her poverty, has contributed all she had,  
+her whole livelihood."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [2 Maccabees 7:1-2, 9-14]{style="float:right" .small}
+:::
+
+It happened that seven brothers with their mother were arrested  
+and tortured with whips and scourges by the king,  
+to force them to eat pork in violation of God's law.  
+One of the brothers, speaking for the others, said:  
+"What do you expect to achieve by questioning us?  
+We are ready to die rather than transgress the laws of our ancestors."  
+
+At the point of death he said:  
+"You accursed fiend, you are depriving us of this present life,  
+but the King of the world will raise us up to live again forever.  
+It is for his laws that we are dying."  
+
+After him the third suffered their cruel sport.  
+He put out his tongue at once when told to do so,  
+and bravely held out his hands, as he spoke these noble words:  
+"It was from Heaven that I received these;  
+for the sake of his laws I disdain them;  
+from him I hope to receive them again."  
+Even the king and his attendants marveled at the young man's courage,  
+because he regarded his sufferings as nothing.  
+
+After he had died,  
+they tortured and maltreated the fourth brother in the same way.  
+When he was near death, he said,  
+"It is my choice to die at the hands of men  
+with the hope God gives of being raised up by him;  
+but for you, there will be no resurrection to life."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 17:1, 5-6, 8, 15]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, when your glory appears, my joy will be full.**  
+
+Hear, O LORD, a just suit;  
+attend to my outcry;  
+hearken to my prayer from lips without deceit. **[℟.]{.red}**  
+
+My steps have been steadfast in your paths,  
+my feet have not faltered.  
+I call upon you, for you will answer me, O God;  
+incline your ear to me; hear my word. **[℟.]{.red}**  
+
+Keep me as the apple of your eye,  
+hide me in the shadow of your wings.  
+But I in justice shall behold your face;  
+on waking I shall be content in your presence. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Thessalonians 2:16-3:5]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+May our Lord Jesus Christ himself and God our Father,  
+who has loved us and given us everlasting encouragement  
+and good hope through his grace,  
+encourage your hearts and strengthen them in every good deed
+and word.  
+
+Finally, brothers and sisters, pray for us,  
+so that the word of the Lord may speed forward and be glorified,  
+as it did among you,  
+and that we may be delivered from perverse and wicked people,  
+for not all have faith.  
+But the Lord is faithful;  
+he will strengthen you and guard you from the evil one.  
+We are confident of you in the Lord that what we instruct you,  
+you are doing and will continue to do.  
+May the Lord direct your hearts to the love of God  
+and to the endurance of Christ.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Revelation 1:5a, 6b]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Jesus Christ is the firstborn of the dead;  
+to him be glory and power, forever and ever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 20:27-38 or 20:27, 34-38]{style="float:right" .small}
+:::
+
+Some Sadducees, those who deny that there is a resurrection,  
+came forward and put this question to Jesus, saying,  
+"Teacher, Moses wrote for us,  
+If someone's brother dies leaving a wife but no child,  
+his brother must take the wife  
+and raise up descendants for his brother.  
+Now there were seven brothers;  
+the first married a woman but died childless.  
+Then the second and the third married her,  
+and likewise all the seven died childless.  
+Finally the woman also died.  
+Now at the resurrection whose wife will that woman be?  
+For all seven had been married to her."  
+Jesus said to them,  
+"The children of this age marry and remarry;  
+but those who are deemed worthy to attain to the coming age  
+and to the resurrection of the dead  
+neither marry nor are given in marriage.  
+They can no longer die,  
+for they are like angels;  
+and they are the children of God  
+because they are the ones who will rise.  
+That the dead will rise  
+even Moses made known in the passage about the bush,  
+when he called out 'Lord,'  
+the God of Abraham, the God of Isaac, and the God of Jacob;  
+and he is not God of the dead, but of the living,  
+for to him all are alive."  
+
+[Or:]{.red}  
+
+Some Sadducees, those who deny that there is a resurrection,
+came forward.  
+
+Jesus said to them,  
+"The children of this age marry and remarry;  
+but those who are deemed worthy to attain to the coming age  
+and to the resurrection of the dead  
+neither marry nor are given in marriage.  
+They can no longer die,  
+for they are like angels;  
+and they are the children of God  
+because they are the ones who will rise.  
+That the dead will rise  
+even Moses made known in the passage about the bush,  
+when he called out 'Lord,'  
+the God of Abraham, the God of Isaac, and the God of Jacob;  
+and he is not God of the dead, but of the living,  
+for to him all are alive."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* NOTES

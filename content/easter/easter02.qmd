@@ -180,7 +180,7 @@ as you attain the goal of your faith, the salvation of your souls.
 ***
 
 ::: {.red}
-#### Alleluia [John 20:29]{style="float:right" .small}
+#### Gospel Acclamation [John 20:29]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -313,7 +313,7 @@ and the Spirit is truth.
 ***
 
 ::: {.red}
-#### Alleluia [Jn 20:29]{style="float:right" .small}
+#### Gospel Acclamation [Jn 20:29]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -450,7 +450,7 @@ and what is happening, and what will happen afterwards.”
 ***
 
 ::: {.red}
-#### Alleluia [John 20:29]{style="float:right" .small}
+#### Gospel Acclamation [John 20:29]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

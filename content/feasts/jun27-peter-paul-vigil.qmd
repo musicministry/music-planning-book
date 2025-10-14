@@ -90,6 +90,144 @@ Peter, Paul, faith, evangelization, Church
 > Simon, Son of John, do you love me more than these?  
 > Lord, you know everything; you know that I love you.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Years A, B, C
+
+#### First Reading [Acts 3:1-10]{style="float:right" .small}
+:::
+
+Peter and John were going up to the temple area  
+for the three o’clock hour of prayer.  
+And a man crippled from birth was carried  
+and placed at the gate of the temple called “the Beautiful Gate”  
+every day to beg for alms from the people who entered the temple.  
+When he saw Peter and John about to go into the temple,  
+he asked for alms.  
+But Peter looked intently at him, as did John,  
+and said, “Look at us.”  
+He paid attention to them, expecting to receive something from them.  
+Peter said, “I have neither silver nor gold,  
+but what I do have I give you:  
+in the name of Jesus Christ the Nazorean, rise and walk.”  
+Then Peter took him by the right hand and raised him up,  
+and immediately his feet and ankles grew strong.  
+He leaped up, stood, and walked around,  
+and went into the temple with them,  
+walking and jumping and praising God.  
+When all the people saw the man walking and praising God,  
+they recognized him as the one who used to sit begging  
+at the Beautiful Gate of the temple,  
+and they were filled with amazement and astonishment  
+at what had happened to him.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 19:2-3, 4-5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Their message goes out through all the earth.**  
+
+The heavens declare the glory of God;  
+and the firmament proclaims his handiwork.  
+Day pours out the word to day;  
+and night to night imparts knowledge. **[℟.]{.red}**  
+
+Not a word nor a discourse  
+whose voice is not heard;  
+through all the earth their voice resounds,  
+and to the ends of the world, their message. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Galatians 1:11-20]{style="float:right" .small}
+:::
+
+I want you to know, brothers and sisters,  
+that the Gospel preached by me is not of human origin.  
+For I did not receive it from a human being, nor was I taught it,  
+but it came through a revelation of Jesus Christ.  
+
+For you heard of my former way of life in Judaism,  
+how I persecuted the Church of God beyond measure  
+and tried to destroy it, and progressed in Judaism  
+beyond many of my contemporaries among my race,  
+since I was even more a zealot for my ancestral traditions.  
+But when God, who from my mother’s womb had set me apart  
+and called me through his grace,  
+was pleased to reveal his Son to me,  
+so that I might proclaim him to the Gentiles,  
+I did not immediately consult flesh and blood,  
+nor did I go up to Jerusalem  
+to those who were Apostles before me;  
+rather, I went into Arabia and then returned to Damascus.  
+
+Then after three years I went up to Jerusalem  
+to confer with Cephas and remained with him for fifteen days.  
+But I did not see any other of the Apostles,  
+only James the brother of the Lord.  
+--As to what I am writing to you, behold,  
+before God, I am not lying.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 21:17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Lord, you know everything:  
+you know that I love you. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [John 21:15-19]{style="float:right" .small}
+:::
+
+Jesus had revealed himself to his disciples  
+and, when they had finished breakfast, said to Simon Peter,  
+“Simon, son of John, do you love me more than these?”  
+Simon Peter answered him, “Yes, Lord, you know that I love you.”  
+Jesus said to him, “Feed my lambs.”  
+He then said to Simon Peter a second time,  
+“Simon, son of John, do you love me?”  
+Simon Peter answered him, “Yes, Lord, you know that I love you.”  
+He said to him, “Tend my sheep.”  
+He said to him the third time,  
+“Simon, son of John, do you love me?”  
+Peter was distressed that he had said to him a third time,  
+“Do you love me?” and he said to him,  
+“Lord, you know everything; you know that I love you.”  
+Jesus said to him, “Feed my sheep.  
+Amen, amen, I say to you, when you were younger,  
+you used to dress yourself and go where you wanted;  
+but when you grow old, you will stretch out your hands,  
+and someone else will dress you  
+and lead you where you do not want to go.”  
+He said this signifying by what kind of death he would glorify God.  
+And when he had said this, he said to him, “Follow me.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::

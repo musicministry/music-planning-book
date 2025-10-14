@@ -1,0 +1,416 @@
+---
+title: "EIGHTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Sing a Joyful Song"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Rest in God alone, my soul."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Seek Ye First"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Age to Age"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Isaiah 49"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Though the Mountains May Fall"
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord is kind and merciful."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Praise, My Soul, the King of Heaven"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "All Praise and Glad Thanksgiving"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "Lord, it is good to give thanks to you."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Only This I Want"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "They’ll Know We Are Christians"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} trust, God’s providence  
+[Year B:]{.red} covenant, law of God, mercy  
+[Year C:]{.red} victory over sin and death, thanksgiving  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> The Lord has become my protector.  
+> He brought me out to a place of freedom;  
+> he saved me because he delighted in me.
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> I will sing to the Lord who has been bountiful with me,  
+> sing psalms to the name of the Lord Most High.  
+> 
+> [Or:]{.red}  
+> 
+> Behold, I am with you always,  
+> even to the end of the age, says the Lord.
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text  
+&emsp; indented as needed
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Sirach 27:4-7]{style="float:right" .small}
+:::
+
+When a sieve is shaken, the husks appear;  
+so do one’s faults when one speaks.  
+As the test of what the potter molds is in the furnace,  
+so in tribulation is the test of the just.  
+The fruit of a tree shows the care it has had;  
+so too does one’s speech disclose the bent of one’s mind.  
+Praise no one before he speaks,  
+for it is then that people are tested.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 92:2-3, 13-14, 15-16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Lord, it is good to give thanks to you.**  
+
+It is good to give thanks to the LORD,  
+&emsp; to sing praise to your name, Most High,  
+To proclaim your kindness at dawn  
+&emsp; and your faithfulness throughout the night. **[℟.]{.red}**  
+
+The just one shall flourish like the palm tree,  
+&emsp; like a cedar of Lebanon shall he grow.  
+They that are planted in the house of the LORD  
+&emsp; shall flourish in the courts of our God. **[℟.]{.red}**  
+
+They shall bear fruit even in old age;  
+&emsp; vigorous and sturdy shall they be,  
+Declaring how just is the LORD,  
+&emsp; my rock, in whom there is no wrong. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Corinthians 15:54-58]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+When this which is corruptible clothes itself with incorruptibility  
+and this which is mortal clothes itself with immortality,  
+then the word that is written shall come about:  
+&emsp; Death is swallowed up in victory.  
+&emsp; &emsp; Where, O death, is your victory?  
+&emsp; &emsp; Where, O death, is your sting?  
+The sting of death is sin,  
+and the power of sin is the law.  
+But thanks be to God who gives us the victory  
+through our Lord Jesus Christ.  
+
+Therefore, my beloved brothers and sisters,  
+be firm, steadfast, always fully devoted to the work of the Lord,  
+knowing that in the Lord your labor is not in vain.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Philippians 2:15d, 16a]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Shine like lights in the world. 
+as you hold on to the word of life. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [Luke 6:39-45]{style="float:right" .small}
+:::
+
+Jesus told his disciples a parable,  
+“Can a blind person guide a blind person?  
+Will not both fall into a pit?  
+No disciple is superior to the teacher;  
+but when fully trained,  
+every disciple will be like his teacher.  
+Why do you notice the splinter in your brother’s eye,  
+but do not perceive the wooden beam in your own?  
+How can you say to your brother,  
+‘Brother, let me remove that splinter in your eye,’  
+when you do not even notice the wooden beam in your own eye?  
+You hypocrite!  Remove the wooden beam from your eye first;  
+then you will see clearly  
+to remove the splinter in your brother’s eye.  
+
+“A good tree does not bear rotten fruit,  
+nor does a rotten tree bear good fruit.  
+For every tree is known by its own fruit.  
+For people do not pick figs from thornbushes,  
+nor do they gather grapes from brambles.  
+A good person out of the store of goodness in his heart produces good,  
+but an evil person out of a store of evil produces evil;  
+for from the fullness of the heart the mouth speaks.”
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

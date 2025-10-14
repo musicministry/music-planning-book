@@ -1,0 +1,545 @@
+---
+title: "TWENTY-THIRD SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "If today you hear his voice, harden not your heart."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Psalm 42: As the Deer Longs"
+          tune: "O WALY WALY"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "When We Eat This Bread"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Open My Eyes"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Praise the Lord, my soul."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Give Me Ears to Listen"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Psalm 42: As the Deer Longs"
+          tune: "O WALY WALY"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Blessed by Your Sacrifice"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Lift High the Cross"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "Immortal, Invisible, God Only Wise"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "In every age, O Lord, you have been our refuge."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "In Every Age"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Psalm 42: As the Deer Longs"
+          tune: "O WALY WALY"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Take Up Your Cross"
+          tune: "ERHALT UNS, HERR"
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} charity, social concern, guidance, love, worship,
+community  
+[Year B:]{.red} courage, healing, salvation, community, comfort,
+strength  
+[Year C:]{.red} wisdom, protection, discipleship, commitment  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> You are just, O Lord, and your judgment is right;  
+> treat your servant in accord with your merciful love. 
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Like the deer that yearns for running streams,  
+> so my soul is yearning for you, my God;  
+> my soul is thirsting for God, the living God.  
+>
+> [Or:]{.red}  
+>
+> I am the light of the world, says the Lord;  
+> whoever follows me will not walk in darkness,  
+> but will have the light of life.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Ezekiel 33:7-9]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+You, son of man, I have appointed watchman for the house of Israel;  
+when you hear me say anything, you shall warn them for me.  
+If I tell the wicked, "O wicked one, you shall surely die,"  
+and you do not speak out to dissuade the wicked from his way,  
+the wicked shall die for his guilt,  
+but I will hold you responsible for his death.  
+But if you warn the wicked,  
+trying to turn him from his way,  
+and he refuses to turn from his way,  
+he shall die for his guilt,  
+but you shall save yourself.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 95:1-2, 6-7, 8-9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **If today you hear his voice, harden not your hearts.**  
+
+Come, let us sing joyfully to the LORD;  
+let us acclaim the rock of our salvation.  
+Let us come into his presence with thanksgiving;  
+let us joyfully sing psalms to him. **[℟.]{.red}**  
+
+Come, let us bow down in worship;  
+let us kneel before the LORD who made us.  
+For he is our God,  
+and we are the people he shepherds, the flock he guides. **[℟.]{.red}**  
+
+Oh, that today you would hear his voice:  
+"Harden not your hearts as at Meribah,  
+as in the day of Massah in the desert,  
+where your fathers tempted me;  
+they tested me though they had seen my works." **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 13:8-10]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Owe nothing to anyone, except to love one another;  
+for the one who loves another has fulfilled the law.  
+The commandments, "You shall not commit adultery;  
+you shall not kill; you shall not steal; you shall not covet,"  
+and whatever other commandment there may be,  
+are summed up in this saying, namely,  
+"You shall love your neighbor as yourself."  
+Love does no evil to the neighbor;  
+hence, love is the fulfillment of the law.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [2 Corinthians 5:19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+God was reconciling the world to himself in Christ  
+and entrusting to us the message of reconciliation. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 18:15-20]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+"If your brother sins against you,  
+go and tell him his fault between you and him alone.  
+If he listens to you, you have won over your brother.  
+If he does not listen,  
+take one or two others along with you,  
+so that 'every fact may be established  
+on the testimony of two or three witnesses.'  
+If he refuses to listen to them, tell the church.  
+If he refuses to listen even to the church,  
+then treat him as you would a Gentile or a tax collector.  
+Amen, I say to you,  
+whatever you bind on earth shall be bound in heaven,  
+and whatever you loose on earth shall be loosed in heaven.  
+Again, amen, I say to you,  
+if two of you agree on earth  
+about anything for which they are to pray,  
+it shall be granted to them by my heavenly Father.  
+For where two or three are gathered together in my name,  
+there am I in the midst of them."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Isaiah 35:4-7a]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+Say to those whose hearts are frightened:  
+Be strong, fear not!  
+Here is your God,  
+he comes with vindication;  
+with divine recompense  
+he comes to save you.  
+Then will the eyes of the blind be opened,  
+the ears of the deaf be cleared;  
+then will the lame leap like a stag,  
+then the tongue of the mute will sing.  
+Streams will burst forth in the desert,  
+and rivers in the steppe.  
+The burning sands will become pools,  
+and the thirsty ground, springs of water.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 146:6-7, 8-9, 9-10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Praise the Lord, my soul!**  
+[Or:]{.red}  
+**[℟.]{.red}** **Alleluia.**  
+
+The God of Jacob keeps faith forever,  
+secures justice for the oppressed,  
+gives food to the hungry.  
+The LORD sets captives free. **[℟.]{.red}**  
+
+The LORD gives sight to the blind;  
+the LORD raises up those who were bowed down.  
+The LORD loves the just;  
+the LORD protects strangers. **[℟.]{.red}**  
+
+The fatherless and the widow the LORD sustains,  
+but the way of the wicked he thwarts.  
+The LORD shall reign forever;  
+your God, O Zion, through all generations.  
+Alleluia. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [James 2:1-5]{style="float:right" .small}
+:::
+
+My brothers and sisters, show no partiality  
+as you adhere to the faith in our glorious Lord Jesus Christ.  
+For if a man with gold rings and fine clothes  
+comes into your assembly,  
+and a poor person in shabby clothes also comes in,  
+and you pay attention to the one wearing the fine clothes  
+and say, “Sit here, please,”  
+while you say to the poor one, “Stand there,” or “Sit at my feet,”  
+have you not made distinctions among yourselves  
+and become judges with evil designs?  
+
+Listen, my beloved brothers and sisters.  
+Did not God choose those who are poor in the world  
+to be rich in faith and heirs of the kingdom  
+that he promised to those who love him?  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. Matthew 4:23]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Jesus proclaimed the Gospel of the kingdom  
+and cured every disease among the people. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 7:31-37]{style="float:right" .small}
+:::
+
+Again Jesus left the district of Tyre  
+and went by way of Sidon to the Sea of Galilee,  
+into the district of the Decapolis.  
+And people brought to him a deaf man who had a speech impediment  
+and begged him to lay his hand on him.  
+He took him off by himself away from the crowd.  
+He put his finger into the man’s ears  
+and, spitting, touched his tongue;  
+then he looked up to heaven and groaned, and said to him,  
+“*Ephphatha!*” — that is, “Be opened!” —  
+And immediately the man’s ears were opened,  
+his speech impediment was removed,  
+and he spoke plainly.  
+He ordered them not to tell anyone.  
+But the more he ordered them not to,  
+the more they proclaimed it.  
+They were exceedingly astonished and they said,  
+“He has done all things well.  
+He makes the deaf hear and the mute speak.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Wisdom 9:13-18b]{style="float:right" .small}
+:::
+
+Who can know God’s counsel,  
+or who can conceive what the LORD intends?  
+For the deliberations of mortals are timid,  
+and unsure are our plans.  
+For the corruptible body burdens the soul  
+and the earthen shelter weighs down the mind that has many concerns.  
+And scarce do we guess the things on earth,  
+and what is within our grasp we find with difficulty;  
+but when things are in heaven, who can search them out?  
+Or who ever knew your counsel, except you had given wisdom  
+and sent your holy spirit from on high?  
+And thus were the paths of those on earth made straight.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 90:3-4, 5-6, 12-13, 14, 17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **In every age, O Lord, you have been our refuge.**  
+
+You turn man back to dust,  
+saying, “Return, O children of men.”  
+For a thousand years in your sight. 
+are as yesterday, now that it is past,  
+or as a watch of the night. **[℟.]{.red}**  
+
+You make an end of them in their sleep;  
+the next morning they are like the changing grass,  
+Which at dawn springs up anew,  
+but by evening wilts and fades. **[℟.]{.red}**  
+
+Teach us to number our days aright,  
+that we may gain wisdom of heart.  
+Return, O LORD! How long?  
+Have pity on your servants! **[℟.]{.red}**  
+
+Fill us at daybreak with your kindness,  
+that we may shout for joy and gladness all our days.  
+And may the gracious care of the LORD our God be ours;  
+prosper the work of our hands for us!  
+Prosper the work of our hands! **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Philemon 9-10, 12-17]{style="float:right" .small}
+:::
+
+I, Paul, an old man,  
+and now also a prisoner for Christ Jesus,  
+urge you on behalf of my child Onesimus,  
+whose father I have become in my imprisonment;  
+I am sending him, that is, my own heart, back to you.  
+I should have liked to retain him for myself,  
+so that he might serve me on your behalf  
+in my imprisonment for the gospel,  
+but I did not want to do anything without your consent,  
+so that the good you do might not be forced but voluntary.  
+Perhaps this is why he was away from you for a while,  
+that you might have him back forever,  
+no longer as a slave  
+but more than a slave, a brother,  
+beloved especially to me, but even more so to you,  
+as a man and in the Lord.  
+So if you regard me as a partner, welcome him as you would me.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Psalm 119:135]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Let your face shine upon your servant;  
+and teach me your laws. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 14:25-33]{style="float:right" .small}
+:::
+
+Great crowds were traveling with Jesus,  
+and he turned and addressed them,  
+“If anyone comes to me without hating his father and mother,  
+wife and children, brothers and sisters,  
+and even his own life,  
+he cannot be my disciple.  
+Whoever does not carry his own cross and come after me  
+cannot be my disciple.  
+Which of you wishing to construct a tower  
+does not first sit down and calculate the cost  
+to see if there is enough for its completion?  
+Otherwise, after laying the foundation  
+and finding himself unable to finish the work  
+the onlookers should laugh at him and say,  
+‘This one began to build but did not have the resources to finish.’  
+Or what king marching into battle would not first sit down  
+and decide whether with ten thousand troops  
+he can successfully oppose another king  
+advancing upon him with twenty thousand troops?  
+But if not, while he is still far away,  
+he will send a delegation to ask for peace terms.  
+In the same way,  
+anyone of you who does not renounce all his possessions  
+cannot be my disciple.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

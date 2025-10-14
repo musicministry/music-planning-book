@@ -368,7 +368,7 @@ Fellow heirs and guests to be. Amen. Alleluia.
 ***
 
 ::: {.red}
-#### Alleluia [John 6:51]{style="float:right" .small}
+#### Gospel Acclamation [John 6:51]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -606,7 +606,7 @@ Fellow heirs and guests to be. Amen. Alleluia.
 ***
 
 ::: {.red}
-#### Alleluia [John 6:51]{style="float:right" .small}
+#### Gospel Acclamation [John 6:51]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -826,7 +826,7 @@ Fellow heirs and guests to be. Amen. Alleluia.
 ***
 
 ::: {.red}
-#### Alleluia [John 6:51]{style="float:right" .small}
+#### Gospel Acclamation [John 6:51]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

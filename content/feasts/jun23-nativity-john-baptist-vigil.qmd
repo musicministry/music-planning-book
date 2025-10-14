@@ -87,6 +87,161 @@ predestined glory, salvation, prophecy, light
 > Blessed be the Lord, the God of Israel!  
 > He has visited his people and redeemed them.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Years A, B, C
+
+#### First Reading [Jeremiah 1:4-10]{style="float:right" .small}
+:::
+
+In the days of King Josiah, the word of the LORD came to me, saying:  
+
+&emsp; Before I formed you in the womb I knew you,  
+&emsp; &emsp; before you were born I dedicated you,  
+&emsp; &emsp; a prophet to the nations I appointed you.  
+
+&emsp; “Ah, Lord GOD!” I said,  
+&emsp; &emsp; “I know not how to speak; I am too young.”  
+&emsp; But the LORD answered me,  
+&emsp; Say not, “I am too young.”  
+&emsp; &emsp; To whomever I send you, you shall go;  
+&emsp; &emsp; whatever I command you, you shall speak.  
+&emsp; Have no fear before them,  
+&emsp; &emsp; because I am with you to deliver you, says the LORD.  
+
+Then the LORD extended his hand and touched my mouth, saying,  
+
+&emsp; See, I place my words in your mouth!  
+&emsp; &emsp; This day I set you  
+&emsp; &emsp; over nations and over kingdoms,  
+&emsp; to root up and to tear down,  
+&emsp; &emsp; to destroy and to demolish,  
+&emsp; &emsp; to build and to plant.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 71:1-2, 3-4a, 5-6ab, 15ab, 17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Since my mother’s womb, you have been my strength.**  
+
+In you, O LORD, I take refuge;  
+&emsp; let me never be put to shame.  
+In your justice rescue me, and deliver me;  
+&emsp; incline your ear to me, and save me. **[℟.]{.red}**  
+
+Be my rock of refuge,  
+&emsp; a stronghold to give me safety,  
+&emsp; for you are my rock and my fortress.  
+O my God, rescue me from the hand of the wicked. **[℟.]{.red}**  
+
+For you are my hope, O Lord;  
+&emsp; my trust, O LORD, from my youth.  
+On you I depend from birth;  
+&emsp; from my mother’s womb you are my strength. **[℟.]{.red}**  
+
+My mouth shall declare your justice,  
+&emsp; day by day your salvation.  
+O God, you have taught me from my youth,  
+&emsp; and till the present I proclaim your wondrous deeds.**[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Peter 1:8-12]{style="float:right" .small}
+:::
+
+Beloved:  
+Although you have not seen Jesus Christ you love him;  
+even though you do not see him now yet believe in him,  
+you rejoice with an indescribable and glorious joy,  
+as you attain the goal of your faith, the salvation of your souls.  
+
+Concerning this salvation,  
+prophets who prophesied about the grace that was to be yours  
+searched and investigated it,  
+investigating the time and circumstances  
+that the Spirit of Christ within them indicated  
+when he testified in advance  
+to the sufferings destined for Christ  
+and the glories to follow them.  
+It was revealed to them that they were serving not themselves but you  
+with regard to the things that have now been announced to you  
+by those who preached the Good News to you  
+through the Holy Spirit sent from heaven,  
+things into which angels longed to look.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [See John 1:7; Lk 1:17]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+He came to testify to the light,  
+to prepare a people fit for the Lord. **[℟.]{.red}** 
+
+***
+
+::: {.red}
+#### Gospel [Luke 1:5-17]{style="float:right" .small}
+:::
+
+In the days of Herod, King of Judea,  
+there was a priest named Zechariah  
+of the priestly division of Abijah;  
+his wife was from the daughters of Aaron,  
+and her name was Elizabeth.  
+Both were righteous in the eyes of God,  
+observing all the commandments  
+and ordinances of the Lord blamelessly.  
+But they had no child, because Elizabeth was barren  
+and both were advanced in years.  
+Once when he was serving  
+as priest in his division’s turn before God,  
+according to the practice of the priestly service,  
+he was chosen by lot  
+to enter the sanctuary of the Lord to burn incense.  
+Then, when the whole assembly of the people was praying outside  
+at the hour of the incense offering,  
+the angel of the Lord appeared to him,  
+standing at the right of the altar of incense.  
+Zechariah was troubled by what he saw, and fear came upon him.  
+But the angel said to him, “Do not be afraid, Zechariah,  
+because your prayer has been heard.  
+Your wife Elizabeth will bear you a son,  
+and you shall name him John.  
+And you will have joy and gladness,  
+and many will rejoice at his birth,  
+for he will be great in the sight of the Lord.  
+John will drink neither wine nor strong drink.  
+He will be filled with the Holy Spirit even from his mother’s womb,  
+and he will turn many of the children of Israel  
+to the Lord their God.  
+He will go before him in the spirit and power of Elijah  
+to turn their hearts toward their children  
+and the disobedient to the understanding of the righteous,  
+to prepare a people fit for the Lord.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::

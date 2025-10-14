@@ -1,0 +1,538 @@
+---
+title: "THIRTIETH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I love you, Lord, my strength."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: "Gather Us In"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord has done great things for us; we are filled with joy."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Eye Has Not Seen"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Taste and See"
+          composer: Moore
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Open My Eyes"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Joyful, Joyful, We Adore Thee"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord hears the cry of the poor."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The Cry of the Poor"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} the commandment of love, compassion, love of
+neighbor, judgment, justice, praise  
+[Year B:]{.red} faith, sight, healing, praise, joy  
+[Year C:]{.red} mercy, humility, sincerity, strength  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Let the hearts that seek the Lord rejoice;  
+> turn to the Lord and his strength;  
+> constantly seek his face.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> We will ring out our joy at your saving help  
+> and exult in the name of our God.  
+>
+> [Or:]{.red}  
+>
+> Christ loved us and gave himself up for us,  
+> as a fragrant oﬀering to God.
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Exodus 22:20-26]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+"You shall not molest or oppress an alien,  
+for you were once aliens yourselves in the land of Egypt.  
+You shall not wrong any widow or orphan.  
+If ever you wrong them and they cry out to me,  
+I will surely hear their cry.  
+My wrath will flare up, and I will kill you with the sword;  
+then your own wives will be widows, and your children orphans.  
+
+"If you lend money to one of your poor neighbors among my people,  
+you shall not act like an extortioner toward him  
+by demanding interest from him.  
+If you take your neighbor's cloak as a pledge,  
+you shall return it to him before sunset;  
+for this cloak of his is the only covering he has for his body.  
+What else has he to sleep in?  
+If he cries out to me, I will hear him; for I am compassionate."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 18:2-3, 3-4, 47, 51]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I love you, Lord, my strength.**  
+
+I love you, O LORD, my strength,  
+O LORD, my rock, my fortress, my deliverer. **[℟.]{.red}**  
+
+My God, my rock of refuge,  
+my shield, the horn of my salvation, my stronghold!  
+Praised be the LORD, I exclaim,  
+and I am safe from my enemies. **[℟.]{.red}**  
+
+The LORD lives and blessed be my rock!  
+Extolled be God my savior.  
+You who gave great victories to your king  
+and showed kindness to your anointed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Thessalonians 1:5c-10]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+You know what sort of people we were among you for your sake.  
+And you became imitators of us and of the Lord,  
+receiving the word in great affliction, with joy from the Holy Spirit,  
+so that you became a model for all the believers  
+in Macedonia and in Achaia.  
+For from you the word of the Lord has sounded forth  
+not only in Macedonia and in Achaia,  
+but in every place your faith in God has gone forth,  
+so that we have no need to say anything.  
+For they themselves openly declare about us  
+what sort of reception we had among you,  
+and how you turned to God from idols  
+to serve the living and true God  
+and to await his Son from heaven,  
+whom he raised from the dead,  
+Jesus, who delivers us from the coming wrath.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 14:23]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Whoever loves me will keep my word, says the Lord,  
+and my Father will love him and we will come to him. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 22:34-40]{style="float:right" .small}
+:::
+
+When the Pharisees heard that Jesus had silenced the Sadducees,  
+they gathered together, and one of them,  
+a scholar of the law tested him by asking,  
+"Teacher, which commandment in the law is the greatest?"  
+He said to him,  
+"You shall love the Lord, your God,  
+with all your heart,  
+with all your soul,  
+and with all your mind.  
+This is the greatest and the first commandment.  
+The second is like it:  
+You shall love your neighbor as yourself.  
+The whole law and the prophets depend on these two commandments."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Jeremiah 31:7-9]{style="float:right" .small}
+:::
+
+Thus says the LORD:  
+Shout with joy for Jacob,  
+&emsp; exult at the head of the nations;  
+&emsp; proclaim your praise and say:  
+The LORD has delivered his people,  
+&emsp; the remnant of Israel.  
+Behold, I will bring them back  
+&emsp; from the land of the north;  
+I will gather them from the ends of the world,  
+&emsp; with the blind and the lame in their midst,  
+the mothers and those with child;  
+&emsp; they shall return as an immense throng.  
+They departed in tears,  
+&emsp; but I will console them and guide them;  
+I will lead them to brooks of water,  
+&emsp; on a level road, so that none shall stumble.  
+For I am a father to Israel,  
+&emsp; Ephraim is my first-born.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 126:1-2, 2-3, 4-5, 6]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord has done great things for us; we are filled with joy.**  
+
+When the LORD brought back the captives of Zion,  
+&emsp; we were like men dreaming.  
+Then our mouth was filled with laughter,  
+&emsp; and our tongue with rejoicing. **[℟.]{.red}**  
+
+Then they said among the nations,  
+&emsp; "The LORD has done great things for them."  
+The LORD has done great things for us;  
+&emsp; we are glad indeed. **[℟.]{.red}**  
+
+Restore our fortunes, O LORD,  
+&emsp; like the torrents in the southern desert.  
+Those that sow in tears  
+&emsp; shall reap rejoicing. **[℟.]{.red}**  
+
+Although they go forth weeping,  
+&emsp; carrying the seed to be sown,  
+They shall come back rejoicing,  
+&emsp; carrying their sheaves. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 5:1-6]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Every high priest is taken from among men  
+and made their representative before God,  
+to offer gifts and sacrifices for sins.  
+He is able to deal patiently with the ignorant and erring,  
+for he himself is beset by weakness  
+and so, for this reason, must make sin offerings for himself  
+as well as for the people.  
+No one takes this honor upon himself  
+but only when called by God,  
+just as Aaron was.  
+In the same way,  
+it was not Christ who glorified himself in becoming high priest,  
+but rather the one who said to him:  
+&emsp; *You are my son:*  
+&emsp; *this day I have begotten you;*  
+just as he says in another place:  
+&emsp; *You are a priest forever*  
+&emsp; *according to the order of Melchizedek.*  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. 2 Timothy 1:10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Our Savior Jesus Christ destroyed death  
+and brought life to light through the Gospel. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 10:46-52]{style="float:right" .small}
+:::
+
+As Jesus was leaving Jericho with his disciples and a sizable crowd,  
+Bartimaeus, a blind man, the son of Timaeus,  
+sat by the roadside begging.  
+On hearing that it was Jesus of Nazareth,  
+he began to cry out and say,  
+"Jesus, son of David, have pity on me."  
+And many rebuked him, telling him to be silent.  
+But he kept calling out all the more,  
+"Son of David, have pity on me."  
+Jesus stopped and said, "Call him."  
+So they called the blind man, saying to him,  
+"Take courage; get up, Jesus is calling you."  
+He threw aside his cloak, sprang up, and came to Jesus.  
+Jesus said to him in reply, "What do you want me to do for you?"  
+The blind man replied to him, "Master, I want to see."  
+Jesus told him, "Go your way; your faith has saved you."  
+Immediately he received his sight  
+and followed him on the way.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Sirach 35:12-14, 16-18]{style="float:right" .small}
+:::
+
+The LORD is a God of justice,  
+who knows no favorites.  
+Though not unduly partial toward the weak,  
+yet he hears the cry of the oppressed.  
+The Lord is not deaf to the wail of the orphan,  
+nor to the widow when she pours out her complaint.  
+The one who serves God willingly is heard;  
+his petition reaches the heavens.  
+The prayer of the lowly pierces the clouds;  
+it does not rest till it reaches its goal,  
+nor will it withdraw till the Most High responds,  
+judges justly and affirms the right,  
+and the Lord will not delay.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 34:2-3, 17-18, 19, 23]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord hears the cry of the poor.**  
+
+I will bless the LORD at all times;  
+his praise shall be ever in my mouth.  
+Let my soul glory in the LORD;  
+the lowly will hear me and be glad. **[℟.]{.red}**  
+
+The LORD confronts the evildoers,  
+to destroy remembrance of them from the earth.  
+When the just cry out, the LORD hears them,  
+and from all their distress he rescues them. **[℟.]{.red}**  
+
+The LORD is close to the brokenhearted;  
+and those who are crushed in spirit he saves.  
+The LORD redeems the lives of his servants;  
+no one incurs guilt who takes refuge in him. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Timothy 4:6-8, 16-18]{style="float:right" .small}
+:::
+
+Beloved:  
+I am already being poured out like a libation,  
+and the time of my departure is at hand.  
+I have competed well; I have finished the race;  
+I have kept the faith.  
+From now on the crown of righteousness awaits me,  
+which the Lord, the just judge,  
+will award to me on that day, and not only to me,  
+but to all who have longed for his appearance.  
+At my first defense no one appeared on my behalf,  
+but everyone deserted me.  
+May it not be held against them!  
+But the Lord stood by me and gave me strength,  
+so that through me the proclamation might be completed  
+and all the Gentiles might hear it.  
+And I was rescued from the lion's mouth.  
+The Lord will rescue me from every evil threat  
+and will bring me safe to his heavenly kingdom.  
+To him be glory forever and ever. Amen.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [2 Corinthians 5:19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+God was reconciling the world to himself in Christ,  
+and entrusting to us the message of salvation. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 18:9-14]{style="float:right" .small}
+:::
+
+Jesus addressed this parable  
+to those who were convinced of their own righteousness  
+and despised everyone else.  
+"Two people went up to the temple area to pray;  
+one was a Pharisee and the other was a tax collector.  
+The Pharisee took up his position and spoke this prayer to himself,  
+'O God, I thank you that I am not like the rest of humanity --  
+greedy, dishonest, adulterous -- or even like this tax collector.  
+I fast twice a week, and I pay tithes on my whole income.'  
+But the tax collector stood off at a distance  
+and would not even raise his eyes to heaven  
+but beat his breast and prayed,  
+'O God, be merciful to me a sinner.'  
+I tell you, the latter went home justified, not the former;  
+for whoever exalts himself will be humbled,  
+and the one who humbles himself will be exalted."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

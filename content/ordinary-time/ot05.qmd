@@ -231,7 +231,7 @@ but on the power of God.
 ***
 
 ::: {.red}
-#### Alleluia [John 8:12]{style="float:right" .small}
+#### Gospel Acclamation [John 8:12]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -337,7 +337,7 @@ so that I too may have a share in it.
 ***
 
 ::: {.red}
-#### Alleluia [Matthew 8:17]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 8:17]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -501,7 +501,7 @@ so we preach and so you believed.
 ***
 
 ::: {.red}
-#### Alleluia [Matthew 4:19]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 4:19]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

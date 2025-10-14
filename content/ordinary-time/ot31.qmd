@@ -1,0 +1,502 @@
+---
+title: "THIRTY-FIRST SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "In you, Lord, I have found my peace."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I love you, Lord, my strength."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I will praise your name for ever, my king and my God."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Sing a Joyful Song"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} humility, living faith, hope, peace, word of God, thanksgiving  
+[Year B:]{.red} love of God, love of neighbor  
+[Year C:]{.red} salvation, mercy, love of God  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> Forsake me not, O Lord, my God;  
+> be not far from me!  
+> Make haste and come to my help,  
+> O Lord, my strong salvation!  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> You will show me the path of life,  
+> the fullness of joy in your presence, O Lord.  
+>
+> [Or:]{.red}  
+>
+> Just as the living Father sent me  
+> and I have life because of the Father,  
+> so whoever feeds on me  
+> shall have life because of me, says the Lord.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text  
+&emsp; indented as needed
+
+***
+
+::: {.red}
+#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **REFRAIN**  
+
+Verse one,  
+&emsp; indented as needed. **[℟.]{.red}**  
+
+Verse two,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+Verse three,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+Verse four,  
+&emsp; and so on as needed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+***
+
+::: {.red}
+#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Verse **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [PASSAGE]{style="float:right" .small}
+:::
+
+Text
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Deuteronomy 6:2-6]{style="float:right" .small}
+:::
+
+Moses spoke to the people, saying:  
+"Fear the LORD, your God,  
+and keep, throughout the days of your lives,  
+all his statutes and commandments which I enjoin on you,  
+and thus have long life.  
+Hear then, Israel, and be careful to observe them,  
+that you may grow and prosper the more,  
+in keeping with the promise of the LORD, the God of your fathers,  
+to give you a land flowing with milk and honey.  
+
+"Hear, O Israel! The LORD is our God, the LORD alone!  
+Therefore, you shall love the LORD, your God,  
+with all your heart,  
+and with all your soul,  
+and with all your strength.  
+Take to heart these words which I enjoin on you today."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 18:2-3, 3-4, 47, 51]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I love you, Lord, my strength.**  
+
+I love you, O LORD, my strength,  
+&emsp; O LORD, my rock, my fortress, my deliverer. **[℟.]{.red}**  
+
+My God, my rock of refuge,  
+&emsp; my shield, the horn of my salvation, my stronghold!  
+Praised be the LORD, I exclaim,  
+&emsp; and I am safe from my enemies. **[℟.]{.red}**  
+
+The LORD lives! And blessed be my rock!  
+&emsp; Extolled be God my savior.  
+You who gave great victories to your king  
+&emsp; and showed kindness to your anointed. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 7:23-28]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+The levitical priests were many  
+because they were prevented by death from remaining in office,  
+but Jesus, because he remains forever,  
+has a priesthood that does not pass away.  
+Therefore, he is always able to save those who approach God through him,  
+since he lives forever to make intercession for them.  
+
+It was fitting that we should have such a high priest:  
+holy, innocent, undefiled, separated from sinners,  
+higher than the heavens.  
+He has no need, as did the high priests,  
+to offer sacrifice day after day,  
+first for his own sins and then for those of the people;  
+he did that once for all when he offered himself.  
+For the law appoints men subject to weakness to be high priests,  
+but the word of the oath, which was taken after the law,  
+appoints a son,  
+who has been made perfect forever.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 14:23]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Whoever loves me will keep my word, says the Lord;  
+and my father will love him and we will come to him. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 12:28b-34]{style="float:right" .small}
+:::
+
+One of the scribes came to Jesus and asked him,  
+"Which is the first of all the commandments?"  
+Jesus replied, "The first is this:  
+*Hear, O Israel!*  
+*The Lord our God is Lord alone!*  
+*You shall love the Lord your God with all your heart,*  
+*with all your soul,*  
+*with all your mind,*  
+*and with all your strength.*  
+The second is this:  
+*You shall love your neighbor as yourself.*  
+There is no other commandment greater than these."  
+The scribe said to him, "Well said, teacher.  
+You are right in saying,  
+'He is One and there is no other than he.'  
+And 'to love him with all your heart,  
+with all your understanding,  
+with all your strength,  
+and to love your neighbor as yourself'  
+is worth more than all burnt offerings and sacrifices."  
+And when Jesus saw that he answered with understanding,  
+he said to him,  
+"You are not far from the kingdom of God."  
+And no one dared to ask him any more questions.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Wisdom 11:22-12:2]{style="float:right" .small}
+:::
+
+Before the LORD the whole universe is as a grain from a balance  
+or a drop of morning dew come down upon the earth.  
+But you have mercy on all, because you can do all things;  
+and you overlook people's sins that they may repent.  
+For you love all things that are  
+and loathe nothing that you have made;  
+for what you hated, you would not have fashioned.  
+And how could a thing remain, unless you willed it;  
+or be preserved, had it not been called forth by you?  
+But you spare all things, because they are yours,  
+O LORD and lover of souls,  
+for your imperishable spirit is in all things!  
+Therefore you rebuke offenders little by little,  
+warn them and remind them of the sins they are committing,  
+that they may abandon their wickedness and believe in you, O LORD!  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 145:1-2, 8-9, 10-11, 13, 14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will praise your name for ever, my king and my God.**  
+
+I will extol you, O my God and King,  
+and I will bless your name forever and ever.  
+Every day will I bless you,  
+and I will praise your name forever and ever. **[℟.]{.red}**  
+
+The LORD is gracious and merciful,  
+slow to anger and of great kindness.  
+The LORD is good to all  
+and compassionate toward all his works. **[℟.]{.red}**  
+
+Let all your works give you thanks, O LORD,  
+and let your faithful ones bless you.  
+Let them discourse of the glory of your kingdom  
+and speak of your might. **[℟.]{.red}**  
+
+The LORD is faithful in all his words  
+and holy in all his works.  
+The LORD lifts up all who are falling.  
+and raises up all who are bowed down. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Thessalonians 1:11-2:2]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+We always pray for you,  
+that our God may make you worthy of his calling  
+and powerfully bring to fulfillment every good purpose  
+and every effort of faith,  
+that the name of our Lord Jesus may be glorified in you,  
+and you in him,  
+in accord with the grace of our God and Lord Jesus Christ.  
+
+We ask you, brothers and sisters,  
+with regard to the coming of our Lord Jesus Christ  
+and our assembling with him,  
+not to be shaken out of your minds suddenly, or to be alarmed  
+either by a "spirit," or by an oral statement,  
+or by a letter allegedly from us  
+to the effect that the day of the Lord is at hand.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 3:16]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+God so loved the world that he gave his only Son,  
+so that everyone who believes in him might have eternal life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 19:1-10]{style="float:right" .small}
+:::
+
+At that time, Jesus came to Jericho and intended to pass through the town.  
+Now a man there named Zacchaeus,  
+who was a chief tax collector and also a wealthy man,  
+was seeking to see who Jesus was;  
+but he could not see him because of the crowd,  
+for he was short in stature.  
+So he ran ahead and climbed a sycamore tree in order to see Jesus,  
+who was about to pass that way.  
+When he reached the place, Jesus looked up and said,  
+"Zacchaeus, come down quickly,  
+for today I must stay at your house."  
+And he came down quickly and received him with joy.  
+When they all saw this, they began to grumble, saying,  
+"He has gone to stay at the house of a sinner."  
+But Zacchaeus stood there and said to the Lord,  
+"Behold, half of my possessions, Lord, I shall give to the poor,  
+and if I have extorted anything from anyone  
+I shall repay it four times over."  
+And Jesus said to him,  
+"Today salvation has come to this house  
+because this man too is a descendant of Abraham.  
+For the Son of Man has come to seek  
+and to save what was lost."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```

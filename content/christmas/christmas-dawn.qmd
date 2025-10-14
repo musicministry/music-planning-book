@@ -106,10 +106,119 @@ light, humility, quiet joy, awe, wonder
 > Rejoice, O Daughter Sion; lift up praise, Daughter Jerusalem:  
 > Behold, your King will come, the Holy One and Savior of the world.
 
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Years A, B, C
+
+#### First Reading [Isaiah 62:11-12]{style="float:right" .small}
+:::
+
+See, the LORD proclaims  
+&emsp; to the ends of the earth:  
+say to daughter Zion,  
+&emsp; your savior comes!  
+Here is his reward with him,  
+&emsp; his recompense before him.  
+They shall be called the holy people,  
+&emsp; the redeemed of the LORD,  
+and you shall be called “Frequented,”  
+&emsp; a city that is not forsaken.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 97:1, 6, 11-12]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **A light will shine on us this day: the Lord is born for us.**  
+
+The LORD is king; let the earth rejoice;  
+&emsp; let the many isles be glad.  
+The heavens proclaim his justice,  
+   and all peoples see his glory. **[℟.]{.red}**  
+
+Light dawns for the just;  
+&emsp; and gladness, for the upright of heart.  
+Be glad in the LORD, you just,  
+&emsp; and give thanks to his holy name. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Titus 3:4-7]{style="float:right" .small}
+:::
+
+Beloved:  
+When the kindness and generous love  
+of God our savior appeared,  
+
+not because of any righteous deeds we had done  
+but because of his mercy,  
+He saved us through the bath of rebirth  
+and renewal by the Holy Spirit,  
+whom he richly poured out on us  
+through Jesus Christ our savior,  
+so that we might be justified by his grace  
+and become heirs in hope of eternal life.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 2:14]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Glory to God in the highest,  
+and on earth peace to those  
+on whom his favor rests. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 2:15-20]{style="float:right" .small}
+:::
+
+When the angels went away from them to heaven,  
+the shepherds said to one another,  
+“Let us go, then, to Bethlehem  
+to see this thing that has taken place,  
+which the Lord has made known to us.”  
+So they went in haste and found Mary and Joseph,  
+and the infant lying in the manger.  
+When they saw this,  
+they made known the message  
+that had been told them about this child.  
+All who heard it were amazed  
+by what had been told them by the shepherds.  
+And Mary kept all these things,  
+reflecting on them in her heart.  
+Then the shepherds returned,  
+glorifying and praising God  
+for all they had heard and seen,  
+just as it had been told to them.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::
-{{< var text.yearabc >}}
+{{< var text.yearabc-advent >}}
 
 ```{python}
 #| label: Year ABC

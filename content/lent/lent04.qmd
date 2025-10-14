@@ -270,7 +270,7 @@ Therefore, it says:
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [John 8:12]{style="float:right" .small}
+#### Gospel Acclamation [John 8:12]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -550,7 +550,7 @@ that we should live in them.
 ***
 
 ::: {.red}
-#### Verse Before the Gospel [John 3:16]{style="float:right" .small}
+#### Gospel Acclamation [John 3:16]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  
@@ -661,7 +661,7 @@ so that we might become the righteousness of God in him.
 ***
 
 ::: {.red}
-#### Verse before the Gospel [Luke 15:18]{style="float:right" .small}
+#### Gospel Acclamation [Luke 15:18]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Praise to you, Lord Jesus Christ, king of endless glory.**  

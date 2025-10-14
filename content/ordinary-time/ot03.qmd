@@ -244,7 +244,7 @@ so that the cross of Christ might not be emptied of its meaning.
 ***
 
 ::: {.red}
-#### Alleluia [Matthew 4:23]{style="float:right" .small}
+#### Gospel Acclamation [Matthew 4:23]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -372,7 +372,7 @@ For the world in its present form is passing away.
 ***
 
 ::: {.red}
-#### Alleluia [Mark 1:15]{style="float:right" .small}
+#### Gospel Acclamation [Mark 1:15]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -543,7 +543,7 @@ You are Christ's body, and individually parts of it.
 ***
 
 ::: {.red}
-#### Alleluia [Cf. Luke 4:18]{style="float:right" .small}
+#### Gospel Acclamation [Cf. Luke 4:18]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

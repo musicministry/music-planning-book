@@ -1,0 +1,632 @@
+---
+title: "THIRTEENTH SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Take Up Your Cross"
+          tune: "ERHALT UNS, HERR"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "For ever I will sing the goodness of the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Baptized in Water"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Lord, Who at Thy First Eucharist"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Unless A Grain of Wheat"
+          composer: Farrell
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Church of God, Elect and Glorious"
+          book: BB
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "I will praise you, Lord, for you have rescued me."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "We Remember"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "One Love Released"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Loving and Forgiving"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "God, We Praise You"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "You are my inheritance, O Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The Summons"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Center of My Life"
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: "Lord, Who at Thy First Eucharist"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "Tell the Good News"
+          book: BB
+          priority: optional
+        - name: "The Spirit Sends Us Forth"
+          book: BB
+          priority: optional
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} baptism, cross, sacrifice, eternal life, victory over
+death  
+[Year B:]{.red} life, healing, faith, trust, light  
+[Year C:]{.red} deliverance, discipleship, trust, freedom, journey  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> All peoples, clap your hands.  
+> Cry to God with shouts of joy!  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> Bless the Lord, O my soul,  
+> and all within me, his holy name.  
+>
+> [Or:]{.red}  
+>
+> O Father, I pray for them, that they may be one in us,  
+> that the world may believe that you have sent me, says the Lord.
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [2 Kings 4:8-11, 14-16a]{style="float:right" .small}
+:::
+
+One day Elisha came to Shunem,  
+where there was a woman of influence, who urged him to dine with her.  
+Afterward, whenever he passed by, he used to stop there to dine.  
+So she said to her husband, “I know that Elisha is a holy man of God.  
+Since he visits us often, let us arrange a little room on the roof  
+and furnish it for him with a bed, table, chair, and lamp,  
+so that when he comes to us he can stay there.”  
+Sometime later Elisha arrived and stayed in the room overnight.  
+Elisha asked, “Can something be done for her?”  
+His servant Gehazi answered, “Yes!  
+She has no son, and her husband is getting on in years.”  
+Elisha said, “Call her.”  
+When the woman had been called and stood at the door,  
+Elisha promised, “This time next year  
+you will be fondling a baby son.”  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 89:2-3, 16-17, 18-19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Forever I will sing the goodness of the Lord.**  
+
+The promises of the LORD I will sing forever,  
+through all generations my mouth shall proclaim your faithfulness.  
+For you have said, “My kindness is established forever;”  
+in heaven you have confirmed your faithfulness. **[℟.]{.red}**  
+
+Blessed the people who know the joyful shout;  
+in the light of your countenance, O LORD, they walk.  
+At your name they rejoice all the day,  
+and through your justice they are exalted. **[℟.]{.red}**  
+
+You are the splendor of their strength,  
+and by your favor our horn is exalted.  
+For to the LORD belongs our shield,  
+and the Holy One of Israel, our king. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Romans 6:3-4, 8-11]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Are you unaware that we who were baptized into Christ Jesus  
+were baptized into his death?  
+We were indeed buried with him through baptism into death,  
+so that, just as Christ was raised from the dead  
+by the glory of the Father,  
+we too might live in newness of life.If, then, we have died with Christ,  
+we believe that we shall also live with him.  
+We know that Christ, raised from the dead, dies no more;  
+death no longer has power over him.  
+As to his death, he died to sin once and for all;  
+as to his life, he lives for God.  
+Consequently, you too must think of yourselves as dead to sin  
+and living for God in Christ Jesus.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [1 Peter 2:19]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+You are a chosen race, a royal priesthood, a holy nation;  
+announce the praises of him who called you out of darkness into his wonderful light. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 10:37-42]{style="float:right" .small}
+:::
+
+Jesus said to his apostles:  
+“Whoever loves father or mother more than me is not worthy of me,  
+and whoever loves son or daughter more than me is not worthy of me;  
+and whoever does not take up his cross  
+and follow after me is not worthy of me.  
+Whoever finds his life will lose it,  
+and whoever loses his life for my sake will find it."  
+"Whoever receives you receives me,  
+and whoever receives me receives the one who sent me.  
+Whoever receives a prophet because he is a prophet  
+will receive a prophet’s reward,  
+and whoever receives a righteous man  
+because he is a righteous man  
+will receive a righteous man’s reward.  
+And whoever gives only a cup of cold water  
+to one of these little ones to drink  
+because the little one is a disciple—  
+amen, I say to you, he will surely not lose his reward.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Wisdom 1:13-15; 2:23-24]{style="float:right" .small}
+:::
+
+God did not make death,  
+nor does he rejoice in the destruction of the living.  
+For he fashioned all things that they might have being;  
+and the creatures of the world are wholesome,  
+and there is not a destructive drug among them  
+nor any domain of the netherworld on earth,  
+for justice is undying.  
+For God formed man to be imperishable;  
+the image of his own nature he made him.  
+But by the envy of the devil, death entered the world,  
+and they who belong to his company experience it.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 30:2, 4, 5-6, 11, 12, 13]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **I will praise you, Lord, for you have rescued me.**  
+
+VI will extol you, O LORD, for you drew me clear  
+and did not let my enemies rejoice over me.  
+O LORD, you brought me up from the netherworld;  
+you preserved me from among those going down into the pit. **[℟.]{.red}**  
+
+Sing praise to the LORD, you his faithful ones,  
+and give thanks to his holy name.  
+For his anger lasts but a moment;  
+a lifetime, his good will.  
+At nightfall, weeping enters in,  
+but with the dawn, rejoicing. **[℟.]{.red}**  
+
+Hear, O LORD, and have pity on me;  
+O LORD, be my helper.  
+You changed my mourning into dancing;  
+O LORD, my God, forever will I give you thanks. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Corinthians 8:7, 9, 13-15]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+As you excel in every respect, in faith, discourse,  
+knowledge, all earnestness, and in the love we have for you,  
+may you excel in this gracious act also.  
+
+For you know the gracious act of our Lord Jesus Christ,  
+that though he was rich, for your sake he became poor,  
+so that by his poverty you might become rich.  
+Not that others should have relief while you are burdened,  
+but that as a matter of equality  
+your abundance at the present time should supply their needs,  
+so that their abundance may also supply your needs,  
+that there may be equality.  
+As it is written:  
+*Whoever had much did not have more,*  
+*and whoever had little did not have less.*  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Cf. 2 Timothy 1:10]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Our Savior Jesus Christ destroyed death  
+and brought life to light through the Gospel. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 5:21-43 or 5:21-24, 35b-43]{style="float:right" .small}
+:::
+
+When Jesus had crossed again in the boat  
+to the other side,  
+a large crowd gathered around him, and he stayed close to the sea.  
+One of the synagogue officials, named Jairus, came forward.  
+Seeing him he fell at his feet and pleaded earnestly with him, saying,  
+"My daughter is at the point of death.  
+Please, come lay your hands on her  
+that she may get well and live."  
+He went off with him,  
+and a large crowd followed him and pressed upon him.  
+
+There was a woman afflicted with hemorrhages for twelve years.  
+She had suffered greatly at the hands of many doctors  
+and had spent all that she had.  
+Yet she was not helped but only grew worse.  
+She had heard about Jesus and came up behind him in the crowd and touched his cloak.  
+She said, "If I but touch his clothes, I shall be cured."  
+Immediately her flow of blood dried up.  
+She felt in her body that she was healed of her affliction.  
+Jesus, aware at once that power had gone out from him,  
+turned around in the crowd and asked, "Who has touched my clothes?"  
+But his disciples said to Jesus,  
+"You see how the crowd is pressing upon you,  
+and yet you ask, 'Who touched me?'"  
+And he looked around to see who had done it.  
+The woman, realizing what had happened to her,  
+approached in fear and trembling.  
+She fell down before Jesus and told him the whole truth.  
+He said to her, "Daughter, your faith has saved you.  
+Go in peace and be cured of your affliction."  
+
+While he was still speaking,  
+people from the synagogue official's house arrived and said,  
+"Your daughter has died; why trouble the teacher any longer?"  
+Disregarding the message that was reported,  
+Jesus said to the synagogue official,  
+"Do not be afraid; just have faith."  
+He did not allow anyone to accompany him inside  
+except Peter, James, and John, the brother of James.  
+When they arrived at the house of the synagogue official,  
+he caught sight of a commotion,  
+people weeping and wailing loudly.  
+So he went in and said to them,  
+"Why this commotion and weeping?  
+The child is not dead but asleep."  
+And they ridiculed him.  
+Then he put them all out.  
+He took along the child's father and mother  
+and those who were with him  
+and entered the room where the child was.  
+He took the child by the hand and said to her, "*Talitha koum*,"  
+which means, "Little girl, I say to you, arise!"  
+The girl, a child of twelve, arose immediately and walked around.  
+At that they were utterly astounded.  
+He gave strict orders that no one should know this  
+and said that she should be given something to eat.  
+
+[Or:]{.red}  
+
+When Jesus had crossed again in the boat  
+to the other side,  
+a large crowd gathered around him, and he stayed close to the sea.  
+One of the synagogue officials, named Jairus, came forward.  
+Seeing him he fell at his feet and pleaded earnestly with him, saying,  
+"My daughter is at the point of death.  
+Please, come lay your hands on her  
+that she may get well and live."  
+He went off with him,  
+and a large crowd followed him and pressed upon him.  
+
+While he was still speaking,  
+people from the synagogue official's house arrived and said,  
+"Your daughter has died; why trouble the teacher any longer?"  
+Disregarding the message that was reported,  
+Jesus said to the synagogue official,  
+"Do not be afraid; just have faith."  
+He did not allow anyone to accompany him inside  
+except Peter, James, and John, the brother of James.  
+When they arrived at the house of the synagogue official,  
+he caught sight of a commotion,  
+people weeping and wailing loudly.  
+So he went in and said to them,  
+"Why this commotion and weeping?  
+The child is not dead but asleep."  
+And they ridiculed him.  
+Then he put them all out.  
+He took along the child's father and mother  
+and those who were with him  
+and entered the room where the child was.  
+He took the child by the hand and said to her, "*Talitha koum*,"  
+which means, "Little girl, I say to you, arise!"  
+The girl, a child of twelve, arose immediately and walked around.  
+At that they were utterly astounded.  
+He gave strict orders that no one should know this  
+and said that she should be given something to eat.  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [1 Kings 19:16b, 19-21]{style="float:right" .small}
+:::
+
+The LORD said to Elijah:  
+“You shall anoint Elisha, son of Shaphat of Abelmeholah,  
+as prophet to succeed you.”  
+
+Elijah set out and came upon Elisha, son of Shaphat,  
+as he was plowing with twelve yoke of oxen;  
+he was following the twelfth.  
+Elijah went over to him and threw his cloak over him.  
+Elisha left the oxen, ran after Elijah, and said,  
+“Please, let me kiss my father and mother goodbye,  
+and I will follow you.”  
+Elijah answered, “Go back!  
+Have I done anything to you?”  
+Elisha left him, and taking the yoke of oxen, slaughtered them;  
+he used the plowing equipment for fuel to boil their flesh,  
+and gave it to his people to eat.  
+Then Elisha left and followed Elijah as his attendant.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 16:1-2, 5, 7-8, 9-10, 11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **You are my inheritance, O Lord.**  
+
+Keep me, O God, for in you I take refuge;  
+&emsp; I say to the LORD, “My Lord are you.  
+O LORD, my allotted portion and my cup,  
+&emsp; you it is who hold fast my lot.” **[℟.]{.red}**  
+
+I bless the LORD who counsels me;  
+&emsp; even in the night my heart exhorts me.  
+I set the LORD ever before me;  
+&emsp; with him at my right hand I shall not be disturbed. **[℟.]{.red}**  
+
+Therefore my heart is glad and my soul rejoices,  
+&emsp; my body, too, abides in confidence  
+because you will not abandon my soul to the netherworld,  
+&emsp; nor will you suffer your faithful one to undergo corruption. **[℟.]{.red}**  
+
+You will show me the path to life,  
+&emsp; fullness of joys in your presence,  
+&emsp; the delights at your right hand forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Galatians 5:1, 13-18]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+For freedom Christ set us free;  
+so stand firm and do not submit again to the yoke of slavery.  
+
+For you were called for freedom, brothers and sisters.  
+But do not use this freedom  
+as an opportunity for the flesh;  
+rather, serve one another through love.  
+For the whole law is fulfilled in one statement,  
+namely, *You shall love your neighbor as yourself.*  
+But if you go on biting and devouring one another,  
+beware that you are not consumed by one another.  
+
+I say, then: live by the Spirit  
+and you will certainly not gratify the desire of the flesh.  
+For the flesh has desires against the Spirit,  
+and the Spirit against the flesh;  
+these are opposed to each other,  
+so that you may not do what you want.  
+But if you are guided by the Spirit, you are not under the law.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [1 Samuel 3:9; John 6:68c]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Speak, Lord, your servant is listening;  
+you have the words of everlasting life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 9:51-62]{style="float:right" .small}
+:::
+
+When the days for Jesus’ being taken up were fulfilled,  
+he resolutely determined to journey to Jerusalem,  
+and he sent messengers ahead of him.  
+On the way they entered a Samaritan village  
+to prepare for his reception there,  
+but they would not welcome him  
+because the destination of his journey was Jerusalem.  
+When the disciples James and John saw this they asked,  
+“Lord, do you want us to call down fire from heaven
+to consume them?”  
+Jesus turned and rebuked them, and they journeyed to another village.  
+
+As they were proceeding on their journey someone said to him,  
+“I will follow you wherever you go.”  
+Jesus answered him,  
+“Foxes have dens and birds of the sky have nests,  
+but the Son of Man has nowhere to rest his head.”  
+
+And to another he said, “Follow me.”  
+But he replied, “Lord, let me go first and bury my father.”  
+But he answered him, “Let the dead bury their dead.  
+But you, go and proclaim the kingdom of God.”  
+And another said, “I will follow you, Lord,  
+but first let me say farewell to my family at home.”  
+To him Jesus said, “No one who sets a hand to the plow  
+and looks to what was left behind is fit for the kingdom of God.”  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* “Servant Song” and “The Servant Song” are two diﬀerent songs.

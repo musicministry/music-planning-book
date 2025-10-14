@@ -1,0 +1,611 @@
+---
+title: "THIRTY-THIRD SUNDAY IN ORDINARY TIME"
+---
+
+```{python}
+#| label: Front matter params
+#| echo: false
+
+frontmatter = """
+hymns:
+  a:
+    processional:
+      list:
+        - name: "Christ, Be Our Light"
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "Blessed are those who fear the Lord."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "All Good Gifts"
+          book: BB
+          priority: required
+    communion:
+      list:
+        - name: "Behold the Lamb"
+          composer: Willett
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "I Want to Walk as a Child of the Light"
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "In the Day of the Lord"
+          book: BB
+          priority: preferred
+  b:
+    processional:
+      list:
+        - name: "We Gather Together"
+          book: BB
+          priority: preferred
+    psalm:
+      list:
+        - name: "You are my inheritance, O Lord!"
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "Praise, My Soul, the King of Heaven"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: "Let All Mortal Flesh Keep Silence"
+          book: BB
+          priority: preferred
+    meditation:
+      list:
+        - name: "Abide With Me"
+          book: BB
+          priority: preferred
+    recessional:
+      list:
+        - name: "In the Day of the Lord"
+          book: BB
+          priority: preferred
+  c:
+    processional:
+      list:
+        - name: "All the Ends of the Earth"
+          composer: Duﬀord
+          book: BB
+          priority: required
+    psalm:
+      list:
+        - name: "The Lord comes to rule the earth with justice."
+          book: RA
+          priority: required
+    offertory:
+      list:
+        - name: "The King of Glory"
+          book: BB
+          priority: preferred
+    communion:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    meditation:
+      list:
+        - name: ""
+          book: BB
+          priority: required
+    recessional:
+      list:
+        - name: "In the Day of the Lord"
+          book: BB
+          priority: preferred
+"""
+```
+
+```{python}
+#| label: Setup and helper functions
+#| echo: false
+import sys
+import yaml
+sys.path.append('/workspaces/planning-book')
+sys.path.append('../../')
+import utils
+
+# Front matter YAML and check for errors
+params = utils.get_params(frontmatter)
+
+# Video links
+with open('../../_hymns.yml', 'r') as vf:
+    videos = yaml.safe_load(vf)
+```
+
+:::  {.red}
+#### **Themes**
+:::
+
+[Year A:]{.red} Christian responsibility, diversity of gifts, joy, light, stewardship  
+[Year B:]{.red} end times, apocalypse, metanoia, vigilance  
+[Year C:]{.red} perseverance, end times, judgment  
+
+:::  {.red}
+#### **Entrance Antiphon**
+:::
+
+> The Lord said: I think thoughts of peace and not of aﬄiction.  
+> You will call upon me, and I will answer you,  
+> and I will lead back your captives from every place.  
+
+:::  {.red}
+#### **Communion Antiphon**
+:::
+
+> To be near God is my happiness,  
+> to place my hope in God the Lord.  
+>
+> [Or:]{.red}. 
+>
+> Amen, I say to you: Whatever you ask in prayer,  
+> believe that you will receive,  
+> and it shall be given to you, says the Lord.  
+
+:::: {.content-visible when-format="html"}
+::: {.red}
+### Readings
+:::
+
+<details>
+  <summary>Click to view the readings for this liturgy.</summary>
+
+::: {.red}
+### &nbsp; Year A
+
+#### First Reading [Proverbs 31:10-13, 19-20, 30-31]{style="float:right" .small}
+:::
+
+When one finds a worthy wife,  
+her value is far beyond pearls.  
+Her husband, entrusting his heart to her,  
+has an unfailing prize.  
+She brings him good, and not evil,  
+all the days of her life.  
+She obtains wool and flax  
+and works with loving hands.  
+She puts her hands to the distaff,  
+and her fingers ply the spindle.  
+She reaches out her hands to the poor,  
+and extends her arms to the needy.  
+Charm is deceptive and beauty fleeting;  
+the woman who fears the LORD is to be praised.  
+Give her a reward for her labors,  
+and let her works praise her at the city gates.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 128:1-2, 3, 4-5]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Blessed are those who fear the Lord.**  
+
+Blessed are you who fear the LORD,  
+who walk in his ways!  
+For you shall eat the fruit of your handiwork;  
+blessed shall you be, and favored. **[℟.]{.red}**  
+
+Your wife shall be like a fruitful vine  
+in the recesses of your home;  
+Your children like olive plants  
+around your table. **[℟.]{.red}**  
+
+Behold, thus is the man blessed  
+who fears the LORD.  
+The LORD bless you from Zion:  
+may you see the prosperity of Jerusalem  
+all the days of your life. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [1 Thessalonians 5:1-6]{style="float:right" .small}
+:::
+
+Concerning times and seasons, brothers and sisters,  
+you have no need for anything to be written to you.  
+For you yourselves know very well that the day of the Lord will come
+like a thief at night.  
+When people are saying, "Peace and security,"  
+then sudden disaster comes upon them,   
+like labor pains upon a pregnant woman,  
+and they will not escape.  
+
+But you, brothers and sisters, are not in darkness,  
+for that day to overtake you like a thief.  
+For all of you are children of the light  
+and children of the day.  
+We are not of the night or of darkness.  
+Therefore, let us not sleep as the rest do,  
+but let us stay alert and sober.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [John 15:4a, 5b]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Remain in me as I remain in you, says the Lord.  
+Whoever remains in me bears much fruit. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Matthew 25:14-30 or 25:14-15, 19-21]{style="float:right" .small}
+:::
+
+Jesus told his disciples this parable:  
+"A man going on a journey  
+called in his servants and entrusted his possessions to them.  
+To one he gave five talents; to another, two; to a third, one--  
+to each according to his ability.  
+Then he went away.  
+Immediately the one who received five talents went and traded with them,  
+and made another five.  
+Likewise, the one who received two made another two.  
+But the man who received one went off and dug a hole in the ground  
+and buried his master's money.  
+
+"After a long time  
+the master of those servants came back  
+and settled accounts with them.  
+The one who had received five talents came forward  
+bringing the additional five.  
+He said, 'Master, you gave me five talents.  
+See, I have made five more.'  
+His master said to him, 'Well done, my good and faithful servant.  
+Since you were faithful in small matters,  
+I will give you great responsibilities.  
+Come, share your master's joy.'  
+Then the one who had received two talents also came forward and said,  
+'Master, you gave me two talents.  
+See, I have made two more.'  
+His master said to him, 'Well done, my good and faithful servant.  
+Since you were faithful in small matters,  
+I will give you great responsibilities.  
+Come, share your master's joy.'  
+Then the one who had received the one talent came forward and said,  
+'Master, I knew you were a demanding person,  
+harvesting where you did not plant  
+and gathering where you did not scatter;  
+so out of fear I went off and buried your talent in the ground.  
+Here it is back.'  
+His master said to him in reply, 'You wicked, lazy servant!  
+So you knew that I harvest where I did not plant  
+and gather where I did not scatter?  
+Should you not then have put my money in the bank  
+so that I could have got it back with interest on my return?  
+Now then! Take the talent from him and give it to the one with ten.  
+For to everyone who has,  
+more will be given and he will grow rich;  
+but from the one who has not,  
+even what he has will be taken away.  
+And throw this useless servant into the darkness outside,  
+where there will be wailing and grinding of teeth.'"  
+
+[Or:]{.red}  
+
+Jesus told his disciples this parable:  
+"A man going on a journey  
+called in his servants and entrusted his possessions to them.  
+To one he gave five talents; to another, two; to a third, one--  
+to each according to his ability.  
+Then he went away.  
+
+"After a long time  
+the master of those servants came back  
+and settled accounts with them.  
+The one who had received five talents came forward  
+bringing the additional five.  
+He said, 'Master, you gave me five talents.  
+See, I have made five more.'  
+His master said to him, 'Well done, my good and faithful servant.  
+Since you were faithful in small matters,  
+I will give you great responsibilities.  
+Come, share your master's joy.'"  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year B
+
+#### First Reading [Daniel 12:1-3]{style="float:right" .small}
+:::
+
+In those days, I Daniel,  
+&emsp; heard this word of the Lord:  
+"At that time there shall arise  
+&emsp; Michael, the great prince,  
+&emsp; guardian of your people;  
+it shall be a time unsurpassed in distress  
+&emsp; since nations began until that time.  
+At that time your people shall escape,  
+&emsp; everyone who is found written in the book.  
+
+“Many of those who sleep in the dust of the earth shall awake;  
+&emsp; some shall live forever,  
+&emsp; others shall be an everlasting horror and disgrace.  
+
+“But the wise shall shine brightly  
+&emsp; like the splendor of the firmament,  
+and those who lead the many to justice  
+&emsp; shall be like the stars forever."  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 16:5, 8, 9-10, 11]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **You are my inheritance, O Lord!**  
+
+O LORD, my allotted portion and my cup,  
+&emsp; you it is who hold fast my lot.  
+I set the LORD ever before me;  
+&emsp; with him at my right hand I shall not be disturbed. **[℟.]{.red}**  
+
+Therefore my heart is glad and my soul rejoices,  
+&emsp; my body, too, abides in confidence;  
+because you will not abandon my soul to the netherworld,  
+&emsp; nor will you suffer your faithful one to undergo corruption. **[℟.]{.red}**  
+
+You will show me the path to life,  
+&emsp; fullness of joys in your presence,  
+&emsp; the delights at your right hand forever. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [Hebrews 10:11-14, 18]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+Every priest stands daily at his ministry,  
+offering frequently those same sacrifices  
+that can never take away sins.  
+But this one offered one sacrifice for sins,  
+and took his seat forever at the right hand of God;  
+now he waits until his enemies are made his footstool.  
+For by one offering  
+he has made perfect forever those who are being consecrated.  
+
+Where there is forgiveness of these,  
+there is no longer offering for sin.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 21:36]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Be vigilant at all times  
+and pray that you have the strength to stand before the Son of Man. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Mark 13:24-32]{style="float:right" .small}
+:::
+
+Jesus said to his disciples:  
+"In those days after that tribulation  
+the sun will be darkened,  
+and the moon will not give its light,  
+and the stars will be falling from the sky,  
+and the powers in the heavens will be shaken.  
+
+"And then they will see 'the Son of Man coming in the clouds'  
+with great power and glory,  
+and then he will send out the angels  
+and gather his elect from the four winds,  
+from the end of the earth to the end of the sky.  
+
+"Learn a lesson from the fig tree.  
+When its branch becomes tender and sprouts leaves,  
+you know that summer is near.  
+In the same way, when you see these things happening,  
+know that he is near, at the gates.  
+Amen, I say to you,  
+this generation will not pass away  
+until all these things have taken place.  
+Heaven and earth will pass away,  
+but my words will not pass away.  
+
+"But of that day or hour, no one knows,  
+neither the angels in heaven, nor the Son, but only the Father."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+::: {.red}
+### &nbsp; Year C
+
+#### First Reading [Malachi 3:19-20a]{style="float:right" .small}
+:::
+
+Lo, the day is coming, blazing like an oven,  
+when all the proud and all evildoers will be stubble,  
+and the day that is coming will set them on fire,  
+leaving them neither root nor branch,  
+says the LORD of hosts.  
+But for you who fear my name, there will arise  
+the sun of justice with its healing rays.  
+
+***
+
+::: {.red}
+#### Responsorial Psalm [Psalm 98:5-6, 7-8, 9]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **The Lord comes to rule the earth with justice.**  
+
+Sing praise to the LORD with the harp,  
+with the harp and melodious song.  
+With trumpets and the sound of the horn  
+sing joyfully before the King, the LORD. **[℟.]{.red}**  
+
+Let the sea and what fills it resound,  
+the world and those who dwell in it;  
+let the rivers clap their hands,  
+the mountains shout with them for joy. **[℟.]{.red}**  
+
+Before the LORD, for he comes,  
+for he comes to rule the earth,  
+he will rule the world with justice  
+and the peoples with equity. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Second Reading [2 Thessalonians 3:7-12]{style="float:right" .small}
+:::
+
+Brothers and sisters:  
+You know how one must imitate us.  
+For we did not act in a disorderly way among you,  
+nor did we eat food received free from anyone.  
+On the contrary, in toil and drudgery, night and day  
+we worked, so as not to burden any of you.  
+Not that we do not have the right.  
+Rather, we wanted to present ourselves as a model for you,  
+so that you might imitate us.  
+In fact, when we were with you,  
+we instructed you that if anyone was unwilling to work,  
+neither should that one eat.  
+We hear that some are conducting themselves among you in a
+disorderly way,  
+by not keeping busy but minding the business of others.  
+Such people we instruct and urge in the Lord Jesus Christ to work quietly  
+and to eat their own food.  
+
+***
+
+::: {.red}
+#### Gospel Acclamation [Luke 21:28]{style="float:right" .small}
+:::
+
+**[℟.]{.red}** **Alleluia, alleluia.**  
+Stand erect and raise your heads  
+because your redemption is at hand. **[℟.]{.red}**  
+
+***
+
+::: {.red}
+#### Gospel [Luke 21:5-19]{style="float:right" .small}
+:::
+
+While some people were speaking about  
+how the temple was adorned with costly stones and votive offerings,  
+Jesus said, "All that you see here--  
+the days will come when there will not be left  
+a stone upon another stone that will not be thrown down."  
+
+Then they asked him,  
+"Teacher, when will this happen?  
+And what sign will there be when all these things are about to happen?"  
+He answered,  
+"See that you not be deceived,  
+for many will come in my name, saying,  
+'I am he,' and 'The time has come.'  
+Do not follow them!  
+When you hear of wars and insurrections,  
+do not be terrified; for such things must happen first,  
+but it will not immediately be the end."  
+Then he said to them,  
+"Nation will rise against nation, and kingdom against kingdom.  
+There will be powerful earthquakes, famines, and plagues  
+from place to place;  
+and awesome sights and mighty signs will come from the sky.  
+
+"Before all this happens, however,  
+they will seize and persecute you,  
+they will hand you over to the synagogues and to prisons,  
+and they will have you led before kings and governors
+because of my name.  
+It will lead to your giving testimony.  
+Remember, you are not to prepare your defense beforehand,  
+for I myself shall give you a wisdom in speaking  
+that all your adversaries will be powerless to resist or refute.  
+You will even be handed over by parents, brothers, relatives, and friends,  
+and they will put some of you to death.  
+You will be hated by all because of my name,  
+but not a hair on your head will be destroyed.  
+By your perseverance you will secure your lives."  
+
+::: {.centered}
+{{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
+:::
+
+</details>
+::::
+
+::: {.red}
+## Music Selections
+:::
+
+::: {.titlered}
+### &nbsp; Year A
+:::
+{{< var text.yeara >}}
+
+```{python}
+#| label: Year A
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['a'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year B
+:::
+{{< var text.yearb >}}
+
+```{python}
+#| label: Year B
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['b'], urls=videos)
+```
+
+::: {.titlered}
+### &nbsp; Year C
+:::
+{{< var text.yearc >}}
+
+```{python}
+#| label: Year C
+#| echo: false
+#| output: asis
+utils.hymnlist(params['hymns']['c'], urls=videos)
+```
+
+
+```{python}
+#| label: Anthems
+#| echo: false
+#| output: asis
+utils.anthemlist(hymns=params['hymns'], urls=videos)
+```
+
+::: {.red}
+### Notes
+:::
+
+* When this weekend falls immediately before Thanksgiving Day, the
+**Communion**, **Meditation**, and **Recessional hymns** should be taken from the [Solemnity of Christ the King, Prior to Thanksgiving Day](christ-the-king-before-thanksgiving.qmd).

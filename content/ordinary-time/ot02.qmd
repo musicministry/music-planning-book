@@ -232,7 +232,7 @@ and the Lord Jesus Christ.
 ***
 
 ::: {.red}
-#### Alleluia [John 1:14a, 12a]{style="float:right" .small}
+#### Gospel Acclamation [John 1:14a, 12a]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -348,7 +348,7 @@ Therefore glorify God in your body.
 ***
 
 ::: {.red}
-#### Alleluia [John 1:41, 17b]{style="float:right" .small}
+#### Gospel Acclamation [John 1:41, 17b]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -468,7 +468,7 @@ distributing them individually to each person as he wishes.
 ***
 
 ::: {.red}
-#### Alleluia [2 Thessalonians 2:14]{style="float:right" .small}
+#### Gospel Acclamation [2 Thessalonians 2:14]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  

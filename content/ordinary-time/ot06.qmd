@@ -235,7 +235,7 @@ For the Spirit scrutinizes everything, even the depths of God.
 ***
 
 ::: {.red}
-#### Alleluia [cf. Matthew 11:25]{style="float:right" .small}
+#### Gospel Acclamation [cf. Matthew 11:25]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -412,7 +412,7 @@ Be imitators of me, as I am of Christ.
 ***
 
 ::: {.red}
-#### Alleluia [Luke 7:16]{style="float:right" .small}
+#### Gospel Acclamation [Luke 7:16]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
@@ -519,7 +519,7 @@ the firstfruits of those who have fallen asleep.
 ***
 
 ::: {.red}
-#### Alleluia [Luke 6:23ab]{style="float:right" .small}
+#### Gospel Acclamation [Luke 6:23ab]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
