@@ -313,9 +313,9 @@ def anthemlist(hymns, urls, index=None):
                     display(Markdown('| [**Years A, B, C**]{.red} | %s |' % ("\n | |".join([make_name(i, urls=urls, index=index) for i in ls["anthems"]["list"] if "anthems"]))))                    
                 else:
                     display(Markdown('| [**Year %s**]{.red} | %s |' % (yr.upper(), "\n | |".join([make_name(i, urls=urls, index=index) for i in ls["anthems"]["list"] if "anthems"]))))
-            else:
-                if yr == 'abc':
-                    display(Markdown('| [**Years A, B, C**]{.red} | |'))
-                else:
-                    display(Markdown('| [**Year %s**]{.red} | |' % yr.upper()))
+            # else:
+            #     if yr == 'abc':
+            #         display(Markdown('| [**Years A, B, C**]{.red} | |'))
+            #     else:
+            #         display(Markdown('| [**Year %s**]{.red} | |' % yr.upper()))
         display(Markdown(': Choral anthems could be sung before Mass, in place of an offertory hymn, in place of a Communion hymn (if appropriate), or after Communion for meditation. {tbl-colwidths="[15,85]"}'))
