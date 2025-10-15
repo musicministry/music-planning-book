@@ -606,9 +606,3 @@ utils.hymnlist(params['hymns']['c'], urls=videos)
 #| output: asis
 utils.anthemlist(hymns=params['hymns'], urls=videos)
 ```
-
-::: {.red}
-### Notes
-:::
-
-* NOTES

@@ -351,7 +351,6 @@ and I shall raise him on the last day.”
 The readings below have been divided into Years A, B, and C, for
 use when November 2 falls on a Sunday.  
 
-::: {.red}
 ### &nbsp; Year A
 
 #### First Reading [Lamentations 3:17-26]{style="float:right" .small}
@@ -691,6 +690,7 @@ full of grace and truth.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
+::: {.red}
 ### &nbsp; Year C
 
 #### First Reading [Ezekiel 37:1, 4-6, 12-14]{style="float:right" .small}
