@@ -158,9 +158,11 @@ initiation, Holy Spirit, truth, community, love
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Acts 8:5-8, 14-17]{style="float:right" .small}
 :::
 
@@ -275,9 +277,11 @@ and I will love him and reveal myself to him.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Acts 10:25-26, 34-35, 44-48]{style="float:right" .small}
 :::
 
@@ -386,9 +390,11 @@ This I command you: love one another."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Acts 15:1-2, 22-29]{style="float:right" .small}
 :::
 

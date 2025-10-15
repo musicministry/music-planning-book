@@ -103,9 +103,11 @@ expectation, fulfillment, hope, joy, salvation history, ancestors
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 62:1-5]{style="float:right" .small}
 :::
 

@@ -160,9 +160,11 @@ Good Shepherd, trust, safety, suﬀering, discernment
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Acts 2:14a, 36-41]{style="float:right" .small}
 :::
 
@@ -288,9 +290,11 @@ I came so that they might have life and have it more abundantly."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Acts 4:8-12]{style="float:right" .small}
 :::
 
@@ -398,9 +402,11 @@ This command I have received from my Father."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Acts 13:14, 43-52]{style="float:right" .small}
 :::
 

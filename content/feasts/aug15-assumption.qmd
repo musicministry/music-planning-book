@@ -99,9 +99,11 @@ Mary's dignity, heavenly life, hope
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Revelation 11:19a; 12:1-6a, 10ab]{style="float:right" .small}
 :::
 

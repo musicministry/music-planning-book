@@ -194,9 +194,11 @@ Holy Spirit, language, ministry, Church, peace
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Acts 2:1-11]{style="float:right" .small}
 :::
 

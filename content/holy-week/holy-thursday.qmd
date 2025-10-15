@@ -178,9 +178,11 @@ eucharist, glory, salvation, service, humility, love
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Exodus 12:1-8, 11-14]{style="float:right" .small}
 :::
 

@@ -167,9 +167,11 @@ vocation, service
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 22:19-23]{style="float:right" .small}
 :::
 
@@ -267,9 +269,11 @@ to tell no one that he was the Christ.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Joshua 24:1-2a, 15-17, 18b]{style="float:right" .small}
 :::
 
@@ -422,9 +426,11 @@ and are convinced that you are the Holy One of God."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 66:18-21]{style="float:right" .small}
 :::
 

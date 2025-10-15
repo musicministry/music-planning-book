@@ -167,9 +167,11 @@ metanoia, proclamation of the Good News
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 8:23—9:3]{style="float:right" .small}
 :::
 
@@ -308,9 +310,11 @@ From that time on, Jesus began to preach and say,
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Jonah 3:1-5, 10]{style="float:right" .small}
 :::
 
@@ -408,9 +412,11 @@ along with the hired men and followed him.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Nehemiah 8:2-4a, 5-6, 8-10]{style="float:right" .small}
 :::
 

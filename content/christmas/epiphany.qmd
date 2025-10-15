@@ -102,9 +102,11 @@ universality, revelation, glory, wisdom
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 60:1-6]{style="float:right" .small}
 :::
 

@@ -171,9 +171,11 @@ listen to him.
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Genesis 12:1-4a]{style="float:right" .small}
 :::
 
@@ -282,9 +284,11 @@ until the Son of Man has been raised from the dead.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Genesis 22:1-2, 9a, 10-13, 15-18]{style="float:right" .small}
 :::
 
@@ -411,9 +415,11 @@ questioning what rising from the dead meant.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Genesis 15:5-12, 17-18]{style="float:right" .small}
 :::
 

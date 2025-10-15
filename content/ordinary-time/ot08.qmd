@@ -157,9 +157,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 49:14-15]{style="float:right" .small}
 :::
 
@@ -268,9 +270,11 @@ Sufficient for a day is its own evil."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [PASSAGE]{style="float:right" .small}
 :::
 
@@ -319,9 +323,11 @@ Text
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Sirach 27:4-7]{style="float:right" .small}
 :::
 

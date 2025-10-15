@@ -163,9 +163,11 @@ King, Sacred Heart
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Zechariah 9:9-10]{style="float:right" .small}
 :::
 
@@ -274,9 +276,11 @@ For my yoke is easy, and my burden light."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 2:2-5]{style="float:right" .small}
 :::
 
@@ -374,33 +378,35 @@ He was amazed at their lack of faith.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 66:10-14c]{style="float:right" .small}
 :::
 
 Thus says the LORD:  
- Rejoice with Jerusalem and be glad because of her,  
- all you who love her;  
- exult, exult with her,  
- all you who were mourning over her!  
- Oh, that you may suck fully  
- of the milk of her comfort,  
- that you may nurse with delight  
- at her abundant breasts!  
- For thus says the LORD:  
- Lo, I will spread prosperity over Jerusalem like a river,  
- and the wealth of the nations like an overflowing torrent.  
- As nurslings, you shall be carried in her arms,  
- and fondled in her lap;  
- as a mother comforts her child,  
- so will I comfort you;  
- in Jerusalem you shall find your comfort.  
+Rejoice with Jerusalem and be glad because of her,  
+all you who love her;  
+exult, exult with her,  
+all you who were mourning over her!  
+Oh, that you may suck fully  
+of the milk of her comfort,  
+that you may nurse with delight  
+at her abundant breasts!  
+For thus says the LORD:  
+Lo, I will spread prosperity over Jerusalem like a river,  
+and the wealth of the nations like an overflowing torrent.  
+As nurslings, you shall be carried in her arms,  
+and fondled in her lap;  
+as a mother comforts her child,  
+so will I comfort you;  
+in Jerusalem you shall find your comfort.  
 
- When you see this, your heart shall rejoice  
- and your bodies flourish like the grass;  
- the LORD's power shall be known to his servants.  
+When you see this, your heart shall rejoice  
+and your bodies flourish like the grass;  
+the LORD's power shall be known to his servants.  
 
 ***
 

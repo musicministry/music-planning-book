@@ -169,9 +169,11 @@ God, obedience
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 49:3, 5-6]{style="float:right" .small}
 :::
 
@@ -267,9 +269,11 @@ Now I have seen and testified that he is the Son of God."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [1 Samuel 3:3b-10, 19]{style="float:right" .small}
 :::
 
@@ -386,9 +390,11 @@ you will be called Cephas" — which is translated Peter.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 62:1-5]{style="float:right" .small}
 :::
 

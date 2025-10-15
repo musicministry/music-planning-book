@@ -174,9 +174,11 @@ thanksgiving, harvest, blessings
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Sirach 50:22-24]{style="float:right" .small}
 :::
 

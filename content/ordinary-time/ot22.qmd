@@ -178,9 +178,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 20:7-9]{style="float:right" .small}
 :::
 
@@ -284,9 +286,11 @@ and then he will repay all according to his conduct."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 4:1-2, 6-8]{style="float:right" .small}
 :::
 
@@ -407,9 +411,11 @@ All these evils come from within and they defile."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Sirach 3:17-18, 20, 28-29]{style="float:right" .small}
 :::
 

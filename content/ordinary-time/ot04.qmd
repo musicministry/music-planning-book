@@ -156,9 +156,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Zephaniah 2:3; 3:12-13]{style="float:right" .small}
 :::
 
@@ -270,9 +272,11 @@ for your reward will be great in heaven."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 18:15-20]{style="float:right" .small}
 :::
 
@@ -378,9 +382,11 @@ His fame spread everywhere throughout the whole region of Galilee.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 1:4-5, 17-19]{style="float:right" .small}
 :::
 

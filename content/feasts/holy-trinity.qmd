@@ -157,9 +157,11 @@ mystery, salvation, love of God
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Exodus 34:4b-6, 8-9]{style="float:right" .small}
 :::
 
@@ -247,9 +249,11 @@ because he has not believed in the name of the only Son of God.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 4:32-34, 39-40]{style="float:right" .small}
 :::
 
@@ -353,9 +357,11 @@ And behold, I am with you always, until the end of the age."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Proverbs 8:22-31]{style="float:right" .small}
 :::
 

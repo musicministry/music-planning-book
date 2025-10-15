@@ -113,9 +113,11 @@ mystery of the Word, salvation, good news, God the Father
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 52:7-10]{style="float:right" .small}
 :::
 

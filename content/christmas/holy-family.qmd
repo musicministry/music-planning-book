@@ -159,9 +159,11 @@ family life, love, understanding, spiritual growth
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Sirach 3:2-6, 12-14]{style="float:right" .small}
 :::
 

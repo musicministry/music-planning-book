@@ -164,9 +164,11 @@ strength
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 33:7-9]{style="float:right" .small}
 :::
 
@@ -265,9 +267,11 @@ there am I in the midst of them."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Isaiah 35:4-7a]{style="float:right" .small}
 :::
 
@@ -375,9 +379,11 @@ He makes the deaf hear and the mute speak.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Wisdom 9:13-18b]{style="float:right" .small}
 :::
 

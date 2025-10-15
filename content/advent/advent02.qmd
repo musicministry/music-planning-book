@@ -167,9 +167,11 @@ Christ, preparation
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 11:1-10]{style="float:right" .small}
 :::
 
@@ -314,9 +316,11 @@ but the chaff he will burn with unquenchable fire."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Isaiah 40:1-5, 9-11]{style="float:right" .small}
 :::
 
@@ -453,9 +457,11 @@ he will baptize you with the Holy Spirit.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Baruch 5:1-9]{style="float:right" .small}
 :::
 

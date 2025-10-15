@@ -166,9 +166,11 @@ Spirit, prayer, mercy, perseverance, kingdom of God
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Wisdom 12:13, 16-19]{style="float:right" .small}
 :::
 
@@ -323,9 +325,11 @@ but gather the wheat into my barn."'"
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 23:1-6]{style="float:right" .small}
 :::
 
@@ -442,9 +446,11 @@ and he began to teach them many things.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Genesis 18:1-10a]{style="float:right" .small}
 :::
 

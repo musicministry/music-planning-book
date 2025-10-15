@@ -156,9 +156,11 @@ glory, mystical body, community, holiness, mystery
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Revelation 7:2-4, 9-14]{style="float:right" .small}
 :::
 

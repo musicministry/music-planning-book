@@ -110,9 +110,11 @@ will yield fruit in due season.
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Joel 2:12-18]{style="float:right" .small}
 :::
 

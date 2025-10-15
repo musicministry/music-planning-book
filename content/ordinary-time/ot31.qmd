@@ -160,9 +160,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Malachi 1:14b-2:2b, 8-10]{style="float:right" .small}
 :::
 
@@ -271,9 +273,11 @@ but whoever humbles himself will be exalted."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 6:2-6]{style="float:right" .small}
 :::
 
@@ -386,9 +390,11 @@ And no one dared to ask him any more questions.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Wisdom 11:22-12:2]{style="float:right" .small}
 :::
 

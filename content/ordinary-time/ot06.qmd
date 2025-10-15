@@ -162,9 +162,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Sirach 15:15-20]{style="float:right" .small}
 :::
 
@@ -349,9 +351,11 @@ Anything more is from the evil one."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Leviticus 13:1-2, 44-46]{style="float:right" .small}
 :::
 
@@ -448,9 +452,11 @@ and people kept coming to him from everywhere.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 17:5-8]{style="float:right" .small}
 :::
 

@@ -156,9 +156,11 @@ triumph, life
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 37:12-14]{style="float:right" .small}
 :::
 
@@ -435,9 +437,11 @@ and seen what he had done began to believe in him.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 [If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
 
 #### First Reading [Jeremiah 31:31-34]{style="float:right" .small}
@@ -551,9 +555,11 @@ He said this indicating the kind of death he would die.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 [If the Scrutinies are celebrated with the RCIA this week, the readings are taken from [Year A above](#year-a).]{.red}
 
 #### First Reading [Isaiah 43:16-21]{style="float:right" .small}

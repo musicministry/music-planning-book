@@ -169,9 +169,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Sirach 27:30—28:7]{style="float:right" .small}
 :::
 
@@ -292,9 +294,11 @@ unless each of you forgives your brother from your heart.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Isaiah 50:5-9a]{style="float:right" .small}
 :::
 
@@ -422,9 +426,11 @@ and that of the gospel will save it."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Exodus 32:7-11, 13-14]{style="float:right" .small}
 :::
 

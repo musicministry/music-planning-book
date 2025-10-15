@@ -162,9 +162,11 @@ vocation
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 55:10-11]{style="float:right" .small}
 :::
 
@@ -330,9 +332,11 @@ Whoever has ears ought to hear."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Amos 7:12-15]{style="float:right" .small}
 :::
 
@@ -460,9 +464,11 @@ and they anointed with oil many who were sick and cured them.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 30:10-14]{style="float:right" .small}
 :::
 

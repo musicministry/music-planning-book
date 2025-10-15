@@ -156,9 +156,11 @@ solemnity, glory, joy, initiation, history of salvation, resurrection, life, hop
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Genesis 1:1—2:2 or 1:1, 26-31a]{style="float:right" .small}
 :::
 

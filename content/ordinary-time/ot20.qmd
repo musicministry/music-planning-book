@@ -165,9 +165,11 @@ banquet
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 56:1, 6-7]{style="float:right" .small}
 :::
 
@@ -274,9 +276,11 @@ And the woman's daughter was healed from that hour.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Proverbs 9:1-6]{style="float:right" .small}
 :::
 
@@ -383,9 +387,11 @@ whoever eats this bread will live forever."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 38:4-6, 8-10]{style="float:right" .small}
 :::
 

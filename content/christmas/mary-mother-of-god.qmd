@@ -112,9 +112,11 @@ Mary's role in the plan of salvation, Jesus as devout Jew, peace, gentleness
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Numbers 6:22-27]{style="float:right" .small}
 :::
 

@@ -105,9 +105,11 @@ Church, our ties to Rome, glory, holiness, joy, dwelling-place of God, people of
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 47:1-2, 8-9, 12]{style="float:right" .small}
 :::
 

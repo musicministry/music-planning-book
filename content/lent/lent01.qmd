@@ -169,9 +169,11 @@ penance, temptation, history of salvation, sin/grace
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Genesis 2:7-9; 3:1-7]{style="float:right" .small}
 :::
 
@@ -354,9 +356,11 @@ angels came and ministered to him.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Genesis 9:8-15]{style="float:right" .small}
 :::
 
@@ -464,9 +468,11 @@ Repent, and believe in the gospel."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 26:4-10]{style="float:right" .small}
 :::
 

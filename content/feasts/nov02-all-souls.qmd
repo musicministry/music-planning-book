@@ -202,13 +202,16 @@ communion of saints, prayer, resurrection, hope
 
 
 ::: {.red}
-
 The following readings are suggestions. A more complete selection is found in the Masses for the Dead in the Weekday Lectionary.
 
 The readings below have been divided into Years A, B, and C, for use when November 2 falls on a Sunday.
+:::
 
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Wisdom 3:1-9]{style="float:right" .small}
 :::
 
@@ -350,9 +353,13 @@ and I shall raise him on the last day.”
 ::: {.red}
 The readings below have been divided into Years A, B, and C, for
 use when November 2 falls on a Sunday.  
+:::
 
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Lamentations 3:17-26]{style="float:right" .small}
 :::
 
@@ -498,9 +505,11 @@ Whoever serves me, the Father will honor.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Isaiah 25:6-9]{style="float:right" .small}
 :::
 
@@ -690,9 +699,11 @@ full of grace and truth.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 37:1, 4-6, 12-14]{style="float:right" .small}
 :::
 

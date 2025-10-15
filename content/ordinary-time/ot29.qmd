@@ -162,9 +162,11 @@ world, grace, peace, hope, worship
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 45:1, 4-6]{style="float:right" .small}
 :::
 
@@ -271,9 +273,11 @@ and to God what belongs to God."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Isaiah 53:10-11]{style="float:right" .small}
 :::
 
@@ -385,9 +389,11 @@ but to serve and to give his life as a ransom for many."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Exodus 17:8-13]{style="float:right" .small}
 :::
 

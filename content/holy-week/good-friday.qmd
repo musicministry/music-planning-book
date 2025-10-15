@@ -151,9 +151,11 @@ silence, awe, cross, passion & death, salvation, triumph
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 52:13—53:12]{style="float:right" .small}
 :::
 

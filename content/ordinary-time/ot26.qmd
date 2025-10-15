@@ -168,9 +168,11 @@ unity
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 18:25-28]{style="float:right" .small}
 :::
 
@@ -307,9 +309,11 @@ you did not later change your minds and believe him."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Numbers 11:25-29]{style="float:right" .small}
 :::
 
@@ -429,9 +433,11 @@ where 'their worm does not die, and the fire is not quenched.'"
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Amos 6:1a, 4-7]{style="float:right" .small}
 :::
 

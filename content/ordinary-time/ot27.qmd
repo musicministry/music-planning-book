@@ -167,9 +167,11 @@ comfort, petition, prayer
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 5:1-7]{style="float:right" .small}
 :::
 
@@ -308,9 +310,11 @@ and given to a people that will produce its fruit."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Genesis 2:18-24]{style="float:right" .small}
 :::
 
@@ -467,9 +471,11 @@ she commits adultery."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Habakkuk 1:2-3; 2:2-4]{style="float:right" .small}
 :::
 

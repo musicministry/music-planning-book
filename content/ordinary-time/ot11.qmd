@@ -162,9 +162,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Exodus 19:2-6a]{style="float:right" .small}
 :::
 
@@ -272,9 +274,11 @@ Without cost you have received; without cost you are to give.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 17:22-24]{style="float:right" .small}
 :::
 
@@ -381,9 +385,11 @@ but to his own disciples he explained everything in private.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [2 Samuel 12:7-10, 13]{style="float:right" .small}
 :::
 

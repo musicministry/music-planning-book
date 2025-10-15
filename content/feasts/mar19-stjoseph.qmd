@@ -89,9 +89,11 @@ fidelity, righteousness, stewardship
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [2 Samuel 7:4-5a, 12-14a, 16]{style="float:right" .small}
 :::
 

@@ -95,9 +95,11 @@ predestined glory, salvation, prophecy, light
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 1:4-10]{style="float:right" .small}
 :::
 

@@ -185,9 +185,11 @@ Eucharist, love
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 8:2-3, 14b-16a]{style="float:right" .small}
 :::
 
@@ -412,9 +414,11 @@ whoever eats this bread will live forever."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Exodus 24:3-8]{style="float:right" .small}
 :::
 
@@ -656,9 +660,11 @@ they went out to the Mount of Olives.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Genesis 14:18-20]{style="float:right" .small}
 :::
 

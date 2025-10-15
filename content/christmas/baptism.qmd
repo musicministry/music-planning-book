@@ -160,9 +160,11 @@ submission, baptism, Trinity, revelation, redemption, water
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 42:1-4, 6-7]{style="float:right" .small}
 :::
 

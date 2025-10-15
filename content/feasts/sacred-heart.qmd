@@ -167,9 +167,11 @@ love, providence, mercy
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Deuteronomy 7:6-11]{style="float:right" .small}
 :::
 
@@ -289,9 +291,11 @@ For my yoke is easy, and my burden light."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Hosea 11:1, 3-4, 8c-9]{style="float:right" .small}
 :::
 
@@ -414,9 +418,11 @@ For this happened so that the Scripture passage might be fulfilled:
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Ezekiel 34:11-16]{style="float:right" .small}
 :::
 

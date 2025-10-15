@@ -152,9 +152,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Acts 1:12-14]{style="float:right" .small}
 :::
 
@@ -264,9 +266,11 @@ but they are in the world, while I am coming to you.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Acts 1:15-17, 20a, 20c-26]{style="float:right" .small}
 :::
 
@@ -391,9 +395,11 @@ so that they also may be consecrated in truth.”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Acts 7:55-60]{style="float:right" .small}
 :::
 

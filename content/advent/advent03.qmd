@@ -158,9 +158,11 @@ rejoice, joy, preparation, coming, glory, splendor, John the Baptist
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 35:1-6a, 10]{style="float:right" .small}
 :::
 
@@ -288,9 +290,11 @@ yet the least in the kingdom of heaven is greater than he."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Isaiah 61:1-2a, 10-11]{style="float:right" .small}
 :::
 
@@ -414,9 +418,11 @@ where John was baptizing.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Zephaniah 3:14-18a]{style="float:right" .small}
 :::
 

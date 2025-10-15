@@ -121,9 +121,11 @@ solemnity, glory, joy, resurrection, life, hope, baptism
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Acts 10:34a, 37-43]{style="float:right" .small}
 :::
 

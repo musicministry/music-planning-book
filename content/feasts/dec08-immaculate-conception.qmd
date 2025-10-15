@@ -100,9 +100,11 @@ Mary, purity, the benevolence of God
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Genesis 3:9-15, 20]{style="float:right" .small}
 :::
 

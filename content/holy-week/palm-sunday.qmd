@@ -182,9 +182,11 @@ triumph/passion, glory/suﬀering
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### At the Procession with Palms - Gospel [Matthew 21:1-11]{style="float:right" .small}
 :::
 
@@ -814,9 +816,11 @@ and all that was happening, and they said,
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### At the Procession with Palms - Gospel [Mark 11:1-10]{style="float:right" .small}
 :::
 
@@ -1390,9 +1394,11 @@ saw how he breathed his last he said,
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### At the Procession with Palms - Gospel [Luke 19:28-40]{style="float:right" .small}
 :::
 

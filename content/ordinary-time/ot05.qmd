@@ -163,9 +163,11 @@ with open('../../_hymns.yml', 'r') as vf:
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 58:7-10]{style="float:right" .small}
 :::
 
@@ -262,9 +264,11 @@ and glorify your heavenly Father."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Job 7:1-4, 6-7]{style="float:right" .small}
 :::
 
@@ -378,9 +382,11 @@ preaching and driving out demons throughout the whole of Galilee.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 6:1-2a, 3-8]{style="float:right" .small}
 :::
 

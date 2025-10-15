@@ -171,9 +171,11 @@ life, glory of God, second coming
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Wisdom 6:12-16]{style="float:right" .small}
 :::
 
@@ -301,9 +303,11 @@ for you know neither the day nor the hour."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [1 Kings 17:10-16]{style="float:right" .small}
 :::
 
@@ -433,9 +437,11 @@ her whole livelihood."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [2 Maccabees 7:1-2, 9-14]{style="float:right" .small}
 :::
 

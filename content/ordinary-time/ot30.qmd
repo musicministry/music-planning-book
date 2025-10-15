@@ -159,9 +159,11 @@ neighbor, judgment, justice, praise
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Exodus 22:20-26]{style="float:right" .small}
 :::
 
@@ -262,9 +264,11 @@ The whole law and the prophets depend on these two commandments."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 31:7-9]{style="float:right" .small}
 :::
 
@@ -380,9 +384,11 @@ and followed him on the way.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Sirach 35:12-14, 16-18]{style="float:right" .small}
 :::
 

@@ -99,9 +99,11 @@ faith, fidelity, Mary, trust
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 7:10-14; 8:10]{style="float:right" .small}
 :::
 

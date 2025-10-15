@@ -97,9 +97,11 @@ cross, Christ's mission, dignity of Christ, God's love
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Numbers 21:4B-9]{style="float:right" .small}
 :::
 

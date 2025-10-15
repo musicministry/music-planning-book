@@ -101,9 +101,11 @@ mercy, baptism, faith, community, praise, rejoicing
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Acts 2:42-47]{style="float:right" .small}
 :::
 
@@ -236,9 +238,11 @@ and that through this belief you may have life in his name.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Acts 4:32-35]{style="float:right" .small}
 :::
 
@@ -369,9 +373,11 @@ and that through this belief you may have life in his name.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Acts 5:12-16]{style="float:right" .small}
 :::
 

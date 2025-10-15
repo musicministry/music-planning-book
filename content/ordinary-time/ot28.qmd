@@ -171,9 +171,11 @@ God, vocation
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 25:6-10a]{style="float:right" .small}
 :::
 
@@ -327,9 +329,11 @@ and the hall was filled with guests."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Wisdom 7:7-11]{style="float:right" .small}
 :::
 
@@ -487,9 +491,11 @@ All things are possible for God."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [2 Kings 5:14-17]{style="float:right" .small}
 :::
 

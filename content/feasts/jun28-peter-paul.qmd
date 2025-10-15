@@ -101,9 +101,11 @@ Peter, Paul, faith, evangelization, Church
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Acts 12:1-11]{style="float:right" .small}
 :::
 

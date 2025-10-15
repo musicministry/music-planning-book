@@ -161,9 +161,11 @@ compassion
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [1 Kings 3:5, 7-12]{style="float:right" .small}
 :::
 
@@ -292,9 +294,11 @@ he goes and sells all that he has and buys it."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [2 Kings 4:42-44]{style="float:right" .small}
 :::
 
@@ -409,9 +413,11 @@ he withdrew again to the mountain alone.
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Genesis 18:20-32]{style="float:right" .small}
 :::
 

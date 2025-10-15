@@ -117,9 +117,11 @@ darkness/light, gladness, joy, glory, mystery, awe
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Isaiah 9:1-6]{style="float:right" .small}
 :::
 

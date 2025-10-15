@@ -120,9 +120,11 @@ light, language, the Spirit's imminence, renewal
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Genesis 11:1-9]{style="float:right" .small}
 :::
 

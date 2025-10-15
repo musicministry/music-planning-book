@@ -97,9 +97,11 @@ for we shall see him as he is.
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Daniel 7:9-10, 13-14]{style="float:right" .small}
 :::
 

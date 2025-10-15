@@ -173,9 +173,11 @@ shame.
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year A
+:::
 
+::: {.red}
 #### First Reading [Isaiah 2:1-5]{style="float:right" .small}
 :::
 
@@ -297,9 +299,11 @@ for at an hour you do not expect, the Son of Man will come."
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year B
+:::
 
+::: {.red}
 #### First Reading [Isaiah 63:16b-17, 19b; 64:2-7]{style="float:right" .small}
 :::
 
@@ -411,9 +415,11 @@ What I say to you, I say to all: ‘Watch!’”
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
 :::
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Year C
+:::
 
+::: {.red}
 #### First Reading [Jeremiah 33:14-16]{style="float:right" .small}
 :::
 

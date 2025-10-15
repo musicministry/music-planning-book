@@ -92,9 +92,11 @@ preparation, Mary's honor
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [1 Chronicles 15:3-4, 15-16; 16:1-2]{style="float:right" .small}
 :::
 

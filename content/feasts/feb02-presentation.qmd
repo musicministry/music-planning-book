@@ -95,9 +95,11 @@ light, splendor, glory, meeting Christ
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Malachi 3:1-4]{style="float:right" .small}
 :::
   

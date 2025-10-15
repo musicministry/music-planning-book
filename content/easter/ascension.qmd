@@ -98,9 +98,11 @@ glory, majesty, fulfillment, promise of Holy Spirit, baptism & mission
 <details>
   <summary>Click to view the readings for this liturgy.</summary>
 
-::: {.red}
+::: {.titlered}
 ### &nbsp; Years A, B, C
+:::
 
+::: {.red}
 #### First Reading [Acts 1:1-11]{style="float:right" .small}
 :::
 
