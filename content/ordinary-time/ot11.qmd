@@ -384,56 +384,188 @@ but to his own disciples he explained everything in private.
 ::: {.red}
 ### &nbsp; Year C
 
-#### First Reading [PASSAGE]{style="float:right" .small}
+#### First Reading [2 Samuel 12:7-10, 13]{style="float:right" .small}
 :::
 
-Text  
-&emsp; indented as needed.
+Nathan said to David:  
+“Thus says the LORD God of Israel:  
+‘I anointed you king of Israel.  
+I rescued you from the hand of Saul.  
+I gave you your lord’s house and your lord’s wives for your own.  
+I gave you the house of Israel and of Judah.  
+And if this were not enough, I could count up for you still more.  
+Why have you rejected the LORD and done evil in his sight?  
+You have cut down Uriah the Hittite with the sword;  
+you took his wife as your own,  
+and him you killed with the sword of the Ammonites.  
+Now, therefore, the sword shall never depart from your house,  
+because you have looked down on me  
+and have taken the wife of Uriah to be your wife.’”  
+
+Then David said to Nathan,  
+“I have sinned against the LORD.”  
+Nathan answered David:  
+“The LORD on his part has forgiven your sin:  
+you shall not die.”  
 
 ***
 
 ::: {.red}
-#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+#### Responsorial Psalm [Psalm 32:1-2, 5, 7, 11]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **REFRAIN**  
+**[℟.]{.red}** **Lord, forgive the wrong I have done.**  
 
-Verse one,  
-&emsp; indented as needed. **[℟.]{.red}**  
+Blessed is the one whose fault is taken away,  
+whose sin is covered.  
+Blessed the man to whom the LORD imputes not guilt,  
+in whose spirit there is no guile. **[℟.]{.red}**  
 
-Verse two,  
-&emsp; and so on as needed. **[℟.]{.red}**  
+I acknowledged my sin to you,  
+my guilt I covered not.  
+I said, "I confess my faults to the LORD,"  
+and you took away the guilt of my sin. **[℟.]{.red}**  
 
-Verse three,  
-&emsp; indented as needed. **[℟.]{.red}**  
+You are my shelter; from distress you will preserve me;  
+with glad cries of freedom you will ring me round. **[℟.]{.red}**  
 
-Verse four,  
-&emsp; and so on as needed. **[℟.]{.red}**  
+Be glad in the LORD and rejoice, you just;  
+exult, all you upright of heart. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Second Reading [PASSAGE]{style="float:right" .small}
+#### Second Reading [Galatians 2:16, 19-21]{style="float:right" .small}
 :::
 
-Text
+Brothers and sisters:  
+We who know that a person is not justified by works of the law  
+but through faith in Jesus Christ,  
+even we have believed in Christ Jesus  
+that we may be justified by faith in Christ  
+and not by works of the law,  
+because by works of the law no one will be justified.  
+For through the law I died to the law,  
+that I might live for God.  
+I have been crucified with Christ;  
+yet I live, no longer I, but Christ lives in me;  
+insofar as I now live in the flesh,  
+I live by faith in the Son of God  
+who has loved me and given himself up for me.  
+I do not nullify the grace of God;  
+for if justification comes through the law,  
+then Christ died for nothing.  
 
 ***
 
 ::: {.red}
-#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+#### Gospel Acclamation [1 John 4:10b]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse **[℟.]{.red}** 
+God loved us and sent his Son  
+as expiation for our sins. **[℟.]{.red}** 
 
 ***
 
 ::: {.red}
-#### Gospel [PASSAGE]{style="float:right" .small}
+#### Gospel [Luke 7:36—8:3 or 7:36-50]{style="float:right" .small}
 :::
 
-Text
+A Pharisee invited Jesus to dine with him,  
+and he entered the Pharisee's house and reclined at table.  
+Now there was a sinful woman in the city  
+who learned that he was at table in the house of the Pharisee.  
+Bringing an alabaster flask of ointment,  
+she stood behind him at his feet weeping  
+and began to bathe his feet with her tears.  
+Then she wiped them with her hair,  
+kissed them, and anointed them with the ointment.  
+When the Pharisee who had invited him saw this he said to himself,  
+"If this man were a prophet,  
+he would know who and what sort of woman this is who is touching him,  
+that she is a sinner."  
+Jesus said to him in reply,  
+"Simon, I have something to say to you."  
+"Tell me, teacher," he said.  
+"Two people were in debt to a certain creditor;  
+one owed five hundred days' wages and the other owed fifty.  
+Since they were unable to repay the debt, he forgave it for both.  
+Which of them will love him more?"  
+Simon said in reply,  
+"The one, I suppose, whose larger debt was forgiven."  
+He said to him, "You have judged rightly."  
+
+Then he turned to the woman and said to Simon,  
+"Do you see this woman?  
+When I entered your house, you did not give me water for my feet,  
+but she has bathed them with her tears  
+and wiped them with her hair.  
+You did not give me a kiss,  
+but she has not ceased kissing my feet since the time I entered.  
+You did not anoint my head with oil,  
+but she anointed my feet with ointment.  
+So I tell you, her many sins have been forgiven  
+because she has shown great love.  
+But the one to whom little is forgiven, loves little."  
+He said to her, "Your sins are forgiven."  
+The others at table said to themselves,  
+"Who is this who even forgives sins?"  
+But he said to the woman,  
+"Your faith has saved you; go in peace."  
+
+Afterward he journeyed from one town and village to another,  
+preaching and proclaiming the good news of the kingdom of God.  
+Accompanying him were the Twelve  
+and some women who had been cured of evil spirits and infirmities,  
+Mary, called Magdalene, from whom seven demons had gone out,  
+Joanna, the wife of Herod's steward Chuza,  
+Susanna, and many others who provided for them  
+out of their resources.  
+
+[Or:]{.red}  
+
+A Pharisee invited Jesus to dine with him,  
+and he entered the Pharisee's house and reclined at table.  
+Now there was a sinful woman in the city  
+who learned that he was at table in the house of the Pharisee.  
+Bringing an alabaster flask of ointment,  
+she stood behind him at his feet weeping  
+and began to bathe his feet with her tears.  
+Then she wiped them with her hair,  
+kissed them, and anointed them with the ointment.  
+When the Pharisee who had invited him saw this he said to himself,  
+"If this man were a prophet,  
+he would know who and what sort of woman this is who is touching him,  
+that she is a sinner."  
+Jesus said to him in reply,  
+"Simon, I have something to say to you."  
+"Tell me, teacher," he said.  
+"Two people were in debt to a certain creditor;  
+one owed five hundred day's wages and the other owed fifty.  
+Since they were unable to repay the debt, he forgave it for both.  
+Which of them will love him more?"  
+Simon said in reply,  
+"The one, I suppose, whose larger debt was forgiven."  
+He said to him, "You have judged rightly."  
+
+Then he turned to the woman and said to Simon,  
+"Do you see this woman?  
+When I entered your house, you did not give me water for my feet,  
+but she has bathed them with her tears  
+and wiped them with her hair.  
+You did not give me a kiss,  
+but she has not ceased kissing my feet since the time I entered.  
+You did not anoint my head with oil,  
+but she anointed my feet with ointment.  
+So I tell you, her many sins have been forgiven  
+because she has shown great love.  
+But the one to whom little is forgiven, loves little."  
+He said to her, "Your sins are forgiven."  
+The others at table said to themselves,  
+"Who is this who even forgives sins?"  
+But he said to the woman,  
+"Your faith has saved you; go in peace."  
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}

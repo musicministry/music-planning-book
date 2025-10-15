@@ -369,56 +369,126 @@ is my brother and sister and mother."
 ::: {.red}
 ### &nbsp; Year C
 
-#### First Reading [PASSAGE]{style="float:right" .small}
+#### First Reading [1 Kings 17:17-24]{style="float:right" .small}
 :::
 
-Text  
-&emsp; indented as needed.
+Elijah went to Zarephath of Sidon to the house of a widow.  
+The son of the mistress of the house fell sick,  
+and his sickness grew more severe until he stopped breathing.  
+So she said to Elijah,  
+“Why have you done this to me, O man of God?  
+Have you come to me to call attention to my guilt  
+and to kill my son?”  
+Elijah said to her, “Give me your son.”  
+Taking him from her lap, he carried the son to the upper room  
+where he was staying, and put him on his bed.  
+Elijah called out to the LORD:  
+“O LORD, my God,  
+will you afflict even the widow with whom I am staying  
+by killing her son?”  
+Then he stretched himself out upon the child three times  
+and called out to the LORD:  
+“O LORD, my God,  
+let the life breath return to the body of this child.”  
+The LORD heard the prayer of Elijah;  
+the life breath returned to the child’s body and he revived.  
+Taking the child, Elijah brought him down into the house  
+from the upper room and gave him to his mother.  
+Elijah said to her, “See! Your son is alive.”  
+The woman replied to Elijah,  
+“Now indeed I know that you are a man of God.  
+The word of the LORD comes truly from your mouth.”  
 
 ***
 
 ::: {.red}
-#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+#### Responsorial Psalm [Psalm 30:2, 4, 5-6, 11, 12, 13]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **REFRAIN**  
+**[℟.]{.red}** **I will praise you, Lord, for you have rescued me.**  
 
-Verse one,  
-&emsp; indented as needed. **[℟.]{.red}**  
+I will extol you, O LORD, for you drew me clear  
+and did not let my enemies rejoice over me.  
+O LORD, you brought me up from the nether world;  
+you preserved me from among those going down into the pit. **[℟.]{.red}**  
 
-Verse two,  
-&emsp; and so on as needed. **[℟.]{.red}**  
+Sing praise to the LORD, you his faithful ones,  
+and give thanks to his holy name.  
+For his anger lasts but a moment;  
+a lifetime, his good will.  
+At nightfall, weeping enters in,  
+but with the dawn, rejoicing. **[℟.]{.red}**  
 
-Verse three,  
-&emsp; indented as needed. **[℟.]{.red}**  
-
-Verse four,  
-&emsp; and so on as needed. **[℟.]{.red}**  
+Hear, O LORD, and have pity on me;  
+O LORD, be my helper.  
+You changed my mourning into dancing;  
+O LORD, my God, forever will I give you thanks. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Second Reading [PASSAGE]{style="float:right" .small}
+#### Second Reading [Galatians 1:11-19]{style="float:right" .small}
 :::
 
-Text
+I want you to know, brothers and sisters,  
+that the gospel preached by me is not of human origin.  
+For I did not receive it from a human being, nor was I taught it,  
+but it came through a revelation of Jesus Christ.  
+
+For you heard of my former way of life in Judaism,  
+how I persecuted the church of God beyond measure  
+and tried to destroy it, and progressed in Judaism  
+beyond many of my contemporaries among my race,  
+since I was even more a zealot for my ancestral traditions.  
+But when God, who from my mother's womb had set me apart  
+and called me through his grace,  
+was pleased to reveal his Son to me,  
+so that I might proclaim him to the Gentiles,  
+I did not immediately consult flesh and blood,  
+nor did I go up to Jerusalem  
+to those who were apostles before me;  
+rather, I went into Arabia and then returned to Damascus.  
+
+Then after three years I went up to Jerusalem  
+to confer with Cephas and remained with him for fifteen days.  
+But I did not see any other of the apostles,  
+only James the brother of the Lord.  
 
 ***
 
 ::: {.red}
-#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+#### Gospel Acclamation [Luke 7:16]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse **[℟.]{.red}** 
+A great prophet has risen in our midst  
+God has visited his people. **[℟.]{.red}** 
 
 ***
 
 ::: {.red}
-#### Gospel [PASSAGE]{style="float:right" .small}
+#### Gospel [Luke 7:11-17]{style="float:right" .small}
 :::
 
-Text
+Jesus journeyed to a city called Nain,  
+and his disciples and a large crowd accompanied him.  
+As he drew near to the gate of the city,  
+a man who had died was being carried out,  
+the only son of his mother, and she was a widow.  
+A large crowd from the city was with her.  
+When the Lord saw her,  
+he was moved with pity for her and said to her,  
+“Do not weep.”  
+He stepped forward and touched the coffin;  
+at this the bearers halted,  
+and he said, “Young man, I tell you, arise!”  
+The dead man sat up and began to speak,  
+and Jesus gave him to his mother.  
+Fear seized them all, and they glorified God, crying out  
+“A great prophet has arisen in our midst,“  
+and “God has visited his people.”  
+This report about him spread through the whole of Judea  
+and in all the surrounding region.  
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}

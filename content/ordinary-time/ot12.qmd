@@ -290,15 +290,15 @@ I will deny before my heavenly Father."
 #### First Reading [Job 38:1, 8-11]{style="float:right" .small}
 :::
 
-The Lord addressed Job out of the storm and said:
-&emsp; Who shut within doors the sea,
-&emsp; &emsp; when it burst forth from the womb;
-&emsp; when I made the clouds its garment
-&emsp; &emsp; and thick darkness its swaddling bands?
-&emsp; When I set limits for it
-&emsp; &emsp; and fastened the bar of its door,
-&emsp; and said: Thus far shall you come but no farther,
-&emsp; &emsp; and here shall your proud waves be stilled!
+The Lord addressed Job out of the storm and said:  
+&emsp; Who shut within doors the sea,  
+&emsp; &emsp; when it burst forth from the womb;  
+&emsp; when I made the clouds its garment  
+&emsp; &emsp; and thick darkness its swaddling bands?  
+&emsp; When I set limits for it  
+&emsp; &emsp; and fastened the bar of its door,  
+&emsp; and said: Thus far shall you come but no farther,  
+&emsp; &emsp; and here shall your proud waves be stilled!  
 
 ***
 
@@ -310,24 +310,24 @@ The Lord addressed Job out of the storm and said:
 [Or:]{.red}  
 **[℟.]{.red}** **Alleluia.**
 
-They who sailed the sea in ships,
-&emsp; trading on the deep waters,
-These saw the works of the LORD
+They who sailed the sea in ships,  
+&emsp; trading on the deep waters,  
+These saw the works of the LORD  
 &emsp; and his wonders in the abyss. **[℟.]{.red}**  
 
-His command raised up a storm wind
-&emsp; which tossed its waves on high.
-They mounted up to heaven; they sank to the depths;
+His command raised up a storm wind  
+&emsp; which tossed its waves on high.  
+They mounted up to heaven; they sank to the depths;  
 &emsp; their hearts melted away in their plight. **[℟.]{.red}**  
 
-They cried to the LORD in their distress;
-&emsp; from their straits he rescued them,
-He hushed the storm to a gentle breeze,
+They cried to the LORD in their distress;  
+&emsp; from their straits he rescued them,  
+He hushed the storm to a gentle breeze,  
 &emsp; and the billows of the sea were stilled. **[℟.]{.red}**  
 
-They rejoiced that they were calmed,
-&emsp; and he brought them to their desired haven.
-Let them give thanks to the LORD for his kindness
+They rejoiced that they were calmed,  
+&emsp; and he brought them to their desired haven.  
+Let them give thanks to the LORD for his kindness. 
 &emsp; and his wondrous deeds to the children of men. **[℟.]{.red}**  
 
 ***
@@ -391,56 +391,105 @@ They were filled with great awe and said to one another,
 ::: {.red}
 ### &nbsp; Year C
 
-#### First Reading [PASSAGE]{style="float:right" .small}
+#### First Reading [Zechariah 12:10-11; 13:1]{style="float:right" .small}
 :::
 
-Text  
-&emsp; indented as needed.
+Thus says the LORD:  
+I will pour out on the house of David  
+and on the inhabitants of Jerusalem  
+a spirit of grace and petition;  
+and they shall look on him whom they have pierced,  
+and they shall mourn for him as one mourns for an only son,  
+and they shall grieve over him as one grieves over a firstborn.  
+
+On that day the mourning in Jerusalem shall be as great  
+as the mourning of Hadadrimmon in the plain of Megiddo.  
+
+On that day there shall be open to the house of David  
+and to the inhabitants of Jerusalem,  
+a fountain to purify from sin and uncleanness.  
 
 ***
 
 ::: {.red}
-#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+#### Responsorial Psalm [Psalm 63:2, 3-4, 5-6, 8-9]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **REFRAIN**  
+**[℟.]{.red}** **My soul is thirsting for you, O Lord my God.**  
 
-Verse one,  
-&emsp; indented as needed. **[℟.]{.red}**  
+O God, you are my God whom I seek;  
+for you my flesh pines and my soul thirsts  
+like the earth, parched, lifeless and without water. **[℟.]{.red}**  
 
-Verse two,  
-&emsp; and so on as needed. **[℟.]{.red}**  
+Thus have I gazed toward you in the sanctuary  
+to see your power and your glory,  
+For your kindness is a greater good than life;  
+my lips shall glorify you. **[℟.]{.red}**  
 
-Verse three,  
-&emsp; indented as needed. **[℟.]{.red}**  
+Thus will I bless you while I live;  
+lifting up my hands, I will call upon your name.  
+As with the riches of a banquet shall my soul be satisfied,  
+and with exultant lips my mouth shall praise you. **[℟.]{.red}**  
 
-Verse four,  
-&emsp; and so on as needed. **[℟.]{.red}**  
+You are my help,  
+and in the shadow of your wings I shout for joy.  
+My soul clings fast to you;  
+your right hand upholds me. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Second Reading [PASSAGE]{style="float:right" .small}
+#### Second Reading [Galatians 3:26-29]{style="float:right" .small}
 :::
 
-Text
+Brothers and sisters:  
+Through faith you are all children of God in Christ Jesus.  
+For all of you who were baptized into Christ  
+have clothed yourselves with Christ.  
+There is neither Jew nor Greek,  
+there is neither slave nor free person,  
+there is not male and female;  
+for you are all one in Christ Jesus.  
+And if you belong to Christ,  
+then you are Abraham’s children,  
+heirs according to the promise.  
 
 ***
 
 ::: {.red}
-#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+#### Gospel Acclamation [John 10:27]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse **[℟.]{.red}**  
+My sheep hear my voice, says the Lord;  
+I know them, and they follow me. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Gospel [PASSAGE]{style="float:right" .small}
+#### Gospel [Luke 9:18-24]{style="float:right" .small}
 :::
 
-Text
+Once when Jesus was praying by himself,  
+and the disciples were with him,  
+he asked them, “Who do the crowds say that I am?”  
+They said in reply, “John the Baptist;  
+others, Elijah;  
+still others, ‘One of the ancient prophets has arisen.’”  
+Then he said to them, “But who do you say that I am?”  
+Peter said in reply, “The Christ of God.”  
+He scolded them  
+and directed them not to tell this to anyone.  
+
+He said, “The Son of Man must suffer greatly  
+and be rejected by the elders, the chief priests, and the scribes,  
+and be killed and on the third day be raised.”  
+
+Then he said to all,  
+“If anyone wishes to come after me, he must deny himself  
+and take up his cross daily and follow me.  
+For whoever wishes to save his life will lose it,  
+but whoever loses his life for my sake will save it.”  
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}

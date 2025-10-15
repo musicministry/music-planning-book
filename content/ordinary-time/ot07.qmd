@@ -162,50 +162,118 @@ with open('../../_hymns.yml', 'r') as vf:
 ::: {.red}
 ### &nbsp; Year A
 
-#### First Reading [PASSAGE]{style="float:right" .small}
+#### First Reading [Leviticus 19:1-2, 17-18]{style="float:right" .small}
 :::
 
-Text  
-&emsp; indented as needed
+The LORD said to Moses,  
+"Speak to the whole Israelite community and tell them:  
+Be holy, for I, the LORD, your God, am holy.  
+
+"You shall not bear hatred for your brother or sister in your heart.  
+Though you may have to reprove your fellow citizen,  
+do not incur sin because of him.  
+Take no revenge and cherish no grudge against any of your people.  
+You shall love your neighbor as yourself.  
+I am the LORD."  
 
 ***
 
 ::: {.red}
-#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+#### Responsorial Psalm [Psalm 103:1-2, 3-4, 8, 10, 12-13]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **REFRAIN**  
+**[℟.]{.red}** **The Lord is kind and merciful.**  
 
-Verse one,
-&emsp; indented as needed. **[℟.]{.red}**  
+Bless the LORD, O my soul;  
+and all my being, bless his holy name.  
+Bless the LORD, O my soul,  
+and forget not all his benefits. **[℟.]{.red}**  
 
-Verse two,  
-&emsp; and so on as needed. **[℟.]{.red}**  
+He pardons all your iniquities,  
+heals all your ills.  
+He redeems your life from destruction,  
+crowns you with kindness and compassion. **[℟.]{.red}**  
+
+Merciful and gracious is the LORD,  
+slow to anger and abounding in kindness.  
+Not according to our sins does he deal with us,  
+nor does he requite us according to our crimes. **[℟.]{.red}**  
+
+As far as the east is from the west,  
+so far has he put our transgressions from us.  
+As a father has compassion on his children,  
+so the LORD has compassion on those who fear him. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Second Reading [PASSAGE]{style="float:right" .small}
+#### Second Reading [1 Corinthians 3:16-23]{style="float:right" .small}
 :::
 
-Text
+Brothers and sisters:  
+Do you not know that you are the temple of God,  
+and that the Spirit of God dwells in you?  
+If anyone destroys God's temple, God will destroy that person;  
+for the temple of God, which you are, is holy.  
+
+Let no one deceive himself.  
+If any one among you considers himself wise in this age,  
+let him become a fool, so as to become wise.  
+For the wisdom of this world is foolishness in the eyes of God,  
+for it is written:  
+*God catches the wise in their own ruses,*  
+and again:  
+*The Lord knows the thoughts of the wise,*  
+*that they are vain.*  
+
+So let no one boast about human beings, for everything belongs to you,  
+Paul or Apollos or Cephas,  
+or the world or life or death,  
+or the present or the future:  
+all belong to you, and you to Christ, and Christ to God.  
 
 ***
 
 ::: {.red}
-#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+#### Gospel Acclamation [1 John 2:5]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse **[℟.]{.red}**
+Whoever keeps the word of Christ,  
+the love of God is truly perfected in him. **[℟.]{.red}**
 
 ***
 
 ::: {.red}
-#### Gospel [PASSAGE]{style="float:right" .small}
+#### Gospel [Matthew 5:38-48]{style="float:right" .small}
 :::
 
-Text
+Jesus said to his disciples:  
+"You have heard that it was said,  
+*An eye for an eye and a tooth for a tooth.*  
+But I say to you, offer no resistance to one who is evil.  
+When someone strikes you on your right cheek,  
+turn the other one as well.  
+If anyone wants to go to law with you over your tunic,  
+hand over your cloak as well.  
+Should anyone press you into service for one mile,  
+go for two miles.  
+Give to the one who asks of you,  
+and do not turn your back on one who wants to borrow.  
+
+"You have heard that it was said,  
+*You shall love your neighbor and hate your enemy.*  
+But I say to you, love your enemies  
+and pray for those who persecute you,  
+that you may be children of your heavenly Father,  
+for he makes his sun rise on the bad and the good,  
+and causes rain to fall on the just and the unjust.  
+For if you love those who love you, what recompense will you have?  
+Do not the tax collectors do the same?  
+And if you greet your brothers only,  
+what is unusual about that?  
+Do not the pagans do the same?  
+So be perfect, just as your heavenly Father is perfect."  
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
@@ -214,49 +282,114 @@ Text
 ::: {.red}
 ### &nbsp; Year B
 
-#### First Reading [PASSAGE]{style="float:right" .small}
+#### First Reading [Isaiah 43:18-19, 21-22, 24b-25]{style="float:right" .small}
 :::
 
-Text
+Thus says the LORD:  
+Remember not the events of the past,  
+the things of long ago consider not;  
+see, I am doing something new!  
+Now it springs forth, do you not perceive it?  
+In the desert I make a way,  
+in the wasteland, rivers.  
+The people I formed for myself,  
+that they might announce my praise.  
+Yet you did not call upon me, O Jacob,  
+for you grew weary of me, O Israel.  
+You burdened me with your sins,  
+and wearied me with your crimes.  
+It is I, I, who wipe out,  
+for my own sake, your offenses;  
+your sins I remember no more.  
 
 ***
 
 ::: {.red}
-#### Responsorial Psalm [PASSAGE]{style="float:right" .small}
+#### Responsorial Psalm [Psalm 41:2-3, 4-5, 13-14]{style="float:right" .small}
 :::
 
-**[℟.]{.red}** **REFRAIN**  
+**[℟.]{.red}** **Lord, heal my soul, for I have sinned against you.**  
 
-Verse one,  
-&emsp; indented as needed. **[℟.]{.red}**  
+Blessed is the one who has regard for the lowly and the poor;  
+in the day of misfortune the LORD will deliver him.  
+The LORD will keep and preserve him;  
+and make him blessed on earth,  
+and not give him over to the will of his enemies. **[℟.]{.red}**  
 
-Verse two,
-&emsp; and so on as needed. **[℟.]{.red}**  
+The LORD will help him on his sickbed,  
+he will take away all his ailment when he is ill.  
+Once I said, "O LORD, have pity on me;  
+heal me, though I have sinned against you." **[℟.]{.red}**  
+
+But because of my integrity you sustain me  
+and let me stand before you forever.  
+Blessed be the LORD, the God of Israel,  
+from all eternity. Amen. Amen. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Second Reading [PASSAGE]{style="float:right" .small}
+#### Second Reading [2 Corinthians 1:18-22]{style="float:right" .small}
 :::
 
-Text
+Brothers and sisters:  
+As God is faithful,  
+our word to you is not "yes" and "no."  
+For the Son of God, Jesus Christ,  
+who was proclaimed to you by us, Silvanus and Timothy and me,  
+was not "yes" and "no, " but "yes" has been in him.  
+For however many are the promises of God, their Yes is in him;  
+therefore, the Amen from us also goes through him to God for glory.  
+But the one who gives us security with you in Christ  
+and who anointed us is God;  
+he has also put his seal upon us  
+and given the Spirit in our hearts as a first installment.  
 
 ***
 
 ::: {.red}
-#### Gospel Acclamation [PASSAGE]{style="float:right" .small}
+#### Gospel Acclamation [Luke 4.18-19]{style="float:right" .small}
 :::
 
 **[℟.]{.red}** **Alleluia, alleluia.**  
-Verse **[℟.]{.red}**  
+The Lord sent me to bring glad tidings to the poor,  
+and to proclaim liberty to captives. **[℟.]{.red}**  
 
 ***
 
 ::: {.red}
-#### Gospel [PASSAGE]{style="float:right" .small}
+#### Gospel [Mark 2:1-12]{style="float:right" .small}
 :::
 
-Text
+When Jesus returned to Capernaum after some days,  
+it became known that he was at home.  
+Many gathered together so that there was no longer room for them,  
+not even around the door,  
+and he preached the word to them.  
+They came bringing to him a paralytic carried by four men.  
+Unable to get near Jesus because of the crowd,  
+they opened up the roof above him.  
+After they had broken through,  
+they let down the mat on which the paralytic was lying.  
+When Jesus saw their faith, he said to the paralytic,  
+"Child, your sins are forgiven."  
+Now some of the scribes were sitting there asking themselves,  
+"Why does this man speak that way? He is blaspheming.  
+Who but God alone can forgive sins?"  
+Jesus immediately knew in his mind  
+what they were thinking to themselves,  
+so he said, "Why are you thinking such things in your hearts?  
+Which is easier, to say to the paralytic,  
+'Your sins are forgiven,'  
+or to say, 'Rise, pick up your mat and walk?'  
+But that you may know  
+that the Son of Man has authority to forgive sins on earth"  
+-he said to the paralytic,  
+"I say to you, rise, pick up your mat, and go home."  
+He rose, picked up his mat at once,  
+and went away in the sight of everyone.  
+They were all astounded  
+and glorified God, saying, "We have never seen anything like this."  
 
 ::: {.centered}
 {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}} &nbsp; {{< var symbols.cross >}}
