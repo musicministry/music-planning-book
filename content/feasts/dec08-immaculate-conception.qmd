@@ -245,7 +245,7 @@ Then the angel departed from her.
 ::: {.titlered}
 ### &nbsp; Years A, B, C
 :::
-{{< var text.yearabc >}}
+{{< var text.yearabc-advent >}}
 
 ```{python}
 #| label: Years ABC

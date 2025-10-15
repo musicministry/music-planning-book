@@ -8,7 +8,8 @@ book:
   date: "June 2025"
   cover-image: "images/st-cecilia-round.jpg"
   chapters:
-    - index.qmd
+    - text: Home
+      href: index.qmd
     - content/copyright.qmd
     - content/intro.qmd
     - content/about-author.qmd
