@@ -33,7 +33,6 @@ hymns:
       list:
         - name: ""
           book: BB
-          composer: 
           priority: required
     recessional:
       list:

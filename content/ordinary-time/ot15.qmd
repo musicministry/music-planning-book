@@ -48,8 +48,7 @@ hymns:
           priority: required
     psalm:
       list:
-        - name: "Lord, let us see your kindness, and grant us
-your salvation."
+        - name: "Lord, let us see your kindness, and grant us your salvation."
           book: RA
           priority: required
     offertory:

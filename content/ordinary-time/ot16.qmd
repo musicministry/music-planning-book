@@ -82,8 +82,7 @@ hymns:
           priority: required
     psalm:
       list:
-        - name: "He who does justice will live in the presence of the
-Lord."
+        - name: "He who does justice will live in the presence of the Lord."
           book: RA
           priority: required
     offertory:

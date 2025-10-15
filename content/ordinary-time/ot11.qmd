@@ -107,9 +107,6 @@ hymns:
         - name: ""
           book: BB
           priority: required
-    anthems:
-      list:
-        - name: 
 """
 ```
 

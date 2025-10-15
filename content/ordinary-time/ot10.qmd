@@ -16,8 +16,7 @@ hymns:
           priority: required
     psalm:
       list:
-        - name: "To the upright I will show the saving power of
-God."
+        - name: "To the upright I will show the saving power of God."
           book: RA
           priority: required
     offertory:
@@ -34,7 +33,6 @@ God."
       list:
         - name: ""
           book: BB
-          composer: 
           priority: required
     recessional:
       list:

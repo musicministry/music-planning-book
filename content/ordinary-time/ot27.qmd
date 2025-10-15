@@ -49,6 +49,8 @@ hymns:
           book: BB
           priority: preferred
         - name: "All Creatures of Our God and King"
+          book: BB
+          priority: optional
     psalm:
       list:
         - name: "May the Lord bless us all the days of our lives."
