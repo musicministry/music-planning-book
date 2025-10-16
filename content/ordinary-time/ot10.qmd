@@ -146,7 +146,8 @@ with open('../../_hymns.yml', 'r') as vf:
 > The Lord is my rock, my fortress, and my deliverer;  
 > my God is my saving strength.  
 >  
-> [Or:]{.red}
+> [Or:]{.red}  
+>
 > God is love, and whoever abides in love  
 > abides in God, and God in him.  
 

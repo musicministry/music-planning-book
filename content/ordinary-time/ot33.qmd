@@ -146,7 +146,7 @@ with open('../../_hymns.yml', 'r') as vf:
 > To be near God is my happiness,  
 > to place my hope in God the Lord.  
 >
-> [Or:]{.red}. 
+> [Or:]{.red}  
 >
 > Amen, I say to you: Whatever you ask in prayer,  
 > believe that you will receive,  

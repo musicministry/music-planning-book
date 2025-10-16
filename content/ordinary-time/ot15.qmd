@@ -149,7 +149,7 @@ vocation
 > Blessed are they who dwell in your house,  
 > for ever singing your praise.  
 > 
-> Or:  
+> [Or:]{.red}  
 > 
 > Whoever eats my flesh and drinks my blood  
 > remains in me and I in him, says the Lord.  
