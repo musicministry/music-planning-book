@@ -82,7 +82,8 @@ book:
           href: content/holy-week/holy-thursday.qmd
         - text: "Good Friday"
           href: content/holy-week/good-friday.qmd
-        - content/holy-week/easter-vigil.qmd
+        - text: "Easter Vigil"
+          href: content/holy-week/easter-vigil.qmd
     - part: content/easter/easter.qmd
       chapters:
         - text: "Easter Sunday"
