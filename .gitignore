@@ -32,3 +32,5 @@ sandbox.ipynb
 /.quarto/
 
 **/*.quarto_ipynb
+
+/_*.local
