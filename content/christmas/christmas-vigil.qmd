@@ -54,6 +54,7 @@ hymns:
     anthems:
       list:
         - name: See Amid the Winter's Snow (HUMILITY)
+          name: Joseph's Song
         - name: Slumber My Darling
 """
 ```

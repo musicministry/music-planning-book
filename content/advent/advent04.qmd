@@ -45,7 +45,7 @@ hymns:
           priority: required
     anthems:
       list:
-        - name: Dixit Maria
+        - name: "Joseph's Song"
   b:
     processional:
       list:
@@ -114,6 +114,10 @@ hymns:
         - name: "People, Look East"
           book: "Breaking Bread"
           priority: required
+    anthems:
+      list:
+        - name: Dixit Maria
+
 """
 ```
 

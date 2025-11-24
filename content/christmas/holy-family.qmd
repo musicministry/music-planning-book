@@ -77,6 +77,7 @@ hymns:
     anthems:
       list:
         - name: "Thou Must Leave Thy Lowly Dwelling"
+        - name: "Joseph's Song"
   c:
     processional:
       list:
