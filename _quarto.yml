@@ -63,7 +63,7 @@ book:
           href: content/ordinary-time/ot09.qmd
     - part: content/lent/lent.qmd
       chapters:
-        - content/lent/ash-wed.qmd
+        - content/lent/ash-wednesday.qmd
         - text: "First Sunday"
           href: content/lent/lent01.qmd
         - text: "Second Sunday"
