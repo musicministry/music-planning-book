@@ -1,6 +1,6 @@
 ---
 title: "SOLEMNITY OF SAINTS PETER AND PAUL, APOSTLES: VIGIL MASS"
-subtitle: "June 27"
+subtitle: "June 28 (evening)"
 ---
 
 ```{python}
