@@ -263,7 +263,8 @@ format:
         \printindex
     css: style.css
     filters:
-      - fonts-and-alignment.lua
+      - filters/fonts-and-alignment.lua
+      - filters/links-in-new-tab.lua
 
 number-depth: 1
 toc-depth: 3
