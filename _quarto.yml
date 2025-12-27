@@ -249,8 +249,9 @@ format:
       - brand
     css: style.css
     number-sections: false
-    # filters:
-    #   - fonts-and-alignment.lua
+    filters:
+    #   - filters/fonts-and-alignment.lua
+      - filters/links-in-new-tab.lua
   pdf:
     documentclass: scrreprt
     include-in-header: 
